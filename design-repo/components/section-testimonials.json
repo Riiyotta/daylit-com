@@ -1,0 +1,16 @@
+{
+  "id": "section-testimonials",
+  "name": "section_testimonials",
+  "occurrences": 11,
+  "composedOf": [
+    "button",
+    "heading",
+    "image",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/ai-collections-strategy"
+  }
+}

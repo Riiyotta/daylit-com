@@ -1,0 +1,117 @@
+
+/* ---------- CTA Banner Form ---------- */
+.cta-banner_form .hbspt-form form {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  padding: var(--_dimensions---d-1-5) !important;
+  background: #fff !important;
+  border: 1px solid var(--neutral--200, rgba(0,0,0,.08)) !important;
+  border-radius: var(--_site-sizes---radius--radius-small) !important;
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: var(--_typography---text--body-main--font-family);
+}
+
+.cta-banner_form .hbspt-form .hs-form-field {
+  margin: 0 !important;
+  flex: 1 1 auto !important;
+  position: relative !important;
+}
+.cta-banner_form .hbspt-form fieldset { margin: 0 !important; }
+
+/* ---------- Input ---------- */
+.cta-banner_form .hbspt-form .hs-input {
+  width: 100% !important;
+  height: 2.5rem !important;
+  padding: 0 16px !important;
+  background: #fff !important;
+  border: 1px solid transparent !important;
+  border-radius: var(--_dimensions---d-1-5) !important;
+  box-shadow: none !important;
+  font-size: var(--_typography---text--body-small--font-size) !important;
+  line-height: 1.2 !important;
+  color: var(--brand--burgundy--600) !important;
+  transition: box-shadow .2s ease, background-color .2s ease, border-color .2s ease;
+}
+.cta-banner_form .hbspt-form .hs-input::placeholder {
+  color: var(--brand--burgundy--400) !important;
+  opacity: 1;
+}
+.cta-banner_form .hbspt-form .hs-input:focus {
+  outline: none !important;
+  border-color: var(--brand--burgundy--600) !important;
+}
+
+/* ---------- Error ---------- */
+.cta-banner_form .hbspt-form .hs-input.error {
+  background: var(--feedback--red--100) !important;
+  border-color: var(--feedback--red--200) !important;
+}
+.cta-banner_form .hbspt-form .hs-input.error::placeholder {
+  color: var(--feedback--red--400) !important;
+}
+.cta-banner_form .hbspt-form .hs-error-msgs,
+.cta-banner_form .hbspt-form .hs-error-msg {
+  position: absolute !important;
+  top: 100% !important;
+  left: 0 !important;
+  margin-top: 4px !important;
+  list-style: none !important;
+  padding-left: 0 !important;
+  white-space: nowrap !important;
+  color: var(--feedback--red--400) !important;
+  font-size: var(--_typography---text--body-small--font-size) !important;
+  pointer-events: none !important;
+}
+.cta-banner_form .hbspt-form .hs_error_rollup {
+  width: 0 !important;
+  opacity: 0 !important;
+}
+
+/* ---------- Button ---------- */
+.cta-banner_form .hbspt-form .hs_submit {
+  margin: 0 !important;
+  flex: 0 0 auto !important;
+}
+.cta-banner_form .hbspt-form .hs-button {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  padding: var(--_dimensions---d-3) var(--_dimensions---d-4) !important;
+  background: var(--brand--burgundy--600) !important;
+  color: var(--neutral--200) !important;
+  font-weight: 500 !important;
+  font-size: var(--_typography---text--body-small--font-size) !important;
+  border: 0 !important;
+  border-radius: var(--_dimensions---d-1-5) !important;
+  cursor: pointer !important;
+  transition: background .2s ease, transform .05s ease;
+}
+.cta-banner_form .hbspt-form .hs-button:hover {
+  background: var(--brand--burgundy--600) !important;
+}
+.cta-banner_form .hbspt-form .hs-button:active {
+  transform: translateY(1px);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 640px) {
+  .cta-banner_form .hbspt-form form {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    background: transparent !important;
+    border: 1px solid transparent !important;
+  }
+  .cta-banner_form .hbspt-form .hs-button { width: 100% !important; }
+  .cta-banner_form .hbspt-form .hs-error-msgs,
+  .cta-banner_form .hbspt-form .hs-error-msg {
+    position: relative !important;
+    white-space: normal !important;
+  }
+  .cta-banner_form .hbspt-form .hs-input {
+    background: #fff !important;
+    border: 1px solid var(--neutral--300);
+  }
+}

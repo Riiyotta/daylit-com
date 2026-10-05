@@ -1,0 +1,12 @@
+{
+  "id": "faqs-preview-top-wrap",
+  "name": "faqs-preview_top-wrap",
+  "occurrences": 10,
+  "composedOf": [
+    "heading"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/ai-collections-strategy"
+  }
+}

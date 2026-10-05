@@ -1,0 +1,388 @@
+{
+  "pageSpecVersion": "0.1.0",
+  "template": "template.blog-2",
+  "route": "/blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category",
+  "nodes": [
+    {
+      "type": "shell.navbar-sticky",
+      "content": {
+        "body": [
+          "AI Startup Raises $110m to Help Customers to Kill Its Own Category",
+          "Capital",
+          "Industries",
+          "No items found.",
+          "Resources",
+          "About"
+        ],
+        "ctas": [
+          {
+            "label": "Read more",
+            "href": "/blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category"
+          },
+          {
+            "label": "Home",
+            "href": "/"
+          },
+          {
+            "label": "Product",
+            "href": "/intelligence"
+          },
+          {
+            "label": "Sell an invoice Get cash in the bank immediately whenever customers are paying s",
+            "href": "/product/fundnow"
+          },
+          {
+            "label": "Outsource net terms Give customers a longer payment option while still getting p",
+            "href": "/product/offerterms"
+          },
+          {
+            "label": "Offer payment plans Give your struggling customers an extra hand by offering a c",
+            "href": "/product/paylater"
+          },
+          {
+            "label": "Draw working capital Access fast funding for general working capital needs to gi",
+            "href": "/product/drawdown"
+          },
+          {
+            "label": "Legal AI agents for A/R to support law firms.",
+            "href": "/solution/legal"
+          },
+          {
+            "label": "Manufacturing AI agents for A/R to support manufacturing firms.",
+            "href": "/solution/manufacturing"
+          },
+          {
+            "label": "Staffing AI agents for A/R to support staffing and recruiting firms.",
+            "href": "/solution/staffing"
+          },
+          {
+            "label": "Field Services AI agents for A/R to support HVAC, roofing, paving, and other ser",
+            "href": "/solution/services"
+          },
+          {
+            "label": "Our insights Learn about accounts receivables, cash flow management, and the lat",
+            "href": "/blog"
+          },
+          {
+            "label": "AI Skills Training Free weekly courses on AI for finance and accounting teams. P",
+            "href": "/ai-skills"
+          },
+          {
+            "label": "ROI Calculator Calculate how much you can save by bringing AI agents to your Acc"
+          },
+          {
+            "label": "Automating Collections Outreach Your complete playbook to automating collections",
+            "href": "/ai-collections-strategy"
+          },
+          {
+            "label": "Customers",
+            "href": "/case-studies"
+          },
+          {
+            "label": "Our team & story Meet the team that built Daylit, learn the story of its origins",
+            "href": "/our-team-story"
+          },
+          {
+            "label": "Client reviews What Daylit's customers say about using our AI agents for A/R pla",
+            "href": "/testimonial"
+          },
+          {
+            "label": "Referral program Help your network grow their businesses and earn rewards togeth",
+            "href": "/referral"
+          },
+          {
+            "label": "FAQ FAQs about our AI agents for accounts receivable, selling invoices, and offe",
+            "href": "/faq"
+          },
+          {
+            "label": "Button"
+          },
+          {
+            "label": "Button"
+          },
+          {
+            "label": "Button"
+          },
+          {
+            "label": "Button"
+          },
+          {
+            "label": "Button"
+          },
+          {
+            "label": "Button",
+            "href": "/learn-more/demo"
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "icon"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "shell.section-blog-header",
+      "content": {
+        "heading": "This AI Startup is Giving Away the Playbook to Kill Its Own Category",
+        "body": [
+          "Daylit, a venture-backed AI startup, is open-sourcing a weekly training program that cuts Accounts Receivables costs 75%+ at early customers — aimed at legacy software vendors serving the CFO"
+        ],
+        "images": [
+          {
+            "assetRole": "content-image"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "support.section-article-blog",
+      "content": {
+        "body": [
+          "Monthly insights on working capital planning, cash flow management and payment strategies.",
+          "BOSTON--(BUSINESS WIRE)--The enterprise software industry built a $50B business by selling CFOs one more tool for every finance problem. Daylit, an AI agents for Accounts Receivable (AR) platform, is betting that era is over — and giving away the tools to help accelerate its transformation.",
+          "Today, the AI startup — fresh off a $110M capital raise in September — is open-sourcing the playbook it has run privately with customers: a free, weekly program teaching customers to build with AI, aimed at the legacy AR software providers it intends to displace.",
+          "The numbers from early customers are the kind that reprice a category. Daylit customers see AR operating costs down more than 75%, collections on high-risk accounts tripling, all while saving 40+ hours of manual follow-up for every 200 accounts per week. One customer — a PE-backed HVAC roll-up across 14 markets — saw ROI within 30 days, grew current AR 20%, and redeployed full-time headcount to higher-value work.",
+          "\"The end of SaaS is coming, and we're helping our customers and future customers get there faster,\" said Jared Shulman, Co-founder and CEO of Daylit. \"The sooner people become comfortable ditching dashboards and managing both humans and AI agents, the sooner they can truly automate the mundane.\"",
+          "“This course is just the start,” adds Jerry Shu, Daylit’s Co-founder and CTO. “No CFO is going to pay six figures a year for software and then another six figures for its AI layer. The investment in the AI layer is clearly a stronger ROI, so we’re helping people get there faster.”",
+          "The Thesis: “Headless Finance”",
+          "Daylit likens the approach to headless finance — running collections, reconciliation, credit analysis, and the rest of order-to-cash through AI agents the finance team orchestrates, not off-the-shelf SaaS. The training teaches customers to build AI skills — structured workflow blueprints any AI model can execute as SOPs. The point is a repeatable, auditable way to replace SaaS tools, not another prompt to remember. The bet cuts against the dominant enterprise-AI narrative: incumbents bolting Gen",
+          "What’s in the Program",
+          "This ten-week, hands-on course includes modules for the most painful manual tasks typically addressed through expensive, legacy software. The audience will walk away with free Skills.md files and the tools required to completely replace them, including:",
+          "The training is built for controllers, AR and AP leaders, accounting managers, and CFO-track professionals who are interested in building with AI experimentation and ready to make an operational impact.",
+          "A Customer Perspective",
+          "“I’ve worked across roll-ups, private equity portfolios, and restructurings, and one thing always becomes clear: you can’t fake efficiency. Fast-moving finance teams need real leverage, and AI is how they create it now. Daylit is a platform I keep bringing with me because it delivers every time. What seals it for me is the new AI Skills platform — it shows they’re invested in making my team better, not just earning a renewal,” said Melanie Salmonsen, finance transformation consultant.",
+          "Company Momentum",
+          "Daylit raised $110 million in September 2025, led by Companyon Ventures with participation from NextView Ventures, SixThirty Ventures, Viola Credit, and executives from Meta and Yelp. The company announced its SOC 2 examination in February 2026 and launched its AI agents platform for accounts receivable in March. AI Skills is the first public artifact of a broader thesis about how finance teams will operate by 2028.",
+          "Availability",
+          "The first session launches April 28, 2026, with new modules released weekly throughout the summer. Registration and materials are free at http://www.daylit.com/ai-skills.",
+          "About Daylit",
+          "Daylit (formerly Lendica) is the AI agents platform for accounts receivable. Its system automates collections, dispute resolution, and cash-flow visibility across ERP, email, and banking systems, paired with flexible financing tools that make working capital simple, predictable, and within reach. Learn more at http://www.daylit.com.",
+          "‍"
+        ],
+        "ctas": [
+          {
+            "label": "Copied!"
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "avatar"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.section-gradient-light",
+      "content": {
+        "heading": "You might also like...",
+        "body": [
+          "Insights",
+          "Daylit vs. Oddr: Which One Moves a Law Firm's Collection Cycle Faster?",
+          "Oddr and Daylit both sell AI to law firm billing and collections teams, but they go after different halves of the revenue cycle. Here's how each one handles billing, disputes, and collection, using only what each has published.",
+          "Report",
+          "Daylit vs. Monk: Collection Automation Compared for Mid-Market Teams",
+          "Monk and Daylit both go live in days and both pause follow-ups on disputed invoices. Here's where the two actually split: on what gets measured, how disputes get worked, and cash that can't wait for the customer."
+        ],
+        "images": [
+          {
+            "assetRole": "content-image"
+          },
+          {
+            "assetRole": "content-image"
+          },
+          {
+            "assetRole": "content-image"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "shell.footer-component",
+      "content": {
+        "heading": "Transport your A/R into the AI-era",
+        "body": [
+          "Monthly insights on AI strategy for forward thinking finance teams."
+        ],
+        "ctas": [
+          {
+            "label": "Home",
+            "href": "/"
+          },
+          {
+            "label": "info@daylit.com"
+          },
+          {
+            "label": "(617)-419-7106"
+          },
+          {
+            "label": "Sell an invoice",
+            "href": "/product/fundnow"
+          },
+          {
+            "label": "Outsource net terms",
+            "href": "/product/offerterms"
+          },
+          {
+            "label": "Offer payment plans",
+            "href": "/product/paylater"
+          },
+          {
+            "label": "Draw working capital",
+            "href": "/product/drawdown"
+          },
+          {
+            "label": "Blog",
+            "href": "/blog"
+          },
+          {
+            "label": "Developer docs"
+          },
+          {
+            "label": "FAQs",
+            "href": "/faq"
+          },
+          {
+            "label": "Field Services",
+            "href": "/solution/services"
+          },
+          {
+            "label": "Staffing",
+            "href": "/solution/staffing"
+          },
+          {
+            "label": "Manufacturing",
+            "href": "/solution/manufacturing"
+          },
+          {
+            "label": "Legal",
+            "href": "/solution/legal"
+          },
+          {
+            "label": "Our team & story",
+            "href": "/our-team-story"
+          },
+          {
+            "label": "Customer reviews",
+            "href": "/testimonial"
+          },
+          {
+            "label": "Referral program",
+            "href": "/referral"
+          },
+          {
+            "label": "Careers We’re hiring!"
+          },
+          {
+            "label": "DPA",
+            "href": "/legal/dpa-customer"
+          },
+          {
+            "label": "SLA",
+            "href": "/legal/sla-customer"
+          },
+          {
+            "label": "Cookie Consent",
+            "href": "/legal/cookie-consent"
+          },
+          {
+            "label": "Privacy Policy",
+            "href": "/legal/privacy-policy"
+          },
+          {
+            "label": "Terms & Conditions",
+            "href": "/legal/terms-conditions"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.chat-widget",
+      "content": {},
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    }
+  ]
+}

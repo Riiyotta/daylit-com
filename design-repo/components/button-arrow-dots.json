@@ -1,0 +1,12 @@
+{
+  "id": "button-arrow-dots",
+  "name": "button-arrow-dots",
+  "occurrences": 51,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

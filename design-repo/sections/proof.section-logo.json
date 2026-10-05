@@ -1,0 +1,73 @@
+{
+  "id": "proof.section-logo",
+  "category": "PROOF",
+  "label": "section_logo",
+  "tag": "section",
+  "purpose": "Builds trust with customers, quotes or logos.",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 12,
+    "routes": 12,
+    "measuredFrom": [
+      "src/faq/index.html:1442-1589",
+      "src/intelligence/index.html:3413-3560",
+      "src/our-team-story/index.html:1445-1592",
+      "src/product/drawdown/index.html:1471-1618",
+      "src/product/fundnow/index.html:1471-1618"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 3
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 16,
+        "assetRoles": [
+          "customer-logo"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-animation",
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 300,
+      "columns": 16
+    },
+    "mobile": {
+      "heightPx": 284,
+      "columns": 16,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [
+    "customer-logo"
+  ],
+  "contentPolicy": "Measured copy quotes real customers and companies. Generated pages must write new, clearly fictional quotes and names, and use placeholders for customer logos and avatars.",
+  "implementedBy": "src/pages/Intelligence.jsx"
+}

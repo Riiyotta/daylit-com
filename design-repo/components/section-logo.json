@@ -1,0 +1,12 @@
+{
+  "id": "section-logo",
+  "name": "section_logo",
+  "occurrences": 14,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

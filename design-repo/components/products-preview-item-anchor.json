@@ -1,0 +1,10 @@
+{
+  "id": "products-preview-item-anchor",
+  "name": "products-preview_item-anchor",
+  "occurrences": 12,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/solution/manufacturing"
+  }
+}

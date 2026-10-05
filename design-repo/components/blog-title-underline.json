@@ -1,0 +1,10 @@
+{
+  "id": "blog-title-underline",
+  "name": "blog-title-underline",
+  "occurrences": 20,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/your-ar-inbox-isnt-slow-its-a-trust-problem"
+  }
+}

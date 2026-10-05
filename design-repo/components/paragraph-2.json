@@ -1,0 +1,10 @@
+{
+  "id": "paragraph-2",
+  "name": "paragraph-2",
+  "occurrences": 13,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

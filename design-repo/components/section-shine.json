@@ -1,0 +1,12 @@
+{
+  "id": "section-shine",
+  "name": "section_shine",
+  "occurrences": 37,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "u-image-cover",
+  "name": "u-image-cover",
+  "occurrences": 92,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

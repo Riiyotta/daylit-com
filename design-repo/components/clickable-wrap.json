@@ -1,0 +1,13 @@
+{
+  "id": "clickable-wrap",
+  "name": "clickable_wrap",
+  "occurrences": 670,
+  "composedOf": [
+    "button",
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

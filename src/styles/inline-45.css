@@ -1,0 +1,38 @@
+
+
+  .section_products-preview .button_main_wrap.w-variant-fdc41ed9-12f0-19e2-c0f0-c8f03cbab875:hover .button-main-icon-wrap {
+    background-color: var(--_color-schemes---icon--background);
+  }
+  .section_products-preview .button_main_wrap.w-variant-fdc41ed9-12f0-19e2-c0f0-c8f03cbab875:hover  {
+    background-color: var(--neutral--0);
+  }
+
+  .section_products-preview .button_main_wrap.w-variant-fdc41ed9-12f0-19e2-c0f0-c8f03cbab875:has(.w--current) {
+    background-color: var(--_color-schemes---background--bg-secondary-dark);
+  }
+  .section_products-preview .button_main_wrap.w-variant-fdc41ed9-12f0-19e2-c0f0-c8f03cbab875:not(has(.w--current)) {
+    background-color: var(--_color-schemes---button--secondary--btn-secondary-background);
+  }
+
+  .section_products-preview .button_main_wrap.w-variant-fdc41ed9-12f0-19e2-c0f0-c8f03cbab875:has(.w--current) .button-main-icon-wrap {
+    background-color: var(--_color-schemes---icon--background);
+  }
+  .section_products-preview .button_main_wrap.w-variant-fdc41ed9-12f0-19e2-c0f0-c8f03cbab875:not(has(.w--current)) {
+    background-color: var(--_color-schemes---button--secondary--btn-secondary-background);
+  }
+
+
+  @media screen and (min-width: 992px) {
+    [data-products-preview=list].w-dyn-items > .w-dyn-item:nth-child(even) .products-preview_content {
+      order: 9999;
+      justify-self: end;
+    }
+  }
+
+
+
+
+  /* Tablet and Mobile */ 
+  @media (max-width: 991px) { 
+    .section_products-preview .products-nav_list .button_main_wrap { background-color: var(--_color-schemes---surface--surface); } 
+  }

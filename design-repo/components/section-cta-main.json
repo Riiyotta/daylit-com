@@ -1,0 +1,17 @@
+{
+  "id": "section-cta-main",
+  "name": "section_cta-main",
+  "occurrences": 12,
+  "composedOf": [
+    "button",
+    "heading",
+    "image",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

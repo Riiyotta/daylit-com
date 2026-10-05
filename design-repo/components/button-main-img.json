@@ -1,0 +1,10 @@
+{
+  "id": "button-main-img",
+  "name": "button-main-img",
+  "occurrences": 12,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/solution/manufacturing"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "clickable-btn",
+  "name": "clickable_btn",
+  "occurrences": 33,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/the-hidden-truth-behind-12-5b-late-payments-and-how-ai-can-solve-it"
+  }
+}

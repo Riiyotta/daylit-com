@@ -1,0 +1,15 @@
+{
+  "id": "section-cta-banner",
+  "name": "section_cta-banner",
+  "occurrences": 21,
+  "composedOf": [
+    "button",
+    "heading",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

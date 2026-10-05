@@ -1,0 +1,10 @@
+{
+  "id": "filter-checkbox-label",
+  "name": "filter_checkbox-label",
+  "occurrences": 39,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog"
+  }
+}

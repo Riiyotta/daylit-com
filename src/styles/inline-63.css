@@ -1,0 +1,88 @@
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --maroon: #5c1a1a;
+  --maroon-light: #7a2e2e;
+  --maroon-bg: #f9f5f0;
+  --maroon-tint: #f2ebe1;
+  --rule: #ddd5c8;
+  --text: #82575b;
+  --text-soft: #82575b;
+  --text-muted: #82575b;
+  --accent-underline: #b5813a;
+  --serif: inherit;
+  --sans: inherit;
+  --max: 860px;
+}
+
+body {
+  font-family: 'Tt Commons Pro Variable', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #82575b;
+  font-weight: 500;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+.blog-wrap {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 64px 24px 10px;
+}
+
+.blog-hero { margin-bottom: 56px; }
+.blog-title {
+  font-family: var(--serif);
+  font-size: clamp(28px, 4vw, 44px);
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--maroon);
+  margin-bottom: 10px;
+}
+.blog-title-underline {
+  width: 60px;
+  height: 4px;
+  background: var(--accent-underline);
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+.blog-meta { font-size: 14px; color: var(--text-muted); font-weight: 400; }
+
+.toc {
+  background: var(--maroon-tint);
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--maroon);
+  border-radius: 6px;
+  padding: 28px 32px;
+  margin-bottom: 64px;
+}
+.toc h2 {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+.toc ol { padding-left: 20px; display: grid; gap: 6px; }
+.toc li { font-size: 15px; color: var(--text-soft); }
+.toc a { color: var(--maroon); text-decoration: none; font-weight: 500; }
+.toc a:hover { text-decoration: underline; }
+
+.blog-section { margin-bottom: 64px; scroll-margin-top: 24px; }
+.blog-section h2 {
+  font-family: var(--serif);
+  font-size: clamp(20px, 3vw, 28px);
+  font-weight: 500;
+  line-height: 1.25;
+  color: var(--maroon);
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--rule);
+}
+.blog-section p { color: var(--text-soft); margin-bottom: 16px; font-size: 18px; }
+.blog-section p:last-child { margin-bottom: 0; }
+.blog-section p strong { color: var(--text); font-weight: 600; }

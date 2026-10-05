@@ -1,0 +1,14 @@
+{
+  "id": "cards-list",
+  "name": "cards_list",
+  "occurrences": 18,
+  "composedOf": [
+    "heading",
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

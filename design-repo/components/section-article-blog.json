@@ -1,0 +1,20 @@
+{
+  "id": "section-article-blog",
+  "name": "section_article-blog",
+  "occurrences": 35,
+  "composedOf": [
+    "button",
+    "embed",
+    "form",
+    "image",
+    "input",
+    "link",
+    "list",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "swiper-pagination",
+  "name": "swiper-pagination",
+  "occurrences": 11,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/ai-collections-strategy"
+  }
+}

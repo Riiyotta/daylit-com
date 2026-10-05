@@ -1,0 +1,53 @@
+
+  /* Base setup for any element with data-texture attribute */
+  [data-texture],
+  [data-texture-section] {
+    position: relative;
+    isolation: isolate;
+  }
+
+  /* Shared ::after styling */
+  [data-texture="true"]::before,
+  [data-texture-section="true"]::before {
+    background-repeat: repeat;
+    background-position: 0 0;
+    pointer-events: none;
+    z-index: -1;
+    opacity: 0.125;
+    background-repeat:repeat; /* prevent tiling */
+    background-size: 20rem 20rem;
+    content: "";
+    position: absolute;
+    inset: 0;
+    
+    /* Apply mask image */
+    -webkit-mask-image: url("/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68c2a2ce8ac29e9018080290_texture-pixel-square.webp");
+    -webkit-mask-repeat: repeat;
+    -webkit-mask-size: 42rem 42rem;
+    -webkit-mask-position: center;
+
+    /* Standard property for supporting browsers */
+    mask-image: url("/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68c2a2ce8ac29e9018080290_texture-pixel-square.webp");
+    mask-repeat: repeat;
+    mask-size: 42rem 42rem;
+    mask-position: center;
+  }
+
+  [data-texture-section="true"]::before {
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      var(--_color-schemes---surface--black) 15%,
+      var(--_color-schemes---surface--black) 85%,
+      transparent 100%
+    );
+
+  }
+  [data-texture="true"]::before {
+    background: linear-gradient(
+      to bottom,
+      var(--_color-schemes---surface--black),
+      var(--_color-schemes---surface--black)
+    );
+
+  }

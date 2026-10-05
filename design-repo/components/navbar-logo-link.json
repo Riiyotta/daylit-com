@@ -1,0 +1,12 @@
+{
+  "id": "navbar-logo-link",
+  "name": "navbar_logo-link",
+  "occurrences": 68,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

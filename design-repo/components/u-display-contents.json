@@ -1,0 +1,10 @@
+{
+  "id": "u-display-contents",
+  "name": "u-display-contents",
+  "occurrences": 52,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

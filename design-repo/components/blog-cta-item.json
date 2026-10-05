@@ -1,0 +1,16 @@
+{
+  "id": "blog-cta-item",
+  "name": "blog-cta-item",
+  "occurrences": 30,
+  "composedOf": [
+    "button",
+    "image",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/the-hidden-truth-behind-12-5b-late-payments-and-how-ai-can-solve-it"
+  }
+}

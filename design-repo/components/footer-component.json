@@ -1,0 +1,18 @@
+{
+  "id": "footer-component",
+  "name": "footer_component",
+  "occurrences": 67,
+  "composedOf": [
+    "embed",
+    "form",
+    "heading",
+    "input",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

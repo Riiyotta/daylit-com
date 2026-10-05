@@ -1,0 +1,10 @@
+{
+  "id": "menu-icon-line-middle",
+  "name": "menu-icon_line-middle",
+  "occurrences": 68,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

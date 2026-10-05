@@ -1,0 +1,16 @@
+{
+  "id": "why-top-wrap",
+  "name": "why_top-wrap",
+  "occurrences": 19,
+  "composedOf": [
+    "button",
+    "heading",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

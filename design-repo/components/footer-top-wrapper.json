@@ -1,0 +1,13 @@
+{
+  "id": "footer-top-wrapper",
+  "name": "footer_top-wrapper",
+  "occurrences": 67,
+  "composedOf": [
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

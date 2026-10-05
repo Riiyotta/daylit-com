@@ -1,0 +1,12 @@
+{
+  "id": "footer-legal-wrap",
+  "name": "footer_legal-wrap",
+  "occurrences": 68,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

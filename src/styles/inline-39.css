@@ -1,0 +1,7 @@
+
+  .testi-wall_grid-auto > :nth-child(2) .testi-wall_card {
+    background-color: var(--_color-schemes---background--bg-secondary-dark);
+  }
+  .testi-wall_grid-auto > :nth-child(4) .testi-wall_card {
+    background-color: var(--_color-schemes---background--bg-tertiary);
+  }

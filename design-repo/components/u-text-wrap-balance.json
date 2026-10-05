@@ -1,0 +1,10 @@
+{
+  "id": "u-text-wrap-balance",
+  "name": "u-text-wrap-balance",
+  "occurrences": 12,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

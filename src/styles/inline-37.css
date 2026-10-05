@@ -1,0 +1,11 @@
+
+body:has(button[data-automation-id="unfocus-component-button"]) div[class="timeline_cards-list"] {
+  flex-flow: wrap;
+}
+
+
+body:has(button[data-automation-id="unfocus-component-button"]) {
+  color: red;
+  opacity: 0.5;
+}
+

@@ -1,0 +1,89 @@
+{
+  "$description": "Foundation breakpoint tokens: the values observed on the site, ordered by usage. Not referenced directly by generators; semantic tokens reference these.",
+  "tokens": {
+    "breakpoint.400": {
+      "$type": "dimension",
+      "$value": "400px",
+      "usage": 202,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.430": {
+      "$type": "dimension",
+      "$value": "430px",
+      "usage": 2,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.479": {
+      "$type": "dimension",
+      "$value": "479px",
+      "usage": 414,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.600": {
+      "$type": "dimension",
+      "$value": "600px",
+      "usage": 35,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.640": {
+      "$type": "dimension",
+      "$value": "640px",
+      "usage": 65,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.767": {
+      "$type": "dimension",
+      "$value": "767px",
+      "usage": 373,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.768": {
+      "$type": "dimension",
+      "$value": "768px",
+      "usage": 74,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.991": {
+      "$type": "dimension",
+      "$value": "991px",
+      "usage": 417,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.992": {
+      "$type": "dimension",
+      "$value": "992px",
+      "usage": 25,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.1200": {
+      "$type": "dimension",
+      "$value": "1200px",
+      "usage": 1,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.1280": {
+      "$type": "dimension",
+      "$value": "1280px",
+      "usage": 69,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.1320": {
+      "$type": "dimension",
+      "$value": "1320px",
+      "usage": 3,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.1440": {
+      "$type": "dimension",
+      "$value": "1440px",
+      "usage": 69,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.1920": {
+      "$type": "dimension",
+      "$value": "1920px",
+      "usage": 69,
+      "source": "CSS @media width conditions"
+    }
+  }
+}

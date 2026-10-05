@@ -1,0 +1,17 @@
+{
+  "id": "u-texture",
+  "name": "u-texture",
+  "occurrences": 12,
+  "composedOf": [
+    "button",
+    "heading",
+    "image",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

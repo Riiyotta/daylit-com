@@ -1,0 +1,12 @@
+{
+  "id": "logo-content",
+  "name": "logo_content",
+  "occurrences": 14,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

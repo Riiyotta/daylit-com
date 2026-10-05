@@ -1,0 +1,298 @@
+
+/* =========================================
+   CTA BANNER HUBSPOT FORM
+========================================= */
+
+.cta-banner_form .hbspt-form form {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 16px !important;
+  flex-wrap: nowrap !important;
+
+  width: 100% !important;
+  max-width: 100% !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  font-family: var(--_typography---text--body-main--font-family);
+}
+
+
+/* =========================================
+   FORM FIELD / INPUT WRAPPER
+========================================= */
+
+.cta-banner_form .hbspt-form fieldset {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+.cta-banner_form .hbspt-form .hs-form-field {
+  position: relative !important;
+
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+
+  width: auto !important;
+  margin: 0 !important;
+}
+
+
+/* =========================================
+   EMAIL INPUT
+========================================= */
+
+.cta-banner_form .hbspt-form .hs-input {
+  display: block !important;
+
+  width: 100% !important;
+  height: 40px !important;
+  min-height: 40px !important;
+
+  box-sizing: border-box !important;
+
+  padding: 0 16px !important;
+
+  background: #FBF9F6 !important;
+
+  border: 1px solid #F2EEE7 !important;
+  border-radius: 6px !important;
+
+  box-shadow: none !important;
+
+  font-size: 16px !important;
+  line-height: 1 !important;
+  font-weight: 400 !important;
+
+  color: #825B63 !important;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease !important;
+}
+
+
+/* Placeholder */
+
+.cta-banner_form .hbspt-form .hs-input::placeholder {
+  color: #825B63 !important;
+  opacity: 1 !important;
+}
+
+
+/* Focus */
+
+.cta-banner_form .hbspt-form .hs-input:focus {
+  outline: none !important;
+
+  border-color: #F2EEE7 !important;
+  box-shadow: none !important;
+}
+
+
+/* =========================================
+   ERROR STATE
+========================================= */
+
+.cta-banner_form .hbspt-form .hs-input.error {
+  background: #FBF9F6 !important;
+  border-color: #F2EEE7 !important;
+}
+
+.cta-banner_form .hbspt-form .hs-input.error::placeholder {
+  color: #825B63 !important;
+}
+
+.cta-banner_form .hbspt-form .hs-error-msgs,
+.cta-banner_form .hbspt-form .hs-error-msg {
+  position: absolute !important;
+
+  top: 100% !important;
+  left: 0 !important;
+
+  margin-top: 4px !important;
+  padding-left: 0 !important;
+
+  list-style: none !important;
+
+  white-space: nowrap !important;
+
+  color: #825B63 !important;
+
+  font-size: 16px !important;
+
+  pointer-events: none !important;
+}
+
+.cta-banner_form .hbspt-form .hs_error_rollup {
+  width: 0 !important;
+  opacity: 0 !important;
+}
+
+
+/* =========================================
+   SUBMIT WRAPPER
+========================================= */
+
+.cta-banner_form .hbspt-form .hs_submit {
+  flex: 0 0 auto !important;
+
+  width: auto !important;
+  margin: 0 !important;
+}
+
+
+/* =========================================
+   BUTTON
+========================================= */
+
+.cta-banner_form .hbspt-form .hs-button {
+  display: flex !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  width: auto !important;
+  height: 40px !important;
+  min-height: 40px !important;
+
+  box-sizing: border-box !important;
+
+  padding: 0 16px !important;
+
+  background: var(--brand--burgundy--600) !important;
+
+  color: #F2EEE7 !important;
+
+  font-weight: 500 !important;
+  font-size: 16px !important;
+
+  line-height: 1 !important;
+
+  white-space: nowrap !important;
+
+  border: 0 !important;
+  border-radius: 6px !important;
+
+  cursor: pointer !important;
+
+  transition:
+    background 0.2s ease,
+    transform 0.05s ease !important;
+}
+
+.cta-banner_form .hbspt-form .hs-button:hover {
+  background: var(--brand--burgundy--600) !important;
+}
+
+.cta-banner_form .hbspt-form .hs-button:active {
+  transform: translateY(1px);
+}
+
+
+/* =========================================
+   MOBILE / SMALL SCREENS
+========================================= */
+
+@media (max-width: 640px) {
+
+  .cta-banner_form .hbspt-form form {
+    display: flex !important;
+
+    flex-direction: row !important;
+    align-items: center !important;
+
+    gap: 12px !important;
+    flex-wrap: nowrap !important;
+
+    width: 100% !important;
+
+    padding: 0 !important;
+
+    background: transparent !important;
+    border: 0 !important;
+  }
+
+
+  /* Input wrapper */
+
+  .cta-banner_form .hbspt-form .hs-form-field {
+    flex: 1 1 auto !important;
+
+    width: auto !important;
+    min-width: 0 !important;
+
+    margin: 0 !important;
+  }
+
+
+  /* Input */
+
+  .cta-banner_form .hbspt-form .hs-input {
+    width: 100% !important;
+
+    height: 40px !important;
+    min-height: 40px !important;
+
+    box-sizing: border-box !important;
+
+    font-size: 16px !important;
+    color: #825B63 !important;
+    background: #FBF9F6 !important;
+  }
+
+
+  /* Button wrapper */
+
+  .cta-banner_form .hbspt-form .hs_submit {
+    flex: 0 0 auto !important;
+
+    width: auto !important;
+
+    margin: 0 !important;
+  }
+
+
+  /* Button */
+
+  .cta-banner_form .hbspt-form .hs-button {
+    width: auto !important;
+
+    height: 40px !important;
+    min-height: 40px !important;
+
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+
+    font-size: 16px !important;
+    font-weight: 500 !important;
+
+    color: #F2EEE7 !important;
+
+    line-height: 1 !important;
+
+    white-space: nowrap !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* Error message */
+
+  .cta-banner_form .hbspt-form .hs-error-msgs,
+  .cta-banner_form .hbspt-form .hs-error-msg {
+    position: relative !important;
+
+    white-space: normal !important;
+  }
+}
+  .cta-banner_form .hbspt-form .submitted-message {
+  color: #360912 !important;
+}

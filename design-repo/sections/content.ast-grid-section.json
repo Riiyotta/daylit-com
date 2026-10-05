@@ -1,0 +1,74 @@
+{
+  "id": "content.ast-grid-section",
+  "category": "CONTENT",
+  "label": "ast-grid-section",
+  "tag": "section",
+  "purpose": "Carries the substantive content of the page. Example headline: \"Courses\".",
+  "purposeIsInferred": true,
+  "nameSource": "id",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/ai-skills/index.html:1483-2015"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 1
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 5,
+        "titleMaxWords": 9,
+        "bodyMaxWords": 40
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 5,
+        "assetRoles": [
+          "content-image"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 1340,
+      "columns": 3
+    },
+    "mobile": {
+      "heightPx": 737,
+      "columns": 5,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "columns change from 3 to 5"
+    ]
+  },
+  "assetRoles": [
+    "content-image"
+  ],
+  "implementedBy": "src/sections/Section.jsx"
+}

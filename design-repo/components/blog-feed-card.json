@@ -1,0 +1,15 @@
+{
+  "id": "blog-feed-card",
+  "name": "blog-feed_card",
+  "occurrences": 114,
+  "composedOf": [
+    "button",
+    "image",
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog"
+  }
+}

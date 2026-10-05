@@ -1,0 +1,13 @@
+{
+  "id": "u-image-wrap",
+  "name": "u-image-wrap",
+  "occurrences": 50,
+  "composedOf": [
+    "image",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

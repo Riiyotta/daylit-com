@@ -1,0 +1,9 @@
+
+.section_demo-right {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.section_demo-right::-webkit-scrollbar {
+  display: none;
+}

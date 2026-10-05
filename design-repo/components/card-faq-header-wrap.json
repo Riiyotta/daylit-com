@@ -1,0 +1,13 @@
+{
+  "id": "card-faq-header-wrap",
+  "name": "card-faq_header-wrap",
+  "occurrences": 54,
+  "composedOf": [
+    "heading",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/ai-collections-strategy"
+  }
+}

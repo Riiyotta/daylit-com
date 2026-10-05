@@ -1,0 +1,12 @@
+{
+  "id": "nan-banner-item-link-icon",
+  "name": "nan_banner-item-link-icon",
+  "occurrences": 204,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

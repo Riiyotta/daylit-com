@@ -1,0 +1,12 @@
+{
+  "id": "enterprise-logo-item-img",
+  "name": "enterprise-logo-item-img",
+  "occurrences": 12,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

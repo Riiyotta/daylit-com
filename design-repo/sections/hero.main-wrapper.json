@@ -1,0 +1,79 @@
+{
+  "id": "hero.main-wrapper",
+  "category": "HERO",
+  "label": "main-wrapper",
+  "tag": "main",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"COOKIE POLICY\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 5,
+    "routes": 5,
+    "measuredFrom": [
+      "src/legal/cookie-consent/index.html:1330-1366",
+      "src/legal/dpa-customer/index.html:1330-1484",
+      "src/legal/privacy-policy/index.html:1330-1553",
+      "src/legal/sla-customer/index.html:1330-1501",
+      "src/legal/terms-conditions/index.html:1330-1358"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 5
+      },
+      "subheading": {
+        "type": "string",
+        "required": false,
+        "maxWords": 5
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 30,
+        "maxWords": 83
+      },
+      "items": {
+        "type": "item[]",
+        "required": false,
+        "maxItems": 24,
+        "titleMaxWords": 9,
+        "bodyMaxWords": 0
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 4118,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 6832,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "grows taller on mobile (content stacks)"
+    ]
+  },
+  "assetRoles": [],
+  "implementedBy": "src/pages/LegalDpaCustomer.jsx"
+}

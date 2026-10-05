@@ -1,0 +1,14 @@
+{
+  "id": "swiper-slide",
+  "name": "swiper-slide",
+  "occurrences": 115,
+  "composedOf": [
+    "image",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

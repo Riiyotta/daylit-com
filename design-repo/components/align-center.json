@@ -1,0 +1,14 @@
+{
+  "id": "align-center",
+  "name": "align-center",
+  "occurrences": 10,
+  "composedOf": [
+    "button",
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/ai-collections-strategy"
+  }
+}

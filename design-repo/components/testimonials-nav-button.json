@@ -1,0 +1,10 @@
+{
+  "id": "testimonials-nav-button",
+  "name": "testimonials_nav_button",
+  "occurrences": 55,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/ai-collections-strategy"
+  }
+}

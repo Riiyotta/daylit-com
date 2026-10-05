@@ -1,0 +1,10 @@
+{
+  "id": "button-main-text",
+  "name": "button_main_text",
+  "occurrences": 670,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

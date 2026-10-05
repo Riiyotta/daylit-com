@@ -1,0 +1,10 @@
+{
+  "id": "testimonials-pagination-fraction",
+  "name": "testimonials_pagination-fraction",
+  "occurrences": 22,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/ai-collections-strategy"
+  }
+}

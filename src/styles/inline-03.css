@@ -1,0 +1,6 @@
+
+  /* Green dashed borders for all section elements */
+  .mb-styleguide_item-row > *:not(.mb-styleguide_label),
+  .mb-styleguide_item-row > *:not(.mb-styleguide_label-group) {
+    border: 1px dashed #2B9F52;
+  }

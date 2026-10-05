@@ -1,0 +1,14 @@
+{
+  "id": "impact-layout",
+  "name": "impact_layout",
+  "occurrences": 22,
+  "composedOf": [
+    "heading",
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

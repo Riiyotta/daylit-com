@@ -1,0 +1,57 @@
+// form — the section's real markup, read from the rendered page (route /become-a-partner, section 1).
+export default function Form15() {
+  return (
+    <header data-wf--global-section-header--general-section-layout="text-media" id="form" data-texture-section="true" className="section_header-main" data-clone-section="Form15">
+      <div data-wf--utility-spacer-section--padding="small" className="padding-section-wrap">
+        <div className="padding-top w-variant-be9514d5-b59a-26cd-e5bf-b06f381984af"></div>
+      </div>
+      <div className="big-section">
+        <div className="w-layout-blockcontainer container-large w-container">
+          <div className="header-main_layout">
+            <div id="w-node-_5867d1c0-34db-a09b-5804-9c30b2f78c4d-64f646a4" className="header-main_content-position">
+              <div id="w-node-b84db016-79eb-5900-f1d2-91f327f10905-27f10905" data-wf--slot-item-card-title--general-ttile-layout="left" className="w-layout-vflex header-main_content">
+                <div className="w-layout-vflex header-main_title-wrap">
+                  <div data-wf--slot-item-eyebrow-main--color="secondary" className="eyebrow w-variant-0af9f9ed-2d61-bd23-3bb5-4265d3f5f371">
+                    <div className="eyebrow-dot"></div>
+                    <div className="eyebrow-text">Become a partner</div>
+                    <div className="w-layout-vflex eyebrow-icon-wrap is-position">
+                      <img src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68b55c00bab5327078544438_icon-files.svg" loading="lazy" alt="" className="eyebrow-icon" />
+                    </div>
+                  </div>
+                  <h1>
+                    Embedded finance on your platform
+                    <br />
+                  </h1>
+                </div>
+                <div className="w-layout-vflex header-main_text-wrap">
+                  <p className="text-size-large">
+                    {"With Daylit's A/R and A/P financing products, you can easily offer your customers best-in-class working capital solutions."}
+                    <br />
+                    <br />
+                    Book your 30-min meeting today to see how Daylit would work on your platform.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div id="w-node-ee3274b2-2fb5-9472-59c0-766080a1fb66-64f646a4" className="header-main_media u-hide-if-empty">
+              <div data-design-mode="show" data-slot="Media" className="u-hide-if-empty">
+                <div className="w-layout-vflex u-display-contents">
+                  <div className="w-layout-vflex hs_form-wrap">
+                    <div className="hs_form-title">
+                      <h2 className="heading-style-h4">Become a partner</h2>
+                    </div>
+                    <div className="hs_form-code w-embed w-script"></div>
+                    <div className="hs_form-css w-embed"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-wf--utility-spacer-section--padding="tiny" className="padding-section-wrap">
+        <div className="padding-top w-variant-7f479514-2290-79d7-2a62-1d4ed829a7d3"></div>
+      </div>
+    </header>
+  );
+}

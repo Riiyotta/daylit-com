@@ -1,0 +1,81 @@
+
+/* All four field labels */
+.hs-form-html[data-form-id="a6d5af83-a460-40ab-8a19-c769f2e54829"] .hsfc-FieldLabel {
+  color: #AAA49F !important;
+}
+
+/* All input boxes */
+.hs-form-html[data-form-id="a6d5af83-a460-40ab-8a19-c769f2e54829"] .hsfc-TextInput {
+  background-color: #662F3D !important;
+}
+
+/* Work Email text */
+.hs-form-html[data-form-id="a6d5af83-a460-40ab-8a19-c769f2e54829"] .hsfc-EmailField .hsfc-TextInput {
+  color: #FFFFFF !important;
+   border-radius: 6px !important;
+    border-color: rgba(251, 249, 246, 0.10) !important;
+}
+
+/* Title text */
+.hs-form-html[data-form-id="a6d5af83-a460-40ab-8a19-c769f2e54829"] .hsfc-TextField .hsfc-TextInput {
+  color: #FFFFFF !important;
+}
+
+/* Actual placeholder text */
+.hs-form-html[data-form-id="a6d5af83-a460-40ab-8a19-c769f2e54829"] .hsfc-TextInput::placeholder {
+  color: #D3CAC3 !important;
+  opacity: 1 !important;
+}
+
+/* Dropdown text */
+.hs-form-html[data-form-id="a6d5af83-a460-40ab-8a19-c769f2e54829"] .hsfc-DropdownInput input {
+  color: #D3CAC3 !important;
+}
+
+/* Submit button */
+.hs-form-html[data-form-id="a6d5af83-a460-40ab-8a19-c769f2e54829"] .hsfc-Button {
+  background-color: #FAFFA7 !important;
+  color: #4D1520 !important;
+  width: 100% !important;
+}
+.hs-form-html[data-form-id="a6d5af83-a460-40ab-8a19-c769f2e54829"] .hsfc-FieldLabel {
+  font-size: 12px !important;
+}
+  .hsfc-Step__Content {
+    padding: 0px !important;
+  }
+  .hsfc-Row {
+    margin-bottom: 4px !important;
+  }
+  .hsfc-TextInput::placeholder {
+  font-size: 16px !important;
+  color: #D3CAC3 !important;
+  font-weight: 500 !important;
+}
+  .hs-form-html .hsfc-TextField .hsfc-TextInput {
+    border-radius: 6px !important;
+    border-color: rgba(251, 249, 246, 0.10) !important;
+  }
+.hs-form-html[data-form-id="a6d5af83-a460-40ab-8a19-c769f2e54829"] .hsfc-DropdownInput input {
+    border-radius: 6px !important;
+    border-color: rgba(251, 249, 246, 0.10) !important;
+}
+.hsfc-Row {
+    gap: 16px !important;
+  }
+  
+  .hsfc-ErrorAlert {
+      font-size: 12px !important;
+  }
+
+  [data-hsfc-id=Renderer] .hsfc-DropdownInput__Caret>span {
+    border-top: 6px solid rgb(224 206 206) !important;
+  }
+
+  .hsfc-Button {
+	ine-height: 100% !important;
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+    padding: 10px !important;
+    
+  }

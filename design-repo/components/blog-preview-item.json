@@ -1,0 +1,13 @@
+{
+  "id": "blog-preview-item",
+  "name": "blog-preview_item",
+  "occurrences": 25,
+  "composedOf": [
+    "image",
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/testimonial"
+  }
+}

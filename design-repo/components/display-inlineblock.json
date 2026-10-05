@@ -1,0 +1,10 @@
+{
+  "id": "display-inlineblock",
+  "name": "display-inlineblock",
+  "occurrences": 220,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/ai-collections-strategy"
+  }
+}

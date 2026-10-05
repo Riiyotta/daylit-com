@@ -1,0 +1,73 @@
+{
+  "id": "content.section-home-enterprise",
+  "category": "CONTENT",
+  "label": "section_home-enterprise",
+  "tag": "section",
+  "purpose": "Carries the substantive content of the page.",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/index.html:2131-2523"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 2,
+        "maxWords": 24
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 48,
+        "assetRoles": [
+          "content-image",
+          "icon",
+          "logo"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 596,
+      "columns": 4
+    },
+    "mobile": {
+      "heightPx": 692,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "4 columns collapse to a single column"
+    ]
+  },
+  "assetRoles": [
+    "content-image",
+    "icon",
+    "logo"
+  ],
+  "implementedBy": "src/pages/HomePage.jsx"
+}

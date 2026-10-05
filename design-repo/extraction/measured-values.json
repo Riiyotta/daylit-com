@@ -1,0 +1,6416 @@
+{
+  "version": "0.1.0",
+  "sourceProject": {
+    "url": "https://www.daylit.com/?dl=anon_q5vd15p4muv2itl7--force",
+    "framework": "React+Webflow+GSAP",
+    "scrapedAt": "2026-10-05T10:51:39Z",
+    "snapshotFolder": "recon/mirror/src/"
+  },
+  "note": "Citation ledger. `lines` are line ranges in the rendered-HTML snapshots under recon/mirror/src/; verify_all.py resolves them and degrades to a warning when src/ is absent.",
+  "viewport": {
+    "desktop": "1440x900",
+    "mobile": "390x844"
+  },
+  "histograms": {
+    "colors": [
+      [
+        "rgba(0,0,0,0)",
+        61483
+      ],
+      [
+        "rgb(77,21,32)",
+        46976
+      ],
+      [
+        "rgb(130,87,91)",
+        6574
+      ],
+      [
+        "rgb(251,249,246)",
+        6256
+      ],
+      [
+        "rgb(242,238,231)",
+        5484
+      ],
+      [
+        "rgb(250,255,167)",
+        4163
+      ],
+      [
+        "rgb(0,0,0)",
+        3348
+      ],
+      [
+        "rgb(130,91,99)",
+        3011
+      ],
+      [
+        "rgb(211,202,195)",
+        2383
+      ],
+      [
+        "rgb(255,255,255)",
+        1791
+      ],
+      [
+        "rgb(170,164,159)",
+        1284
+      ],
+      [
+        "rgb(92,26,26)",
+        813
+      ],
+      [
+        "rgb(254,255,225)",
+        720
+      ],
+      [
+        "rgb(74,58,58)",
+        664
+      ],
+      [
+        "rgb(44,31,31)",
+        631
+      ],
+      [
+        "rgb(103,101,101)",
+        345
+      ],
+      [
+        "rgba(255,255,255,0)",
+        277
+      ],
+      [
+        "rgb(221,221,221)",
+        224
+      ],
+      [
+        "rgb(221,120,2)",
+        195
+      ],
+      [
+        "rgb(102,47,61)",
+        182
+      ],
+      [
+        "rgb(54,9,18)",
+        159
+      ],
+      [
+        "rgb(221,213,200)",
+        129
+      ],
+      [
+        "rgba(239,239,239,0)",
+        95
+      ],
+      [
+        "rgb(255,251,235)",
+        92
+      ],
+      [
+        "rgb(233,227,216)",
+        90
+      ],
+      [
+        "rgb(167,193,120)",
+        72
+      ],
+      [
+        "rgb(249,245,240)",
+        72
+      ],
+      [
+        "rgb(242,235,225)",
+        69
+      ],
+      [
+        "rgb(48,26,28)",
+        62
+      ],
+      [
+        "rgb(242,237,232)",
+        59
+      ],
+      [
+        "rgb(255,255,125)",
+        57
+      ],
+      [
+        "rgb(25,24,24)",
+        55
+      ],
+      [
+        "rgb(180,35,24)",
+        38
+      ],
+      [
+        "rgb(254,243,242)",
+        38
+      ],
+      [
+        "rgb(209,232,174)",
+        36
+      ],
+      [
+        "rgb(70,16,28)",
+        36
+      ],
+      [
+        "rgb(14,9,31)",
+        35
+      ],
+      [
+        "rgb(12,6,7)",
+        34
+      ],
+      [
+        "rgb(122,106,106)",
+        34
+      ],
+      [
+        "rgb(217,216,219)",
+        24
+      ],
+      [
+        "rgb(234,244,238)",
+        24
+      ],
+      [
+        "rgb(30,107,58)",
+        24
+      ],
+      [
+        "rgb(138,122,122)",
+        23
+      ],
+      [
+        "rgb(243,240,238)",
+        23
+      ],
+      [
+        "rgb(181,129,58)",
+        21
+      ],
+      [
+        "rgb(232,232,232)",
+        20
+      ],
+      [
+        "rgb(246,243,243)",
+        16
+      ],
+      [
+        "rgb(244,234,225)",
+        15
+      ],
+      [
+        "rgb(251,250,244)",
+        15
+      ],
+      [
+        "rgba(130,91,99,0.75)",
+        14
+      ],
+      [
+        "rgb(121,107,105)",
+        13
+      ],
+      [
+        "rgb(138,90,0)",
+        13
+      ],
+      [
+        "rgb(253,243,227)",
+        13
+      ],
+      [
+        "rgb(47,8,15)",
+        13
+      ],
+      [
+        "rgb(232,224,208)",
+        12
+      ],
+      [
+        "rgb(245,240,232)",
+        12
+      ],
+      [
+        "rgb(248,247,242)",
+        12
+      ],
+      [
+        "rgb(255,132,61)",
+        12
+      ],
+      [
+        "rgb(61,26,26)",
+        12
+      ],
+      [
+        "rgba(249,249,247,0)",
+        12
+      ],
+      [
+        "rgb(245,237,231)",
+        11
+      ],
+      [
+        "rgb(245,248,250)",
+        11
+      ],
+      [
+        "rgb(33,45,58)",
+        11
+      ],
+      [
+        "rgb(76,20,31)",
+        11
+      ],
+      [
+        "rgb(51,51,51)",
+        10
+      ],
+      [
+        "rgb(204,204,204)",
+        9
+      ],
+      [
+        "rgb(218,206,208)",
+        9
+      ],
+      [
+        "rgb(87,47,49)",
+        7
+      ],
+      [
+        "rgba(255,255,255,0.85)",
+        6
+      ],
+      [
+        "rgb(122,122,122)",
+        5
+      ],
+      [
+        "rgb(189,189,189)",
+        5
+      ],
+      [
+        "rgb(211,211,211)",
+        5
+      ],
+      [
+        "rgb(217,217,219)",
+        5
+      ],
+      [
+        "rgb(234,227,215)",
+        5
+      ],
+      [
+        "rgba(0,0,0,0.4)",
+        5
+      ],
+      [
+        "rgb(212,205,206)",
+        4
+      ],
+      [
+        "rgb(59,131,246)",
+        4
+      ],
+      [
+        "rgba(251,249,246,0.1)",
+        4
+      ],
+      [
+        "rgba(251,249,246,0.75)",
+        4
+      ],
+      [
+        "rgb(107,88,96)",
+        3
+      ]
+    ],
+    "radii": [
+      [
+        "6px",
+        6327
+      ],
+      [
+        "1.85px",
+        1106
+      ],
+      [
+        "1440px",
+        1004
+      ],
+      [
+        "2px",
+        212
+      ],
+      [
+        "4px",
+        185
+      ],
+      [
+        "8px",
+        169
+      ],
+      [
+        "20px",
+        160
+      ],
+      [
+        "24px",
+        95
+      ],
+      [
+        "1000px",
+        60
+      ],
+      [
+        "10px",
+        14
+      ],
+      [
+        "12px",
+        12
+      ],
+      [
+        "999px",
+        7
+      ],
+      [
+        "3px",
+        1
+      ],
+      [
+        "5px",
+        1
+      ],
+      [
+        "80px",
+        1
+      ]
+    ],
+    "spacing": [
+      [
+        "8px",
+        11951
+      ],
+      [
+        "12px",
+        10148
+      ],
+      [
+        "16px",
+        7724
+      ],
+      [
+        "24px",
+        4077
+      ],
+      [
+        "4px",
+        2882
+      ],
+      [
+        "40px",
+        2143
+      ],
+      [
+        "6px",
+        2068
+      ],
+      [
+        "14px",
+        1773
+      ],
+      [
+        "20px",
+        1567
+      ],
+      [
+        "10px",
+        1329
+      ],
+      [
+        "2px",
+        966
+      ],
+      [
+        "32px",
+        910
+      ],
+      [
+        "64px",
+        894
+      ],
+      [
+        "57.5938px",
+        744
+      ],
+      [
+        "60px",
+        407
+      ],
+      [
+        "18px",
+        365
+      ],
+      [
+        "128px",
+        254
+      ],
+      [
+        "22px",
+        220
+      ],
+      [
+        "13px",
+        166
+      ],
+      [
+        "88px",
+        152
+      ],
+      [
+        "48px",
+        130
+      ],
+      [
+        "3px",
+        128
+      ],
+      [
+        "30px",
+        104
+      ],
+      [
+        "26px",
+        102
+      ],
+      [
+        "28px",
+        67
+      ],
+      [
+        "57.6px",
+        67
+      ],
+      [
+        "44px",
+        48
+      ],
+      [
+        "56.9531px",
+        42
+      ],
+      [
+        "15px",
+        37
+      ],
+      [
+        "11px",
+        32
+      ],
+      [
+        "72px",
+        32
+      ],
+      [
+        "80px",
+        26
+      ],
+      [
+        "52px",
+        20
+      ],
+      [
+        "7px",
+        18
+      ],
+      [
+        "100px",
+        13
+      ],
+      [
+        "25px",
+        11
+      ],
+      [
+        "56px",
+        11
+      ],
+      [
+        "9px",
+        8
+      ],
+      [
+        "160px",
+        7
+      ],
+      [
+        "231px",
+        6
+      ]
+    ],
+    "breakpoints": [
+      [
+        "991px",
+        417
+      ],
+      [
+        "479px",
+        414
+      ],
+      [
+        "767px",
+        373
+      ],
+      [
+        "400px",
+        202
+      ],
+      [
+        "768px",
+        74
+      ],
+      [
+        "1280px",
+        69
+      ],
+      [
+        "1440px",
+        69
+      ],
+      [
+        "1920px",
+        69
+      ],
+      [
+        "640px",
+        65
+      ],
+      [
+        "600px",
+        35
+      ],
+      [
+        "992px",
+        25
+      ],
+      [
+        "1320px",
+        3
+      ],
+      [
+        "430px",
+        2
+      ],
+      [
+        "1200px",
+        1
+      ]
+    ],
+    "durations": [
+      [
+        "0.2s",
+        3384
+      ],
+      [
+        "0.35s",
+        1367
+      ],
+      [
+        "1.2s",
+        1340
+      ],
+      [
+        "0.25s",
+        177
+      ],
+      [
+        "0.3s",
+        85
+      ],
+      [
+        "0.5s",
+        69
+      ],
+      [
+        "0.05s",
+        65
+      ],
+      [
+        "0.15s",
+        30
+      ],
+      [
+        "25s",
+        28
+      ],
+      [
+        "0.1s",
+        11
+      ],
+      [
+        "0.4s",
+        6
+      ],
+      [
+        "0.8s",
+        4
+      ]
+    ],
+    "easings": [
+      [
+        "ease",
+        3862
+      ],
+      [
+        "cubic-bezier(0.165, 0.84, 0.44, 1)",
+        1564
+      ],
+      [
+        "cubic-bezier(0.47, 0, 0.745, 0.715)",
+        1088
+      ],
+      [
+        "linear",
+        29
+      ],
+      [
+        "cubic-bezier(0.645, 0.045, 0.355, 1)",
+        22
+      ],
+      [
+        "ease-out",
+        1
+      ]
+    ],
+    "cssVariables": {
+      "--neutral--0": "rgba(255,255,255,0)",
+      "--_typography---text--body-main--font-family": "\"Tt Commons Pro Variable\",Arial,sans-serif",
+      "--_color-schemes---text--text-primary": "rgb(77,21,32)",
+      "--_typography---text--body-main--font-size": "1.125rem",
+      "--_typography---text--body-main--line-height": "133%",
+      "--_typography---font-weight--display-500": "500",
+      "--_typography---text--body-main--letter-spacing": "0px",
+      "--_typography---headings--h1--font-family": "\"Tt Commons Pro Variable\",Arial,sans-serif",
+      "--_typography---headings--h1--font-size": "4.75rem",
+      "--_typography---headings--h1--line-height": "100%",
+      "--_typography---headings--h1--font-weight": "500",
+      "--_typography---headings--h1--letter-spacing": "-.02em",
+      "--_typography---font-family--display-family": "\"Tt Commons Pro Variable\",Arial,sans-serif",
+      "--_typography---headings--h2--font-size": "3.5rem",
+      "--_typography---headings--h2--line-height": "115%",
+      "--_typography---headings--h2--letter-spacing": "-.015em",
+      "--_typography---headings--h3--font-family": "\"Tt Commons Pro Variable\",Arial,sans-serif",
+      "--_typography---headings--h3--font-size": "2.75rem",
+      "--_typography---headings--h3--line-height": "100%",
+      "--_typography---headings--h3--font-weight": "500",
+      "--_typography---headings--h3--letter-spacing": "-.0125em",
+      "--_typography---headings--h4--font-family": "\"Tt Commons Pro Variable\",Arial,sans-serif",
+      "--_typography---headings--h4--font-size": "2rem",
+      "--_typography---headings--h4--line-height": "125%",
+      "--_typography---headings--h4--font-weight": "500",
+      "--_typography---headings--h4--letter-spacing": "-.04em",
+      "--_typography---headings--h5--font-family": "\"Tt Commons Pro Variable\",Arial,sans-serif",
+      "--_typography---headings--h5--font-size": "1.5rem",
+      "--_typography---headings--h5--line-height": "133%",
+      "--_typography---headings--h5--font-weight": "500",
+      "--_typography---headings--h5--letter-spacing": "-.02em",
+      "--_typography---headings--h6--font-family": "\"Tt Commons Pro Variable\",Arial,sans-serif",
+      "--_typography---headings--h6--font-size": "1.25rem",
+      "--_typography---headings--h6--line-height": "140%",
+      "--_typography---headings--h6--font-weight": "500",
+      "--_typography---headings--h6--letter-spacing": "-.02em",
+      "--_color-schemes---text--body": "rgb(130,91,99)",
+      "--color-scheme-1--text<deleted|relume-variable-color-scheme-1-text>": "rgb(0,0,0)",
+      "--_site-sizes---contaitner--c-large": "calc(90rem - ( 2*3.75rem))",
+      "--_site-sizes---contaitner--c-medium": "calc(90rem - ( 3.5*3.75rem))",
+      "--_site-sizes---contaitner--c-small": "calc(90rem - ( 5.25*3.75rem))",
+      "--_site-sizes---padding--section--pad-sec-ver-4": "8rem",
+      "--_site-sizes---padding--section--pad-sec-ver-3": "5.5rem",
+      "--_site-sizes---padding--section--pad-sec-ver-2": "4rem",
+      "--_site-sizes---padding--section--pad-sec-ver-1": "2.5rem",
+      "--_site-sizes---padding--section--pad-sec-ver-0": "0px",
+      "--_typography---headings--h2--font-family": "\"Tt Commons Pro Variable\",Arial,sans-serif",
+      "--_typography---headings--h2--font-weight": "500",
+      "--_typography---font-styles--heading<deleted|relume-variable-font-style-heading>": "system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen,Ubuntu,Cantarell,\"Fira Sans\",\"Droid Sans\",\"Helvetica Neue\",sans-serif",
+      "--_primitives---colors--white<deleted|relume-variable-neutral-white>": "rgb(255,255,255)",
+      "--_color-schemes---border--border-primary": "rgb(242,238,231)",
+      "--text-color--text-alternate<deleted|relume-variable-text-color-3>": "rgb(255,255,255)",
+      "--_site-sizes---element--padding--p-1-5": ".375rem",
+      "--_site-sizes---element--padding--p-3": ".75rem",
+      "--_site-sizes---element-gap--gap-xsmall": ".75rem",
+      "--_color-schemes---button--btn-radius": ".375rem",
+      "--_color-schemes---button--primary--btn-primary-background": "rgb(77,21,32)",
+      "--_color-schemes---button--primary--btn-text-primary": "rgb(242,238,231)",
+      "--_primitives---opacity--transparent<deleted|relume-variable-transparent>": "rgba(0,0,0,0)",
+      "--_primitives---colors--neutral-darkest<deleted|relume-variable-neutral-shade-7>": "rgb(0,0,0)",
+      "--_typography---text--body-main--font-weight": "500",
+      "--feedback--green--100": "rgb(244,250,235)",
+      "--feedback--green--400": "rgb(71,104,35)",
+      "--_color-schemes---border--border-primary-dark": "rgb(233,227,216)",
+      "--_site-sizes---radius--radius-small": ".375rem",
+      "--_color-schemes---background--bg-main": "rgb(255,255,255)",
+      "--_color-schemes---text--text-secondary": "rgb(130,91,99)",
+      "--_primitives---opacity--neutral-darkest-60<deleted|relume-variable-neutral-shade-7-60>": "rgba(0,0,0,0.6)",
+      "--_primitives---opacity--white-60<deleted|relume-variable-neutral-white-60>": "rgba(255,255,255,0.6)",
+      "--_dimensions---d-4": "1rem",
+      "--_dimensions---d-1": ".25rem",
+      "--_dimensions---d-3": ".75rem",
+      "--_ui-styles---stroke--border-width<deleted|relume-variable-border-width>": "1px",
+      "--color-scheme-1--border<deleted|relume-variable-color-scheme-1-border>": "rgb(0,0,0)",
+      "--_ui-styles---radius--medium<deleted|relume-variable-radius-medium>": "0px",
+      "--color-scheme-1--foreground<deleted|relume-variable-color-scheme-1-foreground>": "rgb(238,238,238)",
+      "--_typography---font-styles--body<deleted|relume-variable-font-style-body>": "system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen,Ubuntu,Cantarell,\"Fira Sans\",\"Droid Sans\",\"Helvetica Neue\",sans-serif",
+      "--_typography---text--body-small--font-size": "1rem",
+      "--_typography---text--body-small--line-height": "125%",
+      "--_typography---text--body-small--letter-spacing": "0px",
+      "--brand--burgundy--400": "rgb(130,91,99)",
+      "--feedback--yellow--400": "rgb(221,120,2)",
+      "--_typography---text--body-large--font-size": "1.25rem",
+      "--_typography---text--body-large--line-height": "140%",
+      "--_typography---text--body-large--letter-spacing": "-.02em",
+      "--background-color--background-secondary<deleted|relume-variable-background-color-2>": "rgb(238,238,238)",
+      "--border-color--border-primary<deleted|relume-variable-border-color-1>": "rgb(0,0,0)",
+      "--_dimensions---d-2": ".5rem",
+      "--_dimensions---d-6": "1.5rem",
+      "--_dimensions---d-7": "2rem",
+      "--_dimensions---d-8": "2.5rem",
+      "--_dimensions---d-11": "4rem",
+      "--_dimensions---d-12": "4.75rem",
+      "--_dimensions---d-14": "7rem",
+      "--_dimensions---d-16": "10rem",
+      "--_ui-styles---radius--small<deleted|relume-variable-radius-small>": "0px",
+      "--color-scheme-1--background<deleted|relume-variable-color-scheme-1-background>": "rgb(255,255,255)",
+      "--_primitives---colors--neutral-lightest<deleted|relume-variable-neutral-shade-1>": "rgb(238,238,238)",
+      "--_ui-styles---radius--large<deleted|relume-variable-radius-large>": "0px",
+      "--color-scheme-1--accent<deleted|relume-variable-color-scheme-1-accent>": "rgb(0,0,0)",
+      "--_color-schemes---border--border-ui": "rgb(14,9,31)",
+      "--_site-sizes---radius--radius-large": "2rem",
+      "--_site-sizes---radius--radius-medium": "1.25rem",
+      "--_typography---text--body-legal--font-size": ".875rem",
+      "--_typography---text--body-legal--line-height": "150%",
+      "--_typography---text--body-legal--letter-spacing": "0px",
+      "--_site-sizes---radius--radius-round": "100vmax",
+      "--_site-sizes---radius--radius-xsmall": ".125rem",
+      "--_site-sizes---margin-gutter--gutter": "1.25rem",
+      "--neutral--200": "rgb(242,238,231)",
+      "--_site-sizes---element--padding--p-2": ".5rem",
+      "--_site-sizes---element--padding--p-0": "0px",
+      "--_dimensions---d-1-5": ".375rem",
+      "--brand--yellow--200": "rgb(250,255,167)",
+      "--_color-schemes---surface--surface": "rgb(251,249,246)",
+      "--_color-schemes---background--bg-tertiary": "rgb(250,255,167)",
+      "--_dimensions---d-0": "0px",
+      "--_typography---buttons--button-main--font-size": "1rem",
+      "--_typography---buttons--button-main--line-height": "175%",
+      "--_typography---buttons--button-main--letter-spacing": "0px",
+      "--_site-sizes---element-gap--gap-xxsmall": ".5rem",
+      "--_color-schemes---button--ghost--btn-ghost-background": "rgba(255,255,255,0)",
+      "--_color-schemes---button--ghost--btn-text-ghost": "rgb(77,21,32)",
+      "--_color-schemes---button--secondary--btn-secondary-background": "rgb(255,255,255)",
+      "--_color-schemes---button--secondary--btn-text-secondary": "rgb(77,21,32)",
+      "--brand--burgundy--600": "rgb(77,21,32)",
+      "--_color-schemes---background--bg-primary": "rgb(77,21,32)",
+      "--_color-schemes---button--secondary--btn-secondary-hover-background": "rgb(242,238,231)",
+      "--_color-schemes---button--text--btn-text": "rgb(77,21,32)",
+      "--_color-schemes---icon--default": "rgb(77,21,32)",
+      "--_color-schemes---background--bg-secondary": "rgb(242,238,231)",
+      "--_color-schemes---border--border-tertiary": "rgb(250,255,167)",
+      "--feedback--yellow--100": "rgb(255,251,235)",
+      "--_color-schemes---surface--screen": "rgb(255,255,255)",
+      "--_typography---text--body-medium--font-family": "\"Open Sans\",sans-serif",
+      "--_typography---text--body-medium--font-size": "1.125rem",
+      "--_typography---text--body-medium--line-height": "120%",
+      "--_typography---text--body-medium--font-weight": "400",
+      "--_typography---text--body-medium--letter-spacing": "-.02em",
+      "--_dimensions---d-0-5": ".125rem",
+      "--_color-schemes---eyebrow--eyebrow-radius": ".375rem",
+      "--_color-schemes---background--bg-eyebrow": "rgb(102,47,61)",
+      "--_typography---eyebrow--eyebrow-main--font-family": "\"Geist Mono\",Arial,sans-serif",
+      "--_color-schemes---text--text-eyebrow": "rgb(254,255,225)",
+      "--_typography---eyebrow--eyebrow-main--font-size": ".875rem",
+      "--_typography---eyebrow--eyebrow-main--line-height": "175%",
+      "--_typography---eyebrow--eyebrow-main--letter-spacing": "0px",
+      "--_site-sizes---element--padding--p-1": ".25rem",
+      "--_typography---eyebrow--eyebrow-main--font-weight": "400",
+      "--_color-schemes---icon--background": "rgb(250,255,167)",
+      "--_dimensions---d-5": "1.25rem",
+      "--_color-schemes---border--border-gradient-stop1": "rgba(255,255,255,0)",
+      "--_color-schemes---border--border-gradient-stop2": "rgb(242,238,231)",
+      "--_site-sizes---element-gap--gap-xlarge": "2.5rem",
+      "--_site-sizes---element-gap--gap-xxlarge": "4rem",
+      "--_site-sizes---element--padding--p-4": "1rem",
+      "--_typography---font-weight--primary-500": "500",
+      "--brand--burgundy--300": "rgb(171,141,148)",
+      "--_ui-styles---stroke--divider-width<deleted|relume-variable-divider-width>": "1px",
+      "--_color-schemes---text--text-tertiary": "rgb(170,164,159)",
+      "--neutral--50": "rgb(255,255,255)",
+      "--_site-sizes---element-gap--gap-medium": "1.5rem",
+      "--_site-sizes---element--padding--p-5": "1.5rem",
+      "--_color-schemes---surface--surface-raised": "rgb(242,238,231)",
+      "--_color-schemes---background--bg-primary-glow": "rgb(250,255,167)",
+      "--brand--yellow--300": "rgb(255,255,125)",
+      "--_site-sizes---element-gap--gap-large": "2rem",
+      "--_color-schemes---border--border-nav": "rgb(130,91,99)",
+      "--_color-schemes---background--bg-transparent": "rgba(255,255,255,0)",
+      "--_site-sizes---element-gap--gap-small": "1rem",
+      "--_site-sizes---margin-gutter--margin": "3.75rem",
+      "--_site-sizes---window--window": "90rem",
+      "--_color-schemes---text--text-primary-on-fill": "rgb(242,238,231)",
+      "--_color-schemes---icon--tertiary": "rgb(255,255,125)",
+      "--neutral--500": "rgb(170,164,159)",
+      "--feedback--red--500": "rgb(74,14,5)",
+      "--neutral--1000": "rgba(0,0,0,0)",
+      "--neutral--900": "rgb(14,9,31)",
+      "--_site-sizes---radius--radius-xxsmall": ".25rem",
+      "--_color-schemes---text--text-secondary-on-fill": "rgb(14,9,31)",
+      "--_dimensions---d-6-5": "1.75rem",
+      "--_dimensions---d-4-5": "1.125rem",
+      "--_dimensions---d-3-5": ".875rem",
+      "--_color-schemes---link--link": "rgb(255,132,61)",
+      "--brand--orange--500": "rgb(255,132,61)",
+      "--_color-schemes---background--bg-secondary-dark": "rgb(233,227,216)",
+      "--_dimensions---d-13": "5.5rem",
+      "--_color-schemes---button--primary--btn-primary-hover-background": "rgb(77,21,32)",
+      "--_color-schemes---icon--on-fill": "rgb(251,249,246)",
+      "--_typography---buttons--button-small--font-size": ".875rem",
+      "--_color-schemes---border--border-secondary": "rgb(77,21,32)",
+      "--neutral--300": "rgb(233,227,216)",
+      "--_dimensions---d-9": "2.75rem",
+      "--brand--yellow--100": "rgb(254,255,225)",
+      "--neutral--100": "rgb(251,249,246)",
+      "--_typography---text--body-legal--font-family": "\"Tt Commons Pro Variable\",Arial,sans-serif",
+      "--_typography---text--body-legal--font-weight": "500",
+      "--_typography---font-family--primary-family": "\"Tt Commons Pro Variable\",Arial,sans-serif",
+      "--_typography---font-weight--secondary-400": "400",
+      "--_typography---text--body-small--font-family": "\"Tt Commons Pro Variable\",Arial,sans-serif",
+      "--_typography---text--body-small--font-weight": "500",
+      "--brand--burgundy--700": "rgb(54,9,18)",
+      "--feedback--red--400": "rgb(235,49,23)",
+      "--_typography---font-family--secondary-family": "\"Geist Mono\",Arial,sans-serif",
+      "--_color-schemes---surface--black": "rgb(14,9,31)",
+      "--brand--burgundy--100": "rgb(243,236,236)",
+      "--neutral--400": "rgb(211,202,195)",
+      "--_typography---buttons--button-nav--line-height": "150%",
+      "--_style-guide-v2---paragraph--text-size-small": ".875rem",
+      "--_style-guide-v2---container--container-large-v2": "82rem",
+      "--_style-guide-v2---paddings--padding-section-large": "7rem",
+      "--_style-guide-v2---paddings--padding-section-medium": "5rem",
+      "--_style-guide-v2---paddings--padding-section-small": "4rem",
+      "--_style-guide-v2---headings--h1": "4rem",
+      "--_style-guide-v2---headings--h2": "3rem",
+      "--_style-guide-v2---headings--h3": "2.5rem",
+      "--_style-guide-v2---headings--h4": "2rem",
+      "--_style-guide-v2---headings--h5": "1.5rem",
+      "--_style-guide-v2---headings--h6": "1.25rem",
+      "--_style-guide-v2---paragraph--text-size-xlarge": "1.5rem",
+      "--_style-guide-v2---paragraph--text-size-large": "1.25rem",
+      "--_style-guide-v2---paragraph--text-size-medium": "1.125rem",
+      "--_style-guide-v2---paragraph--text-size-regular": "1rem",
+      "--_style-guide-v2---paragraph--text-size-tiny": ".75rem",
+      "--brand--burgundy--500": "rgb(102,47,61)",
+      "--_color-schemes---background--bg-primary-clear": "color(srgb000/0)",
+      "--_typography---font-family--tertiary-family": "\"Open Sans\",sans-serif",
+      "--_color-schemes---text--text-error": "rgb(235,49,23)",
+      "--_color-schemes---text--text-disabled": "rgb(90,86,101)",
+      "--_color-schemes---text--heading": "rgb(77,21,32)",
+      "--_color-schemes---text--subheading": "rgb(77,21,32)",
+      "--_color-schemes---background--bg-primary-glow-clear": "color(srgb000/0)",
+      "--_color-schemes---background--bg-disabled": "rgb(255,255,255)",
+      "--_color-schemes---background--bg-error": "rgb(255,248,247)",
+      "--_color-schemes---border--border-error": "rgb(255,205,198)",
+      "--_color-schemes---border--border-disabled": "rgb(170,164,159)",
+      "--_color-schemes---link--link-pressed": "rgb(77,21,32)",
+      "--_color-schemes---icon--success": "rgb(71,104,35)",
+      "--_color-schemes---icon--error": "rgb(235,49,23)",
+      "--_color-schemes---icon--secondary": "rgb(255,132,61)",
+      "--_color-schemes---gradient--gradient-orange": "rgb(255,224,199)",
+      "--_color-schemes---gradient--gradient-orange-20": "color(srgb10.8784310.780392/0.5)",
+      "--_color-schemes---gradient--gradient-white": "rgb(251,249,246)",
+      "--_color-schemes---gradient--gradient-yellow": "rgb(250,255,167)",
+      "--_color-schemes---logo--logo-grey": "rgb(90,86,101)",
+      "--_color-schemes---logo--logo-grey-dark": "rgb(32,27,46)",
+      "--neutral--600": "rgb(123,120,132)",
+      "--neutral--700": "rgb(90,86,101)",
+      "--neutral--800": "rgb(32,27,46)",
+      "--_color-schemes---button--btn-stroke": "0px",
+      "--_site-sizes---padding--section--pad-sec-hor-0": "0px",
+      "--_site-sizes---padding--section--pad-sec-hor-1": "2.75rem",
+      "--_site-sizes---padding--section--pad-sec-hor-2": "4rem",
+      "--_site-sizes---element--padding--p-0-5": ".125rem",
+      "--_site-sizes---element--padding--p-6": "2rem",
+      "--_color-schemes---button--ghost--btn-ghost-background-hover": "rgb(255,255,255)",
+      "--_site-sizes---element--padding--p-7": "2.5rem",
+      "--_color-schemes---button--disable--btn-text-disabled": "rgb(170,164,159)",
+      "--_color-schemes---button--disable--btn-disabled-background": "rgb(255,255,255)",
+      "--_color-schemes---button--text--bin-text-hover": "rgb(77,21,32)",
+      "--_color-schemes---eyebrow--eyebrow-text": "rgb(254,255,225)",
+      "--_color-schemes---eyebrow--eyebrow-background": "rgb(102,47,61)",
+      "--_color-schemes---eyebrow--eyebrow-stroke": ".25rem",
+      "--_typography---text--body-large--font-family": "\"Tt Commons Pro Variable\",Arial,sans-serif",
+      "--_typography---text--body-large--font-weight": "500",
+      "--_typography---buttons--button-main--font-family": "\"Tt Commons Pro Variable\",Arial,sans-serif",
+      "--_typography---buttons--button-main--font-weight": "500",
+      "--_typography---buttons--button-small--font-family": "\"Tt Commons Pro Variable\",Arial,sans-serif",
+      "--_typography---buttons--button-small--font-weight": "500",
+      "--_typography---buttons--button-small--line-height": "175%",
+      "--_typography---buttons--button-small--letter-spacing": "0px",
+      "--_typography---buttons--button-nav--font-family": "\"Tt Commons Pro Variable\",Arial,sans-serif",
+      "--_typography---buttons--button-nav--number": "500",
+      "--_typography---buttons--button-nav--font-size": "1rem",
+      "--_typography---buttons--button-nav--size": "0px",
+      "--brand--burgundy--200": "rgb(209,198,197)",
+      "--_dimensions---d-9-5": "3.5rem",
+      "--_dimensions---d-10": "3.75rem",
+      "--_dimensions---d-15": "8rem",
+      "--_dimensions---d-20": "100vmax",
+      "--brand--orange--100": "rgb(255,244,234)",
+      "--brand--orange--200": "rgb(255,224,199)",
+      "--brand--orange--300": "rgb(255,192,147)",
+      "--brand--orange--400": "rgb(255,161,101)",
+      "--brand--orange--600": "rgb(219,103,34)",
+      "--brand--yellow--400": "rgb(255,241,103)",
+      "--brand--yellow--500": "rgb(244,212,75)",
+      "--brand--yellow--600": "rgb(201,168,55)",
+      "--feedback--blue--100": "rgb(238,243,255)",
+      "--feedback--blue--200": "rgb(189,208,255)",
+      "--feedback--blue--300": "rgb(73,124,255)",
+      "--feedback--blue--400": "rgb(31,62,241)",
+      "--feedback--blue--500": "rgb(21,25,86)",
+      "--feedback--green--200": "rgb(209,232,174)",
+      "--feedback--green--300": "rgb(146,196,79)",
+      "--feedback--green--500": "rgb(25,39,12)",
+      "--feedback--red--100": "rgb(255,248,247)",
+      "--feedback--red--200": "rgb(255,205,198)",
+      "--feedback--red--300": "rgb(255,121,102)",
+      "--feedback--yellow--200": "rgb(255,232,136)",
+      "--feedback--yellow--300": "rgb(255,194,32)",
+      "--feedback--yellow--500": "rgb(122,53,13)",
+      "--base-color-neutral--white<deleted|relume-variable-color-neutral-2>": "rgb(255,255,255)",
+      "--base-color-neutral--neutral-lightest<deleted|relume-variable-color-neutral-3>": "rgb(238,238,238)",
+      "--base-color-neutral--black<deleted|relume-variable-color-neutral-1>": "rgb(0,0,0)",
+      "--underline-thickness": "1px",
+      "--underline-offset": "0.25em",
+      "--underline-duration": "220ms",
+      "--gradient": "linear-gradient(90deg, currentColor, #0000)",
+      "--hsf-default-row__horizontal-spacing": "30px",
+      "--hsf-default-row__vertical-spacing": "20px",
+      "--hsf-default-module__vertical-spacing": "10px",
+      "--hsf-default-navigationrow-buttons__justify-content": "space-between",
+      "--hsf-default-navigationrow-buttons-single__justify-content": "end",
+      "--hsf-default-button__font-family": "Helvetica",
+      "--hsf-default-button__font-size": "1em",
+      "--hsf-default-button__color": "rgb(255,255,255)",
+      "--hsf-default-button__background-color": "rgb(255,92,53)",
+      "--hsf-default-button__background-image": "none",
+      "--hsf-default-button__border-radius": "3px",
+      "--hsf-default-button__border-width": "0px 0px 0px 0px",
+      "--hsf-default-button__border-style": "none",
+      "--hsf-default-button__border-color": "initial",
+      "--hsf-default-button__padding": "12px 24px",
+      "--hsf-default-button__box-shadow": "none",
+      "--hsf-default-button__font-weight": "700",
+      "--hsf-default-richtext__font-family": "Helvetica",
+      "--hsf-default-richtext__font-size": "1em",
+      "--hsf-default-richtext__color": "rgb(33,45,58)",
+      "--hsf-default-heading__font-family": "Helvetica",
+      "--hsf-default-heading__color": "rgb(33,45,58)",
+      "--hsf-default-heading__text-shadow": "none",
+      "--hsf-default-background__padding": "40px",
+      "--hsf-default-background__border-style": "none",
+      "--hsf-default-background__border-color": "rgb(255,255,255)",
+      "--hsf-default-background__border-radius": "0px",
+      "--hsf-default-background__border-width": "1px 1px 1px 1px",
+      "--hsf-default-progressbar-text__font-family": "Helvetica",
+      "--hsf-default-progressbar-text__font-size": "1em",
+      "--hsf-default-progressbar-text__color": "rgb(33,45,58)",
+      "--hsf-default-progressbar-progressLine__background-color": "rgb(1,129,132)",
+      "--hsf-default-progressbar-progressLine__background-image": "none",
+      "--hsf-default-progressbar-progressLine__border-color": "rgb(149,148,148)",
+      "--hsf-default-progressbar-progressLine__border-style": "none",
+      "--hsf-default-progressbar-progressLine__border-width": "0px 0px 0px 0px",
+      "--hsf-default-progressbar-trackLine__background-color": "rgb(217,217,217)",
+      "--hsf-default-erroralert__font-family": "Helvetica",
+      "--hsf-default-erroralert__font-size": "1em",
+      "--hsf-default-erroralert__color": "rgb(229,21,32)",
+      "--hsf-default-infoalert__font-family": "Helvetica",
+      "--hsf-default-infoalert__font-size": "1em",
+      "--hsf-default-infoalert__color": "rgb(37,51,66)",
+      "--hsf-default-field-label__font-family": "Helvetica",
+      "--hsf-default-field-label__font-size": "1em",
+      "--hsf-default-field-label__color": "rgb(33,45,58)",
+      "--hsf-default-field-description__font-family": "Helvetica",
+      "--hsf-default-field-description__font-size": ".8em",
+      "--hsf-default-field-description__color": "rgba(81,99,131,0.87)",
+      "--hsf-default-field-footer__font-family": "Helvetica",
+      "--hsf-default-field-footer__font-size": ".8em",
+      "--hsf-default-field-footer__color": "rgba(81,99,131,0.87)",
+      "--hsf-default-field-input__font-family": "Helvetica",
+      "--hsf-default-field-input__font-size": "1em",
+      "--hsf-default-field-input__color": "rgb(33,45,58)",
+      "--hsf-default-field-input__background-color": "rgb(245,248,250)",
+      "--hsf-default-field-input__placeholder-color": "rgb(37,51,66)",
+      "--hsf-default-field-input__border-color": "rgb(149,148,148)",
+      "--hsf-default-field-input__border-width": "1px 1px 1px 1px",
+      "--hsf-default-field-input__border-style": "solid",
+      "--hsf-default-field-input__border-radius": "3px",
+      "--hsf-default-field-input__padding": "10px",
+      "--hsf-default-field-textarea__font-family": "Helvetica",
+      "--hsf-default-field-textarea__font-size": "1em",
+      "--hsf-default-field-textarea__color": "rgb(33,45,58)",
+      "--hsf-default-field-textarea__background-color": "rgb(245,248,250)",
+      "--hsf-default-field-textarea__placeholder-color": "rgb(37,51,66)",
+      "--hsf-default-field-textarea__border-color": "rgb(149,148,148)",
+      "--hsf-default-field-textarea__border-width": "1px 1px 1px 1px // have to define this or else cssnano will bork it",
+      "--hsf-default-field-textarea__border-style": "solid",
+      "--hsf-default-field-textarea__border-radius": "3px",
+      "--hsf-default-field-textarea__padding": "10px",
+      "--hsf-default-field-checkbox__padding": "8px",
+      "--hsf-default-field-checkbox__background-color": "rgb(245,248,250)",
+      "--hsf-default-field-checkbox__color": "rgb(33,45,58)",
+      "--hsf-default-field-checkbox__border-color": "rgb(149,148,148)",
+      "--hsf-default-field-checkbox__border-width": "1px 1px 1px 1px // have to define this or else cssnano will bork it",
+      "--hsf-default-field-checkbox__border-style": "solid",
+      "--hsf-default-field-radio__padding": "8px",
+      "--hsf-default-field-radio__background-color": "rgb(245,248,250)",
+      "--hsf-default-field-radio__color": "rgb(33,45,58)",
+      "--hsf-default-field-radio__border-color": "rgb(149,148,148)",
+      "--hsf-default-field-radio__border-width": "1px 1px 1px 1px // have to define this or else cssnano will bork it",
+      "--hsf-default-field-radio__border-style": "solid",
+      "--maroon": "rgb(92,26,26)",
+      "--maroon-light": "rgb(122,46,46)",
+      "--maroon-bg": "rgb(249,245,240)",
+      "--maroon-tint": "rgb(242,235,225)",
+      "--rule": "rgb(221,213,200)",
+      "--text": "rgb(130,87,91)",
+      "--text-soft": "rgb(130,87,91)",
+      "--text-muted": "rgb(130,87,91)",
+      "--accent-underline": "rgb(181,129,58)",
+      "--serif": "inherit",
+      "--sans": "inherit",
+      "--max": "860px"
+    }
+  },
+  "routes": [
+    {
+      "route": "/",
+      "title": "AI Agents for Account Receivables | Daylit",
+      "h1": "Accelerate revenue collection.",
+      "template": "template.home",
+      "file": "src/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            1177,
+            1919
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-home-hero",
+          "tag": "section",
+          "anchor": "section_home-hero",
+          "lines": [
+            1920,
+            2130
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-home-enterprise",
+          "tag": "section",
+          "anchor": "section_home-enterprise",
+          "lines": [
+            2131,
+            2523
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "proof.section-home-product",
+          "tag": "section",
+          "anchor": "section_home-product",
+          "lines": [
+            2524,
+            2845
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-home-why",
+          "tag": "div",
+          "anchor": "section_home-why",
+          "lines": [
+            2846,
+            2925
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "support.section-home-faq",
+          "tag": "div",
+          "anchor": "section_home-faq",
+          "lines": [
+            2926,
+            3109
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-home-insights",
+          "tag": "div",
+          "anchor": "section_home-insights",
+          "lines": [
+            3110,
+            3403
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "content.section-home-dashboard",
+          "tag": "div",
+          "anchor": "section_home-dashboard",
+          "lines": [
+            3404,
+            3409
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "hero.section-cta-banner",
+          "tag": "section",
+          "anchor": "section_cta-banner",
+          "lines": [
+            3410,
+            3436
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "shell.footer-wrap",
+          "tag": "footer",
+          "anchor": "footer-wrap",
+          "lines": [
+            3437,
+            4067
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            4068,
+            4081
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/intelligence",
+      "title": "Daylit: AI Agents for Accounts Receivable Intelligence",
+      "h1": "AI agents that get you paid on time.",
+      "template": "template.intelligence",
+      "file": "src/intelligence/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            586,
+            1328
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.form",
+          "tag": "header",
+          "anchor": "id=\"form\"",
+          "lines": [
+            1329,
+            3412
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "proof.section-logo",
+          "tag": "section",
+          "anchor": "section_logo",
+          "lines": [
+            3413,
+            3560
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            3561,
+            3614
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-impact",
+          "tag": "section",
+          "anchor": "section_impact",
+          "lines": [
+            3615,
+            3687
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.padding-section-wrap",
+          "tag": "div",
+          "anchor": "padding-section-wrap",
+          "lines": [
+            3688,
+            3735
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.big-section",
+          "tag": "div",
+          "anchor": "big-section",
+          "lines": [
+            3736,
+            3801
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "proof.section-solutions-preview",
+          "tag": "section",
+          "anchor": "section_solutions-preview",
+          "lines": [
+            3802,
+            5461
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "proof.section-solutions-preview",
+          "tag": "section",
+          "anchor": "section_solutions-preview",
+          "lines": [
+            5462,
+            7246
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "proof.section-solutions-preview",
+          "tag": "section",
+          "anchor": "section_solutions-preview",
+          "lines": [
+            7247,
+            9290
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "content.section-different",
+          "tag": "section",
+          "anchor": "section_different",
+          "lines": [
+            9291,
+            9428
+          ]
+        },
+        {
+          "idx": 11,
+          "id": "cta.section-cta-dashboard",
+          "tag": "section",
+          "anchor": "section_cta-dashboard",
+          "lines": [
+            9429,
+            9492
+          ]
+        },
+        {
+          "idx": 12,
+          "id": "content.section-why",
+          "tag": "section",
+          "anchor": "section_why",
+          "lines": [
+            9493,
+            9579
+          ]
+        },
+        {
+          "idx": 13,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            9580,
+            9832
+          ]
+        },
+        {
+          "idx": 14,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            9833,
+            10278
+          ]
+        },
+        {
+          "idx": 15,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            10279,
+            10292
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog",
+      "title": "Daylit's Blog | AI Agents for A/R Insights, Tips and Guides",
+      "h1": "Accounts receivable insights, tips and guides",
+      "template": "template.blog",
+      "file": "src/blog/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            586,
+            1329
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.form",
+          "tag": "header",
+          "anchor": "id=\"form\"",
+          "lines": [
+            1330,
+            1359
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "features.section-blog-featured",
+          "tag": "section",
+          "anchor": "section_blog-featured",
+          "lines": [
+            1360,
+            1438
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-blog-feed",
+          "tag": "section",
+          "anchor": "section_blog-feed",
+          "lines": [
+            1439,
+            2573
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2574,
+            3019
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            3020,
+            3033
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/ai-skills",
+      "title": "AI Skills Training | Daylit",
+      "h1": "Build your finance stack. On your terms.",
+      "template": "template.ai-skills",
+      "file": "src/ai-skills/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            585,
+            1327
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.ast-hero",
+          "tag": "section",
+          "anchor": "ast-hero",
+          "lines": [
+            1328,
+            1379
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.ast-feature-section",
+          "tag": "section",
+          "anchor": "id=\"ast-feature-section\"",
+          "lines": [
+            1380,
+            1482
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.ast-grid-section",
+          "tag": "section",
+          "anchor": "id=\"ast-grid-section\"",
+          "lines": [
+            1483,
+            2015
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2016,
+            2460
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2461,
+            2474
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/ai-collections-strategy",
+      "title": "AI Collections Strategy",
+      "h1": "Upgrade your collections strategy for the AI era.",
+      "template": "template.group",
+      "file": "src/ai-collections-strategy/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            34,
+            5855
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            5856,
+            5869
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-studies",
+      "title": "Case Studies | Daylit",
+      "h1": "Real results from teams running collections on autopilot",
+      "template": "template.case-studies",
+      "file": "src/case-studies/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            584,
+            1326
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.cs-hero",
+          "tag": "section",
+          "anchor": "cs-hero",
+          "lines": [
+            1327,
+            1393
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            1394,
+            1447
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.cs-stats",
+          "tag": "section",
+          "anchor": "cs-stats",
+          "lines": [
+            1448,
+            1481
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "proof.case-studies",
+          "tag": "div",
+          "anchor": "id=\"case-studies\"",
+          "lines": [
+            1482,
+            1501
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.cs-cases-grid",
+          "tag": "div",
+          "anchor": "cs-cases-grid",
+          "lines": [
+            1502,
+            1576
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "proof.section-testimonials",
+          "tag": "section",
+          "anchor": "section_testimonials",
+          "lines": [
+            1577,
+            2096
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "content.cs-feat",
+          "tag": "section",
+          "anchor": "cs-feat",
+          "lines": [
+            2097,
+            2371
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2372,
+            2816
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2817,
+            2830
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/our-team-story",
+      "title": "Our Team and Story | Daylit",
+      "h1": "Daylit is on a mission to build the future of accounts receivable",
+      "template": "template.our-team-story",
+      "file": "src/our-team-story/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            586,
+            1329
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.form",
+          "tag": "header",
+          "anchor": "id=\"form\"",
+          "lines": [
+            1330,
+            1444
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "proof.section-logo",
+          "tag": "section",
+          "anchor": "section_logo",
+          "lines": [
+            1445,
+            1592
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            1593,
+            1646
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-why",
+          "tag": "section",
+          "anchor": "section_why",
+          "lines": [
+            1647,
+            1746
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "proof.section-story-cards",
+          "tag": "section",
+          "anchor": "section_story-cards",
+          "lines": [
+            1747,
+            1850
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-timeline",
+          "tag": "section",
+          "anchor": "section_timeline",
+          "lines": [
+            1851,
+            2521
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "content.section-team-feed",
+          "tag": "section",
+          "anchor": "section_team-feed",
+          "lines": [
+            2522,
+            3127
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            3128,
+            3573
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            3574,
+            3587
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/testimonial",
+      "title": "Customer Testimonials | AI agents for A/R",
+      "h1": "What Daylit's customers say",
+      "template": "template.group",
+      "file": "src/testimonial/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            34,
+            2775
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2776,
+            2789
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/referral",
+      "title": "Refer a Business to Daylit | Earn Rewards",
+      "h1": "Refer a business to Daylit and you both earn $1,000",
+      "template": "template.referral",
+      "file": "src/referral/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            586,
+            1329
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.form",
+          "tag": "header",
+          "anchor": "id=\"form\"",
+          "lines": [
+            1330,
+            1441
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "proof.section-logo",
+          "tag": "section",
+          "anchor": "section_logo",
+          "lines": [
+            1442,
+            1589
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            1590,
+            1643
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-different",
+          "tag": "section",
+          "anchor": "section_different",
+          "lines": [
+            1644,
+            2198
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2199,
+            2644
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2645,
+            2658
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/faq",
+      "title": "Frequently Asked Questions | Daylit AI Agents for A/R",
+      "h1": "Frequently asked questions",
+      "template": "template.faq",
+      "file": "src/faq/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            586,
+            1329
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.form",
+          "tag": "header",
+          "anchor": "id=\"form\"",
+          "lines": [
+            1330,
+            1441
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "proof.section-logo",
+          "tag": "section",
+          "anchor": "section_logo",
+          "lines": [
+            1442,
+            1589
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            1590,
+            1644
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.faq-filter-form",
+          "tag": "form",
+          "anchor": "id=\"wf-form-FAQ-Filter-Form\"",
+          "lines": [
+            1645,
+            3679
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            3680,
+            4125
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            4126,
+            4139
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category",
+      "title": "This AI Startup is Giving Away the Playbook to Kill Its Own Category | Daylit",
+      "h1": "This AI Startup is Giving Away the Playbook to Kill Its Own Category",
+      "template": "template.blog-2",
+      "file": "src/blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            622,
+            1365
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1366,
+            1404
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1405,
+            1768
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            1769,
+            1877
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1878,
+            2395
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2396,
+            2409
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/product/fundnow",
+      "title": "Turn Invoices into Cash with Invoice Factoring | Daylit",
+      "h1": "Sell customer invoices with invoice factoring",
+      "template": "template.product",
+      "file": "src/product/fundnow/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            586,
+            1329
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.form",
+          "tag": "header",
+          "anchor": "id=\"form\"",
+          "lines": [
+            1330,
+            1449
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "showcase.section-product-spread",
+          "tag": "section",
+          "anchor": "section_product-spread",
+          "lines": [
+            1450,
+            1470
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "proof.section-logo",
+          "tag": "section",
+          "anchor": "section_logo",
+          "lines": [
+            1471,
+            1618
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            1619,
+            1672
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-why",
+          "tag": "section",
+          "anchor": "section_why",
+          "lines": [
+            1673,
+            1777
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "hero.section-cta-banner",
+          "tag": "section",
+          "anchor": "section_cta-banner",
+          "lines": [
+            1778,
+            1899
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "proof.section-solutions-preview",
+          "tag": "section",
+          "anchor": "section_solutions-preview",
+          "lines": [
+            1900,
+            2423
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "proof.section-testimonials",
+          "tag": "section",
+          "anchor": "section_testimonials",
+          "lines": [
+            2424,
+            2959
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "content.big-section",
+          "tag": "div",
+          "anchor": "big-section",
+          "lines": [
+            2960,
+            3175
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "hero.section-cta-banner",
+          "tag": "section",
+          "anchor": "section_cta-banner",
+          "lines": [
+            3176,
+            3471
+          ]
+        },
+        {
+          "idx": 11,
+          "id": "proof.section-blog-preview",
+          "tag": "section",
+          "anchor": "section_blog-preview",
+          "lines": [
+            3472,
+            3886
+          ]
+        },
+        {
+          "idx": 12,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            3887,
+            4332
+          ]
+        },
+        {
+          "idx": 13,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            4333,
+            4346
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/product/offerterms",
+      "title": "Offer Flexible Payment Terms to Your Customers | Daylit",
+      "h1": "Offer flexible payment terms to customers",
+      "template": "template.product",
+      "file": "src/product/offerterms/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            586,
+            1329
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.form",
+          "tag": "header",
+          "anchor": "id=\"form\"",
+          "lines": [
+            1330,
+            1449
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "showcase.section-product-spread",
+          "tag": "section",
+          "anchor": "section_product-spread",
+          "lines": [
+            1450,
+            1470
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "proof.section-logo",
+          "tag": "section",
+          "anchor": "section_logo",
+          "lines": [
+            1471,
+            1618
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            1619,
+            1672
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-why",
+          "tag": "section",
+          "anchor": "section_why",
+          "lines": [
+            1673,
+            1732
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "hero.section-cta-banner",
+          "tag": "section",
+          "anchor": "section_cta-banner",
+          "lines": [
+            1733,
+            1854
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "proof.section-solutions-preview",
+          "tag": "section",
+          "anchor": "section_solutions-preview",
+          "lines": [
+            1855,
+            2378
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "proof.section-testimonials",
+          "tag": "section",
+          "anchor": "section_testimonials",
+          "lines": [
+            2379,
+            2914
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "content.big-section",
+          "tag": "div",
+          "anchor": "big-section",
+          "lines": [
+            2915,
+            3130
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "hero.section-cta-banner",
+          "tag": "section",
+          "anchor": "section_cta-banner",
+          "lines": [
+            3131,
+            3426
+          ]
+        },
+        {
+          "idx": 11,
+          "id": "proof.section-blog-preview",
+          "tag": "section",
+          "anchor": "section_blog-preview",
+          "lines": [
+            3427,
+            3841
+          ]
+        },
+        {
+          "idx": 12,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            3842,
+            4286
+          ]
+        },
+        {
+          "idx": 13,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            4287,
+            4300
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/product/paylater",
+      "title": "Offer Customers Payment Plans | Daylit",
+      "h1": "Offer customers payment plans",
+      "template": "template.product",
+      "file": "src/product/paylater/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            586,
+            1329
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.form",
+          "tag": "header",
+          "anchor": "id=\"form\"",
+          "lines": [
+            1330,
+            1450
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "showcase.section-product-spread",
+          "tag": "section",
+          "anchor": "section_product-spread",
+          "lines": [
+            1451,
+            1471
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "proof.section-logo",
+          "tag": "section",
+          "anchor": "section_logo",
+          "lines": [
+            1472,
+            1619
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            1620,
+            1673
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-why",
+          "tag": "section",
+          "anchor": "section_why",
+          "lines": [
+            1674,
+            1778
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "hero.section-cta-banner",
+          "tag": "section",
+          "anchor": "section_cta-banner",
+          "lines": [
+            1779,
+            1900
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "proof.section-solutions-preview",
+          "tag": "section",
+          "anchor": "section_solutions-preview",
+          "lines": [
+            1901,
+            2424
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "proof.section-testimonials",
+          "tag": "section",
+          "anchor": "section_testimonials",
+          "lines": [
+            2425,
+            2960
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "content.big-section",
+          "tag": "div",
+          "anchor": "big-section",
+          "lines": [
+            2961,
+            3176
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "hero.section-cta-banner",
+          "tag": "section",
+          "anchor": "section_cta-banner",
+          "lines": [
+            3177,
+            3472
+          ]
+        },
+        {
+          "idx": 11,
+          "id": "proof.section-blog-preview",
+          "tag": "section",
+          "anchor": "section_blog-preview",
+          "lines": [
+            3473,
+            3887
+          ]
+        },
+        {
+          "idx": 12,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            3888,
+            4333
+          ]
+        },
+        {
+          "idx": 13,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            4334,
+            4347
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/product/drawdown",
+      "title": "Working Capital Line of Credit for Smooth Operations | Daylit",
+      "h1": "Working capital line of credit for smooth operations",
+      "template": "template.product",
+      "file": "src/product/drawdown/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            586,
+            1329
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.form",
+          "tag": "header",
+          "anchor": "id=\"form\"",
+          "lines": [
+            1330,
+            1449
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "showcase.section-product-spread",
+          "tag": "section",
+          "anchor": "section_product-spread",
+          "lines": [
+            1450,
+            1470
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "proof.section-logo",
+          "tag": "section",
+          "anchor": "section_logo",
+          "lines": [
+            1471,
+            1618
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            1619,
+            1672
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-why",
+          "tag": "section",
+          "anchor": "section_why",
+          "lines": [
+            1673,
+            1777
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "hero.section-cta-banner",
+          "tag": "section",
+          "anchor": "section_cta-banner",
+          "lines": [
+            1778,
+            1899
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "proof.section-solutions-preview",
+          "tag": "section",
+          "anchor": "section_solutions-preview",
+          "lines": [
+            1900,
+            2423
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "proof.section-testimonials",
+          "tag": "section",
+          "anchor": "section_testimonials",
+          "lines": [
+            2424,
+            2959
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "content.big-section",
+          "tag": "div",
+          "anchor": "big-section",
+          "lines": [
+            2960,
+            3175
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "hero.section-cta-banner",
+          "tag": "section",
+          "anchor": "section_cta-banner",
+          "lines": [
+            3176,
+            3471
+          ]
+        },
+        {
+          "idx": 11,
+          "id": "proof.section-blog-preview",
+          "tag": "section",
+          "anchor": "section_blog-preview",
+          "lines": [
+            3472,
+            3886
+          ]
+        },
+        {
+          "idx": 12,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            3887,
+            4332
+          ]
+        },
+        {
+          "idx": 13,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            4333,
+            4346
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/solution/legal",
+      "title": "AI Agents for Legal A/R",
+      "h1": "Legal bills shouldn't get paid last.",
+      "template": "template.legal",
+      "file": "src/solution/legal/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            586,
+            1329
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.form",
+          "tag": "header",
+          "anchor": "id=\"form\"",
+          "lines": [
+            1330,
+            1449
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "proof.section-logo",
+          "tag": "section",
+          "anchor": "section_logo",
+          "lines": [
+            1450,
+            1597
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            1598,
+            1651
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-why",
+          "tag": "section",
+          "anchor": "section_why",
+          "lines": [
+            1652,
+            1711
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "hero.section-cta-banner",
+          "tag": "section",
+          "anchor": "section_cta-banner",
+          "lines": [
+            1712,
+            1837
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "proof.section-testimonials",
+          "tag": "section",
+          "anchor": "section_testimonials",
+          "lines": [
+            1838,
+            2373
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "content.big-section",
+          "tag": "div",
+          "anchor": "big-section",
+          "lines": [
+            2374,
+            2589
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "hero.section-cta-banner",
+          "tag": "section",
+          "anchor": "section_cta-banner",
+          "lines": [
+            2590,
+            3254
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            3255,
+            3700
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            3701,
+            3714
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/solution/manufacturing",
+      "title": "AI Agents for Manufacturing A/R",
+      "h1": "Your AI agents for Manufacturing.",
+      "template": "template.solution",
+      "file": "src/solution/manufacturing/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            586,
+            1329
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.form",
+          "tag": "header",
+          "anchor": "id=\"form\"",
+          "lines": [
+            1330,
+            1450
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "proof.section-logo",
+          "tag": "section",
+          "anchor": "section_logo",
+          "lines": [
+            1451,
+            1598
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            1599,
+            1652
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-why",
+          "tag": "section",
+          "anchor": "section_why",
+          "lines": [
+            1653,
+            1712
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "hero.section-cta-banner",
+          "tag": "section",
+          "anchor": "section_cta-banner",
+          "lines": [
+            1713,
+            1780
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "proof.section-products-preview",
+          "tag": "section",
+          "anchor": "section_products-preview",
+          "lines": [
+            1781,
+            2328
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "proof.section-testimonials",
+          "tag": "section",
+          "anchor": "section_testimonials",
+          "lines": [
+            2329,
+            2864
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "content.big-section",
+          "tag": "div",
+          "anchor": "big-section",
+          "lines": [
+            2865,
+            3080
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "hero.section-cta-banner",
+          "tag": "section",
+          "anchor": "section_cta-banner",
+          "lines": [
+            3081,
+            3752
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            3753,
+            4198
+          ]
+        },
+        {
+          "idx": 11,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            4199,
+            4212
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/solution/staffing",
+      "title": "AI Agents for Staffing A/R",
+      "h1": "Your AI agents for Staffing A/R",
+      "template": "template.solution",
+      "file": "src/solution/staffing/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            586,
+            1329
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.form",
+          "tag": "header",
+          "anchor": "id=\"form\"",
+          "lines": [
+            1330,
+            1450
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "proof.section-logo",
+          "tag": "section",
+          "anchor": "section_logo",
+          "lines": [
+            1451,
+            1598
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            1599,
+            1652
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-why",
+          "tag": "section",
+          "anchor": "section_why",
+          "lines": [
+            1653,
+            1712
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "hero.section-cta-banner",
+          "tag": "section",
+          "anchor": "section_cta-banner",
+          "lines": [
+            1713,
+            1780
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "proof.section-products-preview",
+          "tag": "section",
+          "anchor": "section_products-preview",
+          "lines": [
+            1781,
+            2328
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "proof.section-testimonials",
+          "tag": "section",
+          "anchor": "section_testimonials",
+          "lines": [
+            2329,
+            2864
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "content.big-section",
+          "tag": "div",
+          "anchor": "big-section",
+          "lines": [
+            2865,
+            3080
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "hero.section-cta-banner",
+          "tag": "section",
+          "anchor": "section_cta-banner",
+          "lines": [
+            3081,
+            3652
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            3653,
+            4098
+          ]
+        },
+        {
+          "idx": 11,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            4099,
+            4112
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/solution/services",
+      "title": "AI Agents for Field Services A/R",
+      "h1": "Your AI agents for Field Services A/R",
+      "template": "template.solution",
+      "file": "src/solution/services/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            586,
+            1329
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.form",
+          "tag": "header",
+          "anchor": "id=\"form\"",
+          "lines": [
+            1330,
+            1450
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "proof.section-logo",
+          "tag": "section",
+          "anchor": "section_logo",
+          "lines": [
+            1451,
+            1598
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            1599,
+            1652
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-why",
+          "tag": "section",
+          "anchor": "section_why",
+          "lines": [
+            1653,
+            1712
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "hero.section-cta-banner",
+          "tag": "section",
+          "anchor": "section_cta-banner",
+          "lines": [
+            1713,
+            1780
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "proof.section-products-preview",
+          "tag": "section",
+          "anchor": "section_products-preview",
+          "lines": [
+            1781,
+            2328
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "proof.section-testimonials",
+          "tag": "section",
+          "anchor": "section_testimonials",
+          "lines": [
+            2329,
+            2864
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "content.big-section",
+          "tag": "div",
+          "anchor": "big-section",
+          "lines": [
+            2865,
+            3080
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "hero.section-cta-banner",
+          "tag": "section",
+          "anchor": "section_cta-banner",
+          "lines": [
+            3081,
+            3722
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            3723,
+            4168
+          ]
+        },
+        {
+          "idx": 11,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            4169,
+            4182
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/learn-more/demo",
+      "title": "Accounts Receivable Software Demo | Daylit AI Agents",
+      "h1": "Unlock massive savings in your finance department with Daylit",
+      "template": "template.demo",
+      "file": "src/learn-more/demo/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.section-demo",
+          "tag": "section",
+          "anchor": "section_demo",
+          "lines": [
+            75,
+            1544
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            1545,
+            1558
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/become-a-partner",
+      "title": "Become a Partner",
+      "h1": "Embedded finance on your platform",
+      "template": "template.group",
+      "file": "src/become-a-partner/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            34,
+            5274
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            5275,
+            5288
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-study/uptime-health-services",
+      "title": "Uptime Health Services: 50% Improvement in AR, same lean team | Daylit",
+      "h1": "Nearly 50% more current AR, without a single new hire.",
+      "template": "template.case-study",
+      "file": "src/case-study/uptime-health-services/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            586,
+            1328
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.csr-hero",
+          "tag": "section",
+          "anchor": "csr-hero",
+          "lines": [
+            1329,
+            1341
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.csr-band",
+          "tag": "section",
+          "anchor": "csr-band",
+          "lines": [
+            1342,
+            1371
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.csr-body",
+          "tag": "section",
+          "anchor": "csr-body",
+          "lines": [
+            1372,
+            1609
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "cta.csr-cta",
+          "tag": "section",
+          "anchor": "csr-cta",
+          "lines": [
+            1610,
+            1657
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1658,
+            2102
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2103,
+            2116
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-study/maintera",
+      "title": "Maintera: ~80% Current AR reached at Maintera | Daylit",
+      "h1": "From zero collections process to 80% current AR.",
+      "template": "template.case-study",
+      "file": "src/case-study/maintera/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            586,
+            1328
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.csr-hero",
+          "tag": "section",
+          "anchor": "csr-hero",
+          "lines": [
+            1329,
+            1342
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.csr-band",
+          "tag": "section",
+          "anchor": "csr-band",
+          "lines": [
+            1343,
+            1372
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.csr-body",
+          "tag": "section",
+          "anchor": "csr-body",
+          "lines": [
+            1373,
+            1585
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "cta.csr-cta",
+          "tag": "section",
+          "anchor": "csr-cta",
+          "lines": [
+            1586,
+            1633
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1634,
+            2078
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2079,
+            2092
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/your-ar-inbox-isnt-slow-its-a-trust-problem",
+      "title": "Your AR Inbox Isn't Slow. It's a Trust Problem. | Daylit",
+      "h1": "Your AR Inbox Isn't Slow. It's a Trust Problem.",
+      "template": "template.blog-2",
+      "file": "src/blog/your-ar-inbox-isnt-slow-its-a-trust-problem/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2073
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2074,
+            2182
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2183,
+            2700
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2701,
+            2714
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/daylit-vs-monk",
+      "title": "Daylit vs. Monk: Collection Automation Compared for Mid-Market Teams | Daylit",
+      "h1": "Daylit vs. Monk: Collection Automation Compared for Mid-Market Teams",
+      "template": "template.blog-2",
+      "file": "src/blog/daylit-vs-monk/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2292
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2293,
+            2401
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2402,
+            2920
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2921,
+            2934
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/daylit-vs-stuut",
+      "title": "Daylit vs. Stuut: AR Automation Compared for Mid-Market Teams | Daylit",
+      "h1": "Daylit vs. Stuut: AR Automation Compared for Mid-Market Teams",
+      "template": "template.blog-2",
+      "file": "src/blog/daylit-vs-stuut/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2283
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2284,
+            2392
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2393,
+            2911
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2912,
+            2925
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/legal/dpa-customer",
+      "title": "DPA | Daylit Working Capital Solutions",
+      "h1": "Daylit data processing agreement (DPA)",
+      "template": "template.legal-2",
+      "file": "src/legal/dpa-customer/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            587,
+            1329
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.main-wrapper",
+          "tag": "main",
+          "anchor": "main-wrapper",
+          "lines": [
+            1330,
+            1484
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1485,
+            1930
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            1931,
+            1944
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/legal/sla-customer",
+      "title": "SLA | Daylit Working Capital Solutions",
+      "h1": "DAYLIT SERVICE LEVEL AGREEMENT",
+      "template": "template.legal-2",
+      "file": "src/legal/sla-customer/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            587,
+            1329
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.main-wrapper",
+          "tag": "main",
+          "anchor": "main-wrapper",
+          "lines": [
+            1330,
+            1501
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1502,
+            1947
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            1948,
+            1961
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/legal/cookie-consent",
+      "title": "Cookie Consent | Daylit Working Capital Solutions",
+      "h1": "Cookie Policy",
+      "template": "template.legal-2",
+      "file": "src/legal/cookie-consent/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            587,
+            1329
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.main-wrapper",
+          "tag": "main",
+          "anchor": "main-wrapper",
+          "lines": [
+            1330,
+            1366
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1367,
+            1812
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            1813,
+            1826
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/legal/privacy-policy",
+      "title": "Privacy Policy | Daylit Working Capital Solutions",
+      "h1": "Privacy Notice",
+      "template": "template.legal-2",
+      "file": "src/legal/privacy-policy/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            587,
+            1329
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.main-wrapper",
+          "tag": "main",
+          "anchor": "main-wrapper",
+          "lines": [
+            1330,
+            1553
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1554,
+            1999
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2000,
+            2013
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/legal/terms-conditions",
+      "title": "Terms & Conditions | Daylit Working Capital Solutions",
+      "h1": "Terms and Conditions",
+      "template": "template.legal-2",
+      "file": "src/legal/terms-conditions/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            587,
+            1329
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.main-wrapper",
+          "tag": "main",
+          "anchor": "main-wrapper",
+          "lines": [
+            1330,
+            1358
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1359,
+            1804
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            1805,
+            1818
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/the-hidden-truth-behind-12-5b-late-payments-and-how-ai-can-solve-it",
+      "title": "The Hidden Truth behind 12.5B Late Payments and How AI Can Solve It. | Daylit",
+      "h1": "The Hidden Truth behind 12.5B Late Payments and How AI Can Solve It.",
+      "template": "template.blog-2",
+      "file": "src/blog/the-hidden-truth-behind-12-5b-late-payments-and-how-ai-can-solve-it/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            622,
+            1365
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1366,
+            1404
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1405,
+            1726
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            1727,
+            1835
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1836,
+            2469
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2470,
+            2483
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/daylit-vs-oddr",
+      "title": "Daylit vs. Oddr: Which One Moves a Law Firm's Collection Cycle Faster? | Daylit",
+      "h1": "Daylit vs. Oddr: Which One Moves a Law Firm's Collection Cycle Faster?",
+      "template": "template.blog-2",
+      "file": "src/blog/daylit-vs-oddr/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2277
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2278,
+            2386
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2387,
+            2905
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2906,
+            2919
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/daylit-vs-tesorio",
+      "title": "Daylit vs. Tesorio: AR Automation Compared for Mid-Market Teams | Daylit",
+      "h1": "Daylit vs. Tesorio: AR Automation Compared for Mid-Market Teams",
+      "template": "template.blog-2",
+      "file": "src/blog/daylit-vs-tesorio/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2245
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2246,
+            2354
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2355,
+            2873
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2874,
+            2887
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/why-the-most-effective-collections-channel-gets-skipped-first",
+      "title": "Why the Most Effective Collections Channel Gets Skipped First (And What to Do About It) | Daylit",
+      "h1": "Why the Most Effective Collections Channel Gets Skipped First (And What to Do About It)",
+      "template": "template.blog-2",
+      "file": "src/blog/why-the-most-effective-collections-channel-gets-skipped-first/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2018
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2019,
+            2127
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2128,
+            2644
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2645,
+            2658
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/daylit-vs-billtrust",
+      "title": "Daylit vs. Billtrust: AR Automation Compared for Mid-Market Teams | Daylit",
+      "h1": "Daylit vs. Billtrust: AR Automation Compared for Mid-Market Teams",
+      "template": "template.blog-2",
+      "file": "src/blog/daylit-vs-billtrust/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2242
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2243,
+            2351
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2352,
+            2870
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2871,
+            2884
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/your-dispute-categories-arent-broken-theyre-not-yours",
+      "title": "Your Dispute Categories Aren’t Broken. They’re Not Yours. | Daylit",
+      "h1": "Your Dispute Categories Aren’t Broken. They’re Not Yours.",
+      "template": "template.blog-2",
+      "file": "src/blog/your-dispute-categories-arent-broken-theyre-not-yours/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2014
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2015,
+            2123
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2124,
+            2641
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2642,
+            2655
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/daylit-vs-highradius",
+      "title": "Daylit vs. HighRadius: AR Automation Compared for Mid-Market Teams | Daylit",
+      "h1": "Daylit vs. HighRadius: AR Automation Compared for Mid-Market Teams",
+      "template": "template.blog-2",
+      "file": "src/blog/daylit-vs-highradius/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2233
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2234,
+            2342
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2343,
+            2861
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2862,
+            2875
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/ai-skills-training/getting-started-ai-agents-ar",
+      "title": "AI Survival Guide Trailer",
+      "h1": "AI Survival Guide Trailer",
+      "template": "template.ai-skills-training",
+      "file": "src/ai-skills-training/getting-started-ai-agents-ar/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            584,
+            1326
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.ast-detail",
+          "tag": "section",
+          "anchor": "ast-detail",
+          "lines": [
+            1327,
+            1780
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1781,
+            2296
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2297,
+            2310
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/ai-skills-training/welcome-to-the-ai-survival-guide",
+      "title": "Welcome to the AI Survival Guide",
+      "h1": "Welcome to the AI Survival Guide",
+      "template": "template.ai-skills-training",
+      "file": "src/ai-skills-training/welcome-to-the-ai-survival-guide/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            584,
+            1326
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.ast-detail",
+          "tag": "section",
+          "anchor": "ast-detail",
+          "lines": [
+            1327,
+            1780
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1781,
+            2296
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2297,
+            2310
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/ai-skills-training/how-to-match-bank-records-to-open-invoices",
+      "title": "AI Skill: How to Match Bank Records to Open Invoices",
+      "h1": "How to Match Bank Records to Open Invoices",
+      "template": "template.ai-skills-training",
+      "file": "src/ai-skills-training/how-to-match-bank-records-to-open-invoices/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            584,
+            1326
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.ast-detail",
+          "tag": "section",
+          "anchor": "ast-detail",
+          "lines": [
+            1327,
+            1823
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1824,
+            2339
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2340,
+            2353
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/ai-skills-training/how-to-validate-invoices-before-they-go-out",
+      "title": "AI Skill: How to Validate Invoices Before They Go Out",
+      "h1": "How to Validate Invoices Before They Go Out",
+      "template": "template.ai-skills-training",
+      "file": "src/ai-skills-training/how-to-validate-invoices-before-they-go-out/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            584,
+            1326
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.ast-detail",
+          "tag": "section",
+          "anchor": "ast-detail",
+          "lines": [
+            1327,
+            1823
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1824,
+            2339
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2340,
+            2353
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/ai-skills-training/how-to-route-dunning-emails-to-right-person",
+      "title": "AI Skill: How to Route Dunning Emails to the Right Person",
+      "h1": "How to Route Dunning Emails to the Right Person",
+      "template": "template.ai-skills-training",
+      "file": "src/ai-skills-training/how-to-route-dunning-emails-to-right-person/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            584,
+            1326
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.ast-detail",
+          "tag": "section",
+          "anchor": "ast-detail",
+          "lines": [
+            1327,
+            1824
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1825,
+            2340
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2341,
+            2354
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-study/clipboard-health",
+      "title": "Clipboard Health: 65% Less time spent on manual collections | Daylit",
+      "h1": "Autonomous collections at marketplace scale.",
+      "template": "template.case-study",
+      "file": "src/case-study/clipboard-health/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            586,
+            1328
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.csr-hero",
+          "tag": "section",
+          "anchor": "csr-hero",
+          "lines": [
+            1329,
+            1342
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.csr-band",
+          "tag": "section",
+          "anchor": "csr-band",
+          "lines": [
+            1343,
+            1372
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.csr-body",
+          "tag": "section",
+          "anchor": "csr-body",
+          "lines": [
+            1373,
+            1587
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "cta.csr-cta",
+          "tag": "section",
+          "anchor": "csr-cta",
+          "lines": [
+            1588,
+            1635
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1636,
+            2080
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2081,
+            2094
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/early-pay-discounts-101-a-simple-playbook",
+      "title": "Early-Pay Discounts 101: A Simple Playbook to Lift Margins | Daylit",
+      "h1": "Early-Pay Discounts 101: A Simple Playbook to Lift Margins",
+      "template": "template.blog-2",
+      "file": "src/blog/early-pay-discounts-101-a-simple-playbook/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            636,
+            1379
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1380,
+            1418
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1419,
+            2194
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2195,
+            2303
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2304,
+            2825
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2826,
+            2839
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/early-pay-savings-calculator-daylit-working-capital",
+      "title": "Early-Pay Savings Calculator by Daylit Working Capital",
+      "h1": "Pay your suppliers early, get the discounts",
+      "template": "template.group",
+      "file": "src/early-pay-savings-calculator-daylit-working-capital/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            35,
+            1634
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            1635,
+            1648
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-chemical-companies-use-daylit-to-unlock-working-capital",
+      "title": "Working Capital Management for Chemical Companies | Daylit",
+      "h1": "Working Capital Management for Chemical Companies",
+      "template": "template.blog-3",
+      "file": "src/blog/how-chemical-companies-use-daylit-to-unlock-working-capital/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            643,
+            1386
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1387,
+            1425
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1426,
+            2216
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "cta.post-solution-cta",
+          "tag": "div",
+          "anchor": "post-solution-cta",
+          "lines": [
+            2217,
+            2222
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2223,
+            2331
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2332,
+            2855
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2856,
+            2869
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/cicis-pizza-customer-story",
+      "title": "Cicis Pizza Working Capital: Robert Lesieur’s Story | Daylit",
+      "h1": "Cicis Pizza Working Capital: Robert Lesieur’s Story",
+      "template": "template.blog-3",
+      "file": "src/blog/cicis-pizza-customer-story/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            636,
+            1379
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1380,
+            1418
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1419,
+            1899
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "cta.post-solution-cta",
+          "tag": "div",
+          "anchor": "post-solution-cta",
+          "lines": [
+            1900,
+            1905
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            1906,
+            2014
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2015,
+            2534
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2535,
+            2548
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/ar-automation-practices-distributors",
+      "title": "Best AR Automation Practices for Wholesale Distributors | Daylit",
+      "h1": "Best AR Automation Practices for Wholesale Distributors",
+      "template": "template.blog-3",
+      "file": "src/blog/ar-automation-practices-distributors/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            1922
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "cta.post-solution-cta",
+          "tag": "div",
+          "anchor": "post-solution-cta",
+          "lines": [
+            1923,
+            1928
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            1929,
+            2037
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2038,
+            2670
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2671,
+            2684
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/ar-automation-software-for-wholesale-distribution-companies-in-2026",
+      "title": "AR Automation Software for Wholesale Distributors | Daylit",
+      "h1": "AR Automation Software for Wholesale Distributors",
+      "template": "template.blog-3",
+      "file": "src/blog/ar-automation-software-for-wholesale-distribution-companies-in-2026/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2138
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "cta.post-solution-cta",
+          "tag": "div",
+          "anchor": "post-solution-cta",
+          "lines": [
+            2139,
+            2144
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2145,
+            2253
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2254,
+            2886
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2887,
+            2900
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/chemical-distributor-working-capital",
+      "title": "Chemical Distributor Working Capital: The Plaza Group | Daylit",
+      "h1": "Chemical Distributor Working Capital: The Plaza Group",
+      "template": "template.blog-3",
+      "file": "src/blog/chemical-distributor-working-capital/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            636,
+            1379
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1380,
+            1418
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1419,
+            2158
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "cta.post-solution-cta",
+          "tag": "div",
+          "anchor": "post-solution-cta",
+          "lines": [
+            2159,
+            2164
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2165,
+            2273
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2274,
+            2797
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2798,
+            2811
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/ai-powered-collections-automation-for-manufacturers",
+      "title": "Accounts Receivable Automation for Manufacturers | Daylit",
+      "h1": "Accounts Receivable Automation for Manufacturers",
+      "template": "template.blog-3",
+      "file": "src/blog/ai-powered-collections-automation-for-manufacturers/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2227
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "cta.post-solution-cta",
+          "tag": "div",
+          "anchor": "post-solution-cta",
+          "lines": [
+            2228,
+            2233
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2234,
+            2342
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2343,
+            2975
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2976,
+            2989
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/best-ai-tools-manufacturing-accounts-receivable",
+      "title": "Best AI Tools for Manufacturing Accounts Receivable in 2026 | Daylit",
+      "h1": "Best AI Tools for Manufacturing Accounts Receivable in 2026",
+      "template": "template.blog-3",
+      "file": "src/blog/best-ai-tools-manufacturing-accounts-receivable/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2501
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "cta.post-solution-cta",
+          "tag": "div",
+          "anchor": "post-solution-cta",
+          "lines": [
+            2502,
+            2507
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2508,
+            2616
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2617,
+            3249
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            3250,
+            3263
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/best-ai-tools-staffing-agency-accounts-receivable-2026",
+      "title": "Accounts Receivable Automation for Staffing Agencies | Daylit",
+      "h1": "Accounts Receivable Automation for Staffing Agencies",
+      "template": "template.blog-3",
+      "file": "src/blog/best-ai-tools-staffing-agency-accounts-receivable-2026/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2273
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "cta.post-solution-cta",
+          "tag": "div",
+          "anchor": "post-solution-cta",
+          "lines": [
+            2274,
+            2279
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2280,
+            2388
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2389,
+            3021
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            3022,
+            3035
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/best-ai-tools-service-company-accounts-receivable-2026",
+      "title": "Best AI Tools for Service Company Accounts Receivable in 2026 | Daylit",
+      "h1": "Best AI Tools for Service Company Accounts Receivable in 2026",
+      "template": "template.blog-3",
+      "file": "src/blog/best-ai-tools-service-company-accounts-receivable-2026/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2392
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "cta.post-solution-cta",
+          "tag": "div",
+          "anchor": "post-solution-cta",
+          "lines": [
+            2393,
+            2398
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2399,
+            2507
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2508,
+            3140
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            3141,
+            3154
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/ai-powered-collections-automation-for-field-services-firms",
+      "title": "Accounts Receivable Automation for Field Services | Daylit",
+      "h1": "Accounts Receivable Automation for Field Services",
+      "template": "template.blog-3",
+      "file": "src/blog/ai-powered-collections-automation-for-field-services-firms/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2073
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "cta.post-solution-cta",
+          "tag": "div",
+          "anchor": "post-solution-cta",
+          "lines": [
+            2074,
+            2079
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2080,
+            2188
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2189,
+            2820
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2821,
+            2834
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/ai-automate-invoice-follow-ups-service-companies",
+      "title": "Automated Payment Reminders for Service Companies | Daylit",
+      "h1": "Automated Payment Reminders for Service Companies",
+      "template": "template.blog-3",
+      "file": "src/blog/ai-automate-invoice-follow-ups-service-companies/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2231
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "cta.post-solution-cta",
+          "tag": "div",
+          "anchor": "post-solution-cta",
+          "lines": [
+            2232,
+            2237
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2238,
+            2346
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2347,
+            2864
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2865,
+            2878
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/slowest-part-of-a-dispute-manual-work",
+      "title": "The Slowest Part of a Dispute Isn't the Customer — It's the Manual Work | Daylit",
+      "h1": "The Slowest Part of a Dispute Isn't the Customer — It's the Manual Work",
+      "template": "template.blog-2",
+      "file": "src/blog/slowest-part-of-a-dispute-manual-work/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            1995
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            1996,
+            2104
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2105,
+            2737
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2738,
+            2751
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/glossary-defining-commonly-used-financial-terms",
+      "title": "Accounts Receivable and Working Capital Glossary | Daylit",
+      "h1": "Accounts Receivable and Working Capital Glossary",
+      "template": "template.blog-2",
+      "file": "src/blog/glossary-defining-commonly-used-financial-terms/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            629,
+            1372
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1373,
+            1411
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1412,
+            2268
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2269,
+            2377
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2378,
+            2903
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2904,
+            2917
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/new-surge-in-accounts-receivable-key-drivers-for-chemical-distributors",
+      "title": "Chemical Distributors: Accounts Receivable and DSO | Daylit",
+      "h1": "Chemical Distributors: Accounts Receivable and DSO",
+      "template": "template.blog-2",
+      "file": "src/blog/new-surge-in-accounts-receivable-key-drivers-for-chemical-distributors/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            636,
+            1379
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1380,
+            1418
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1419,
+            2031
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2032,
+            2140
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2141,
+            2660
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2661,
+            2674
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/mj-highway-customer-story",
+      "title": "Retail Working Capital: MJ Highway’s PayLater Story | Daylit",
+      "h1": "Retail Working Capital: MJ Highway’s PayLater Story",
+      "template": "template.blog-3",
+      "file": "src/blog/mj-highway-customer-story/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            636,
+            1379
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1380,
+            1418
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1419,
+            2043
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "cta.post-solution-cta",
+          "tag": "div",
+          "anchor": "post-solution-cta",
+          "lines": [
+            2044,
+            2049
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2050,
+            2158
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2159,
+            2678
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2679,
+            2692
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-this-cicis-franchise-owner-plans-his-pizza-empire-with-lendica-and-plumpos",
+      "title": "Cicis Franchise Financing with Daylit and PlumPOS | Daylit",
+      "h1": "Cicis Franchise Financing with Daylit and PlumPOS",
+      "template": "template.blog-2",
+      "file": "src/blog/how-this-cicis-franchise-owner-plans-his-pizza-empire-with-lendica-and-plumpos/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            636,
+            1379
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1380,
+            1418
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1419,
+            1763
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            1764,
+            1872
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1873,
+            2391
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2392,
+            2405
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/working-capital-spotlight-chemicals",
+      "title": "Chemical Working Capital Benchmarks: Q2 2024 | Daylit",
+      "h1": "Chemical Working Capital Benchmarks: Q2 2024",
+      "template": "template.blog-2",
+      "file": "src/blog/working-capital-spotlight-chemicals/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            1723
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            1724,
+            1832
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1833,
+            2351
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2352,
+            2365
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/ai-use-cases-accounts-receivable-automation-2026",
+      "title": "Accounts Receivable Automation: AI Use Cases in 2026 | Daylit",
+      "h1": "Accounts Receivable Automation: AI Use Cases in 2026",
+      "template": "template.blog-2",
+      "file": "src/blog/ai-use-cases-accounts-receivable-automation-2026/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2127
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2128,
+            2236
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2237,
+            2869
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2870,
+            2883
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/why-we-built-receivables-intelligence",
+      "title": "Why We Built Accounts Receivable Intelligence | Daylit",
+      "h1": "Why We Built Accounts Receivable Intelligence",
+      "template": "template.blog-2",
+      "file": "src/blog/why-we-built-receivables-intelligence/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            622,
+            1365
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1366,
+            1404
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1405,
+            1803
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            1804,
+            1912
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1913,
+            2546
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2547,
+            2560
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-reduce-dso",
+      "title": "How to Reduce DSO and Improve B2B Cash Flow | Daylit",
+      "h1": "How to Reduce DSO and Improve B2B Cash Flow",
+      "template": "template.blog-2",
+      "file": "src/blog/how-to-reduce-dso/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            1910
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            1911,
+            2019
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2020,
+            2652
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2653,
+            2666
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/q2-24-working-capital-spotlight-chemicals",
+      "title": "Chemical Working Capital: Q2 2024 Report Overview | Daylit",
+      "h1": "Chemical Working Capital: Q2 2024 Report Overview",
+      "template": "template.blog-2",
+      "file": "src/blog/q2-24-working-capital-spotlight-chemicals/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            622,
+            1365
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1366,
+            1404
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1405,
+            1837
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            1838,
+            1946
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1947,
+            2466
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2467,
+            2480
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-this-cicis-franchise-owner-plans-his-pizza-empire-with-daylit",
+      "title": "Cicis Working Capital: Greg Smith’s Expansion Plans | Daylit",
+      "h1": "Cicis Working Capital: Greg Smith’s Expansion Plans",
+      "template": "template.blog-2",
+      "file": "src/blog/how-this-cicis-franchise-owner-plans-his-pizza-empire-with-daylit/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            636,
+            1379
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1380,
+            1418
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1419,
+            1871
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            1872,
+            1980
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1981,
+            2500
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2501,
+            2514
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/the-roi-of-ai-powered-accounts-receivable-automation",
+      "title": "Accounts Receivable Automation ROI: Costs and Value | Daylit",
+      "h1": "Accounts Receivable Automation ROI: Costs and Value",
+      "template": "template.blog-2",
+      "file": "src/blog/the-roi-of-ai-powered-accounts-receivable-automation/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2246
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-gradient-light",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2247,
+            2355
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2356,
+            2988
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.chat-widget",
+          "tag": "div",
+          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "lines": [
+            2989,
+            3002
+          ]
+        }
+      ]
+    }
+  ]
+}

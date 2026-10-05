@@ -1,0 +1,58 @@
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+.apc-post {
+  --maroon: #5c1a1a;
+  --maroon-light: #7a2e2e;
+  --maroon-bg: #f9f5f0;
+  --maroon-tint: #f2ebe1;
+  --rule: #ddd5c8;
+  --text: #2c1f1f;
+  --text-soft: #4a3a3a;
+  --text-muted: #7a6a6a;
+  --accent-underline: #b5813a;
+  --serif: 'Lora', Georgia, serif;
+  --sans: 'Source Sans 3', system-ui, sans-serif;
+  --max: 860px;
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+}
+.apc-post .blog-wrap { max-width: var(--max); margin: 0 auto; padding: 24px 24px 10px; }
+.apc-post .blog-title-repeat {
+  font-family: var(--serif);
+  font-size: clamp(28px, 4vw, 44px);
+  font-weight: 550;
+  line-height: 1.2;
+  color: var(--maroon);
+  margin-bottom: 20px;
+}
+.apc-post .blog-title-underline {
+  width: 60px;
+  height: 4px;
+  background: var(--accent-underline);
+  border-radius: 2px;
+  margin-bottom: 40px;
+}
+.apc-post .toc { background: var(--maroon-tint); border: 1px solid var(--rule); border-left: 4px solid var(--maroon); border-radius: 6px; padding: 28px 32px; margin-bottom: 64px; }
+.apc-post .toc h2 { font-family: var(--sans); font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 14px; }
+.apc-post .toc ol { padding-left: 20px; display: grid; gap: 6px; }
+.apc-post .toc li { font-size: 15px; color: var(--text-soft); }
+.apc-post .toc a { color: var(--maroon); text-decoration: none; font-weight: 500; }
+.apc-post .toc a:hover { text-decoration: underline; }
+.apc-post .blog-section { margin-bottom: 64px; scroll-margin-top: 24px; }
+.apc-post .blog-section h2 {
+  font-family: var(--serif);
+  font-size: clamp(20px, 3vw, 28px);
+  font-weight: 550;
+  line-height: 1.25;
+  color: var(--maroon);
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--rule);
+}
+.apc-post .blog-section p { color: var(--text-soft); margin-bottom: 16px; font-size: 16.5px; }
+.apc-post .blog-section p:last-child { margin-bottom: 0; }
+.apc-post .blog-section p strong { color: var(--text); font-weight: 600; }
+.apc-post .blog-section a { color: var(--maroon); }

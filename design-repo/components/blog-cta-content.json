@@ -1,0 +1,13 @@
+{
+  "id": "blog-cta-content",
+  "name": "blog-cta-content",
+  "occurrences": 48,
+  "composedOf": [
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/your-ar-inbox-isnt-slow-its-a-trust-problem"
+  }
+}

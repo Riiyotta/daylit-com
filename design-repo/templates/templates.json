@@ -1,0 +1,1011 @@
+{
+  "version": "0.1.0",
+  "templates": [
+    {
+      "id": "template.home",
+      "name": "Home",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar-sticky",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.section-home-hero",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-home-enterprise",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-home-product",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-home-why",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "support.section-home-faq",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-home-insights",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-home-dashboard",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.section-cta-banner",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-wrap",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.chat-widget",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.intelligence",
+      "name": "Intelligence",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/intelligence"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar-sticky",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.form",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-logo",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-shine",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-impact",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.padding-section-wrap",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.big-section",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-solutions-preview",
+          "required": true,
+          "repeatable": true,
+          "maxCount": 3
+        },
+        {
+          "section": "content.section-different",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.section-cta-dashboard",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-why",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-shine",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.chat-widget",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.blog",
+      "name": "Blog",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/blog"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar-sticky",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.form",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.section-blog-featured",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-blog-feed",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.chat-widget",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.ai-skills",
+      "name": "Ai skills",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/ai-skills"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar-sticky",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.ast-hero",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "support.ast-feature-section",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.ast-grid-section",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.chat-widget",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.group",
+      "name": "Group",
+      "routeCount": 4,
+      "chrome": "none",
+      "routes": [
+        "/ai-collections-strategy",
+        "/testimonial",
+        "/become-a-partner",
+        "/early-pay-savings-calculator-daylit-working-capital"
+      ],
+      "nodes": [
+        {
+          "section": "hero.page-wrapper",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.chat-widget",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.case-studies",
+      "name": "Case studies",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/case-studies"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar-sticky",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.cs-hero",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-shine",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.cs-stats",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.case-studies",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.cs-cases-grid",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-testimonials",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.cs-feat",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.chat-widget",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.our-team-story",
+      "name": "Our team story",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/our-team-story"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar-sticky",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.form",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-logo",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-shine",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-why",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-story-cards",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-timeline",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-team-feed",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.chat-widget",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.referral",
+      "name": "Referral",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/referral"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar-sticky",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.form",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-logo",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-shine",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-different",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.chat-widget",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.faq",
+      "name": "Faq",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/faq"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar-sticky",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.form",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-logo",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-shine",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "support.faq-filter-form",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.chat-widget",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.blog-2",
+      "name": "Blog pages",
+      "routeCount": 23,
+      "chrome": "full",
+      "routePattern": "/blog/{slug}/",
+      "routes": [
+        "/blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category",
+        "/blog/your-ar-inbox-isnt-slow-its-a-trust-problem",
+        "/blog/daylit-vs-monk",
+        "/blog/daylit-vs-stuut",
+        "/blog/the-hidden-truth-behind-12-5b-late-payments-and-how-ai-can-solve-it"
+      ],
+      "routesTruncated": true,
+      "nodes": [
+        {
+          "section": "shell.navbar-sticky",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.section-blog-header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "support.section-article-blog",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-gradient-light",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.chat-widget",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.product",
+      "name": "Product pages",
+      "routeCount": 4,
+      "chrome": "full",
+      "routes": [
+        "/product/fundnow",
+        "/product/offerterms",
+        "/product/paylater",
+        "/product/drawdown"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar-sticky",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.form",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "showcase.section-product-spread",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-logo",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-shine",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-why",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.section-cta-banner",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-solutions-preview",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-testimonials",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.big-section",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.section-cta-banner",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-blog-preview",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.chat-widget",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.legal",
+      "name": "Legal",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/solution/legal"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar-sticky",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.form",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-logo",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-shine",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-why",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.section-cta-banner",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-testimonials",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.big-section",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.section-cta-banner",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.chat-widget",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.solution",
+      "name": "Solution pages",
+      "routeCount": 3,
+      "chrome": "full",
+      "routes": [
+        "/solution/manufacturing",
+        "/solution/staffing",
+        "/solution/services"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar-sticky",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.form",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-logo",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-shine",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-why",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.section-cta-banner",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-products-preview",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-testimonials",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.big-section",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.section-cta-banner",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.chat-widget",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.demo",
+      "name": "Demo",
+      "routeCount": 1,
+      "chrome": "none",
+      "routes": [
+        "/learn-more/demo"
+      ],
+      "nodes": [
+        {
+          "section": "hero.section-demo",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.chat-widget",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.case-study",
+      "name": "Case study pages",
+      "routeCount": 3,
+      "chrome": "full",
+      "routes": [
+        "/case-study/uptime-health-services",
+        "/case-study/maintera",
+        "/case-study/clipboard-health"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar-sticky",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.csr-hero",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.csr-band",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.csr-body",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.csr-cta",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.chat-widget",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.legal-2",
+      "name": "Legal pages",
+      "routeCount": 5,
+      "chrome": "full",
+      "routes": [
+        "/legal/dpa-customer",
+        "/legal/sla-customer",
+        "/legal/cookie-consent",
+        "/legal/privacy-policy",
+        "/legal/terms-conditions"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar-sticky",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.main-wrapper",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.chat-widget",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.ai-skills-training",
+      "name": "Ai skills training pages",
+      "routeCount": 5,
+      "chrome": "full",
+      "routes": [
+        "/ai-skills-training/getting-started-ai-agents-ar",
+        "/ai-skills-training/welcome-to-the-ai-survival-guide",
+        "/ai-skills-training/how-to-match-bank-records-to-open-invoices",
+        "/ai-skills-training/how-to-validate-invoices-before-they-go-out",
+        "/ai-skills-training/how-to-route-dunning-emails-to-right-person"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar-sticky",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.ast-detail",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.chat-widget",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.blog-3",
+      "name": "Blog pages",
+      "routeCount": 12,
+      "chrome": "full",
+      "routes": [
+        "/blog/how-chemical-companies-use-daylit-to-unlock-working-capital",
+        "/blog/cicis-pizza-customer-story",
+        "/blog/ar-automation-practices-distributors",
+        "/blog/ar-automation-software-for-wholesale-distribution-companies-in-2026",
+        "/blog/chemical-distributor-working-capital",
+        "/blog/ai-powered-collections-automation-for-manufacturers",
+        "/blog/best-ai-tools-manufacturing-accounts-receivable",
+        "/blog/best-ai-tools-staffing-agency-accounts-receivable-2026",
+        "/blog/best-ai-tools-service-company-accounts-receivable-2026",
+        "/blog/ai-powered-collections-automation-for-field-services-firms",
+        "/blog/ai-automate-invoice-follow-ups-service-companies",
+        "/blog/mj-highway-customer-story"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar-sticky",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.section-blog-header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "support.section-article-blog",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.post-solution-cta",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-gradient-light",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.chat-widget",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "blog-feed-wrap",
+  "name": "blog-feed_wrap",
+  "occurrences": 36,
+  "composedOf": [
+    "button",
+    "image",
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog"
+  }
+}

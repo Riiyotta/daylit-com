@@ -1,0 +1,105 @@
+{
+  "id": "hero.page-wrapper",
+  "category": "HERO",
+  "label": "page-wrapper",
+  "tag": "div",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"Pay your suppliers early, get the discounts\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 4,
+    "routes": 4,
+    "measuredFrom": [
+      "src/ai-collections-strategy/index.html:34-5855",
+      "src/become-a-partner/index.html:34-5274",
+      "src/early-pay-savings-calculator-daylit-working-capital/index.html:35-1634",
+      "src/testimonial/index.html:34-2775"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": false,
+        "maxWords": 7
+      },
+      "subheading": {
+        "type": "string",
+        "required": false,
+        "maxWords": 4
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 12,
+        "maxWords": 24
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 12,
+        "maxWords": 1
+      },
+      "items": {
+        "type": "item[]",
+        "required": false,
+        "maxItems": 7,
+        "titleMaxWords": 7,
+        "bodyMaxWords": 34
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 55,
+        "assetRoles": [
+          "avatar",
+          "background",
+          "customer-logo",
+          "hero-image",
+          "icon"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-animation",
+      "css-transition",
+      "none",
+      "scroll-linked"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 8008,
+      "columns": 6
+    },
+    "mobile": {
+      "heightPx": 10161,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "6 columns collapse to a single column"
+    ]
+  },
+  "assetRoles": [
+    "avatar",
+    "background",
+    "customer-logo",
+    "hero-image",
+    "icon"
+  ],
+  "implementedBy": "src/pages/AiCollectionsStrategy.jsx"
+}

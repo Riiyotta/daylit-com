@@ -1,0 +1,10 @@
+{
+  "id": "u-sr-only",
+  "name": "u-sr-only",
+  "occurrences": 67,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/ai-skills"
+  }
+}

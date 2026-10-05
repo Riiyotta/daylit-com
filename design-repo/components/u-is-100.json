@@ -1,0 +1,10 @@
+{
+  "id": "u-is-100",
+  "name": "u-is-100",
+  "occurrences": 22,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

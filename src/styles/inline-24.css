@@ -1,0 +1,28 @@
+
+.logos_marquee-wrap {
+  overflow: hidden;
+}
+
+.logos_logo-list {
+  display: flex;
+  flex-wrap: nowrap;
+  animation: marquee 25s linear infinite;
+  width: max-content;
+  gap: 60px;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@media (max-width: 767px) {
+  .logos_logo-wrap {
+    max-height: 3.5rem !important;
+  }
+
+  .logos_logo-list {
+    gap: 40px !important;
+    animation-duration: 20s !important;
+  }
+}

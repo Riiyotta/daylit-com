@@ -1,0 +1,12 @@
+{
+  "id": "card-testi-feat-logo-wrap",
+  "name": "card-testi-feat_logo-wrap",
+  "occurrences": 55,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/ai-collections-strategy"
+  }
+}

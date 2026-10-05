@@ -1,0 +1,18 @@
+
+.enterprise_card-item {
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.8s ease;
+}
+
+.enterprise_card-item:first-child {
+  opacity: 1;
+  z-index: 2;
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  .enterprise_card-item {
+    transition: none;
+  }
+}

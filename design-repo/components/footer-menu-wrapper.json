@@ -1,0 +1,13 @@
+{
+  "id": "footer-menu-wrapper",
+  "name": "footer_menu-wrapper",
+  "occurrences": 67,
+  "composedOf": [
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

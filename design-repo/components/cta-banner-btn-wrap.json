@@ -1,0 +1,14 @@
+{
+  "id": "cta-banner-btn-wrap",
+  "name": "cta-banner_btn-wrap",
+  "occurrences": 20,
+  "composedOf": [
+    "button",
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

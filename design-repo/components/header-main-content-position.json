@@ -1,0 +1,17 @@
+{
+  "id": "header-main-content-position",
+  "name": "header-main_content-position",
+  "occurrences": 15,
+  "composedOf": [
+    "button",
+    "heading",
+    "image",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

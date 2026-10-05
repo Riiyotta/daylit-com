@@ -1,0 +1,10 @@
+{
+  "id": "faq-main-accordion-spacer",
+  "name": "faq-main-accordion_spacer",
+  "occurrences": 29,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/faq"
+  }
+}

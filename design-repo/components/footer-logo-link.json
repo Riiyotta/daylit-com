@@ -1,0 +1,12 @@
+{
+  "id": "footer-logo-link",
+  "name": "footer_logo-link",
+  "occurrences": 68,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

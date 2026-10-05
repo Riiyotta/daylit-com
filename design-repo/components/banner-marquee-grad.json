@@ -1,0 +1,10 @@
+{
+  "id": "banner-marquee-grad",
+  "name": "banner-marquee-grad",
+  "occurrences": 136,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

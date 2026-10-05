@@ -1,0 +1,82 @@
+
+/* Form container */
+.hbspt-form form {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0px !important;
+  background: transparent;
+  font-family: var(--_typography---text--body-main--font-family);
+}
+
+/* Each field */
+.hbspt-form .hs-form-field {
+  margin-bottom: var(--_dimensions---d-4);
+}
+
+/* Placeholder styles (same as label) */
+.hbspt-form .hs-input::placeholder {
+  font-size: var(--_typography---text--body-small--font-size);
+  color: var(--brand--burgundy--400);
+  opacity: 1; 
+}
+
+/* Inputs */
+.hbspt-form .hs-input {
+  width: 100%;
+  padding: var(--_dimensions---d-3) var(--_dimensions---d-4);
+  border: 1px solid var(--neutral--300);
+  border-radius: var(--_site-sizes---radius--radius-small);
+  font-size: var(--_typography---text--body-small--font-size);
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+/* On focus/click */
+.hbspt-form .hs-input:focus {
+  border-color: var(--brand--burgundy--600);
+  outline: none;
+}
+
+/* Error state */
+.hbspt-form .hs-input.error {
+  background: var(--feedback--red--100);
+  border-color: var(--feedback--red--200) !important;
+}
+
+.hbspt-form .hs-input.error::placeholder {
+  color: var(--feedback--red--400);
+}
+
+/* Error messages */
+.hbspt-form .hs-error-msgs,
+.hbspt-form .hs-error-msg {
+  font-size: var(--_typography---text--body-small--font-size);
+  color: var(--feedback--red--400);
+  margin-top: 4px;
+  list-style: none !important; /* removes bullets */
+  padding-left: 0 !important;
+}
+
+/* Required star */
+.hbspt-form .hs-form-required {
+  color: var(--feedback--red--400);
+  margin-left: 4px;
+}
+
+/* Submit button */
+.hbspt-form .hs-button {
+  width: 100% !important;
+  display: inline-block;
+  padding: var(--_dimensions---d-3) var(--_dimensions---d-2);
+  font-size: var(--_typography---text--body-small--font-size);
+  font-weight: 500;
+  color: var(--neutral--200);
+  background: var(--brand--burgundy--600);
+  border: none;
+  border-radius: var(--_site-sizes---radius--radius-small);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.hbspt-form .hs-button:hover {
+  background: var(--brand--burgundy--600);;
+}

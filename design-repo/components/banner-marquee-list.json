@@ -1,0 +1,13 @@
+{
+  "id": "banner-marquee-list",
+  "name": "banner_marquee-list",
+  "occurrences": 136,
+  "composedOf": [
+    "image",
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

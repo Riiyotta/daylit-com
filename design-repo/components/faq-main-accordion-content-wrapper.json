@@ -1,0 +1,12 @@
+{
+  "id": "faq-main-accordion-content-wrapper",
+  "name": "faq-main-accordion_content-wrapper",
+  "occurrences": 29,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/faq"
+  }
+}

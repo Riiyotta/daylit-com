@@ -1,0 +1,12 @@
+{
+  "id": "swiper-container",
+  "name": "swiper-container",
+  "occurrences": 11,
+  "composedOf": [
+    "button"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/ai-collections-strategy"
+  }
+}

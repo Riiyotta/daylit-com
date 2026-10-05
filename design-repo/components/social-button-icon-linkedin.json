@@ -1,0 +1,12 @@
+{
+  "id": "social-button-icon-linkedin",
+  "name": "social_button-icon-linkedin",
+  "occurrences": 35,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category"
+  }
+}

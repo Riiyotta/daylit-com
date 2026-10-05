@@ -1,0 +1,27 @@
+
+  .swiper-slide.is-testimonials:has([data-card-testi-featured="true"]:not(.w-condition-invisible)) .card-testi_card {
+    display: none;
+  }
+
+  .swiper-wrapper.is-testimonials > .swiper-slide:has(~ .swiper-slide-active) {
+    opacity: 0 !important;
+  }
+
+  .swiper-slide.is-testimonials:has([data-card-testi-featured="true"].w-condition-invisible) .card-test_author-wrap {
+    color: var(--_color-schemes---text--text-primary);
+  }
+
+
+  /* Desktop Only */ 
+  @media (min-width: 992px) { 
+    /* Slides that contain a featured card 
+    .swiper-slide.is-testimonials:has([data-card-testi-featured="true"]:not(.w-condition-invisible)) {
+    width: calc((100% / 3 * 2) - (var(--_site-sizes---margin-gutter--gutter) / 3));
+  }
+    */
+
+    /* Slides that contain a featured card */
+    .swiper-slide.is-testimonials:has([data-card-testi-featured="true"]:not(.w-condition-invisible)) {
+      width: calc( 200% );
+    }
+  }

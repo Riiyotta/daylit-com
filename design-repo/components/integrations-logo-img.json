@@ -1,0 +1,10 @@
+{
+  "id": "integrations-logo-img",
+  "name": "integrations_logo-img",
+  "occurrences": 14,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

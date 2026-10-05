@@ -1,0 +1,10 @@
+{
+  "id": "logo-content-left",
+  "name": "logo_content-left",
+  "occurrences": 14,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

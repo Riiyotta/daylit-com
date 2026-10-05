@@ -1,0 +1,10 @@
+{
+  "id": "filter-checkbox-button",
+  "name": "filter_checkbox-button",
+  "occurrences": 39,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog"
+  }
+}

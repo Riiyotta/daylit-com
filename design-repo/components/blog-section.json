@@ -1,0 +1,13 @@
+{
+  "id": "blog-section",
+  "name": "blog-section",
+  "occurrences": 187,
+  "composedOf": [
+    "heading",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/your-ar-inbox-isnt-slow-its-a-trust-problem"
+  }
+}

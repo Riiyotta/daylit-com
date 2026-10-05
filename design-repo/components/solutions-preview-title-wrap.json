@@ -1,0 +1,12 @@
+{
+  "id": "solutions-preview-title-wrap",
+  "name": "solutions-preview_title-wrap",
+  "occurrences": 13,
+  "composedOf": [
+    "heading"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

@@ -1,0 +1,9 @@
+
+  .wf-design-mode [data-design-mode='wrap'] {
+    display: flex;
+    flex-flow: wrap;
+  }
+  .wf-design-mode [data-design-mode='show'] {
+    display: flex !important;
+  }
+

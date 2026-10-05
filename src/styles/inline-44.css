@@ -1,0 +1,11 @@
+
+
+code {
+	background: var(--_color-schemes---button--primary--btn-primary-background);
+  color: white;
+  padding: 0.5rem 0.75rem;
+  font-family: inherit;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+}

@@ -1,0 +1,47 @@
+{
+  "id": "light",
+  "mode": "light",
+  "$description": "The only theme measured (the page as served). Every semantic token resolves to a real foundation value.",
+  "resolves": {
+    "surface.default": "rgb(250,255,167)",
+    "surface.alt": "rgb(255,255,255)",
+    "surface.inverse": "rgb(170,164,159)",
+    "surface.accent": "rgb(250,255,167)",
+    "text.primary": "rgb(77,21,32)",
+    "text.secondary": "rgb(130,87,91)",
+    "text.inverse": "rgb(251,249,246)",
+    "text.accent": "rgb(77,21,32)",
+    "border.default": "rgb(242,238,231)",
+    "accent.primary": "rgb(77,21,32)",
+    "typography.display": {
+      "fontFamily": "Tt Commons Pro Variable",
+      "fontSize": "56px",
+      "fontWeight": "500",
+      "lineHeight": "64.4px"
+    },
+    "typography.heading": {
+      "fontFamily": "Tt Commons Pro Variable",
+      "fontSize": "20px",
+      "fontWeight": "500",
+      "lineHeight": "28px"
+    },
+    "typography.body": {
+      "fontFamily": "Tt Commons Pro Variable",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "23.94px"
+    },
+    "typography.label": {
+      "fontFamily": "Tt Commons Pro Variable",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "lineHeight": "23.94px"
+    },
+    "radius.control": "6px",
+    "radius.surface": "1.85px",
+    "radius.pill": "1440px",
+    "elevation.default": "rgba(0, 0, 0, 0.1) 0px 4px 20px 0px",
+    "motion.duration.default": "0.2s",
+    "motion.easing.default": "ease"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "navbar-panel-wrap",
+  "name": "navbar_panel-wrap",
+  "occurrences": 272,
+  "composedOf": [
+    "image",
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "faq-main-accordion-top-container",
+  "name": "faq-main-accordion_top-container",
+  "occurrences": 29,
+  "composedOf": [
+    "heading",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/faq"
+  }
+}

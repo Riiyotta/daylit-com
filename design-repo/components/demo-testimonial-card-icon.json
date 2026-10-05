@@ -1,0 +1,12 @@
+{
+  "id": "demo-testimonial-card-icon",
+  "name": "demo_testimonial_card-icon",
+  "occurrences": 15,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/learn-more/demo"
+  }
+}

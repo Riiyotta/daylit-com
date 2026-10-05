@@ -1,0 +1,12 @@
+{
+  "id": "faq-main-accordion-icon-svg",
+  "name": "faq-main-accordion_icon-svg",
+  "occurrences": 58,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/faq"
+  }
+}

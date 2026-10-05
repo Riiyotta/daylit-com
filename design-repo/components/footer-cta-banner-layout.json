@@ -1,0 +1,16 @@
+{
+  "id": "footer-cta-banner-layout",
+  "name": "footer_cta-banner_layout",
+  "occurrences": 64,
+  "composedOf": [
+    "embed",
+    "form",
+    "heading",
+    "input",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

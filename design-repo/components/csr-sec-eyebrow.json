@@ -1,0 +1,10 @@
+{
+  "id": "csr-sec-eyebrow",
+  "name": "csr-sec-eyebrow",
+  "occurrences": 15,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/case-study/uptime-health-services"
+  }
+}

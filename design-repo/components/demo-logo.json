@@ -1,0 +1,12 @@
+{
+  "id": "demo-logo",
+  "name": "demo_logo",
+  "occurrences": 50,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/learn-more/demo"
+  }
+}

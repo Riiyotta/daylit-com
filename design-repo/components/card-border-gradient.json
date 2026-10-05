@@ -1,0 +1,10 @@
+{
+  "id": "card-border-gradient",
+  "name": "card-border-gradient",
+  "occurrences": 400,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

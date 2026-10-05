@@ -1,0 +1,15 @@
+{
+  "id": "header-main-text-wrap",
+  "name": "header-main_text-wrap",
+  "occurrences": 17,
+  "composedOf": [
+    "button",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

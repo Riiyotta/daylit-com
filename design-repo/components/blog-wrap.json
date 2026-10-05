@@ -1,0 +1,15 @@
+{
+  "id": "blog-wrap",
+  "name": "blog-wrap",
+  "occurrences": 53,
+  "composedOf": [
+    "heading",
+    "link",
+    "list",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/your-ar-inbox-isnt-slow-its-a-trust-problem"
+  }
+}

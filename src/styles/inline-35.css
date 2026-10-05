@@ -1,0 +1,6 @@
+
+.cs-feat-actions .button_main_wrap{min-height:52px;display:flex;align-items:center;padding-left:12px;padding-right:8px;}
+@media screen and (max-width:767px){
+  .cs-feat-actions .button_main_wrap{width:100%;padding-left:16px;padding-right:8px;}
+  .cs-feat-actions .button_main_wrap .button_main_content-wrap{width:100%;flex-direction:row;justify-content:space-between;align-items:center;}
+}

@@ -1,0 +1,69 @@
+{
+  "id": "cta.csr-cta",
+  "category": "CTA",
+  "label": "csr-cta",
+  "tag": "section",
+  "purpose": "Converts: prompts a single clear next action. Example headline: \"See how finance teams stay close to cash flow.\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 3,
+    "routes": 3,
+    "measuredFrom": [
+      "src/case-study/clipboard-health/index.html:1588-1635",
+      "src/case-study/maintera/index.html:1586-1633",
+      "src/case-study/uptime-health-services/index.html:1610-1657"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 9
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 2,
+        "maxWords": 19
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 2,
+        "maxWords": 4
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 731,
+      "columns": 2
+    },
+    "mobile": {
+      "heightPx": 632,
+      "columns": 2,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [],
+  "implementedBy": "src/sections/CsrCta.jsx"
+}

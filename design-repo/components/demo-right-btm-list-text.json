@@ -1,0 +1,10 @@
+{
+  "id": "demo-right-btm-list-text",
+  "name": "demo-right-btm-list-text",
+  "occurrences": 10,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/learn-more/demo"
+  }
+}

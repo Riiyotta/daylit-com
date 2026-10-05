@@ -1,0 +1,17 @@
+{
+  "id": "solutions-preview-layout",
+  "name": "solutions-preview_layout",
+  "occurrences": 13,
+  "composedOf": [
+    "button",
+    "heading",
+    "image",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "section-header-main",
+  "name": "section_header-main",
+  "occurrences": 17,
+  "composedOf": [
+    "button",
+    "heading",
+    "image",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

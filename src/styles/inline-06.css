@@ -1,0 +1,22 @@
+
+  /* Inherit slider dot colors */
+  .w-slider-dot {
+    background-color: var(--color-scheme-1--text);
+    opacity: 0.20;
+  }
+
+  .w-slider-dot.w-active {
+    background-color: var(--color-scheme-1--text);
+    opacity: 1;
+  }
+
+  /* Override .w-slider-nav-invert styles */
+  .w-slider-nav-invert .w-slider-dot {
+    background-color: var(--color-scheme-1--text) !important;
+    opacity: 0.20 !important;
+  }
+
+  .w-slider-nav-invert .w-slider-dot.w-active {
+    background-color: var(--color-scheme-1--text) !important;
+    opacity: 1 !important;
+  }

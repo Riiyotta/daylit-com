@@ -1,0 +1,12 @@
+{
+  "id": "card-icon-wrap",
+  "name": "card-icon-wrap",
+  "occurrences": 78,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

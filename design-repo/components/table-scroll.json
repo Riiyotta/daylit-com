@@ -1,0 +1,12 @@
+{
+  "id": "table-scroll",
+  "name": "table-scroll",
+  "occurrences": 29,
+  "composedOf": [
+    "table"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/ar-automation-software-for-wholesale-distribution-companies-in-2026"
+  }
+}

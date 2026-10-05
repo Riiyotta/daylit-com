@@ -1,0 +1,12 @@
+{
+  "id": "footer-link-list",
+  "name": "footer_link-list",
+  "occurrences": 404,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "blog-preview-card-content-wrap",
+  "name": "blog-preview_card_content-wrap",
+  "occurrences": 25,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/testimonial"
+  }
+}

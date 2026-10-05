@@ -1,0 +1,101 @@
+{
+  "id": "support.section-article-blog",
+  "category": "SUPPORT",
+  "label": "section_article-blog",
+  "tag": "article",
+  "purpose": "Answers questions or collects a message. Example headline: \"TABLE OF CONTENTS\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 35,
+    "routes": 35,
+    "measuredFrom": [
+      "src/blog/ai-automate-invoice-follow-ups-service-companies/index.html:1398-2231",
+      "src/blog/ai-powered-collections-automation-for-field-services-firms/index.html:1398-2073",
+      "src/blog/ai-powered-collections-automation-for-manufacturers/index.html:1398-2227",
+      "src/blog/ai-use-cases-accounts-receivable-automation-2026/index.html:1398-2127",
+      "src/blog/ar-automation-practices-distributors/index.html:1398-1922"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": false,
+        "maxWords": 9
+      },
+      "subheading": {
+        "type": "string",
+        "required": false,
+        "maxWords": 13
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 30,
+        "maxWords": 90
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 9,
+        "maxWords": 3
+      },
+      "items": {
+        "type": "item[]",
+        "required": false,
+        "maxItems": 24,
+        "titleMaxWords": 31,
+        "bodyMaxWords": 88
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 5,
+        "assetRoles": [
+          "avatar",
+          "content-image",
+          "logo"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none",
+      "scroll-linked"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 6863,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 10615,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "grows taller on mobile (content stacks)"
+    ]
+  },
+  "assetRoles": [
+    "avatar",
+    "content-image",
+    "logo"
+  ],
+  "implementedBy": "src/pages/BlogThisAiStartup.jsx"
+}

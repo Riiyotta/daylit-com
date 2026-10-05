@@ -1,0 +1,12 @@
+{
+  "id": "actions",
+  "name": "actions",
+  "occurrences": 101,
+  "composedOf": [
+    "input"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

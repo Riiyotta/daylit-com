@@ -1,0 +1,12 @@
+{
+  "id": "nav-banner-close",
+  "name": "nav_banner-close",
+  "occurrences": 136,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

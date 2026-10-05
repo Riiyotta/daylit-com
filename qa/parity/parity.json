@@ -1,0 +1,475 @@
+{
+  "gate": 0.8,
+  "average": 0.993,
+  "rows": [
+    {
+      "route": "/",
+      "reference": "original crawl screenshot",
+      "sections": 10,
+      "compared": 10,
+      "sectionsInClone": 10,
+      "mirrorPageHeight": 9047,
+      "clonePageHeight": 9047,
+      "score": 0.996,
+      "below": [],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "NavbarSticky",
+          "mirrorHeight": 117,
+          "cloneHeight": 117,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "component": "AccelerateRevenueCollection",
+          "mirrorHeight": 1220,
+          "cloneHeight": 1220,
+          "pixelMatch": 0.976,
+          "score": 0.976
+        },
+        {
+          "idx": 2,
+          "component": "Section",
+          "mirrorHeight": 596,
+          "cloneHeight": 596,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "component": "EnterpriseGradeOnboardedIn",
+          "mirrorHeight": 2557,
+          "cloneHeight": 2557,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "component": "AccountsReceivableJustGot",
+          "mirrorHeight": 1222,
+          "cloneHeight": 1222,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "component": "YouVeGotQuestions",
+          "mirrorHeight": 756,
+          "cloneHeight": 756,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 6,
+          "component": "DiscoverHowDaylitS",
+          "mirrorHeight": 1073,
+          "cloneHeight": 1073,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 7,
+          "component": "Div",
+          "mirrorHeight": 513,
+          "cloneHeight": 513,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 8,
+          "component": "BookADemoToday",
+          "mirrorHeight": 359,
+          "cloneHeight": 359,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 9,
+          "component": "FooterWrap",
+          "mirrorHeight": 573,
+          "cloneHeight": 573,
+          "pixelMatch": 0.99,
+          "score": 0.99
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "/product/fundnow",
+      "reference": "original crawl screenshot",
+      "sections": 17,
+      "compared": 17,
+      "sectionsInClone": 17,
+      "mirrorPageHeight": 12109,
+      "clonePageHeight": 12109,
+      "score": 0.99,
+      "below": [],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "NavbarSticky12",
+          "mirrorHeight": 117,
+          "cloneHeight": 117,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "component": "Form7",
+          "mirrorHeight": 625,
+          "cloneHeight": 625,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "component": "Section5",
+          "mirrorHeight": 682,
+          "cloneHeight": 682,
+          "pixelMatch": 0.938,
+          "score": 0.938
+        },
+        {
+          "idx": 3,
+          "component": "Section2",
+          "mirrorHeight": 300,
+          "cloneHeight": 300,
+          "pixelMatch": 0.963,
+          "score": 0.963
+        },
+        {
+          "idx": 4,
+          "component": "WLayoutVflex",
+          "mirrorHeight": 296,
+          "cloneHeight": 296,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "component": "BgSurface7",
+          "mirrorHeight": 761,
+          "cloneHeight": 761,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 6,
+          "component": "WantToSeeHow",
+          "mirrorHeight": 276,
+          "cloneHeight": 276,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 7,
+          "component": "WVariant0a13d40172e0",
+          "mirrorHeight": 224,
+          "cloneHeight": 224,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 8,
+          "component": "HowSellingCustomerInvoices",
+          "mirrorHeight": 1006,
+          "cloneHeight": 1006,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 9,
+          "component": "BgSurface6",
+          "mirrorHeight": 825,
+          "cloneHeight": 825,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 10,
+          "component": "BgSurface8",
+          "mirrorHeight": 981,
+          "cloneHeight": 981,
+          "pixelMatch": 0.966,
+          "score": 0.966
+        },
+        {
+          "idx": 11,
+          "component": "BigSection2",
+          "mirrorHeight": 904,
+          "cloneHeight": 904,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 12,
+          "component": "StillHaveQuestions",
+          "mirrorHeight": 296,
+          "cloneHeight": 296,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 13,
+          "component": "LatestInsightsAboutAccounts",
+          "mirrorHeight": 1780,
+          "cloneHeight": 1780,
+          "pixelMatch": 0.996,
+          "score": 0.996
+        },
+        {
+          "idx": 14,
+          "component": "WLayoutVflex",
+          "mirrorHeight": 296,
+          "cloneHeight": 296,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 15,
+          "component": "UTexture2",
+          "mirrorHeight": 1056,
+          "cloneHeight": 1056,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 16,
+          "component": "FooterComponent8",
+          "mirrorHeight": 888,
+          "cloneHeight": 888,
+          "pixelMatch": 0.98,
+          "score": 0.98
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "/blog/your-ar-inbox-isnt-slow-its-a-trust-problem",
+      "reference": "original crawl screenshot",
+      "sections": 5,
+      "compared": 5,
+      "sectionsInClone": 5,
+      "mirrorPageHeight": 9848,
+      "clonePageHeight": 10301,
+      "score": 0.992,
+      "below": [],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "NavbarSticky20",
+          "mirrorHeight": 117,
+          "cloneHeight": 117,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "component": "Header3",
+          "mirrorHeight": 828,
+          "cloneHeight": 828,
+          "pixelMatch": 0.998,
+          "score": 0.998
+        },
+        {
+          "idx": 2,
+          "component": "LetAIAnswerThe",
+          "mirrorHeight": 6863,
+          "cloneHeight": 7316,
+          "pixelMatch": 0.992,
+          "score": 0.992
+        },
+        {
+          "idx": 3,
+          "component": "YouMightAlsoLike2",
+          "mirrorHeight": 972,
+          "cloneHeight": 972,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "component": "FooterComponent",
+          "mirrorHeight": 888,
+          "cloneHeight": 888,
+          "pixelMatch": 0.98,
+          "score": 0.98
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "/blog/why-the-most-effective-collections-channel-gets-skipped-first",
+      "reference": "original crawl screenshot",
+      "sections": 5,
+      "compared": 5,
+      "sectionsInClone": 5,
+      "mirrorPageHeight": 9284,
+      "clonePageHeight": 9737,
+      "score": 0.992,
+      "below": [],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "NavbarSticky20",
+          "mirrorHeight": 117,
+          "cloneHeight": 117,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "component": "Header9",
+          "mirrorHeight": 828,
+          "cloneHeight": 828,
+          "pixelMatch": 0.998,
+          "score": 0.998
+        },
+        {
+          "idx": 2,
+          "component": "TableOfContents",
+          "mirrorHeight": 6299,
+          "cloneHeight": 6752,
+          "pixelMatch": 0.992,
+          "score": 0.992
+        },
+        {
+          "idx": 3,
+          "component": "YouMightAlsoLike",
+          "mirrorHeight": 972,
+          "cloneHeight": 972,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "component": "FooterComponent",
+          "mirrorHeight": 888,
+          "cloneHeight": 888,
+          "pixelMatch": 0.98,
+          "score": 0.98
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "/blog/how-chemical-companies-use-daylit-to-unlock-working-capital",
+      "reference": "original crawl screenshot",
+      "sections": 6,
+      "compared": 6,
+      "sectionsInClone": 6,
+      "mirrorPageHeight": 7975,
+      "clonePageHeight": 7975,
+      "score": 0.993,
+      "below": [],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "NavbarSticky20",
+          "mirrorHeight": 117,
+          "cloneHeight": 117,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "component": "Header14",
+          "mirrorHeight": 828,
+          "cloneHeight": 828,
+          "pixelMatch": 0.998,
+          "score": 0.998
+        },
+        {
+          "idx": 2,
+          "component": "ExecutiveSummary",
+          "mirrorHeight": 4776,
+          "cloneHeight": 4776,
+          "pixelMatch": 0.992,
+          "score": 0.992
+        },
+        {
+          "idx": 3,
+          "component": "PostSolutionCta",
+          "mirrorHeight": 158,
+          "cloneHeight": 158,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "component": "YouMightAlsoLike",
+          "mirrorHeight": 972,
+          "cloneHeight": 972,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "component": "FooterComponent",
+          "mirrorHeight": 888,
+          "cloneHeight": 888,
+          "pixelMatch": 0.98,
+          "score": 0.98
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "/blog/slowest-part-of-a-dispute-manual-work",
+      "reference": "original crawl screenshot",
+      "sections": 5,
+      "compared": 5,
+      "sectionsInClone": 5,
+      "mirrorPageHeight": 9818,
+      "clonePageHeight": 10271,
+      "score": 0.992,
+      "below": [],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "NavbarSticky20",
+          "mirrorHeight": 117,
+          "cloneHeight": 117,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "component": "Header25",
+          "mirrorHeight": 828,
+          "cloneHeight": 828,
+          "pixelMatch": 0.998,
+          "score": 0.998
+        },
+        {
+          "idx": 2,
+          "component": "TableOfContents11",
+          "mirrorHeight": 6833,
+          "cloneHeight": 7286,
+          "pixelMatch": 0.992,
+          "score": 0.992
+        },
+        {
+          "idx": 3,
+          "component": "YouMightAlsoLike",
+          "mirrorHeight": 972,
+          "cloneHeight": 972,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "component": "FooterComponent",
+          "mirrorHeight": 888,
+          "cloneHeight": 888,
+          "pixelMatch": 0.98,
+          "score": 0.98
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "pass": true
+}

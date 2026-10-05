@@ -1,0 +1,3812 @@
+{
+  "generatedBy": "website-builder lib/clone.mjs",
+  "source": "https://www.daylit.com/?dl=anon_q5vd15p4muv2itl7--force",
+  "routes": [
+    {
+      "route": "/",
+      "page": "src/pages/HomePage.jsx",
+      "sections": 10
+    },
+    {
+      "route": "/intelligence",
+      "page": "src/pages/Intelligence.jsx",
+      "sections": 16
+    },
+    {
+      "route": "/blog",
+      "page": "src/pages/Blog.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/ai-skills",
+      "page": "src/pages/AiSkills.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/ai-collections-strategy",
+      "page": "src/pages/AiCollectionsStrategy.jsx",
+      "sections": 12
+    },
+    {
+      "route": "/case-studies",
+      "page": "src/pages/CaseStudiesPage.jsx",
+      "sections": 9
+    },
+    {
+      "route": "/our-team-story",
+      "page": "src/pages/OurTeamStory.jsx",
+      "sections": 10
+    },
+    {
+      "route": "/testimonial",
+      "page": "src/pages/Testimonial.jsx",
+      "sections": 9
+    },
+    {
+      "route": "/referral",
+      "page": "src/pages/Referral.jsx",
+      "sections": 9
+    },
+    {
+      "route": "/faq",
+      "page": "src/pages/Faq.jsx",
+      "sections": 8
+    },
+    {
+      "route": "/blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category",
+      "page": "src/pages/BlogThisAiStartup.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/product/fundnow",
+      "page": "src/pages/ProductFundnow.jsx",
+      "sections": 17
+    },
+    {
+      "route": "/product/offerterms",
+      "page": "src/pages/ProductOfferterms.jsx",
+      "sections": 17
+    },
+    {
+      "route": "/product/paylater",
+      "page": "src/pages/ProductPaylater.jsx",
+      "sections": 17
+    },
+    {
+      "route": "/product/drawdown",
+      "page": "src/pages/ProductDrawdown.jsx",
+      "sections": 17
+    },
+    {
+      "route": "/solution/legal",
+      "page": "src/pages/SolutionLegal.jsx",
+      "sections": 14
+    },
+    {
+      "route": "/solution/manufacturing",
+      "page": "src/pages/SolutionManufacturing.jsx",
+      "sections": 16
+    },
+    {
+      "route": "/solution/staffing",
+      "page": "src/pages/SolutionStaffing.jsx",
+      "sections": 16
+    },
+    {
+      "route": "/solution/services",
+      "page": "src/pages/SolutionServices.jsx",
+      "sections": 16
+    },
+    {
+      "route": "/learn-more/demo",
+      "page": "src/pages/LearnMoreDemo.jsx",
+      "sections": 2
+    },
+    {
+      "route": "/become-a-partner",
+      "page": "src/pages/BecomeAPartner.jsx",
+      "sections": 11
+    },
+    {
+      "route": "/case-study/uptime-health-services",
+      "page": "src/pages/CaseStudyUptimeHealth.jsx",
+      "sections": 6
+    },
+    {
+      "route": "/case-study/maintera",
+      "page": "src/pages/CaseStudyMaintera.jsx",
+      "sections": 6
+    },
+    {
+      "route": "/blog/your-ar-inbox-isnt-slow-its-a-trust-problem",
+      "page": "src/pages/BlogYourArInbox.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/blog/daylit-vs-monk",
+      "page": "src/pages/BlogDaylitVsMonk.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/blog/daylit-vs-stuut",
+      "page": "src/pages/BlogDaylitVsStuut.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/legal/dpa-customer",
+      "page": "src/pages/LegalDpaCustomer.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/legal/sla-customer",
+      "page": "src/pages/LegalSlaCustomer.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/legal/cookie-consent",
+      "page": "src/pages/LegalCookieConsent.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/legal/privacy-policy",
+      "page": "src/pages/LegalPrivacyPolicy.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/legal/terms-conditions",
+      "page": "src/pages/LegalTermsConditions.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/blog/the-hidden-truth-behind-12-5b-late-payments-and-how-ai-can-solve-it",
+      "page": "src/pages/BlogTheHiddenTruth.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/blog/daylit-vs-oddr",
+      "page": "src/pages/BlogDaylitVsOddr.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/blog/daylit-vs-tesorio",
+      "page": "src/pages/BlogDaylitVsTesorio.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/blog/why-the-most-effective-collections-channel-gets-skipped-first",
+      "page": "src/pages/BlogWhyTheMost.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/blog/daylit-vs-billtrust",
+      "page": "src/pages/BlogDaylitVsBilltrust.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/blog/your-dispute-categories-arent-broken-theyre-not-yours",
+      "page": "src/pages/BlogYourDisputeCategories.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/blog/daylit-vs-highradius",
+      "page": "src/pages/BlogDaylitVsHighradius.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/ai-skills-training/getting-started-ai-agents-ar",
+      "page": "src/pages/AiSkillsTrainingGetting.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/ai-skills-training/welcome-to-the-ai-survival-guide",
+      "page": "src/pages/AiSkillsTrainingWelcome.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/ai-skills-training/how-to-match-bank-records-to-open-invoices",
+      "page": "src/pages/AiSkillsTrainingHow.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/ai-skills-training/how-to-validate-invoices-before-they-go-out",
+      "page": "src/pages/AiSkillsTrainingHowPage.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/ai-skills-training/how-to-route-dunning-emails-to-right-person",
+      "page": "src/pages/AiSkillsTrainingHowPage2.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/case-study/clipboard-health",
+      "page": "src/pages/CaseStudyClipboardHealth.jsx",
+      "sections": 6
+    },
+    {
+      "route": "/blog/early-pay-discounts-101-a-simple-playbook",
+      "page": "src/pages/BlogEarlyPayDiscounts.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/early-pay-savings-calculator-daylit-working-capital",
+      "page": "src/pages/EarlyPaySavingsCalculator.jsx",
+      "sections": 3
+    },
+    {
+      "route": "/blog/how-chemical-companies-use-daylit-to-unlock-working-capital",
+      "page": "src/pages/BlogHowChemicalCompanies.jsx",
+      "sections": 6
+    },
+    {
+      "route": "/blog/cicis-pizza-customer-story",
+      "page": "src/pages/BlogCicisPizzaCustomer.jsx",
+      "sections": 6
+    },
+    {
+      "route": "/blog/ar-automation-practices-distributors",
+      "page": "src/pages/BlogArAutomationPractices.jsx",
+      "sections": 6
+    },
+    {
+      "route": "/blog/ar-automation-software-for-wholesale-distribution-companies-in-2026",
+      "page": "src/pages/BlogArAutomationSoftware.jsx",
+      "sections": 6
+    },
+    {
+      "route": "/blog/chemical-distributor-working-capital",
+      "page": "src/pages/BlogChemicalDistributorWorking.jsx",
+      "sections": 6
+    },
+    {
+      "route": "/blog/ai-powered-collections-automation-for-manufacturers",
+      "page": "src/pages/BlogAiPoweredCollections.jsx",
+      "sections": 6
+    },
+    {
+      "route": "/blog/best-ai-tools-manufacturing-accounts-receivable",
+      "page": "src/pages/BlogBestAiTools.jsx",
+      "sections": 6
+    },
+    {
+      "route": "/blog/best-ai-tools-staffing-agency-accounts-receivable-2026",
+      "page": "src/pages/BlogBestAiToolsPage.jsx",
+      "sections": 6
+    },
+    {
+      "route": "/blog/best-ai-tools-service-company-accounts-receivable-2026",
+      "page": "src/pages/BlogBestAiToolsPage2.jsx",
+      "sections": 6
+    },
+    {
+      "route": "/blog/ai-powered-collections-automation-for-field-services-firms",
+      "page": "src/pages/BlogAiPoweredCollectionsPage.jsx",
+      "sections": 6
+    },
+    {
+      "route": "/blog/ai-automate-invoice-follow-ups-service-companies",
+      "page": "src/pages/BlogAiAutomateInvoice.jsx",
+      "sections": 6
+    },
+    {
+      "route": "/blog/slowest-part-of-a-dispute-manual-work",
+      "page": "src/pages/BlogSlowestPartOf.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/blog/glossary-defining-commonly-used-financial-terms",
+      "page": "src/pages/BlogGlossaryDefiningCommonly.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/blog/new-surge-in-accounts-receivable-key-drivers-for-chemical-distributors",
+      "page": "src/pages/BlogNewSurgeIn.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/blog/mj-highway-customer-story",
+      "page": "src/pages/BlogMjHighwayCustomer.jsx",
+      "sections": 6
+    },
+    {
+      "route": "/blog/how-this-cicis-franchise-owner-plans-his-pizza-empire-with-lendica-and-plumpos",
+      "page": "src/pages/BlogHowThisCicis.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/blog/working-capital-spotlight-chemicals",
+      "page": "src/pages/BlogWorkingCapitalSpotlight.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/blog/ai-use-cases-accounts-receivable-automation-2026",
+      "page": "src/pages/BlogAiUseCases.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/blog/why-we-built-receivables-intelligence",
+      "page": "src/pages/BlogWhyWeBuilt.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/blog/how-to-reduce-dso",
+      "page": "src/pages/BlogHowToReduce.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/blog/q2-24-working-capital-spotlight-chemicals",
+      "page": "src/pages/BlogQ224Working.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/blog/how-this-cicis-franchise-owner-plans-his-pizza-empire-with-daylit",
+      "page": "src/pages/BlogHowThisCicisPage.jsx",
+      "sections": 5
+    },
+    {
+      "route": "/blog/the-roi-of-ai-powered-accounts-receivable-automation",
+      "page": "src/pages/BlogTheRoiOf.jsx",
+      "sections": 5
+    }
+  ],
+  "components": [
+    {
+      "component": "NavbarSticky",
+      "file": "src/sections/NavbarSticky.jsx",
+      "usedBy": [
+        {
+          "route": "/",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "AccelerateRevenueCollection",
+      "file": "src/sections/AccelerateRevenueCollection.jsx",
+      "usedBy": [
+        {
+          "route": "/",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "Section",
+      "file": "src/sections/Section.jsx",
+      "usedBy": [
+        {
+          "route": "/",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "EnterpriseGradeOnboardedIn",
+      "file": "src/sections/EnterpriseGradeOnboardedIn.jsx",
+      "usedBy": [
+        {
+          "route": "/",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "AccountsReceivableJustGot",
+      "file": "src/sections/AccountsReceivableJustGot.jsx",
+      "usedBy": [
+        {
+          "route": "/",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "YouVeGotQuestions",
+      "file": "src/sections/YouVeGotQuestions.jsx",
+      "usedBy": [
+        {
+          "route": "/",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "DiscoverHowDaylitS",
+      "file": "src/sections/DiscoverHowDaylitS.jsx",
+      "usedBy": [
+        {
+          "route": "/",
+          "idx": 6
+        }
+      ]
+    },
+    {
+      "component": "Div",
+      "file": "src/sections/Div.jsx",
+      "usedBy": [
+        {
+          "route": "/",
+          "idx": 7
+        }
+      ]
+    },
+    {
+      "component": "BookADemoToday",
+      "file": "src/sections/BookADemoToday.jsx",
+      "usedBy": [
+        {
+          "route": "/",
+          "idx": 8
+        }
+      ]
+    },
+    {
+      "component": "FooterWrap",
+      "file": "src/sections/FooterWrap.jsx",
+      "usedBy": [
+        {
+          "route": "/",
+          "idx": 9
+        }
+      ]
+    },
+    {
+      "component": "NavbarSticky2",
+      "file": "src/sections/NavbarSticky2.jsx",
+      "usedBy": [
+        {
+          "route": "/intelligence",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "Form",
+      "file": "src/sections/Form.jsx",
+      "usedBy": [
+        {
+          "route": "/intelligence",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "Section2",
+      "file": "src/sections/Section2.jsx",
+      "usedBy": [
+        {
+          "route": "/intelligence",
+          "idx": 2
+        },
+        {
+          "route": "/ai-collections-strategy",
+          "idx": 2
+        },
+        {
+          "route": "/our-team-story",
+          "idx": 2
+        },
+        {
+          "route": "/faq",
+          "idx": 2
+        },
+        {
+          "route": "/product/fundnow",
+          "idx": 3
+        },
+        {
+          "route": "/product/offerterms",
+          "idx": 3
+        },
+        {
+          "route": "/product/paylater",
+          "idx": 3
+        },
+        {
+          "route": "/product/drawdown",
+          "idx": 3
+        },
+        {
+          "route": "/solution/legal",
+          "idx": 2
+        },
+        {
+          "route": "/solution/manufacturing",
+          "idx": 2
+        },
+        {
+          "route": "/solution/staffing",
+          "idx": 2
+        },
+        {
+          "route": "/solution/services",
+          "idx": 2
+        },
+        {
+          "route": "/become-a-partner",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "WLayoutVflex",
+      "file": "src/sections/WLayoutVflex.jsx",
+      "usedBy": [
+        {
+          "route": "/intelligence",
+          "idx": 3
+        },
+        {
+          "route": "/ai-collections-strategy",
+          "idx": 3
+        },
+        {
+          "route": "/case-studies",
+          "idx": 2
+        },
+        {
+          "route": "/our-team-story",
+          "idx": 3
+        },
+        {
+          "route": "/testimonial",
+          "idx": 2
+        },
+        {
+          "route": "/testimonial",
+          "idx": 6
+        },
+        {
+          "route": "/referral",
+          "idx": 3
+        },
+        {
+          "route": "/referral",
+          "idx": 6
+        },
+        {
+          "route": "/faq",
+          "idx": 3
+        },
+        {
+          "route": "/faq",
+          "idx": 5
+        },
+        {
+          "route": "/product/fundnow",
+          "idx": 4
+        },
+        {
+          "route": "/product/fundnow",
+          "idx": 14
+        },
+        {
+          "route": "/product/offerterms",
+          "idx": 4
+        },
+        {
+          "route": "/product/offerterms",
+          "idx": 14
+        },
+        {
+          "route": "/product/paylater",
+          "idx": 4
+        },
+        {
+          "route": "/product/paylater",
+          "idx": 14
+        },
+        {
+          "route": "/product/drawdown",
+          "idx": 4
+        },
+        {
+          "route": "/product/drawdown",
+          "idx": 14
+        },
+        {
+          "route": "/solution/legal",
+          "idx": 3
+        },
+        {
+          "route": "/solution/legal",
+          "idx": 11
+        },
+        {
+          "route": "/solution/manufacturing",
+          "idx": 3
+        },
+        {
+          "route": "/solution/manufacturing",
+          "idx": 13
+        },
+        {
+          "route": "/solution/staffing",
+          "idx": 3
+        },
+        {
+          "route": "/solution/staffing",
+          "idx": 13
+        },
+        {
+          "route": "/solution/services",
+          "idx": 3
+        },
+        {
+          "route": "/solution/services",
+          "idx": 13
+        },
+        {
+          "route": "/become-a-partner",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "BgSurface",
+      "file": "src/sections/BgSurface.jsx",
+      "usedBy": [
+        {
+          "route": "/intelligence",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "PaddingSectionWrap",
+      "file": "src/sections/PaddingSectionWrap.jsx",
+      "usedBy": [
+        {
+          "route": "/intelligence",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "BigSection",
+      "file": "src/sections/BigSection.jsx",
+      "usedBy": [
+        {
+          "route": "/intelligence",
+          "idx": 6
+        }
+      ]
+    },
+    {
+      "component": "SuperchargeCollectionsAtSca",
+      "file": "src/sections/SuperchargeCollectionsAtSca.jsx",
+      "usedBy": [
+        {
+          "route": "/intelligence",
+          "idx": 7
+        }
+      ]
+    },
+    {
+      "component": "SeeWhatSComing",
+      "file": "src/sections/SeeWhatSComing.jsx",
+      "usedBy": [
+        {
+          "route": "/intelligence",
+          "idx": 8
+        }
+      ]
+    },
+    {
+      "component": "TurnReceivablesIntoCash",
+      "file": "src/sections/TurnReceivablesIntoCash.jsx",
+      "usedBy": [
+        {
+          "route": "/intelligence",
+          "idx": 9
+        }
+      ]
+    },
+    {
+      "component": "CutARCosts",
+      "file": "src/sections/CutARCosts.jsx",
+      "usedBy": [
+        {
+          "route": "/intelligence",
+          "idx": 10
+        }
+      ]
+    },
+    {
+      "component": "RealTimeViewOf",
+      "file": "src/sections/RealTimeViewOf.jsx",
+      "usedBy": [
+        {
+          "route": "/intelligence",
+          "idx": 11
+        }
+      ]
+    },
+    {
+      "component": "BgSurface2",
+      "file": "src/sections/BgSurface2.jsx",
+      "usedBy": [
+        {
+          "route": "/intelligence",
+          "idx": 12
+        }
+      ]
+    },
+    {
+      "component": "WLayoutVflex2",
+      "file": "src/sections/WLayoutVflex2.jsx",
+      "usedBy": [
+        {
+          "route": "/intelligence",
+          "idx": 13
+        }
+      ]
+    },
+    {
+      "component": "TakeControlOfHow",
+      "file": "src/sections/TakeControlOfHow.jsx",
+      "usedBy": [
+        {
+          "route": "/intelligence",
+          "idx": 14
+        }
+      ]
+    },
+    {
+      "component": "FooterComponent",
+      "file": "src/sections/FooterComponent.jsx",
+      "usedBy": [
+        {
+          "route": "/intelligence",
+          "idx": 15
+        },
+        {
+          "route": "/ai-skills",
+          "idx": 4
+        },
+        {
+          "route": "/case-studies",
+          "idx": 8
+        },
+        {
+          "route": "/blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category",
+          "idx": 4
+        },
+        {
+          "route": "/case-study/uptime-health-services",
+          "idx": 5
+        },
+        {
+          "route": "/case-study/maintera",
+          "idx": 5
+        },
+        {
+          "route": "/blog/your-ar-inbox-isnt-slow-its-a-trust-problem",
+          "idx": 4
+        },
+        {
+          "route": "/blog/daylit-vs-monk",
+          "idx": 4
+        },
+        {
+          "route": "/blog/daylit-vs-stuut",
+          "idx": 4
+        },
+        {
+          "route": "/blog/the-hidden-truth-behind-12-5b-late-payments-and-how-ai-can-solve-it",
+          "idx": 4
+        },
+        {
+          "route": "/blog/daylit-vs-oddr",
+          "idx": 4
+        },
+        {
+          "route": "/blog/daylit-vs-tesorio",
+          "idx": 4
+        },
+        {
+          "route": "/blog/why-the-most-effective-collections-channel-gets-skipped-first",
+          "idx": 4
+        },
+        {
+          "route": "/blog/daylit-vs-billtrust",
+          "idx": 4
+        },
+        {
+          "route": "/blog/your-dispute-categories-arent-broken-theyre-not-yours",
+          "idx": 4
+        },
+        {
+          "route": "/blog/daylit-vs-highradius",
+          "idx": 4
+        },
+        {
+          "route": "/ai-skills-training/getting-started-ai-agents-ar",
+          "idx": 2
+        },
+        {
+          "route": "/ai-skills-training/welcome-to-the-ai-survival-guide",
+          "idx": 2
+        },
+        {
+          "route": "/ai-skills-training/how-to-match-bank-records-to-open-invoices",
+          "idx": 2
+        },
+        {
+          "route": "/ai-skills-training/how-to-validate-invoices-before-they-go-out",
+          "idx": 2
+        },
+        {
+          "route": "/ai-skills-training/how-to-route-dunning-emails-to-right-person",
+          "idx": 2
+        },
+        {
+          "route": "/case-study/clipboard-health",
+          "idx": 5
+        },
+        {
+          "route": "/blog/early-pay-discounts-101-a-simple-playbook",
+          "idx": 4
+        },
+        {
+          "route": "/blog/how-chemical-companies-use-daylit-to-unlock-working-capital",
+          "idx": 5
+        },
+        {
+          "route": "/blog/cicis-pizza-customer-story",
+          "idx": 5
+        },
+        {
+          "route": "/blog/ar-automation-practices-distributors",
+          "idx": 5
+        },
+        {
+          "route": "/blog/ar-automation-software-for-wholesale-distribution-companies-in-2026",
+          "idx": 5
+        },
+        {
+          "route": "/blog/chemical-distributor-working-capital",
+          "idx": 5
+        },
+        {
+          "route": "/blog/ai-powered-collections-automation-for-manufacturers",
+          "idx": 5
+        },
+        {
+          "route": "/blog/best-ai-tools-manufacturing-accounts-receivable",
+          "idx": 5
+        },
+        {
+          "route": "/blog/best-ai-tools-staffing-agency-accounts-receivable-2026",
+          "idx": 5
+        },
+        {
+          "route": "/blog/best-ai-tools-service-company-accounts-receivable-2026",
+          "idx": 5
+        },
+        {
+          "route": "/blog/ai-powered-collections-automation-for-field-services-firms",
+          "idx": 5
+        },
+        {
+          "route": "/blog/ai-automate-invoice-follow-ups-service-companies",
+          "idx": 5
+        },
+        {
+          "route": "/blog/slowest-part-of-a-dispute-manual-work",
+          "idx": 4
+        },
+        {
+          "route": "/blog/glossary-defining-commonly-used-financial-terms",
+          "idx": 4
+        },
+        {
+          "route": "/blog/new-surge-in-accounts-receivable-key-drivers-for-chemical-distributors",
+          "idx": 4
+        },
+        {
+          "route": "/blog/mj-highway-customer-story",
+          "idx": 5
+        },
+        {
+          "route": "/blog/how-this-cicis-franchise-owner-plans-his-pizza-empire-with-lendica-and-plumpos",
+          "idx": 4
+        },
+        {
+          "route": "/blog/working-capital-spotlight-chemicals",
+          "idx": 4
+        },
+        {
+          "route": "/blog/ai-use-cases-accounts-receivable-automation-2026",
+          "idx": 4
+        },
+        {
+          "route": "/blog/why-we-built-receivables-intelligence",
+          "idx": 4
+        },
+        {
+          "route": "/blog/how-to-reduce-dso",
+          "idx": 4
+        },
+        {
+          "route": "/blog/q2-24-working-capital-spotlight-chemicals",
+          "idx": 4
+        },
+        {
+          "route": "/blog/how-this-cicis-franchise-owner-plans-his-pizza-empire-with-daylit",
+          "idx": 4
+        },
+        {
+          "route": "/blog/the-roi-of-ai-powered-accounts-receivable-automation",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "NavbarSticky3",
+      "file": "src/sections/NavbarSticky3.jsx",
+      "usedBy": [
+        {
+          "route": "/blog",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "Form2",
+      "file": "src/sections/Form2.jsx",
+      "usedBy": [
+        {
+          "route": "/blog",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "TheHiddenTruthBehind",
+      "file": "src/sections/TheHiddenTruthBehind.jsx",
+      "usedBy": [
+        {
+          "route": "/blog",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Section3",
+      "file": "src/sections/Section3.jsx",
+      "usedBy": [
+        {
+          "route": "/blog",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "FooterComponent2",
+      "file": "src/sections/FooterComponent2.jsx",
+      "usedBy": [
+        {
+          "route": "/blog",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "NavbarSticky4",
+      "file": "src/sections/NavbarSticky4.jsx",
+      "usedBy": [
+        {
+          "route": "/ai-skills",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "AstHero",
+      "file": "src/sections/AstHero.jsx",
+      "usedBy": [
+        {
+          "route": "/ai-skills",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "AstFeatureSection",
+      "file": "src/sections/AstFeatureSection.jsx",
+      "usedBy": [
+        {
+          "route": "/ai-skills",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "AstGridSection",
+      "file": "src/sections/AstGridSection.jsx",
+      "usedBy": [
+        {
+          "route": "/ai-skills",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "NavbarSticky5",
+      "file": "src/sections/NavbarSticky5.jsx",
+      "usedBy": [
+        {
+          "route": "/ai-collections-strategy",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "Form3",
+      "file": "src/sections/Form3.jsx",
+      "usedBy": [
+        {
+          "route": "/ai-collections-strategy",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "BgSurface3",
+      "file": "src/sections/BgSurface3.jsx",
+      "usedBy": [
+        {
+          "route": "/ai-collections-strategy",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "SuperchargeCollectionsAtSca2",
+      "file": "src/sections/SuperchargeCollectionsAtSca2.jsx",
+      "usedBy": [
+        {
+          "route": "/ai-collections-strategy",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "SeeWhatSComing2",
+      "file": "src/sections/SeeWhatSComing2.jsx",
+      "usedBy": [
+        {
+          "route": "/ai-collections-strategy",
+          "idx": 6
+        }
+      ]
+    },
+    {
+      "component": "SuperchargeCollectionsAtSca3",
+      "file": "src/sections/SuperchargeCollectionsAtSca3.jsx",
+      "usedBy": [
+        {
+          "route": "/ai-collections-strategy",
+          "idx": 7
+        }
+      ]
+    },
+    {
+      "component": "WVariant1257823e47f5",
+      "file": "src/sections/WVariant1257823e47f5.jsx",
+      "usedBy": [
+        {
+          "route": "/ai-collections-strategy",
+          "idx": 8
+        }
+      ]
+    },
+    {
+      "component": "BgSurface4",
+      "file": "src/sections/BgSurface4.jsx",
+      "usedBy": [
+        {
+          "route": "/ai-collections-strategy",
+          "idx": 9
+        }
+      ]
+    },
+    {
+      "component": "YouVeGotQuestions2",
+      "file": "src/sections/YouVeGotQuestions2.jsx",
+      "usedBy": [
+        {
+          "route": "/ai-collections-strategy",
+          "idx": 10
+        }
+      ]
+    },
+    {
+      "component": "FooterComponent3",
+      "file": "src/sections/FooterComponent3.jsx",
+      "usedBy": [
+        {
+          "route": "/ai-collections-strategy",
+          "idx": 11
+        },
+        {
+          "route": "/become-a-partner",
+          "idx": 10
+        },
+        {
+          "route": "/early-pay-savings-calculator-daylit-working-capital",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "NavbarSticky6",
+      "file": "src/sections/NavbarSticky6.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "CsHero",
+      "file": "src/sections/CsHero.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "CsStats",
+      "file": "src/sections/CsStats.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "CaseStudies",
+      "file": "src/sections/CaseStudies.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "CsCasesGrid",
+      "file": "src/sections/CsCasesGrid.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "WVariant53df6ab0A0a2",
+      "file": "src/sections/WVariant53df6ab0A0a2.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies",
+          "idx": 6
+        }
+      ]
+    },
+    {
+      "component": "CsFeat",
+      "file": "src/sections/CsFeat.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies",
+          "idx": 7
+        }
+      ]
+    },
+    {
+      "component": "NavbarSticky7",
+      "file": "src/sections/NavbarSticky7.jsx",
+      "usedBy": [
+        {
+          "route": "/our-team-story",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "Form4",
+      "file": "src/sections/Form4.jsx",
+      "usedBy": [
+        {
+          "route": "/our-team-story",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "BgSurface5",
+      "file": "src/sections/BgSurface5.jsx",
+      "usedBy": [
+        {
+          "route": "/our-team-story",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "Mission",
+      "file": "src/sections/Mission.jsx",
+      "usedBy": [
+        {
+          "route": "/our-team-story",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "FromHumbleRootsTo",
+      "file": "src/sections/FromHumbleRootsTo.jsx",
+      "usedBy": [
+        {
+          "route": "/our-team-story",
+          "idx": 6
+        }
+      ]
+    },
+    {
+      "component": "DesignersEngineersAndEx",
+      "file": "src/sections/DesignersEngineersAndEx.jsx",
+      "usedBy": [
+        {
+          "route": "/our-team-story",
+          "idx": 7
+        }
+      ]
+    },
+    {
+      "component": "BgSurface6",
+      "file": "src/sections/BgSurface6.jsx",
+      "usedBy": [
+        {
+          "route": "/our-team-story",
+          "idx": 8
+        },
+        {
+          "route": "/testimonial",
+          "idx": 4
+        },
+        {
+          "route": "/referral",
+          "idx": 5
+        },
+        {
+          "route": "/product/fundnow",
+          "idx": 9
+        },
+        {
+          "route": "/product/offerterms",
+          "idx": 9
+        },
+        {
+          "route": "/product/paylater",
+          "idx": 9
+        },
+        {
+          "route": "/product/drawdown",
+          "idx": 9
+        }
+      ]
+    },
+    {
+      "component": "FooterComponent4",
+      "file": "src/sections/FooterComponent4.jsx",
+      "usedBy": [
+        {
+          "route": "/our-team-story",
+          "idx": 9
+        }
+      ]
+    },
+    {
+      "component": "NavbarSticky8",
+      "file": "src/sections/NavbarSticky8.jsx",
+      "usedBy": [
+        {
+          "route": "/testimonial",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "Header",
+      "file": "src/sections/Header.jsx",
+      "usedBy": [
+        {
+          "route": "/testimonial",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "WhatOurCustomersSay",
+      "file": "src/sections/WhatOurCustomersSay.jsx",
+      "usedBy": [
+        {
+          "route": "/testimonial",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "LatestInsightsAboutWorking",
+      "file": "src/sections/LatestInsightsAboutWorking.jsx",
+      "usedBy": [
+        {
+          "route": "/testimonial",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "UTexture",
+      "file": "src/sections/UTexture.jsx",
+      "usedBy": [
+        {
+          "route": "/testimonial",
+          "idx": 7
+        }
+      ]
+    },
+    {
+      "component": "FooterComponent5",
+      "file": "src/sections/FooterComponent5.jsx",
+      "usedBy": [
+        {
+          "route": "/testimonial",
+          "idx": 8
+        }
+      ]
+    },
+    {
+      "component": "NavbarSticky9",
+      "file": "src/sections/NavbarSticky9.jsx",
+      "usedBy": [
+        {
+          "route": "/referral",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "Form5",
+      "file": "src/sections/Form5.jsx",
+      "usedBy": [
+        {
+          "route": "/referral",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "Section4",
+      "file": "src/sections/Section4.jsx",
+      "usedBy": [
+        {
+          "route": "/referral",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "HowDaylitSReferral",
+      "file": "src/sections/HowDaylitSReferral.jsx",
+      "usedBy": [
+        {
+          "route": "/referral",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "UTexture2",
+      "file": "src/sections/UTexture2.jsx",
+      "usedBy": [
+        {
+          "route": "/referral",
+          "idx": 7
+        },
+        {
+          "route": "/faq",
+          "idx": 6
+        },
+        {
+          "route": "/product/fundnow",
+          "idx": 15
+        },
+        {
+          "route": "/product/offerterms",
+          "idx": 15
+        },
+        {
+          "route": "/product/paylater",
+          "idx": 15
+        },
+        {
+          "route": "/product/drawdown",
+          "idx": 15
+        },
+        {
+          "route": "/solution/manufacturing",
+          "idx": 14
+        },
+        {
+          "route": "/solution/staffing",
+          "idx": 14
+        },
+        {
+          "route": "/solution/services",
+          "idx": 14
+        }
+      ]
+    },
+    {
+      "component": "FooterComponent6",
+      "file": "src/sections/FooterComponent6.jsx",
+      "usedBy": [
+        {
+          "route": "/referral",
+          "idx": 8
+        }
+      ]
+    },
+    {
+      "component": "NavbarSticky10",
+      "file": "src/sections/NavbarSticky10.jsx",
+      "usedBy": [
+        {
+          "route": "/faq",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "Form6",
+      "file": "src/sections/Form6.jsx",
+      "usedBy": [
+        {
+          "route": "/faq",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "FAQFilterForm",
+      "file": "src/sections/FAQFilterForm.jsx",
+      "usedBy": [
+        {
+          "route": "/faq",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "FooterComponent7",
+      "file": "src/sections/FooterComponent7.jsx",
+      "usedBy": [
+        {
+          "route": "/faq",
+          "idx": 7
+        }
+      ]
+    },
+    {
+      "component": "NavbarSticky11",
+      "file": "src/sections/NavbarSticky11.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "Header2",
+      "file": "src/sections/Header2.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "Article",
+      "file": "src/sections/Article.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "YouMightAlsoLike",
+      "file": "src/sections/YouMightAlsoLike.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category",
+          "idx": 3
+        },
+        {
+          "route": "/blog/daylit-vs-stuut",
+          "idx": 3
+        },
+        {
+          "route": "/blog/the-hidden-truth-behind-12-5b-late-payments-and-how-ai-can-solve-it",
+          "idx": 3
+        },
+        {
+          "route": "/blog/daylit-vs-tesorio",
+          "idx": 3
+        },
+        {
+          "route": "/blog/why-the-most-effective-collections-channel-gets-skipped-first",
+          "idx": 3
+        },
+        {
+          "route": "/blog/daylit-vs-billtrust",
+          "idx": 3
+        },
+        {
+          "route": "/blog/your-dispute-categories-arent-broken-theyre-not-yours",
+          "idx": 3
+        },
+        {
+          "route": "/blog/daylit-vs-highradius",
+          "idx": 3
+        },
+        {
+          "route": "/blog/early-pay-discounts-101-a-simple-playbook",
+          "idx": 3
+        },
+        {
+          "route": "/blog/how-chemical-companies-use-daylit-to-unlock-working-capital",
+          "idx": 4
+        },
+        {
+          "route": "/blog/cicis-pizza-customer-story",
+          "idx": 4
+        },
+        {
+          "route": "/blog/ar-automation-practices-distributors",
+          "idx": 4
+        },
+        {
+          "route": "/blog/ar-automation-software-for-wholesale-distribution-companies-in-2026",
+          "idx": 4
+        },
+        {
+          "route": "/blog/chemical-distributor-working-capital",
+          "idx": 4
+        },
+        {
+          "route": "/blog/ai-powered-collections-automation-for-manufacturers",
+          "idx": 4
+        },
+        {
+          "route": "/blog/best-ai-tools-manufacturing-accounts-receivable",
+          "idx": 4
+        },
+        {
+          "route": "/blog/best-ai-tools-staffing-agency-accounts-receivable-2026",
+          "idx": 4
+        },
+        {
+          "route": "/blog/best-ai-tools-service-company-accounts-receivable-2026",
+          "idx": 4
+        },
+        {
+          "route": "/blog/ai-powered-collections-automation-for-field-services-firms",
+          "idx": 4
+        },
+        {
+          "route": "/blog/ai-automate-invoice-follow-ups-service-companies",
+          "idx": 4
+        },
+        {
+          "route": "/blog/slowest-part-of-a-dispute-manual-work",
+          "idx": 3
+        },
+        {
+          "route": "/blog/glossary-defining-commonly-used-financial-terms",
+          "idx": 3
+        },
+        {
+          "route": "/blog/new-surge-in-accounts-receivable-key-drivers-for-chemical-distributors",
+          "idx": 3
+        },
+        {
+          "route": "/blog/mj-highway-customer-story",
+          "idx": 4
+        },
+        {
+          "route": "/blog/how-this-cicis-franchise-owner-plans-his-pizza-empire-with-lendica-and-plumpos",
+          "idx": 3
+        },
+        {
+          "route": "/blog/working-capital-spotlight-chemicals",
+          "idx": 3
+        },
+        {
+          "route": "/blog/ai-use-cases-accounts-receivable-automation-2026",
+          "idx": 3
+        },
+        {
+          "route": "/blog/why-we-built-receivables-intelligence",
+          "idx": 3
+        },
+        {
+          "route": "/blog/how-to-reduce-dso",
+          "idx": 3
+        },
+        {
+          "route": "/blog/q2-24-working-capital-spotlight-chemicals",
+          "idx": 3
+        },
+        {
+          "route": "/blog/how-this-cicis-franchise-owner-plans-his-pizza-empire-with-daylit",
+          "idx": 3
+        },
+        {
+          "route": "/blog/the-roi-of-ai-powered-accounts-receivable-automation",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "NavbarSticky12",
+      "file": "src/sections/NavbarSticky12.jsx",
+      "usedBy": [
+        {
+          "route": "/product/fundnow",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "Form7",
+      "file": "src/sections/Form7.jsx",
+      "usedBy": [
+        {
+          "route": "/product/fundnow",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "Section5",
+      "file": "src/sections/Section5.jsx",
+      "usedBy": [
+        {
+          "route": "/product/fundnow",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "BgSurface7",
+      "file": "src/sections/BgSurface7.jsx",
+      "usedBy": [
+        {
+          "route": "/product/fundnow",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "WantToSeeHow",
+      "file": "src/sections/WantToSeeHow.jsx",
+      "usedBy": [
+        {
+          "route": "/product/fundnow",
+          "idx": 6
+        }
+      ]
+    },
+    {
+      "component": "WVariant0a13d40172e0",
+      "file": "src/sections/WVariant0a13d40172e0.jsx",
+      "usedBy": [
+        {
+          "route": "/product/fundnow",
+          "idx": 7
+        },
+        {
+          "route": "/product/offerterms",
+          "idx": 7
+        },
+        {
+          "route": "/product/paylater",
+          "idx": 7
+        },
+        {
+          "route": "/product/drawdown",
+          "idx": 7
+        },
+        {
+          "route": "/solution/legal",
+          "idx": 6
+        },
+        {
+          "route": "/solution/manufacturing",
+          "idx": 8
+        },
+        {
+          "route": "/solution/staffing",
+          "idx": 8
+        },
+        {
+          "route": "/solution/services",
+          "idx": 8
+        }
+      ]
+    },
+    {
+      "component": "HowSellingCustomerInvoices",
+      "file": "src/sections/HowSellingCustomerInvoices.jsx",
+      "usedBy": [
+        {
+          "route": "/product/fundnow",
+          "idx": 8
+        }
+      ]
+    },
+    {
+      "component": "BgSurface8",
+      "file": "src/sections/BgSurface8.jsx",
+      "usedBy": [
+        {
+          "route": "/product/fundnow",
+          "idx": 10
+        }
+      ]
+    },
+    {
+      "component": "BigSection2",
+      "file": "src/sections/BigSection2.jsx",
+      "usedBy": [
+        {
+          "route": "/product/fundnow",
+          "idx": 11
+        },
+        {
+          "route": "/product/offerterms",
+          "idx": 11
+        },
+        {
+          "route": "/product/paylater",
+          "idx": 11
+        },
+        {
+          "route": "/product/drawdown",
+          "idx": 11
+        }
+      ]
+    },
+    {
+      "component": "StillHaveQuestions",
+      "file": "src/sections/StillHaveQuestions.jsx",
+      "usedBy": [
+        {
+          "route": "/product/fundnow",
+          "idx": 12
+        },
+        {
+          "route": "/product/offerterms",
+          "idx": 12
+        },
+        {
+          "route": "/product/paylater",
+          "idx": 12
+        },
+        {
+          "route": "/product/drawdown",
+          "idx": 12
+        },
+        {
+          "route": "/solution/legal",
+          "idx": 9
+        },
+        {
+          "route": "/solution/manufacturing",
+          "idx": 11
+        },
+        {
+          "route": "/solution/staffing",
+          "idx": 11
+        },
+        {
+          "route": "/solution/services",
+          "idx": 11
+        }
+      ]
+    },
+    {
+      "component": "LatestInsightsAboutAccounts",
+      "file": "src/sections/LatestInsightsAboutAccounts.jsx",
+      "usedBy": [
+        {
+          "route": "/product/fundnow",
+          "idx": 13
+        },
+        {
+          "route": "/product/offerterms",
+          "idx": 13
+        },
+        {
+          "route": "/product/paylater",
+          "idx": 13
+        },
+        {
+          "route": "/product/drawdown",
+          "idx": 13
+        }
+      ]
+    },
+    {
+      "component": "FooterComponent8",
+      "file": "src/sections/FooterComponent8.jsx",
+      "usedBy": [
+        {
+          "route": "/product/fundnow",
+          "idx": 16
+        }
+      ]
+    },
+    {
+      "component": "NavbarSticky13",
+      "file": "src/sections/NavbarSticky13.jsx",
+      "usedBy": [
+        {
+          "route": "/product/offerterms",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "Form8",
+      "file": "src/sections/Form8.jsx",
+      "usedBy": [
+        {
+          "route": "/product/offerterms",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "Section6",
+      "file": "src/sections/Section6.jsx",
+      "usedBy": [
+        {
+          "route": "/product/offerterms",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "BgSurface9",
+      "file": "src/sections/BgSurface9.jsx",
+      "usedBy": [
+        {
+          "route": "/product/offerterms",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "WantToSeeHow2",
+      "file": "src/sections/WantToSeeHow2.jsx",
+      "usedBy": [
+        {
+          "route": "/product/offerterms",
+          "idx": 6
+        }
+      ]
+    },
+    {
+      "component": "HowOfferingPaymentTerms",
+      "file": "src/sections/HowOfferingPaymentTerms.jsx",
+      "usedBy": [
+        {
+          "route": "/product/offerterms",
+          "idx": 8
+        }
+      ]
+    },
+    {
+      "component": "BgSurface10",
+      "file": "src/sections/BgSurface10.jsx",
+      "usedBy": [
+        {
+          "route": "/product/offerterms",
+          "idx": 10
+        }
+      ]
+    },
+    {
+      "component": "FooterComponent9",
+      "file": "src/sections/FooterComponent9.jsx",
+      "usedBy": [
+        {
+          "route": "/product/offerterms",
+          "idx": 16
+        }
+      ]
+    },
+    {
+      "component": "NavbarSticky14",
+      "file": "src/sections/NavbarSticky14.jsx",
+      "usedBy": [
+        {
+          "route": "/product/paylater",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "Form9",
+      "file": "src/sections/Form9.jsx",
+      "usedBy": [
+        {
+          "route": "/product/paylater",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "Section7",
+      "file": "src/sections/Section7.jsx",
+      "usedBy": [
+        {
+          "route": "/product/paylater",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "BgSurface11",
+      "file": "src/sections/BgSurface11.jsx",
+      "usedBy": [
+        {
+          "route": "/product/paylater",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "WantToSeeHow3",
+      "file": "src/sections/WantToSeeHow3.jsx",
+      "usedBy": [
+        {
+          "route": "/product/paylater",
+          "idx": 6
+        }
+      ]
+    },
+    {
+      "component": "HowOfferingPaymentPlans",
+      "file": "src/sections/HowOfferingPaymentPlans.jsx",
+      "usedBy": [
+        {
+          "route": "/product/paylater",
+          "idx": 8
+        }
+      ]
+    },
+    {
+      "component": "BgSurface12",
+      "file": "src/sections/BgSurface12.jsx",
+      "usedBy": [
+        {
+          "route": "/product/paylater",
+          "idx": 10
+        }
+      ]
+    },
+    {
+      "component": "FooterComponent10",
+      "file": "src/sections/FooterComponent10.jsx",
+      "usedBy": [
+        {
+          "route": "/product/paylater",
+          "idx": 16
+        }
+      ]
+    },
+    {
+      "component": "NavbarSticky15",
+      "file": "src/sections/NavbarSticky15.jsx",
+      "usedBy": [
+        {
+          "route": "/product/drawdown",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "Form10",
+      "file": "src/sections/Form10.jsx",
+      "usedBy": [
+        {
+          "route": "/product/drawdown",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "Section8",
+      "file": "src/sections/Section8.jsx",
+      "usedBy": [
+        {
+          "route": "/product/drawdown",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "BgSurface13",
+      "file": "src/sections/BgSurface13.jsx",
+      "usedBy": [
+        {
+          "route": "/product/drawdown",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "WantToSeeHow4",
+      "file": "src/sections/WantToSeeHow4.jsx",
+      "usedBy": [
+        {
+          "route": "/product/drawdown",
+          "idx": 6
+        }
+      ]
+    },
+    {
+      "component": "HowGettingWorkingCapital",
+      "file": "src/sections/HowGettingWorkingCapital.jsx",
+      "usedBy": [
+        {
+          "route": "/product/drawdown",
+          "idx": 8
+        }
+      ]
+    },
+    {
+      "component": "BgSurface14",
+      "file": "src/sections/BgSurface14.jsx",
+      "usedBy": [
+        {
+          "route": "/product/drawdown",
+          "idx": 10
+        }
+      ]
+    },
+    {
+      "component": "FooterComponent11",
+      "file": "src/sections/FooterComponent11.jsx",
+      "usedBy": [
+        {
+          "route": "/product/drawdown",
+          "idx": 16
+        }
+      ]
+    },
+    {
+      "component": "NavbarSticky16",
+      "file": "src/sections/NavbarSticky16.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/legal",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "Form11",
+      "file": "src/sections/Form11.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/legal",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "BgSurface15",
+      "file": "src/sections/BgSurface15.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/legal",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "WantToSeeHow5",
+      "file": "src/sections/WantToSeeHow5.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/legal",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "BgSurface16",
+      "file": "src/sections/BgSurface16.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/legal",
+          "idx": 7
+        }
+      ]
+    },
+    {
+      "component": "BigSection3",
+      "file": "src/sections/BigSection3.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/legal",
+          "idx": 8
+        },
+        {
+          "route": "/solution/manufacturing",
+          "idx": 10
+        },
+        {
+          "route": "/solution/staffing",
+          "idx": 10
+        },
+        {
+          "route": "/solution/services",
+          "idx": 10
+        }
+      ]
+    },
+    {
+      "component": "LatestInsightsAboutAccounts2",
+      "file": "src/sections/LatestInsightsAboutAccounts2.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/legal",
+          "idx": 10
+        }
+      ]
+    },
+    {
+      "component": "UTexture3",
+      "file": "src/sections/UTexture3.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/legal",
+          "idx": 12
+        }
+      ]
+    },
+    {
+      "component": "FooterComponent12",
+      "file": "src/sections/FooterComponent12.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/legal",
+          "idx": 13
+        }
+      ]
+    },
+    {
+      "component": "NavbarSticky17",
+      "file": "src/sections/NavbarSticky17.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/manufacturing",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "Form12",
+      "file": "src/sections/Form12.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/manufacturing",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "BgSurface17",
+      "file": "src/sections/BgSurface17.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/manufacturing",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "WantToLearnMore",
+      "file": "src/sections/WantToLearnMore.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/manufacturing",
+          "idx": 5
+        },
+        {
+          "route": "/solution/staffing",
+          "idx": 5
+        },
+        {
+          "route": "/solution/services",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "SayGoodbyeToWorking",
+      "file": "src/sections/SayGoodbyeToWorking.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/manufacturing",
+          "idx": 6
+        },
+        {
+          "route": "/solution/staffing",
+          "idx": 6
+        },
+        {
+          "route": "/solution/services",
+          "idx": 6
+        }
+      ]
+    },
+    {
+      "component": "WantToLearnMore2",
+      "file": "src/sections/WantToLearnMore2.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/manufacturing",
+          "idx": 7
+        },
+        {
+          "route": "/solution/staffing",
+          "idx": 7
+        },
+        {
+          "route": "/solution/services",
+          "idx": 7
+        }
+      ]
+    },
+    {
+      "component": "BgSurface18",
+      "file": "src/sections/BgSurface18.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/manufacturing",
+          "idx": 9
+        }
+      ]
+    },
+    {
+      "component": "LatestInsightsAboutAccounts3",
+      "file": "src/sections/LatestInsightsAboutAccounts3.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/manufacturing",
+          "idx": 12
+        }
+      ]
+    },
+    {
+      "component": "FooterComponent13",
+      "file": "src/sections/FooterComponent13.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/manufacturing",
+          "idx": 15
+        }
+      ]
+    },
+    {
+      "component": "NavbarSticky18",
+      "file": "src/sections/NavbarSticky18.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/staffing",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "Form13",
+      "file": "src/sections/Form13.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/staffing",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "BgSurface19",
+      "file": "src/sections/BgSurface19.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/staffing",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "BgSurface20",
+      "file": "src/sections/BgSurface20.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/staffing",
+          "idx": 9
+        }
+      ]
+    },
+    {
+      "component": "LatestInsightsAboutAccounts4",
+      "file": "src/sections/LatestInsightsAboutAccounts4.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/staffing",
+          "idx": 12
+        }
+      ]
+    },
+    {
+      "component": "FooterComponent14",
+      "file": "src/sections/FooterComponent14.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/staffing",
+          "idx": 15
+        }
+      ]
+    },
+    {
+      "component": "NavbarSticky19",
+      "file": "src/sections/NavbarSticky19.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/services",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "Form14",
+      "file": "src/sections/Form14.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/services",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "BgSurface21",
+      "file": "src/sections/BgSurface21.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/services",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "BgSurface22",
+      "file": "src/sections/BgSurface22.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/services",
+          "idx": 9
+        }
+      ]
+    },
+    {
+      "component": "LatestInsightsAboutAccounts5",
+      "file": "src/sections/LatestInsightsAboutAccounts5.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/services",
+          "idx": 12
+        }
+      ]
+    },
+    {
+      "component": "FooterComponent15",
+      "file": "src/sections/FooterComponent15.jsx",
+      "usedBy": [
+        {
+          "route": "/solution/services",
+          "idx": 15
+        }
+      ]
+    },
+    {
+      "component": "Div2",
+      "file": "src/sections/Div2.jsx",
+      "usedBy": [
+        {
+          "route": "/learn-more/demo",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "UnlockMassiveSavingsIn",
+      "file": "src/sections/UnlockMassiveSavingsIn.jsx",
+      "usedBy": [
+        {
+          "route": "/learn-more/demo",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "NavbarSticky20",
+      "file": "src/sections/NavbarSticky20.jsx",
+      "usedBy": [
+        {
+          "route": "/become-a-partner",
+          "idx": 0
+        },
+        {
+          "route": "/case-study/uptime-health-services",
+          "idx": 0
+        },
+        {
+          "route": "/case-study/maintera",
+          "idx": 0
+        },
+        {
+          "route": "/blog/your-ar-inbox-isnt-slow-its-a-trust-problem",
+          "idx": 0
+        },
+        {
+          "route": "/blog/daylit-vs-monk",
+          "idx": 0
+        },
+        {
+          "route": "/blog/daylit-vs-stuut",
+          "idx": 0
+        },
+        {
+          "route": "/legal/dpa-customer",
+          "idx": 0
+        },
+        {
+          "route": "/legal/sla-customer",
+          "idx": 0
+        },
+        {
+          "route": "/legal/cookie-consent",
+          "idx": 0
+        },
+        {
+          "route": "/legal/privacy-policy",
+          "idx": 0
+        },
+        {
+          "route": "/legal/terms-conditions",
+          "idx": 0
+        },
+        {
+          "route": "/blog/the-hidden-truth-behind-12-5b-late-payments-and-how-ai-can-solve-it",
+          "idx": 0
+        },
+        {
+          "route": "/blog/daylit-vs-oddr",
+          "idx": 0
+        },
+        {
+          "route": "/blog/daylit-vs-tesorio",
+          "idx": 0
+        },
+        {
+          "route": "/blog/why-the-most-effective-collections-channel-gets-skipped-first",
+          "idx": 0
+        },
+        {
+          "route": "/blog/daylit-vs-billtrust",
+          "idx": 0
+        },
+        {
+          "route": "/blog/your-dispute-categories-arent-broken-theyre-not-yours",
+          "idx": 0
+        },
+        {
+          "route": "/blog/daylit-vs-highradius",
+          "idx": 0
+        },
+        {
+          "route": "/ai-skills-training/getting-started-ai-agents-ar",
+          "idx": 0
+        },
+        {
+          "route": "/ai-skills-training/welcome-to-the-ai-survival-guide",
+          "idx": 0
+        },
+        {
+          "route": "/ai-skills-training/how-to-match-bank-records-to-open-invoices",
+          "idx": 0
+        },
+        {
+          "route": "/ai-skills-training/how-to-validate-invoices-before-they-go-out",
+          "idx": 0
+        },
+        {
+          "route": "/ai-skills-training/how-to-route-dunning-emails-to-right-person",
+          "idx": 0
+        },
+        {
+          "route": "/case-study/clipboard-health",
+          "idx": 0
+        },
+        {
+          "route": "/blog/early-pay-discounts-101-a-simple-playbook",
+          "idx": 0
+        },
+        {
+          "route": "/early-pay-savings-calculator-daylit-working-capital",
+          "idx": 0
+        },
+        {
+          "route": "/blog/how-chemical-companies-use-daylit-to-unlock-working-capital",
+          "idx": 0
+        },
+        {
+          "route": "/blog/cicis-pizza-customer-story",
+          "idx": 0
+        },
+        {
+          "route": "/blog/ar-automation-practices-distributors",
+          "idx": 0
+        },
+        {
+          "route": "/blog/ar-automation-software-for-wholesale-distribution-companies-in-2026",
+          "idx": 0
+        },
+        {
+          "route": "/blog/chemical-distributor-working-capital",
+          "idx": 0
+        },
+        {
+          "route": "/blog/ai-powered-collections-automation-for-manufacturers",
+          "idx": 0
+        },
+        {
+          "route": "/blog/best-ai-tools-manufacturing-accounts-receivable",
+          "idx": 0
+        },
+        {
+          "route": "/blog/best-ai-tools-staffing-agency-accounts-receivable-2026",
+          "idx": 0
+        },
+        {
+          "route": "/blog/best-ai-tools-service-company-accounts-receivable-2026",
+          "idx": 0
+        },
+        {
+          "route": "/blog/ai-powered-collections-automation-for-field-services-firms",
+          "idx": 0
+        },
+        {
+          "route": "/blog/ai-automate-invoice-follow-ups-service-companies",
+          "idx": 0
+        },
+        {
+          "route": "/blog/slowest-part-of-a-dispute-manual-work",
+          "idx": 0
+        },
+        {
+          "route": "/blog/glossary-defining-commonly-used-financial-terms",
+          "idx": 0
+        },
+        {
+          "route": "/blog/new-surge-in-accounts-receivable-key-drivers-for-chemical-distributors",
+          "idx": 0
+        },
+        {
+          "route": "/blog/mj-highway-customer-story",
+          "idx": 0
+        },
+        {
+          "route": "/blog/how-this-cicis-franchise-owner-plans-his-pizza-empire-with-lendica-and-plumpos",
+          "idx": 0
+        },
+        {
+          "route": "/blog/working-capital-spotlight-chemicals",
+          "idx": 0
+        },
+        {
+          "route": "/blog/ai-use-cases-accounts-receivable-automation-2026",
+          "idx": 0
+        },
+        {
+          "route": "/blog/why-we-built-receivables-intelligence",
+          "idx": 0
+        },
+        {
+          "route": "/blog/how-to-reduce-dso",
+          "idx": 0
+        },
+        {
+          "route": "/blog/q2-24-working-capital-spotlight-chemicals",
+          "idx": 0
+        },
+        {
+          "route": "/blog/how-this-cicis-franchise-owner-plans-his-pizza-empire-with-daylit",
+          "idx": 0
+        },
+        {
+          "route": "/blog/the-roi-of-ai-powered-accounts-receivable-automation",
+          "idx": 0
+        }
+      ]
+    },
+    {
+      "component": "Form15",
+      "file": "src/sections/Form15.jsx",
+      "usedBy": [
+        {
+          "route": "/become-a-partner",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "BgSurface23",
+      "file": "src/sections/BgSurface23.jsx",
+      "usedBy": [
+        {
+          "route": "/become-a-partner",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "SuperchargeCollectionsAtSca4",
+      "file": "src/sections/SuperchargeCollectionsAtSca4.jsx",
+      "usedBy": [
+        {
+          "route": "/become-a-partner",
+          "idx": 5
+        }
+      ]
+    },
+    {
+      "component": "SeeWhatSComing3",
+      "file": "src/sections/SeeWhatSComing3.jsx",
+      "usedBy": [
+        {
+          "route": "/become-a-partner",
+          "idx": 6
+        }
+      ]
+    },
+    {
+      "component": "SuperchargeCollectionsAtSca5",
+      "file": "src/sections/SuperchargeCollectionsAtSca5.jsx",
+      "usedBy": [
+        {
+          "route": "/become-a-partner",
+          "idx": 7
+        }
+      ]
+    },
+    {
+      "component": "BgSurface24",
+      "file": "src/sections/BgSurface24.jsx",
+      "usedBy": [
+        {
+          "route": "/become-a-partner",
+          "idx": 8
+        }
+      ]
+    },
+    {
+      "component": "YouVeGotQuestions3",
+      "file": "src/sections/YouVeGotQuestions3.jsx",
+      "usedBy": [
+        {
+          "route": "/become-a-partner",
+          "idx": 9
+        }
+      ]
+    },
+    {
+      "component": "CsrHero",
+      "file": "src/sections/CsrHero.jsx",
+      "usedBy": [
+        {
+          "route": "/case-study/uptime-health-services",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "CsrBand",
+      "file": "src/sections/CsrBand.jsx",
+      "usedBy": [
+        {
+          "route": "/case-study/uptime-health-services",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "CsrBody",
+      "file": "src/sections/CsrBody.jsx",
+      "usedBy": [
+        {
+          "route": "/case-study/uptime-health-services",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "CsrCta",
+      "file": "src/sections/CsrCta.jsx",
+      "usedBy": [
+        {
+          "route": "/case-study/uptime-health-services",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "CsrHero2",
+      "file": "src/sections/CsrHero2.jsx",
+      "usedBy": [
+        {
+          "route": "/case-study/maintera",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "CsrBand2",
+      "file": "src/sections/CsrBand2.jsx",
+      "usedBy": [
+        {
+          "route": "/case-study/maintera",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "CsrBody2",
+      "file": "src/sections/CsrBody2.jsx",
+      "usedBy": [
+        {
+          "route": "/case-study/maintera",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "CsrCta2",
+      "file": "src/sections/CsrCta2.jsx",
+      "usedBy": [
+        {
+          "route": "/case-study/maintera",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "Header3",
+      "file": "src/sections/Header3.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/your-ar-inbox-isnt-slow-its-a-trust-problem",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "LetAIAnswerThe",
+      "file": "src/sections/LetAIAnswerThe.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/your-ar-inbox-isnt-slow-its-a-trust-problem",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "YouMightAlsoLike2",
+      "file": "src/sections/YouMightAlsoLike2.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/your-ar-inbox-isnt-slow-its-a-trust-problem",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "Header4",
+      "file": "src/sections/Header4.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/daylit-vs-monk",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "TLDR",
+      "file": "src/sections/TLDR.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/daylit-vs-monk",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "YouMightAlsoLike3",
+      "file": "src/sections/YouMightAlsoLike3.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/daylit-vs-monk",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "Header5",
+      "file": "src/sections/Header5.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/daylit-vs-stuut",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "TLDR2",
+      "file": "src/sections/TLDR2.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/daylit-vs-stuut",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "DaylitDataProcessingAgreeme",
+      "file": "src/sections/DaylitDataProcessingAgreeme.jsx",
+      "usedBy": [
+        {
+          "route": "/legal/dpa-customer",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "FooterComponent16",
+      "file": "src/sections/FooterComponent16.jsx",
+      "usedBy": [
+        {
+          "route": "/legal/dpa-customer",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "DAYLITSERVICELEVELAGREEMENT",
+      "file": "src/sections/DAYLITSERVICELEVELAGREEMENT.jsx",
+      "usedBy": [
+        {
+          "route": "/legal/sla-customer",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "FooterComponent17",
+      "file": "src/sections/FooterComponent17.jsx",
+      "usedBy": [
+        {
+          "route": "/legal/sla-customer",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "CookiePolicy",
+      "file": "src/sections/CookiePolicy.jsx",
+      "usedBy": [
+        {
+          "route": "/legal/cookie-consent",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "FooterComponent18",
+      "file": "src/sections/FooterComponent18.jsx",
+      "usedBy": [
+        {
+          "route": "/legal/cookie-consent",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "PrivacyNotice",
+      "file": "src/sections/PrivacyNotice.jsx",
+      "usedBy": [
+        {
+          "route": "/legal/privacy-policy",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "FooterComponent19",
+      "file": "src/sections/FooterComponent19.jsx",
+      "usedBy": [
+        {
+          "route": "/legal/privacy-policy",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "TermsAndConditions",
+      "file": "src/sections/TermsAndConditions.jsx",
+      "usedBy": [
+        {
+          "route": "/legal/terms-conditions",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "FooterComponent20",
+      "file": "src/sections/FooterComponent20.jsx",
+      "usedBy": [
+        {
+          "route": "/legal/terms-conditions",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header6",
+      "file": "src/sections/Header6.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/the-hidden-truth-behind-12-5b-late-payments-and-how-ai-can-solve-it",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "Article2",
+      "file": "src/sections/Article2.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/the-hidden-truth-behind-12-5b-late-payments-and-how-ai-can-solve-it",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header7",
+      "file": "src/sections/Header7.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/daylit-vs-oddr",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "TLDR3",
+      "file": "src/sections/TLDR3.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/daylit-vs-oddr",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "YouMightAlsoLike4",
+      "file": "src/sections/YouMightAlsoLike4.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/daylit-vs-oddr",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "Header8",
+      "file": "src/sections/Header8.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/daylit-vs-tesorio",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "TLDR4",
+      "file": "src/sections/TLDR4.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/daylit-vs-tesorio",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header9",
+      "file": "src/sections/Header9.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/why-the-most-effective-collections-channel-gets-skipped-first",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "TableOfContents",
+      "file": "src/sections/TableOfContents.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/why-the-most-effective-collections-channel-gets-skipped-first",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header10",
+      "file": "src/sections/Header10.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/daylit-vs-billtrust",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "TLDR5",
+      "file": "src/sections/TLDR5.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/daylit-vs-billtrust",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header11",
+      "file": "src/sections/Header11.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/your-dispute-categories-arent-broken-theyre-not-yours",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "TableOfContents2",
+      "file": "src/sections/TableOfContents2.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/your-dispute-categories-arent-broken-theyre-not-yours",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header12",
+      "file": "src/sections/Header12.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/daylit-vs-highradius",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "TLDR6",
+      "file": "src/sections/TLDR6.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/daylit-vs-highradius",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "AstDetail",
+      "file": "src/sections/AstDetail.jsx",
+      "usedBy": [
+        {
+          "route": "/ai-skills-training/getting-started-ai-agents-ar",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "AstDetail2",
+      "file": "src/sections/AstDetail2.jsx",
+      "usedBy": [
+        {
+          "route": "/ai-skills-training/welcome-to-the-ai-survival-guide",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "AstDetail3",
+      "file": "src/sections/AstDetail3.jsx",
+      "usedBy": [
+        {
+          "route": "/ai-skills-training/how-to-match-bank-records-to-open-invoices",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "AstDetail4",
+      "file": "src/sections/AstDetail4.jsx",
+      "usedBy": [
+        {
+          "route": "/ai-skills-training/how-to-validate-invoices-before-they-go-out",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "AstDetail5",
+      "file": "src/sections/AstDetail5.jsx",
+      "usedBy": [
+        {
+          "route": "/ai-skills-training/how-to-route-dunning-emails-to-right-person",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "CsrHero3",
+      "file": "src/sections/CsrHero3.jsx",
+      "usedBy": [
+        {
+          "route": "/case-study/clipboard-health",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "CsrBand3",
+      "file": "src/sections/CsrBand3.jsx",
+      "usedBy": [
+        {
+          "route": "/case-study/clipboard-health",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "CsrBody3",
+      "file": "src/sections/CsrBody3.jsx",
+      "usedBy": [
+        {
+          "route": "/case-study/clipboard-health",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "CsrCta3",
+      "file": "src/sections/CsrCta3.jsx",
+      "usedBy": [
+        {
+          "route": "/case-study/clipboard-health",
+          "idx": 4
+        }
+      ]
+    },
+    {
+      "component": "Header13",
+      "file": "src/sections/Header13.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/early-pay-discounts-101-a-simple-playbook",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "WhatIsAnEarly",
+      "file": "src/sections/WhatIsAnEarly.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/early-pay-discounts-101-a-simple-playbook",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "PayYourSuppliersEarly",
+      "file": "src/sections/PayYourSuppliersEarly.jsx",
+      "usedBy": [
+        {
+          "route": "/early-pay-savings-calculator-daylit-working-capital",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "Header14",
+      "file": "src/sections/Header14.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/how-chemical-companies-use-daylit-to-unlock-working-capital",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ExecutiveSummary",
+      "file": "src/sections/ExecutiveSummary.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/how-chemical-companies-use-daylit-to-unlock-working-capital",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "PostSolutionCta",
+      "file": "src/sections/PostSolutionCta.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/how-chemical-companies-use-daylit-to-unlock-working-capital",
+          "idx": 3
+        },
+        {
+          "route": "/blog/ai-powered-collections-automation-for-manufacturers",
+          "idx": 3
+        },
+        {
+          "route": "/blog/best-ai-tools-manufacturing-accounts-receivable",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "Header15",
+      "file": "src/sections/Header15.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/cicis-pizza-customer-story",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "AtAGlance",
+      "file": "src/sections/AtAGlance.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/cicis-pizza-customer-story",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "PostSolutionCta2",
+      "file": "src/sections/PostSolutionCta2.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/cicis-pizza-customer-story",
+          "idx": 3
+        },
+        {
+          "route": "/blog/ar-automation-practices-distributors",
+          "idx": 3
+        },
+        {
+          "route": "/blog/ar-automation-software-for-wholesale-distribution-companies-in-2026",
+          "idx": 3
+        },
+        {
+          "route": "/blog/chemical-distributor-working-capital",
+          "idx": 3
+        },
+        {
+          "route": "/blog/mj-highway-customer-story",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "Header16",
+      "file": "src/sections/Header16.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/ar-automation-practices-distributors",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "TableOfContents3",
+      "file": "src/sections/TableOfContents3.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/ar-automation-practices-distributors",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header17",
+      "file": "src/sections/Header17.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/ar-automation-software-for-wholesale-distribution-companies-in-2026",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "TableOfContents4",
+      "file": "src/sections/TableOfContents4.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/ar-automation-software-for-wholesale-distribution-companies-in-2026",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header18",
+      "file": "src/sections/Header18.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/chemical-distributor-working-capital",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "CompanyOverview",
+      "file": "src/sections/CompanyOverview.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/chemical-distributor-working-capital",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header19",
+      "file": "src/sections/Header19.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/ai-powered-collections-automation-for-manufacturers",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "TableOfContents5",
+      "file": "src/sections/TableOfContents5.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/ai-powered-collections-automation-for-manufacturers",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header20",
+      "file": "src/sections/Header20.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/best-ai-tools-manufacturing-accounts-receivable",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "TableOfContents6",
+      "file": "src/sections/TableOfContents6.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/best-ai-tools-manufacturing-accounts-receivable",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header21",
+      "file": "src/sections/Header21.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/best-ai-tools-staffing-agency-accounts-receivable-2026",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "TableOfContents7",
+      "file": "src/sections/TableOfContents7.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/best-ai-tools-staffing-agency-accounts-receivable-2026",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "PostSolutionCta3",
+      "file": "src/sections/PostSolutionCta3.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/best-ai-tools-staffing-agency-accounts-receivable-2026",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "Header22",
+      "file": "src/sections/Header22.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/best-ai-tools-service-company-accounts-receivable-2026",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "TableOfContents8",
+      "file": "src/sections/TableOfContents8.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/best-ai-tools-service-company-accounts-receivable-2026",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "PostSolutionCta4",
+      "file": "src/sections/PostSolutionCta4.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/best-ai-tools-service-company-accounts-receivable-2026",
+          "idx": 3
+        },
+        {
+          "route": "/blog/ai-powered-collections-automation-for-field-services-firms",
+          "idx": 3
+        },
+        {
+          "route": "/blog/ai-automate-invoice-follow-ups-service-companies",
+          "idx": 3
+        }
+      ]
+    },
+    {
+      "component": "Header23",
+      "file": "src/sections/Header23.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/ai-powered-collections-automation-for-field-services-firms",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "TableOfContents9",
+      "file": "src/sections/TableOfContents9.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/ai-powered-collections-automation-for-field-services-firms",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header24",
+      "file": "src/sections/Header24.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/ai-automate-invoice-follow-ups-service-companies",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "TableOfContents10",
+      "file": "src/sections/TableOfContents10.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/ai-automate-invoice-follow-ups-service-companies",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header25",
+      "file": "src/sections/Header25.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/slowest-part-of-a-dispute-manual-work",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "TableOfContents11",
+      "file": "src/sections/TableOfContents11.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/slowest-part-of-a-dispute-manual-work",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header26",
+      "file": "src/sections/Header26.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/glossary-defining-commonly-used-financial-terms",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "Introduction",
+      "file": "src/sections/Introduction.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/glossary-defining-commonly-used-financial-terms",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header27",
+      "file": "src/sections/Header27.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/new-surge-in-accounts-receivable-key-drivers-for-chemical-distributors",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "Introduction2",
+      "file": "src/sections/Introduction2.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/new-surge-in-accounts-receivable-key-drivers-for-chemical-distributors",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header28",
+      "file": "src/sections/Header28.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/mj-highway-customer-story",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "AtAGlanceDaylitCase",
+      "file": "src/sections/AtAGlanceDaylitCase.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/mj-highway-customer-story",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header29",
+      "file": "src/sections/Header29.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/how-this-cicis-franchise-owner-plans-his-pizza-empire-with-lendica-and-plumpos",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "FurtherReading",
+      "file": "src/sections/FurtherReading.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/how-this-cicis-franchise-owner-plans-his-pizza-empire-with-lendica-and-plumpos",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header30",
+      "file": "src/sections/Header30.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/working-capital-spotlight-chemicals",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "DelaySupplierPaymentsWith",
+      "file": "src/sections/DelaySupplierPaymentsWith.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/working-capital-spotlight-chemicals",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header31",
+      "file": "src/sections/Header31.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/ai-use-cases-accounts-receivable-automation-2026",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "TableOfContents12",
+      "file": "src/sections/TableOfContents12.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/ai-use-cases-accounts-receivable-automation-2026",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header32",
+      "file": "src/sections/Header32.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/why-we-built-receivables-intelligence",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "ThePatternWeCouldn",
+      "file": "src/sections/ThePatternWeCouldn.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/why-we-built-receivables-intelligence",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header33",
+      "file": "src/sections/Header33.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/how-to-reduce-dso",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "TableOfContents13",
+      "file": "src/sections/TableOfContents13.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/how-to-reduce-dso",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header34",
+      "file": "src/sections/Header34.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/q2-24-working-capital-spotlight-chemicals",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "FurtherReading2",
+      "file": "src/sections/FurtherReading2.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/q2-24-working-capital-spotlight-chemicals",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header35",
+      "file": "src/sections/Header35.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/how-this-cicis-franchise-owner-plans-his-pizza-empire-with-daylit",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "PlanningAPizzaEmpire",
+      "file": "src/sections/PlanningAPizzaEmpire.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/how-this-cicis-franchise-owner-plans-his-pizza-empire-with-daylit",
+          "idx": 2
+        }
+      ]
+    },
+    {
+      "component": "Header36",
+      "file": "src/sections/Header36.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/the-roi-of-ai-powered-accounts-receivable-automation",
+          "idx": 1
+        }
+      ]
+    },
+    {
+      "component": "TableOfContents14",
+      "file": "src/sections/TableOfContents14.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/the-roi-of-ai-powered-accounts-receivable-automation",
+          "idx": 2
+        }
+      ]
+    }
+  ],
+  "stills": [],
+  "rive": [],
+  "dropped": [
+    "/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6abd6b0e8f14d9c9d93fe01c_Card%20\\(1\\ (CSS url not in the mirror: the font or image it points at is missing)"
+  ],
+  "motionNotReproduced": {
+    "pinnedSections": [],
+    "libraries": []
+  }
+}

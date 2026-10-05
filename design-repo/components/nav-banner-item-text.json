@@ -1,0 +1,10 @@
+{
+  "id": "nav-banner-item-text",
+  "name": "nav_banner-item-text",
+  "occurrences": 272,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

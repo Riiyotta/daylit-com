@@ -1,0 +1,13 @@
+{
+  "id": "faq-item",
+  "name": "faq-item",
+  "occurrences": 104,
+  "composedOf": [
+    "heading",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/your-ar-inbox-isnt-slow-its-a-trust-problem"
+  }
+}

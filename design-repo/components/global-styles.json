@@ -1,0 +1,10 @@
+{
+  "id": "global-styles",
+  "name": "global-styles",
+  "occurrences": 69,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

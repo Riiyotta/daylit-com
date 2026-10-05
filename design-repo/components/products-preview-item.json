@@ -1,0 +1,17 @@
+{
+  "id": "products-preview-item",
+  "name": "products-preview_item",
+  "occurrences": 12,
+  "composedOf": [
+    "button",
+    "heading",
+    "image",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/solution/manufacturing"
+  }
+}

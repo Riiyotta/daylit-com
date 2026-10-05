@@ -1,0 +1,15 @@
+{
+  "id": "navbar-menu",
+  "name": "navbar_menu",
+  "occurrences": 68,
+  "composedOf": [
+    "button",
+    "image",
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

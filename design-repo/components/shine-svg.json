@@ -1,0 +1,12 @@
+{
+  "id": "shine-svg",
+  "name": "shine_svg",
+  "occurrences": 37,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "hs-drag-handle",
+  "name": "hs-drag-handle",
+  "occurrences": 69,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "accordion-img-top-container",
+  "name": "accordion-img_top-container",
+  "occurrences": 12,
+  "composedOf": [
+    "heading",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/product/fundnow"
+  }
+}

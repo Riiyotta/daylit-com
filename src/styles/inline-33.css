@@ -1,0 +1,11 @@
+
+  .cs-card-media{position:relative;}
+  .cs-card:hover{background-color:#4d1520!important;border-color:#4d1520!important;}
+  .cs-card:hover .cs-card-title,
+  .cs-card:hover .cs-card-snippet,
+  .cs-card:hover .cs-card-readtime,
+  .cs-card:hover .cs-card-more,
+  .cs-card:hover .cs-card-readtime-suffix{color:#ffffff!important;}
+  .cs-card:hover .cs-card-clock{border-color:#ffffff!important;}
+  .cs-card-media:after{content:"";position:absolute;inset:0;border-radius:8px;background:rgba(0,0,0,.4);opacity:0;transition:opacity .2s ease;pointer-events:none;}
+  .cs-card:hover .cs-card-media:after{opacity:1;}

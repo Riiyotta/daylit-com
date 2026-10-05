@@ -1,0 +1,10 @@
+{
+  "id": "demo-testimonial-card-text",
+  "name": "demo_testimonial_card-text",
+  "occurrences": 30,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/learn-more/demo"
+  }
+}

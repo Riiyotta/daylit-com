@@ -1,0 +1,46 @@
+{
+  "$description": "Semantic typography roles. Each role points at a foundation token; `basis` states the measurement that chose it. Role NAMES are a heuristic vocabulary, the values are measured.",
+  "inferred": true,
+  "tokens": {
+    "typography.display": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.01}",
+        "fontSize": "{fontSize.56}",
+        "fontWeight": "{fontWeight.500}",
+        "lineHeight": "{lineHeight.64_4}"
+      },
+      "basis": "most-used style on display text (35 uses)"
+    },
+    "typography.heading": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.01}",
+        "fontSize": "{fontSize.20}",
+        "fontWeight": "{fontWeight.500}",
+        "lineHeight": "{lineHeight.28}"
+      },
+      "basis": "most-used style on heading text (167 uses)"
+    },
+    "typography.body": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.01}",
+        "fontSize": "{fontSize.18}",
+        "fontWeight": "{fontWeight.500}",
+        "lineHeight": "{lineHeight.23_94}"
+      },
+      "basis": "most-used style on body text (2945 uses)"
+    },
+    "typography.label": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.01}",
+        "fontSize": "{fontSize.16}",
+        "fontWeight": "{fontWeight.500}",
+        "lineHeight": "{lineHeight.23_94}"
+      },
+      "basis": "most-used style on label text (969 uses)"
+    }
+  }
+}

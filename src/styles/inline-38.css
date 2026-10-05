@@ -1,0 +1,4 @@
+
+  [cc-accordion-element='accordion']:has([aria-expanded='true']) .is-plus {
+    display: none;
+  }

@@ -1,0 +1,12 @@
+{
+  "id": "logos-marquee-wrap",
+  "name": "logos_marquee-wrap",
+  "occurrences": 14,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

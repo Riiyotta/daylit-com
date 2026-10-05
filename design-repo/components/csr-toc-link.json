@@ -1,0 +1,10 @@
+{
+  "id": "csr-toc-link",
+  "name": "csr-toc-link",
+  "occurrences": 12,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/case-study/uptime-health-services"
+  }
+}

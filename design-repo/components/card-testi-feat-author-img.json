@@ -1,0 +1,10 @@
+{
+  "id": "card-testi-feat-author-img",
+  "name": "card-testi-feat_author-img",
+  "occurrences": 55,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/ai-collections-strategy"
+  }
+}

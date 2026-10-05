@@ -1,0 +1,4 @@
+
+  [fs-list-element="nest-target"]:has(.w-dyn-empty) {
+    display: none;
+  }

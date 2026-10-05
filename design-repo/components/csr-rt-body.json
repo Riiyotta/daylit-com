@@ -1,0 +1,12 @@
+{
+  "id": "csr-rt-body",
+  "name": "csr-rt-body",
+  "occurrences": 15,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/case-study/uptime-health-services"
+  }
+}

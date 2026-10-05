@@ -1,0 +1,13 @@
+{
+  "id": "testimonials-buttons-area",
+  "name": "testimonials_buttons-area",
+  "occurrences": 11,
+  "composedOf": [
+    "button",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/ai-collections-strategy"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "blog-filter-clear-icon-wrap",
+  "name": "blog-filter_clear-icon-wrap",
+  "occurrences": 10,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog"
+  }
+}

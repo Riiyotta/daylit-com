@@ -1,0 +1,10 @@
+{
+  "id": "swiper-notification",
+  "name": "swiper-notification",
+  "occurrences": 24,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

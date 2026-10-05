@@ -1,0 +1,14 @@
+{
+  "id": "blog-cta-btn",
+  "name": "blog-cta-btn",
+  "occurrences": 48,
+  "composedOf": [
+    "button",
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/your-ar-inbox-isnt-slow-its-a-trust-problem"
+  }
+}

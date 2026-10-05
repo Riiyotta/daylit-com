@@ -1,0 +1,14 @@
+{
+  "id": "section-why",
+  "name": "section_why",
+  "occurrences": 19,
+  "composedOf": [
+    "heading",
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

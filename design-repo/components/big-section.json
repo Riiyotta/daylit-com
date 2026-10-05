@@ -1,0 +1,14 @@
+{
+  "id": "big-section",
+  "name": "big-section",
+  "occurrences": 322,
+  "composedOf": [
+    "heading",
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

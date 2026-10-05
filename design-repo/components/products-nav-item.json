@@ -1,0 +1,14 @@
+{
+  "id": "products-nav-item",
+  "name": "products-nav_item",
+  "occurrences": 12,
+  "composedOf": [
+    "button",
+    "image",
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/solution/manufacturing"
+  }
+}

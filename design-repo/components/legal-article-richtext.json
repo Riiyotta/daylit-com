@@ -1,0 +1,12 @@
+{
+  "id": "legal-article-richtext",
+  "name": "legal-article_richtext",
+  "occurrences": 59,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/ai-collections-strategy"
+  }
+}

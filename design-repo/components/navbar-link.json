@@ -1,0 +1,10 @@
+{
+  "id": "navbar-link",
+  "name": "navbar_link",
+  "occurrences": 136,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "blog-preview-category",
+  "name": "blog-preview_category",
+  "occurrences": 25,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/testimonial"
+  }
+}

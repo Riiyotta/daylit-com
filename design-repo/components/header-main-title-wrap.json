@@ -1,0 +1,13 @@
+{
+  "id": "header-main-title-wrap",
+  "name": "header-main_title-wrap",
+  "occurrences": 17,
+  "composedOf": [
+    "heading",
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

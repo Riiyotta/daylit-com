@@ -1,0 +1,41 @@
+
+/* =========================================
+   TESTIMONIAL CARD MARQUEE
+   ALL SCREEN SIZES
+========================================= */
+
+.section_demo-left {
+  position: relative;
+  overflow: hidden !important;
+}
+
+.demo_testimonial_card-wrap {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  width: max-content !important;
+  max-width: none !important;
+  gap: 1rem !important;
+  will-change: transform;
+}
+
+.demo_testimonial_card {
+  flex: 0 0 auto !important;
+}
+
+
+/* =========================================
+   LOGO MARQUEE
+   ALL SCREEN SIZES
+========================================= */
+
+.demo_logo-item {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  width: max-content !important;
+  max-width: none !important;
+  will-change: transform;
+}
+
+.demo_logo-item > .demo_logo {
+  flex: 0 0 auto !important;
+}

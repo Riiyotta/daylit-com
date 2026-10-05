@@ -1,0 +1,16 @@
+{
+  "id": "accordion-img-wrap",
+  "name": "accordion-img_wrap",
+  "occurrences": 12,
+  "composedOf": [
+    "button",
+    "heading",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/product/fundnow"
+  }
+}

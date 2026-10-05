@@ -1,0 +1,12 @@
+{
+  "id": "footer-link-contact",
+  "name": "footer_link-contact",
+  "occurrences": 68,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

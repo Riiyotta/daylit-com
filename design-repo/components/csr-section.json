@@ -1,0 +1,14 @@
+{
+  "id": "csr-section",
+  "name": "csr-section",
+  "occurrences": 12,
+  "composedOf": [
+    "heading",
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/case-study/uptime-health-services"
+  }
+}

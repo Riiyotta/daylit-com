@@ -1,0 +1,7 @@
+
+  /* Ensure your thumbs/navigation wrapper doesn't animate transforms */
+  .is-testi-nav,
+  .is-testi-nav .swiper-wrapper {
+    transition: none !important;
+    transform: none !important; /* thumbs swiper won't move, but this prevents any CSS nudge */
+  }

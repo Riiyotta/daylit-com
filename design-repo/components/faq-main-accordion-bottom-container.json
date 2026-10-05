@@ -1,0 +1,12 @@
+{
+  "id": "faq-main-accordion-bottom-container",
+  "name": "faq-main-accordion_bottom-container",
+  "occurrences": 29,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/faq"
+  }
+}

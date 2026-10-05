@@ -1,0 +1,7 @@
+
+  .different_card_list:has(.story-cards_card-item:nth-child(4)) .story-cards_card-item,
+  .different_card_list:not(:has(.story-cards_card-item:nth-child(3))) .story-cards_card-item {
+    margin-top: 0;
+    margin-bottom: 0;
+    top: 20vh;
+  }

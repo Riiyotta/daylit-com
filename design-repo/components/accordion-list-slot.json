@@ -1,0 +1,14 @@
+{
+  "id": "accordion-list-slot",
+  "name": "accordion-list_slot",
+  "occurrences": 13,
+  "composedOf": [
+    "button",
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

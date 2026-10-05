@@ -1,0 +1,16 @@
+{
+  "id": "faqs-preview-layout",
+  "name": "faqs-preview_layout",
+  "occurrences": 10,
+  "composedOf": [
+    "button",
+    "heading",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/ai-collections-strategy"
+  }
+}

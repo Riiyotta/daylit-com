@@ -1,0 +1,13 @@
+{
+  "id": "footerfooter-social-list",
+  "name": "footerfooter_social-list",
+  "occurrences": 68,
+  "composedOf": [
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,29 @@
+
+  /* Focus State */
+  a, button, :where([tabindex]), [data-outline] {
+    outline-offset: 0.125rem;
+  }
+  a:focus-visible,
+  button:focus-visible,
+  [tabindex]:focus-visible,
+  label:has(input:focus-visible) [data-outline] {
+    outline-color: var(--_3-semantic-colours---text--text-primary);
+    outline-width: 0.125rem;
+    outline-style: solid;
+  }
+  /* Disabled */
+  [data-button]:has(button:disabled) {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  /* Global / Clickable Component */
+  .wf-design-mode .clickable_wrap {
+    z-index: 0;
+  }
+  .clickable_wrap a[href="#"] {
+    display: none;
+  }
+  .clickable_wrap a[href="#"] ~ button {
+    display: block;
+  }

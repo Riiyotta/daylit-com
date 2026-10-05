@@ -1,0 +1,17 @@
+{
+  "id": "header-main-layout",
+  "name": "header-main_layout",
+  "occurrences": 17,
+  "composedOf": [
+    "button",
+    "heading",
+    "image",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

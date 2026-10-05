@@ -1,0 +1,13 @@
+{
+  "id": "nav-panel-card-title-wrap",
+  "name": "nav-panel_card_title-wrap",
+  "occurrences": 1088,
+  "composedOf": [
+    "image",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

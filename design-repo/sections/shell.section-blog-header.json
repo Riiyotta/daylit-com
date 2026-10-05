@@ -1,0 +1,79 @@
+{
+  "id": "shell.section-blog-header",
+  "category": "SHELL",
+  "label": "section_blog-header",
+  "tag": "header",
+  "purpose": "Orients the visitor and provides navigation or site-wide links; carried across pages. Example headline: \"Automated Payment Reminders for Service Companies\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 35,
+    "routes": 35,
+    "measuredFrom": [
+      "src/blog/ai-automate-invoice-follow-ups-service-companies/index.html:1359-1397",
+      "src/blog/ai-powered-collections-automation-for-field-services-firms/index.html:1359-1397",
+      "src/blog/ai-powered-collections-automation-for-manufacturers/index.html:1359-1397",
+      "src/blog/ai-use-cases-accounts-receivable-automation-2026/index.html:1359-1397",
+      "src/blog/ar-automation-practices-distributors/index.html:1359-1397"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 15
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 42
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 1,
+        "assetRoles": [
+          "content-image",
+          "logo"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 828,
+      "columns": 2
+    },
+    "mobile": {
+      "heightPx": 902,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "2 columns collapse to a single column"
+    ]
+  },
+  "assetRoles": [
+    "content-image",
+    "logo"
+  ],
+  "implementedBy": "src/sections/Header.jsx"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "enterprise-marquee-item",
+  "name": "enterprise_marquee-item",
+  "occurrences": 24,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "testimonials-layout",
+  "name": "testimonials_layout",
+  "occurrences": 11,
+  "composedOf": [
+    "button",
+    "heading",
+    "image",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/ai-collections-strategy"
+  }
+}

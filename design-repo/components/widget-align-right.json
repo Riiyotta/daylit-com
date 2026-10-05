@@ -1,0 +1,13 @@
+{
+  "id": "widget-align-right",
+  "name": "widget-align-right",
+  "occurrences": 69,
+  "composedOf": [
+    "embed",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

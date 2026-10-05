@@ -1,0 +1,12 @@
+{
+  "id": "cta-main-image-wrap",
+  "name": "cta-main_image-wrap",
+  "occurrences": 12,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "card-wrap",
+  "name": "card-wrap",
+  "occurrences": 78,
+  "composedOf": [
+    "heading",
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

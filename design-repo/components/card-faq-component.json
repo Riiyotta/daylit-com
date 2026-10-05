@@ -1,0 +1,15 @@
+{
+  "id": "card-faq-component",
+  "name": "card-faq_component",
+  "occurrences": 54,
+  "composedOf": [
+    "button",
+    "heading",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/ai-collections-strategy"
+  }
+}

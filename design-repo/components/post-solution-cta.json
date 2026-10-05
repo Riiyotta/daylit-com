@@ -1,0 +1,13 @@
+{
+  "id": "post-solution-cta",
+  "name": "post-solution-cta",
+  "occurrences": 12,
+  "composedOf": [
+    "heading",
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/how-chemical-companies-use-daylit-to-unlock-working-capital"
+  }
+}

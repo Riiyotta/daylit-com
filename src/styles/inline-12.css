@@ -1,0 +1,29 @@
+
+  :root {
+    --underline-thickness: 1px;
+    --underline-offset: 0.25em;
+    --underline-duration: 220ms;
+    --gradient: linear-gradient(90deg, currentColor, var(--neutral--1000));
+  }
+
+
+  .u-underline,
+  [data-wf--button-main--style="ghost"] .button_main_text {
+    position: relative;
+    text-decoration: none;
+    background-image: var(--gradient);
+    background-repeat: no-repeat;
+    background-size: 0% var(--underline-thickness);
+    background-position: 0 calc(100% - var(--underline-offset));
+    transition: background-size var(--underline-duration) ease;
+    padding-bottom: 0.5rem;
+    margin-bottom: -0.5rem;
+  }
+
+  .u-underline:hover,
+  .u-underline:focus-visible,
+  [data-wf--button-main--style="ghost"]:hover .button_main_text,
+  [data-wf--button-main--style="ghost"]:focus-visible .button_main_text {
+    background-size: 100% var(--underline-thickness);
+    outline: none;
+  }

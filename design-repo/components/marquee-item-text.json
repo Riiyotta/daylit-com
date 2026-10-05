@@ -1,0 +1,10 @@
+{
+  "id": "marquee-item-text",
+  "name": "marquee_item-text",
+  "occurrences": 14,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

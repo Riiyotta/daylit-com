@@ -1,0 +1,12 @@
+{
+  "id": "dropdown-arrow",
+  "name": "dropdown-arrow",
+  "occurrences": 272,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "footer-link-list-label-icon",
+  "name": "footer_link-list-label-icon",
+  "occurrences": 268,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

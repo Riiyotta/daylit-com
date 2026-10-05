@@ -1,0 +1,50 @@
+
+  /* Base styles for all slots in design mode */
+  .wf-design-mode [data-slot] {
+    min-height: 5rem;
+    border: 1px #30C963 dashed;
+    opacity: 1;
+    background-color: rgba(144, 238, 144, 0.05);
+    position: relative;
+  }
+
+  /* Slots with content get bottom padding and repositioned pseudo-element */
+  .wf-design-mode [data-slot]:has(*) {
+    padding-bottom: 6rem;
+    background-color: rgba(144, 238, 144, 0.0);
+  }
+
+  /* Base pseudo-element styling */
+  .wf-design-mode [data-slot]::after {
+    max-width: 90%;
+    color: #30C963;
+    font-family: sans-serif;
+    font-size: 1.125rem;
+    text-align: center;
+    pointer-events: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+
+  /* Slots with content position pseudo-element at bottom */
+  .wf-design-mode [data-slot]:has(*)::after {
+    top: auto;
+    bottom: 1rem;
+    transform: translateX(-50%);
+  }
+
+  /* Individual slot content */
+  .wf-design-mode [data-slot='all']::after { content: "Add Slot Item / Heading, Content, Preview Card"; }
+  .wf-design-mode [data-slot='accordion']::after { content: "Add Accordion Item"; }
+  .wf-design-mode [data-slot='card-info']::after { content: "Add Card Info"; }
+  .wf-design-mode [data-slot='tab-content']::after { content: "Add Tab Content"; }
+  .wf-design-mode [data-slot='tab-link']::after { content: "Add Tab Link"; }
+  [data-slot='card-stats'] { display: flex; }
+  .wf-design-mode [data-slot='card-stats']::after { content: "Add Card Stats"; }
+  .wf-design-mode [data-slot='Accordion Image Item']::after { content: "Add Accordion Image Item"; }
+  .wf-design-mode [data-slot='Sticky Slide']::after { content: "Add Sticky Slide"; }
+  .wf-design-mode [data-slot='Media']::after { content: "Add Media"; }

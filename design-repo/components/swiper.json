@@ -1,0 +1,14 @@
+{
+  "id": "swiper",
+  "name": "swiper",
+  "occurrences": 13,
+  "composedOf": [
+    "image",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

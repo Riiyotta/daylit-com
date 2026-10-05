@@ -1,0 +1,12 @@
+{
+  "id": "eyebrow",
+  "name": "eyebrow",
+  "occurrences": 210,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

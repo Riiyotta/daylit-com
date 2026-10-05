@@ -1,0 +1,15 @@
+{
+  "id": "navbar-sticky",
+  "name": "navbar_sticky",
+  "occurrences": 68,
+  "composedOf": [
+    "button",
+    "image",
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

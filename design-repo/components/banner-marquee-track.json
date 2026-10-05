@@ -1,0 +1,13 @@
+{
+  "id": "banner-marquee-track",
+  "name": "banner_marquee-track",
+  "occurrences": 68,
+  "composedOf": [
+    "image",
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

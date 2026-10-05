@@ -1,0 +1,12 @@
+{
+  "id": "logos-logo-list",
+  "name": "logos_logo-list",
+  "occurrences": 14,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

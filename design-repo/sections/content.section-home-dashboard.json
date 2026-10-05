@@ -1,0 +1,62 @@
+{
+  "id": "content.section-home-dashboard",
+  "category": "CONTENT",
+  "label": "section_home-dashboard",
+  "tag": "div",
+  "purpose": "Carries the substantive content of the page.",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/index.html:3404-3409"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 1,
+        "assetRoles": [
+          "content-image"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 513,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 0,
+      "columns": 1,
+      "hiddenShare": 1
+    },
+    "changes": [
+      "hidden on mobile"
+    ]
+  },
+  "assetRoles": [
+    "content-image"
+  ],
+  "implementedBy": "src/pages/HomePage.jsx"
+}

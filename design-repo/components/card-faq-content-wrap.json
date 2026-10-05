@@ -1,0 +1,12 @@
+{
+  "id": "card-faq-content-wrap",
+  "name": "card-faq_content-wrap",
+  "occurrences": 54,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/ai-collections-strategy"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "content-rich-text",
+  "name": "content-rich-text",
+  "occurrences": 29,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/faq"
+  }
+}

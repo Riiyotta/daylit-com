@@ -1,0 +1,14 @@
+{
+  "id": "platform-review",
+  "name": "platform-review",
+  "occurrences": 51,
+  "composedOf": [
+    "heading",
+    "list",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/ar-automation-software-for-wholesale-distribution-companies-in-2026"
+  }
+}

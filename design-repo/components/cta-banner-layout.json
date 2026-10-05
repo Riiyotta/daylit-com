@@ -1,0 +1,15 @@
+{
+  "id": "cta-banner-layout",
+  "name": "cta-banner_layout",
+  "occurrences": 20,
+  "composedOf": [
+    "button",
+    "heading",
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

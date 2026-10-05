@@ -1,0 +1,15 @@
+{
+  "id": "faq-main-accordion-wrap",
+  "name": "faq-main-accordion_wrap",
+  "occurrences": 29,
+  "composedOf": [
+    "button",
+    "heading",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/faq"
+  }
+}

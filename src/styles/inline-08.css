@@ -1,0 +1,8 @@
+
+
+/* Hide section if it contains an empty cms collection */
+
+[hide-if-empty='true']:not(:has(.w-dyn-item)) {
+  display: none; 
+}
+

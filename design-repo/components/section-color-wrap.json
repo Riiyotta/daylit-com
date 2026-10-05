@@ -1,0 +1,10 @@
+{
+  "id": "section-color-wrap",
+  "name": "section-color-wrap",
+  "occurrences": 21,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/ai-collections-strategy"
+  }
+}

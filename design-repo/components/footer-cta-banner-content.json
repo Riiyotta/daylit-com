@@ -1,0 +1,13 @@
+{
+  "id": "footer-cta-banner-content",
+  "name": "footer_cta-banner_content",
+  "occurrences": 64,
+  "composedOf": [
+    "heading",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "swiper-component",
+  "name": "swiper_component",
+  "occurrences": 11,
+  "composedOf": [
+    "button",
+    "image",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/ai-collections-strategy"
+  }
+}

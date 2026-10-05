@@ -1,0 +1,19 @@
+{
+  "id": "le-post",
+  "name": "le-post",
+  "occurrences": 12,
+  "composedOf": [
+    "button",
+    "heading",
+    "image",
+    "link",
+    "list",
+    "paragraph",
+    "svg",
+    "table"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/daylit-vs-monk"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "main-wrapper",
+  "name": "main-wrapper",
+  "occurrences": 57,
+  "composedOf": [
+    "button",
+    "heading",
+    "image",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

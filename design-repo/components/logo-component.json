@@ -1,0 +1,12 @@
+{
+  "id": "logo-component",
+  "name": "logo_component",
+  "occurrences": 14,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

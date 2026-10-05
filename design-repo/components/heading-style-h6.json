@@ -1,0 +1,10 @@
+{
+  "id": "heading-style-h6",
+  "name": "heading-style-h6",
+  "occurrences": 200,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/intelligence"
+  }
+}

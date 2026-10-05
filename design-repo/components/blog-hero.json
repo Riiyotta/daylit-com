@@ -1,0 +1,10 @@
+{
+  "id": "blog-hero",
+  "name": "blog-hero",
+  "occurrences": 10,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/ar-automation-practices-distributors"
+  }
+}

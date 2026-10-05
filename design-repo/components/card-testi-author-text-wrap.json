@@ -1,0 +1,10 @@
+{
+  "id": "card-testi-author-text-wrap",
+  "name": "card-testi_author-text-wrap",
+  "occurrences": 110,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/ai-collections-strategy"
+  }
+}

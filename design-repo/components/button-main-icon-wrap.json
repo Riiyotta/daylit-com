@@ -1,0 +1,12 @@
+{
+  "id": "button-main-icon-wrap",
+  "name": "button-main-icon-wrap",
+  "occurrences": 413,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

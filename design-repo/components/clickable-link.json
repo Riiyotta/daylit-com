@@ -1,0 +1,10 @@
+{
+  "id": "clickable-link",
+  "name": "clickable_link",
+  "occurrences": 637,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

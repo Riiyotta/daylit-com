@@ -1,0 +1,10 @@
+{
+  "id": "blog-preview-card-link",
+  "name": "blog-preview_card-link",
+  "occurrences": 25,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/testimonial"
+  }
+}

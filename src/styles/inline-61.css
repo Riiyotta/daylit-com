@@ -1,0 +1,28 @@
+
+.ast-nav-next:not(.is-unlocked):not(.ast-nav-cert) {
+    display: none !important;
+  }
+  .ast-nav-coming-soon,
+  .ast-nav-locked-hint {
+    color: #825b63;
+    font-family: "TT Commons Pro", sans-serif;
+    font-style: italic;
+    line-height: 1.4;
+    margin: 8px 0 8px auto;
+    text-align: right;
+  }
+
+  .ast-nav-next {
+    margin-left: auto !important;
+  }
+
+  @media (max-width: 767px) {
+    .ast-nav-coming-soon,
+    .ast-nav-locked-hint {
+      margin: 8px auto;
+      text-align: center;
+    }
+    .ast-nav-next {
+      margin-left: 0 !important;
+    }
+  }

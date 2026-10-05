@@ -1,0 +1,10 @@
+{
+  "id": "nav-panel-card-title",
+  "name": "nav-panel_card_title",
+  "occurrences": 1088,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

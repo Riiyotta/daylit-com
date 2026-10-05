@@ -1,0 +1,10 @@
+{
+  "id": "footer-legal-link-dot",
+  "name": "footer_legal-link-dot",
+  "occurrences": 272,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

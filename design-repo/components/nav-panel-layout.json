@@ -1,0 +1,14 @@
+{
+  "id": "nav-panel-layout",
+  "name": "nav-panel_layout",
+  "occurrences": 272,
+  "composedOf": [
+    "image",
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

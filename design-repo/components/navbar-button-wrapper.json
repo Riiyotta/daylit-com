@@ -1,0 +1,14 @@
+{
+  "id": "navbar-button-wrapper",
+  "name": "navbar_button-wrapper",
+  "occurrences": 68,
+  "composedOf": [
+    "button",
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

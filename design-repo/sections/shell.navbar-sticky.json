@@ -1,0 +1,81 @@
+{
+  "id": "shell.navbar-sticky",
+  "category": "SHELL",
+  "label": "navbar_sticky",
+  "tag": "div",
+  "purpose": "Orients the visitor and provides navigation or site-wide links; carried across pages.",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 64,
+    "routes": 64,
+    "measuredFrom": [
+      "src/index.html:1177-1919",
+      "src/ai-skills/index.html:585-1327",
+      "src/ai-skills-training/getting-started-ai-agents-ar/index.html:584-1326",
+      "src/ai-skills-training/how-to-match-bank-records-to-open-invoices/index.html:584-1326",
+      "src/ai-skills-training/how-to-route-dunning-emails-to-right-person/index.html:584-1326"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 6,
+        "maxWords": 12
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 26,
+        "maxWords": 16
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 21,
+        "assetRoles": [
+          "icon"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustBeFirst": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none",
+      "scroll-linked"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 117,
+      "columns": 6
+    },
+    "mobile": {
+      "heightPx": 93,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "6 columns collapse to a single column"
+    ]
+  },
+  "assetRoles": [
+    "icon"
+  ],
+  "implementedBy": "src/sections/NavbarSticky.jsx"
+}

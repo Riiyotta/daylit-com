@@ -1,0 +1,8 @@
+
+  /* Desktop Only */ 
+  @media (min-width: 992px) {  
+    .card-faq_content-container {
+      height: auto !important;
+      opacity: 1 !important;
+    }
+  }

@@ -1,0 +1,75 @@
+{
+  "id": "hero.section-cta-banner",
+  "category": "HERO",
+  "label": "section_cta-banner",
+  "tag": "section",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"Book a demo today to unlock massive savings in your finance department with Daylit\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 17,
+    "routes": 9,
+    "measuredFrom": [
+      "src/index.html:3410-3436",
+      "src/product/drawdown/index.html:1778-1899",
+      "src/product/drawdown/index.html:3176-3471",
+      "src/product/fundnow/index.html:1778-1899",
+      "src/product/fundnow/index.html:3176-3471"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 14
+      },
+      "body": {
+        "type": "string[]",
+        "required": false,
+        "maxItems": 1,
+        "maxWords": 15
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 1
+      }
+    }
+  },
+  "constraints": {
+    "maxPerPage": 2,
+    "noConsecutive": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 296,
+      "columns": 2
+    },
+    "mobile": {
+      "heightPx": 288,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "2 columns collapse to a single column"
+    ]
+  },
+  "assetRoles": [],
+  "implementedBy": "src/pages/HomePage.jsx"
+}

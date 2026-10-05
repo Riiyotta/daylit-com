@@ -1,0 +1,23 @@
+
+	.navbar_link.w--current > [dropdown='stem'], 
+  .w-dropdown-toggle.w--open > [dropdown='stem'] {
+    opacity: 1;
+  }
+  .navbar_dropdwn-toggle.w--open .dropdown-arrow {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease; /* smooth animation */
+  }
+
+  .nav-panel_card:hover .nav-panel_card-bg {
+    opacity: 1;
+  }
+
+
+  .nav-panel_card.w--current .nav-panel_card_icon-wrap {
+    background-color: var(--_color-schemes---icon--default);
+  }
+  .nav-panel_card.w--current .nav-panel_card_icon {
+    filter: invert(99%) sepia(96%) saturate(868%) hue-rotate(347deg) brightness(103%) contrast(104%);
+  }
+  
+  

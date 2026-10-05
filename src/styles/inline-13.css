@@ -1,0 +1,29 @@
+
+  /*
+  */
+  [data-wf--button-main--style="primary-plus"]:hover .button_main_content-wrap {
+    color: var(--_color-schemes---icon--default);
+  }
+  [data-wf--button-main--style="primary-plus"] .button_main_content-wrap::after,
+  [data-wf--button-main--style="primary-arrow"]::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    width: 210%; /* make it wider for the sweep */
+    background: linear-gradient(
+      to right,
+      var(--_color-schemes---background--bg-primary-glow-clear) 0%,
+      var(--_color-schemes---background--bg-primary-glow) 50%,
+      var(--_color-schemes---background--bg-primary-glow) 100%
+    );
+    transform: translateX(100%); /* hidden off to the right */
+    transition: transform 0.35s linear;
+  }
+
+  [data-wf--button-main--style="primary-plus"]:hover .button_main_content-wrap::after,
+  [data-wf--button-main--style="primary-arrow"]:hover::after {
+    transform: translateX(-50%); /* slides fully across */
+  }
+
+

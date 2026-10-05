@@ -1,0 +1,10 @@
+{
+  "id": "csr-stat-num",
+  "name": "csr-stat-num",
+  "occurrences": 42,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/case-study/uptime-health-services"
+  }
+}
