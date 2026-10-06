@@ -354,7 +354,9 @@
         "hero.section-cta-banner",
         "shell.footer-wrap",
         "content.chat-widget"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.intelligence",
@@ -381,7 +383,9 @@
         "content.section-shine",
         "shell.footer-component",
         "content.chat-widget"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.blog",
@@ -398,7 +402,9 @@
         "content.section-blog-feed",
         "shell.footer-component",
         "content.chat-widget"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.ai-skills",
@@ -415,7 +421,9 @@
         "content.ast-grid-section",
         "shell.footer-component",
         "content.chat-widget"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.group",
@@ -431,7 +439,9 @@
       "sections": [
         "hero.page-wrapper",
         "content.chat-widget"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.case-studies",
@@ -452,7 +462,9 @@
         "content.cs-feat",
         "shell.footer-component",
         "content.chat-widget"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.our-team-story",
@@ -473,7 +485,9 @@
         "content.section-team-feed",
         "shell.footer-component",
         "content.chat-widget"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.referral",
@@ -491,7 +505,9 @@
         "content.section-different",
         "shell.footer-component",
         "content.chat-widget"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.faq",
@@ -509,7 +525,9 @@
         "support.faq-filter-form",
         "shell.footer-component",
         "content.chat-widget"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.blog-2",
@@ -532,7 +550,9 @@
         "content.section-gradient-light",
         "shell.footer-component",
         "content.chat-widget"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.product",
@@ -560,7 +580,9 @@
         "proof.section-blog-preview",
         "shell.footer-component",
         "content.chat-widget"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.legal",
@@ -582,7 +604,9 @@
         "hero.section-cta-banner",
         "shell.footer-component",
         "content.chat-widget"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.solution",
@@ -607,7 +631,9 @@
         "hero.section-cta-banner",
         "shell.footer-component",
         "content.chat-widget"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.demo",
@@ -620,7 +646,9 @@
       "sections": [
         "hero.section-demo",
         "content.chat-widget"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.case-study",
@@ -640,7 +668,9 @@
         "cta.csr-cta",
         "shell.footer-component",
         "content.chat-widget"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.legal-2",
@@ -659,7 +689,9 @@
         "hero.main-wrapper",
         "shell.footer-component",
         "content.chat-widget"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.ai-skills-training",
@@ -678,7 +710,9 @@
         "hero.ast-detail",
         "shell.footer-component",
         "content.chat-widget"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.blog-3",
@@ -707,7 +741,9 @@
         "content.section-gradient-light",
         "shell.footer-component",
         "content.chat-widget"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     }
   ]
 }
