@@ -6,4 +6,8 @@
 @media (prefers-reduced-motion: no-preference) {
   html.reveal-ready [data-reveal]:not(.is-in) { opacity: 0; translate: 0 24px; }
   html.reveal-ready [data-reveal] { transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), translate 0.7s cubic-bezier(0.22, 1, 0.36, 1); }
+
+  /* IntersectionObserver is unreliable on SVG sub-elements, and a miss leaves part of an
+     illustration permanently invisible, so never opacity-gate anything inside an <svg>. */
+  html.reveal-ready svg [data-reveal]:not(.is-in) { opacity: 1; translate: none; }
 }

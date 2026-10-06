@@ -139,7 +139,7 @@ export default function SuperchargeCollectionsAtSca5() {
                         </g>
                       </g>
                     </g>
-                    <mask id="__lottie_element_562_1" maskType="alpha">
+                    <mask id="__lottie_element_562_1" mask-type="alpha">
                       <use href="#__lottie_element_562" />
                     </mask>
                     <clipPath id="__lottie_element_615">
@@ -176,7 +176,7 @@ export default function SuperchargeCollectionsAtSca5() {
                         </g>
                       </g>
                     </g>
-                    <mask id="__lottie_element_625_1" maskType="alpha">
+                    <mask id="__lottie_element_625_1" mask-type="alpha">
                       <use href="#__lottie_element_625" />
                     </mask>
                     <clipPath id="__lottie_element_655">
@@ -213,7 +213,7 @@ export default function SuperchargeCollectionsAtSca5() {
                         </g>
                       </g>
                     </g>
-                    <mask id="__lottie_element_665_1" maskType="alpha">
+                    <mask id="__lottie_element_665_1" mask-type="alpha">
                       <use href="#__lottie_element_665" />
                     </mask>
                     <g id="__lottie_element_694">
@@ -224,7 +224,7 @@ export default function SuperchargeCollectionsAtSca5() {
                         </g>
                       </g>
                     </g>
-                    <mask id="__lottie_element_694_1" maskType="alpha">
+                    <mask id="__lottie_element_694_1" mask-type="alpha">
                       <use href="#__lottie_element_694" />
                     </mask>
                     <clipPath id="__lottie_element_721">
@@ -261,7 +261,7 @@ export default function SuperchargeCollectionsAtSca5() {
                         </g>
                       </g>
                     </g>
-                    <mask id="__lottie_element_731_1" maskType="alpha">
+                    <mask id="__lottie_element_731_1" mask-type="alpha">
                       <use href="#__lottie_element_731" />
                     </mask>
                     <linearGradient id="__lottie_element_770" spreadMethod="pad" gradientUnits="userSpaceOnUse" x1="-376" y1="2" x2="371" y2="-2">
@@ -278,7 +278,7 @@ export default function SuperchargeCollectionsAtSca5() {
                       <stop offset="76%" stopColor="rgb(169,141,147)" />
                       <stop offset="100%" stopColor="rgb(217,217,219)" />
                     </linearGradient>
-                    <mask id="__lottie_element_545_1" maskType="alpha">
+                    <mask id="__lottie_element_545_1" mask-type="alpha">
                       <use href="#__lottie_element_545" />
                     </mask>
                     <linearGradient id="__lottie_element_786" spreadMethod="pad" gradientUnits="userSpaceOnUse" x1="-376" y1="2" x2="371" y2="-2">
@@ -288,7 +288,7 @@ export default function SuperchargeCollectionsAtSca5() {
                       <stop offset="76%" stopColor="rgb(169,141,147)" />
                       <stop offset="100%" stopColor="rgb(217,217,219)" />
                     </linearGradient>
-                    <mask id="__lottie_element_628_1" maskType="alpha">
+                    <mask id="__lottie_element_628_1" mask-type="alpha">
                       <use href="#__lottie_element_628" />
                     </mask>
                     <g id="__lottie_element_803">
@@ -314,7 +314,7 @@ export default function SuperchargeCollectionsAtSca5() {
                       <stop offset="76%" stopColor="rgb(169,141,147)" />
                       <stop offset="100%" stopColor="rgb(217,217,219)" />
                     </linearGradient>
-                    <mask id="__lottie_element_668_1" maskType="alpha">
+                    <mask id="__lottie_element_668_1" mask-type="alpha">
                       <use href="#__lottie_element_668" />
                     </mask>
                     <linearGradient id="__lottie_element_816" spreadMethod="pad" gradientUnits="userSpaceOnUse" x1="-376" y1="2" x2="371" y2="-2">
@@ -324,7 +324,7 @@ export default function SuperchargeCollectionsAtSca5() {
                       <stop offset="76%" stopColor="rgb(169,141,147)" />
                       <stop offset="100%" stopColor="rgb(217,217,219)" />
                     </linearGradient>
-                    <mask id="__lottie_element_734_1" maskType="alpha">
+                    <mask id="__lottie_element_734_1" mask-type="alpha">
                       <use href="#__lottie_element_734" />
                     </mask>
                   </defs>

@@ -50,7 +50,6 @@ export default function CsHero() {
           <div className="cs-quote-text">“Daylit has been transformative for us.”</div>
           <div className="cs-quote-author">
             <div className="cs-quote-avatar">
-              <imgraw data-raw-src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6a4ec232eb124dfdc15427e1_csr-aaron-lynch-avatar.png" alt="Aaron Lynch"></imgraw>
               <img src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6a4ec232eb124dfdc15427e1_csr-aaron-lynch-avatar.png" loading="lazy" sizes="(max-width: 692px) 100vw, 692px" srcSet="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6a4ec232eb124dfdc15427e1_csr-aaron-lynch-avatar-p-500.png 500w, /_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6a4ec232eb124dfdc15427e1_csr-aaron-lynch-avatar.png 692w" alt="Aaron Lynch, VP, Finance at Maintera" className="cs-quote-avatar-img" />
             </div>
             <div className="cs-quote-name">Aaron Lynch, VP, Finance at Maintera</div>

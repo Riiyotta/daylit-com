@@ -66,7 +66,7 @@ export default function SeeWhatSComing() {
                     <filter id="__lottie_element_1908" x="-100%" y="-100%" width="300%" height="300%">
                       <feGaussianBlur result="filter_result_0" stdDeviation="11.969999999999999 11.969999999999999" edgeMode="duplicate" />
                     </filter>
-                    <mask id="__lottie_element_1148_1" maskType="alpha">
+                    <mask id="__lottie_element_1148_1" mask-type="alpha">
                       <use href="#__lottie_element_1148" />
                     </mask>
                   </defs>

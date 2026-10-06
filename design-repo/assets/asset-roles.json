@@ -1,7 +1,7 @@
 {
   "version": "0.1.0",
   "sourceIsLiveSite": true,
-  "defaultPolicy": "Assets are evidence from a real, live site. Do not reuse without licence review; never reproduce real logos, real people's photos or proprietary content.",
+  "defaultPolicy": "Assets are evidence from the site owner's own live site. First-party assets (the brand mark, product and marketing imagery) may be reused by the owner. Third-party material carried on the site is not the owner's to grant: never reproduce another company's logo or a real person's photo in generated output - substitute an explicit placeholder. Nothing is deleted from the captured evidence.",
   "roles": {
     "logo": {
       "generationPolicy": "must-reuse-exact",
