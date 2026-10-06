@@ -1,3 +1,4 @@
+// IA section(s): content.section-team-feed (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Designers, engineers, and ex-o — the section's real markup, read from the rendered page (route /our-team-story, section 7).
@@ -131,7 +132,7 @@ export default function DesignersEngineersAndEx() {
                               </div>
                             </div>
                           </div>
-                          <div cc-accordion-element="content" className="w-layout-vflex team-feed_leaders_accordion-content u-no-scrollbar" id="accordion-details-1" aria-labelledby="accordion-summary-1" role="region" style={{ "height": "0px", "opacity": "0" }}>
+                          <div cc-accordion-element="content" className="w-layout-vflex team-feed_leaders_accordion-content u-no-scrollbar" id="accordion-details-1" aria-labelledby="accordion-summary-1" role="region" style={{ "height": "0px" }}>
                             <div className="w-layout-vflex team-feed_leaders_accordion-content-wrap">
                               <div className="text-rich-text is-small w-richtext">
                                 <p>Jared Shulman is the Co-Founder and CEO of Daylit (formerly known as Lendica). He also serves as a Guest Lecturer at Babson College, teaching fintech to undergraduate and MBA students. Prior to founding Daylit, Jared was a core member of ILA Capital, a boutique hedge fund in private credit, where he built trading, risk, and reporting systems for early non-bank lending platforms. He previously founded Pendleton, consulting for mutual and hedge funds on data-driven risk management and automation, and began his career as an Assistant Portfolio Manager at EntrepreneurShares, LLC, managing $350M in assets under management. Jared earned his Bachelor of Science in Business Management and Entrepreneurship from Babson College.</p>
@@ -184,7 +185,7 @@ export default function DesignersEngineersAndEx() {
                               </div>
                             </div>
                           </div>
-                          <div cc-accordion-element="content" className="w-layout-vflex team-feed_leaders_accordion-content u-no-scrollbar" id="accordion-details-2" aria-labelledby="accordion-summary-2" role="region" style={{ "height": "0px", "opacity": "0" }}>
+                          <div cc-accordion-element="content" className="w-layout-vflex team-feed_leaders_accordion-content u-no-scrollbar" id="accordion-details-2" aria-labelledby="accordion-summary-2" role="region" style={{ "height": "0px" }}>
                             <div className="w-layout-vflex team-feed_leaders_accordion-content-wrap">
                               <div className="text-rich-text is-small w-richtext">
                                 <p>Jerry Shu is the Co-Founder and CTO of Daylit (formerly known as Lendica). He is also the Co-Founder of Manticor, further reflecting his entrepreneurial focus on building innovative financial platforms. Earlier in his career, Jerry worked as a Quantitative Research Associate at J.P. Morgan, where he specialized in algorithmic index development and derivative pricing within the equity derivatives group. He holds a Master’s in Finance from the MIT Sloan School of Management and a BBA in Quantitative Finance and Risk Management from the City University of Hong Kong.</p>

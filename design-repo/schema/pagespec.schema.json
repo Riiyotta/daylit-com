@@ -22,19 +22,22 @@
         "template.intelligence",
         "template.blog",
         "template.ai-skills",
-        "template.group",
+        "template.ai-collections-strategy",
         "template.case-studies",
         "template.our-team-story",
+        "template.testimonial",
         "template.referral",
         "template.faq",
+        "template.become-a-partner",
         "template.blog-2",
         "template.product",
         "template.legal",
         "template.solution",
         "template.demo",
-        "template.case-study",
         "template.legal-2",
+        "template.case-study",
         "template.ai-skills-training",
+        "template.early-pay-savings-calculator-daylit-work",
         "template.blog-3"
       ]
     },
@@ -223,10 +226,49 @@
         "ctas"
       ]
     },
-    "content.content.chat-widget": {
+    "content.content.block": {
       "type": "object",
       "additionalProperties": false,
-      "properties": {}
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 4
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 7,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 38
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body"
+      ]
     },
     "content.content.cs-cases-grid": {
       "type": "object",
@@ -577,6 +619,69 @@
         "ctas"
       ]
     },
+    "content.content.section-color-wrap": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 7
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 14
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 1
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      }
+    },
     "content.content.section-different": {
       "type": "object",
       "additionalProperties": false,
@@ -645,50 +750,6 @@
         "heading",
         "body",
         "items"
-      ]
-    },
-    "content.content.section-gradient-light": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "heading": {
-          "type": "string",
-          "minLength": 1,
-          "maxWords": 4
-        },
-        "body": {
-          "type": "array",
-          "maxItems": 7,
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxWords": 38
-          }
-        },
-        "images": {
-          "type": "array",
-          "maxItems": 3,
-          "items": {
-            "type": "object",
-            "required": [
-              "assetRole"
-            ],
-            "additionalProperties": false,
-            "properties": {
-              "assetRole": {
-                "$ref": "#/definitions/assetRole"
-              },
-              "alt": {
-                "type": "string",
-                "maxWords": 16
-              }
-            }
-          }
-        }
-      },
-      "required": [
-        "heading",
-        "body"
       ]
     },
     "content.content.section-home-dashboard": {
@@ -896,7 +957,7 @@
         "heading": {
           "type": "string",
           "minLength": 1,
-          "maxWords": 6
+          "maxWords": 7
         },
         "body": {
           "type": "array",
@@ -920,11 +981,11 @@
               "title": {
                 "type": "string",
                 "minLength": 1,
-                "maxWords": 2
+                "maxWords": 3
               },
               "body": {
                 "type": "string",
-                "maxWords": 5
+                "maxWords": 26
               }
             }
           }
@@ -1112,7 +1173,7 @@
           "items": {
             "type": "string",
             "minLength": 1,
-            "maxWords": 23
+            "maxWords": 24
           }
         },
         "ctas": {
@@ -1184,6 +1245,74 @@
       "required": [
         "heading",
         "body"
+      ]
+    },
+    "content.content.u-texture": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 7
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 24
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 1
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body",
+        "ctas"
       ]
     },
     "content.cta.csr-cta": {
@@ -1308,6 +1437,112 @@
       "required": [
         "heading",
         "ctas"
+      ]
+    },
+    "content.cta.section-cta-main": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 7
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 15
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 1
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body",
+        "ctas"
+      ]
+    },
+    "content.cta.section-demo-left": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "body": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 33
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 66,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "body"
       ]
     },
     "content.features.section-blog-featured": {
@@ -1586,147 +1821,6 @@
         "body"
       ]
     },
-    "content.hero.main-wrapper": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "heading": {
-          "type": "string",
-          "minLength": 1,
-          "maxWords": 5
-        },
-        "subheading": {
-          "type": "string",
-          "minLength": 1,
-          "maxWords": 5
-        },
-        "body": {
-          "type": "array",
-          "maxItems": 30,
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxWords": 83
-          }
-        },
-        "items": {
-          "type": "array",
-          "maxItems": 24,
-          "items": {
-            "type": "object",
-            "required": [
-              "title"
-            ],
-            "additionalProperties": false,
-            "properties": {
-              "title": {
-                "type": "string",
-                "minLength": 1,
-                "maxWords": 9
-              }
-            }
-          }
-        }
-      },
-      "required": [
-        "heading",
-        "body"
-      ]
-    },
-    "content.hero.page-wrapper": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "heading": {
-          "type": "string",
-          "minLength": 1,
-          "maxWords": 7
-        },
-        "subheading": {
-          "type": "string",
-          "minLength": 1,
-          "maxWords": 4
-        },
-        "body": {
-          "type": "array",
-          "maxItems": 12,
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxWords": 24
-          }
-        },
-        "ctas": {
-          "type": "array",
-          "maxItems": 12,
-          "items": {
-            "type": "object",
-            "required": [
-              "label"
-            ],
-            "additionalProperties": false,
-            "properties": {
-              "label": {
-                "type": "string",
-                "minLength": 1,
-                "maxWords": 1
-              },
-              "href": {
-                "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
-              }
-            }
-          }
-        },
-        "items": {
-          "type": "array",
-          "maxItems": 7,
-          "items": {
-            "type": "object",
-            "required": [
-              "title"
-            ],
-            "additionalProperties": false,
-            "properties": {
-              "title": {
-                "type": "string",
-                "minLength": 1,
-                "maxWords": 7
-              },
-              "body": {
-                "type": "string",
-                "maxWords": 34
-              }
-            }
-          }
-        },
-        "images": {
-          "type": "array",
-          "maxItems": 55,
-          "items": {
-            "type": "object",
-            "required": [
-              "assetRole"
-            ],
-            "additionalProperties": false,
-            "properties": {
-              "assetRole": {
-                "$ref": "#/definitions/assetRole"
-              },
-              "alt": {
-                "type": "string",
-                "maxWords": 16
-              }
-            }
-          }
-        }
-      },
-      "required": [
-        "body",
-        "ctas"
-      ]
-    },
     "content.hero.section-cta-banner": {
       "type": "object",
       "additionalProperties": false,
@@ -1771,74 +1865,6 @@
       },
       "required": [
         "heading",
-        "ctas"
-      ]
-    },
-    "content.hero.section-demo": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "heading": {
-          "type": "string",
-          "minLength": 1,
-          "maxWords": 9
-        },
-        "body": {
-          "type": "array",
-          "maxItems": 19,
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxWords": 15
-          }
-        },
-        "ctas": {
-          "type": "array",
-          "maxItems": 2,
-          "items": {
-            "type": "object",
-            "required": [
-              "label"
-            ],
-            "additionalProperties": false,
-            "properties": {
-              "label": {
-                "type": "string",
-                "minLength": 1,
-                "maxWords": 3
-              },
-              "href": {
-                "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
-              }
-            }
-          }
-        },
-        "images": {
-          "type": "array",
-          "maxItems": 71,
-          "items": {
-            "type": "object",
-            "required": [
-              "assetRole"
-            ],
-            "additionalProperties": false,
-            "properties": {
-              "assetRole": {
-                "$ref": "#/definitions/assetRole"
-              },
-              "alt": {
-                "type": "string",
-                "maxWords": 16
-              }
-            }
-          }
-        }
-      },
-      "required": [
-        "heading",
-        "body",
         "ctas"
       ]
     },
@@ -1910,6 +1936,77 @@
         "ctas"
       ]
     },
+    "content.hero.section-legal-article": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 5
+        },
+        "subheading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 5
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 30,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 83
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 24,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 9
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body"
+      ]
+    },
+    "content.hero.section-tools-header": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 7
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 13
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body"
+      ]
+    },
     "content.proof.case-studies": {
       "type": "object",
       "additionalProperties": false,
@@ -1976,6 +2073,76 @@
       "required": [
         "heading",
         "body"
+      ]
+    },
+    "content.proof.section-faqs-preview": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 6
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 3
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 13
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 13
+              },
+              "body": {
+                "type": "string",
+                "maxWords": 52
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body",
+        "ctas"
       ]
     },
     "content.proof.section-home-product": {
@@ -2339,6 +2506,54 @@
         "items"
       ]
     },
+    "content.proof.section-testi-wall": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 4
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 17
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 1
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body",
+        "ctas"
+      ]
+    },
     "content.proof.section-testimonials": {
       "type": "object",
       "additionalProperties": false,
@@ -2418,7 +2633,7 @@
         },
         "body": {
           "type": "array",
-          "maxItems": 1,
+          "maxItems": 5,
           "items": {
             "type": "string",
             "minLength": 1,
@@ -2450,7 +2665,6 @@
         }
       },
       "required": [
-        "heading",
         "body",
         "ctas"
       ]
@@ -2512,13 +2726,18 @@
           "minLength": 1,
           "maxWords": 12
         },
+        "subheading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 7
+        },
         "body": {
           "type": "array",
-          "maxItems": 1,
+          "maxItems": 5,
           "items": {
             "type": "string",
             "minLength": 1,
-            "maxWords": 27
+            "maxWords": 31
           }
         },
         "ctas": {
@@ -2546,7 +2765,7 @@
         },
         "images": {
           "type": "array",
-          "maxItems": 1,
+          "maxItems": 4,
           "items": {
             "type": "object",
             "required": [
@@ -2674,6 +2893,74 @@
       "required": [
         "heading",
         "body"
+      ]
+    },
+    "content.shell.section-testi-header": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 4
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 4,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 9
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 1
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body",
+        "ctas"
       ]
     },
     "content.showcase.section-product-spread": {
@@ -2923,6 +3210,74 @@
         "ctas"
       ]
     },
+    "content.support.section-demo-right": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 9
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 19,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 15
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 3
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body",
+        "ctas"
+      ]
+    },
     "content.support.section-home-faq": {
       "type": "object",
       "additionalProperties": false,
@@ -3028,7 +3383,7 @@
           "enum": [
             "content.ast-grid-section",
             "content.big-section",
-            "content.chat-widget",
+            "content.block",
             "content.cs-cases-grid",
             "content.cs-feat",
             "content.cs-stats",
@@ -3036,8 +3391,8 @@
             "content.csr-body",
             "content.padding-section-wrap",
             "content.section-blog-feed",
+            "content.section-color-wrap",
             "content.section-different",
-            "content.section-gradient-light",
             "content.section-home-dashboard",
             "content.section-home-enterprise",
             "content.section-home-insights",
@@ -3047,36 +3402,42 @@
             "content.section-team-feed",
             "content.section-timeline",
             "content.section-why",
+            "content.u-texture",
             "cta.csr-cta",
             "cta.post-solution-cta",
             "cta.section-cta-dashboard",
+            "cta.section-cta-main",
+            "cta.section-demo-left",
             "features.section-blog-featured",
             "hero.ast-detail",
             "hero.ast-hero",
             "hero.cs-hero",
             "hero.csr-hero",
-            "hero.main-wrapper",
-            "hero.page-wrapper",
             "hero.section-cta-banner",
-            "hero.section-demo",
             "hero.section-home-hero",
+            "hero.section-legal-article",
+            "hero.section-tools-header",
             "proof.case-studies",
             "proof.section-blog-preview",
+            "proof.section-faqs-preview",
             "proof.section-home-product",
             "proof.section-logo",
             "proof.section-products-preview",
             "proof.section-solutions-preview",
             "proof.section-story-cards",
+            "proof.section-testi-wall",
             "proof.section-testimonials",
             "shell.footer-component",
             "shell.footer-wrap",
             "shell.form",
             "shell.navbar-sticky",
             "shell.section-blog-header",
+            "shell.section-testi-header",
             "showcase.section-product-spread",
             "support.ast-feature-section",
             "support.faq-filter-form",
             "support.section-article-blog",
+            "support.section-demo-right",
             "support.section-home-faq"
           ]
         },
@@ -3130,7 +3491,7 @@
           "if": {
             "properties": {
               "type": {
-                "const": "content.chat-widget"
+                "const": "content.block"
               }
             },
             "required": [
@@ -3140,7 +3501,7 @@
           "then": {
             "properties": {
               "content": {
-                "$ref": "#/definitions/content.content.chat-widget"
+                "$ref": "#/definitions/content.content.block"
               }
             }
           }
@@ -3282,6 +3643,25 @@
           "if": {
             "properties": {
               "type": {
+                "const": "content.section-color-wrap"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.section-color-wrap"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
                 "const": "content.section-different"
               }
             },
@@ -3293,25 +3673,6 @@
             "properties": {
               "content": {
                 "$ref": "#/definitions/content.content.section-different"
-              }
-            }
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "content.section-gradient-light"
-              }
-            },
-            "required": [
-              "type"
-            ]
-          },
-          "then": {
-            "properties": {
-              "content": {
-                "$ref": "#/definitions/content.content.section-gradient-light"
               }
             }
           }
@@ -3491,6 +3852,25 @@
           "if": {
             "properties": {
               "type": {
+                "const": "content.u-texture"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.u-texture"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
                 "const": "cta.csr-cta"
               }
             },
@@ -3540,6 +3920,44 @@
             "properties": {
               "content": {
                 "$ref": "#/definitions/content.cta.section-cta-dashboard"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "cta.section-cta-main"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.cta.section-cta-main"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "cta.section-demo-left"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.cta.section-demo-left"
               }
             }
           }
@@ -3643,44 +4061,6 @@
           "if": {
             "properties": {
               "type": {
-                "const": "hero.main-wrapper"
-              }
-            },
-            "required": [
-              "type"
-            ]
-          },
-          "then": {
-            "properties": {
-              "content": {
-                "$ref": "#/definitions/content.hero.main-wrapper"
-              }
-            }
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "hero.page-wrapper"
-              }
-            },
-            "required": [
-              "type"
-            ]
-          },
-          "then": {
-            "properties": {
-              "content": {
-                "$ref": "#/definitions/content.hero.page-wrapper"
-              }
-            }
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
                 "const": "hero.section-cta-banner"
               }
             },
@@ -3700,25 +4080,6 @@
           "if": {
             "properties": {
               "type": {
-                "const": "hero.section-demo"
-              }
-            },
-            "required": [
-              "type"
-            ]
-          },
-          "then": {
-            "properties": {
-              "content": {
-                "$ref": "#/definitions/content.hero.section-demo"
-              }
-            }
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
                 "const": "hero.section-home-hero"
               }
             },
@@ -3730,6 +4091,44 @@
             "properties": {
               "content": {
                 "$ref": "#/definitions/content.hero.section-home-hero"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "hero.section-legal-article"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.hero.section-legal-article"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "hero.section-tools-header"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.hero.section-tools-header"
               }
             }
           }
@@ -3768,6 +4167,25 @@
             "properties": {
               "content": {
                 "$ref": "#/definitions/content.proof.section-blog-preview"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "proof.section-faqs-preview"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.proof.section-faqs-preview"
               }
             }
           }
@@ -3863,6 +4281,25 @@
             "properties": {
               "content": {
                 "$ref": "#/definitions/content.proof.section-story-cards"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "proof.section-testi-wall"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.proof.section-testi-wall"
               }
             }
           }
@@ -3985,6 +4422,25 @@
           "if": {
             "properties": {
               "type": {
+                "const": "shell.section-testi-header"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.shell.section-testi-header"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
                 "const": "showcase.section-product-spread"
               }
             },
@@ -4053,6 +4509,25 @@
             "properties": {
               "content": {
                 "$ref": "#/definitions/content.support.section-article-blog"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "support.section-demo-right"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.support.section-demo-right"
               }
             }
           }

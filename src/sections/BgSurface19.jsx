@@ -1,4 +1,5 @@
-// bg-surface — the section's real markup, read from the rendered page (route /solution/staffing, section 4).
+// IA section(s): content.section-why (ia/ia.json, design-repo/sections/)
+// bg-surface — the section's real markup, read from the rendered page (route /solution/manufacturing, section 4).
 export default function BgSurface19() {
   return (
     <section data-texture-section="true" data-wf--build-section-cards-info--general-color="base" className="section_why bg-surface" data-clone-section="BgSurface19">
@@ -17,7 +18,7 @@ export default function BgSurface19() {
               <h2>Transport your A/R into the AI era</h2>
               <div className="spacer-small"></div>
               <div className="w-layout-vflex max-width-large text-wrap-balance">
-                <p className="u-is-100">We equip recruiting companies like yours with enterprise grade capabilities manage accounts receivables processes.</p>
+                <p className="u-is-100">We equip manufacturing companies like yours with enterprise grade capabilities manage accounts receivables processes.</p>
               </div>
             </div>
             <div data-slot="card-info" className="cards_list">
@@ -33,7 +34,7 @@ export default function BgSurface19() {
                 <div className="w-layout-vflex card-icon-wrap">
                   <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68aed1d2f92c17de793691bb_icon-cloud.svg" alt="" className="card-icon" />
                 </div>
-                <h2 className="heading-style-h6">Full visibility of your A/R</h2>
+                <h2 className="heading-style-h6">Cure A/R headaches</h2>
                 <p id="w-node-_55763f69-ab1f-09b8-dca8-03b29c7c5075-9c7c5070">Imagine knowing when customers will be late and catching issues ahead of time. Meet your A/R crystal ball.</p>
                 <div className="card-border-gradient"></div>
               </div>

@@ -1,3 +1,4 @@
+// IA section(s): content.section-why (ia/ia.json, design-repo/sections/)
 // w-variant-1257823e-47f5-17c5-82fb — the section's real markup, read from the rendered page (route /ai-collections-strategy, section 8).
 export default function WVariant1257823e47f5() {
   return (

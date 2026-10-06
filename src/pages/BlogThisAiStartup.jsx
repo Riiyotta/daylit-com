@@ -1,6 +1,6 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavbarSticky11 from "../sections/NavbarSticky11.jsx";
+import NavbarSticky12 from "../sections/NavbarSticky12.jsx";
 import Header2 from "../sections/Header2.jsx";
 import Article from "../sections/Article.jsx";
 import YouMightAlsoLike from "../sections/YouMightAlsoLike.jsx";
@@ -30,7 +30,7 @@ import css21 from "../styles/inline-44.css?inline"; // only this page loads it
 
 // Route /blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category — 5 section(s), in page order.
 export default function BlogThisAiStartup() {
-  usePageChrome({ title: "This AI Startup is Giving Away the Playbook to Kill Its Own Category | Daylit", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "68ae973e5e84ee02fac81fab", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "data-wf-collection": "68ae973d5e84ee02fac81f9a", "data-wf-item-slug": "this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category", "class": "w-mod-js w-mod-ix wf-opensans-i3-active wf-opensans-i7-active wf-opensans-i8-active wf-opensans-i4-active wf-opensans-i6-active wf-opensans-n8-active wf-opensans-n4-active wf-opensans-n6-active wf-opensans-n7-active wf-opensans-n3-active wf-active" }, body: {  } });
+  usePageChrome({ title: "This AI Startup is Giving Away the Playbook to Kill Its Own Category | Daylit", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "68ae973e5e84ee02fac81fab", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "data-wf-collection": "68ae973d5e84ee02fac81f9a", "data-wf-item-slug": "this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category", "class": "w-mod-js w-mod-ix wf-opensans-n8-active wf-opensans-n4-active wf-opensans-n7-active wf-opensans-n6-active wf-opensans-n3-active wf-opensans-i3-active wf-opensans-i8-active wf-opensans-i4-active wf-opensans-i7-active wf-opensans-i6-active wf-active" }, body: {  } });
   return (
     <>
       <style>{css0}</style>
@@ -83,7 +83,7 @@ export default function BlogThisAiStartup() {
         <div className="w-embed"></div>
         <div className="w-embed"></div>
       </div>
-      <NavbarSticky11 />
+      <NavbarSticky12 />
       <main className="main-wrapper">
         <Header2 />
         <Article />

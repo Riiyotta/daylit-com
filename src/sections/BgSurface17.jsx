@@ -1,4 +1,5 @@
-// bg-surface — the section's real markup, read from the rendered page (route /solution/manufacturing, section 4).
+// IA section(s): content.section-why (ia/ia.json, design-repo/sections/)
+// bg-surface — the section's real markup, read from the rendered page (route /solution/legal, section 4).
 export default function BgSurface17() {
   return (
     <section data-texture-section="true" data-wf--build-section-cards-info--general-color="base" className="section_why bg-surface" data-clone-section="BgSurface17">
@@ -14,10 +15,10 @@ export default function BgSurface17() {
                 <div className="eyebrow-text">Why Daylit</div>
               </div>
               <div className="spacer-medium"></div>
-              <h2>Transport your A/R into the AI era</h2>
+              <h2>{"Transport your firm's AR into the AI era"}</h2>
               <div className="spacer-small"></div>
               <div className="w-layout-vflex max-width-large text-wrap-balance">
-                <p className="u-is-100">We equip manufacturing companies like yours with enterprise grade capabilities manage accounts receivables processes.</p>
+                <p className="u-is-100">We equip law firms with an agentic collections layer that works every channel your billing team does - without adding to the team.</p>
               </div>
             </div>
             <div data-slot="card-info" className="cards_list">
@@ -26,23 +27,23 @@ export default function BgSurface17() {
                   <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68aed1d2b4ad8f96a87e3487_icon-target.svg" alt="" className="card-icon" />
                 </div>
                 <h2 className="heading-style-h6">Automate the manual work</h2>
-                <p id="w-node-_55763f69-ab1f-09b8-dca8-03b29c7c5075-9c7c5070">We provide you with a team of AI agents to handle all manual work and responses to keep customers on track.</p>
+                <p id="w-node-_55763f69-ab1f-09b8-dca8-03b29c7c5075-9c7c5070">A team of AI agents drafts the follow-ups, writes the notes, and tracks every promise to pay. Your billers go back to billing instead of chasing between cycles.</p>
                 <div className="card-border-gradient"></div>
               </div>
               <div card-border-gradient="true" data-wf--slot-item-card-info--icon-size="medium" className="w-layout-vflex card-wrap">
                 <div className="w-layout-vflex card-icon-wrap">
                   <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68aed1d2f92c17de793691bb_icon-cloud.svg" alt="" className="card-icon" />
                 </div>
-                <h2 className="heading-style-h6">Cure A/R headaches</h2>
-                <p id="w-node-_55763f69-ab1f-09b8-dca8-03b29c7c5075-9c7c5070">Imagine knowing when customers will be late and catching issues ahead of time. Meet your A/R crystal ball.</p>
+                <h2 className="heading-style-h6">Full visibility of your A/R</h2>
+                <p id="w-node-_55763f69-ab1f-09b8-dca8-03b29c7c5075-9c7c5070">Every collector sees their own portfolio. Every billing attorney sees theirs. Know which clients are about to slip before the aging report tells you.</p>
                 <div className="card-border-gradient"></div>
               </div>
               <div card-border-gradient="true" data-wf--slot-item-card-info--icon-size="medium" className="w-layout-vflex card-wrap">
                 <div className="w-layout-vflex card-icon-wrap">
                   <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68aed1d2f08a30eaeee80d62_icon-bell.svg" alt="" className="card-icon" />
                 </div>
-                <h2 className="heading-style-h6">Liquidity is a click away</h2>
-                <p id="w-node-_55763f69-ab1f-09b8-dca8-03b29c7c5075-9c7c5070">We buy your invoices or finance a payment plan for your customers right from your platform.</p>
+                <h2 className="heading-style-h6">Every invoice diagnosed, not just chased</h2>
+                <p id="w-node-_55763f69-ab1f-09b8-dca8-03b29c7c5075-9c7c5070">Daylit reads what the client actually said against what is actually owed, tags the reason, and routes it to be fixed before it ages another thirty days.</p>
                 <div className="card-border-gradient"></div>
               </div>
             </div>

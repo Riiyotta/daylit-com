@@ -1,3 +1,4 @@
+// IA section(s): content.padding-section-wrap (ia/ia.json, design-repo/sections/)
 // padding-section-wrap — the section's real markup, read from the rendered page (route /intelligence, section 5).
 export default function PaddingSectionWrap() {
   return (

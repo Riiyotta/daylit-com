@@ -1,16 +1,16 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavbarSticky12 from "../sections/NavbarSticky12.jsx";
-import Form7 from "../sections/Form7.jsx";
+import NavbarSticky13 from "../sections/NavbarSticky13.jsx";
+import Form8 from "../sections/Form8.jsx";
 import Section5 from "../sections/Section5.jsx";
 import Section2 from "../sections/Section2.jsx";
 import WLayoutVflex from "../sections/WLayoutVflex.jsx";
-import BgSurface7 from "../sections/BgSurface7.jsx";
+import BgSurface9 from "../sections/BgSurface9.jsx";
 import WantToSeeHow from "../sections/WantToSeeHow.jsx";
 import WVariant0a13d40172e0 from "../sections/WVariant0a13d40172e0.jsx";
 import HowSellingCustomerInvoices from "../sections/HowSellingCustomerInvoices.jsx";
 import BgSurface6 from "../sections/BgSurface6.jsx";
-import BgSurface8 from "../sections/BgSurface8.jsx";
+import BgSurface10 from "../sections/BgSurface10.jsx";
 import BigSection2 from "../sections/BigSection2.jsx";
 import StillHaveQuestions from "../sections/StillHaveQuestions.jsx";
 import LatestInsightsAboutAccounts from "../sections/LatestInsightsAboutAccounts.jsx";
@@ -44,7 +44,7 @@ import css24 from "../styles/inline-27.css?inline"; // only this page loads it
 
 // Route /product/fundnow — 17 section(s), in page order.
 export default function ProductFundnow() {
-  usePageChrome({ title: "Turn Invoices into Cash with Invoice Factoring | Daylit", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "68b0180115c491c56d4321a2", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "class": "w-mod-js w-mod-ix wf-opensans-n8-active wf-opensans-n4-active wf-opensans-n6-active wf-opensans-n7-active wf-opensans-n3-active wf-opensans-i4-active wf-opensans-i3-active wf-opensans-i6-active wf-opensans-i7-active wf-opensans-i8-active wf-active" }, body: {  } });
+  usePageChrome({ title: "Turn Invoices into Cash with Invoice Factoring | Daylit", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "68b0180115c491c56d4321a2", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "class": "w-mod-js wf-opensans-n3-active wf-opensans-n4-active wf-opensans-n7-active wf-opensans-n8-active wf-opensans-n6-active wf-opensans-i4-active wf-opensans-i3-active wf-opensans-i8-active wf-opensans-i7-active wf-opensans-i6-active wf-active w-mod-ix" }, body: {  } });
   return (
     <>
       <style>{css0}</style>
@@ -82,13 +82,13 @@ export default function ProductFundnow() {
         <div className="w-embed"></div>
         <div className="w-embed"></div>
       </div>
-      <NavbarSticky12 />
+      <NavbarSticky13 />
       <main className="main-wrapper">
-        <Form7 />
+        <Form8 />
         <Section5 />
         <Section2 />
         <WLayoutVflex />
-        <BgSurface7 />
+        <BgSurface9 />
         <WantToSeeHow />
         <div className="u-display-contents"></div>
         <div data-wf--utility-section-background-color--general-color="white-to-gray" className="u-display-contents u-pos-relative">
@@ -98,7 +98,7 @@ export default function ProductFundnow() {
         <div className="u-display-contents">
           <BgSurface6 />
         </div>
-        <BgSurface8 />
+        <BgSurface10 />
         <section data-texture-section="true" className="section_faqs-preview">
           <div className="w-embed"></div>
           <div data-wf--utility-spacer-section--padding="large" className="padding-section-wrap">

@@ -1,14 +1,14 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavbarSticky20 from "../sections/NavbarSticky20.jsx";
-import Form15 from "../sections/Form15.jsx";
+import NavbarSticky11 from "../sections/NavbarSticky11.jsx";
+import Form7 from "../sections/Form7.jsx";
 import Section2 from "../sections/Section2.jsx";
 import WLayoutVflex from "../sections/WLayoutVflex.jsx";
-import BgSurface23 from "../sections/BgSurface23.jsx";
+import BgSurface7 from "../sections/BgSurface7.jsx";
 import SuperchargeCollectionsAtSca4 from "../sections/SuperchargeCollectionsAtSca4.jsx";
 import SeeWhatSComing3 from "../sections/SeeWhatSComing3.jsx";
 import SuperchargeCollectionsAtSca5 from "../sections/SuperchargeCollectionsAtSca5.jsx";
-import BgSurface24 from "../sections/BgSurface24.jsx";
+import BgSurface8 from "../sections/BgSurface8.jsx";
 import YouVeGotQuestions3 from "../sections/YouVeGotQuestions3.jsx";
 import FooterComponent3 from "../sections/FooterComponent3.jsx";
 import css0 from "../styles/03-swiper-bundle.min.css?inline"; // only this page loads it
@@ -37,7 +37,7 @@ import css22 from "../styles/inline-22.css?inline"; // only this page loads it
 
 // Route /become-a-partner — 11 section(s), in page order.
 export default function BecomeAPartner() {
-  usePageChrome({ title: "Become a Partner", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "68c98e9dfb22ecc5d9ef45b3", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "class": "w-mod-js w-mod-ix wf-opensans-n6-active wf-opensans-n3-active wf-opensans-n8-active wf-opensans-n7-active wf-opensans-n4-active wf-opensans-i3-active wf-opensans-i4-active wf-opensans-i7-active wf-opensans-i6-active wf-opensans-i8-active wf-active" }, body: {  } });
+  usePageChrome({ title: "Become a Partner", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "68c98e9dfb22ecc5d9ef45b3", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "class": "w-mod-js w-mod-ix wf-opensans-n8-active wf-opensans-n4-active wf-opensans-n7-active wf-opensans-n6-active wf-opensans-n3-active wf-opensans-i6-active wf-opensans-i8-active wf-opensans-i7-active wf-opensans-i3-active wf-opensans-i4-active wf-active" }, body: {  } });
   return (
     <>
       <style>{css0}</style>
@@ -73,19 +73,19 @@ export default function BecomeAPartner() {
         <div className="w-embed"></div>
         <div className="w-embed"></div>
       </div>
-      <NavbarSticky20 />
+      <NavbarSticky11 />
       <main className="main-wrapper">
-        <Form15 />
+        <Form7 />
         <Section2 />
         <WLayoutVflex />
-        <BgSurface23 />
+        <BgSurface7 />
         <SuperchargeCollectionsAtSca4 />
         <section data-texture-section="true" className="section_solutions-preview">
           <SeeWhatSComing3 />
           <SuperchargeCollectionsAtSca5 />
           <div className="hide w-embed w-script"></div>
         </section>
-        <BgSurface24 />
+        <BgSurface8 />
         <YouVeGotQuestions3 />
         <div data-wf--utility-section-background-color--general-color="gray-to-white" className="u-display-contents u-pos-relative">
           <div className="section-color-wrap"></div>

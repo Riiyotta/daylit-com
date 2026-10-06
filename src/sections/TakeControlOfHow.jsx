@@ -1,3 +1,4 @@
+// IA section(s): cta.section-cta-main (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Take control of how you get pa — the section's real markup, read from the rendered page (route /intelligence, section 14).

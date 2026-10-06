@@ -1,65 +1,57 @@
-// bg-surface — the section's real markup, read from the rendered page (route /become-a-partner, section 4).
+// IA section(s): content.section-why (ia/ia.json, design-repo/sections/)
+// bg-surface — the section's real markup, read from the rendered page (route /solution/services, section 4).
 export default function BgSurface23() {
   return (
-    <section className="section_impact bg-surface" data-clone-section="BgSurface23">
-      <div data-wf--utility-spacer-section--padding="large" className="padding-section-wrap">
-        <div className="padding-top"></div>
+    <section data-texture-section="true" data-wf--build-section-cards-info--general-color="base" className="section_why bg-surface" data-clone-section="BgSurface23">
+      <div data-wf--utility-spacer-section--padding="none" className="padding-section-wrap">
+        <div className="padding-top w-variant-37e52f42-4f6a-8752-ba2f-a689615f4a26"></div>
       </div>
       <div className="big-section">
         <div className="w-layout-blockcontainer container-large w-container">
           <div className="impact_layout">
-            <div id="w-node-a5c43e71-3d47-9237-5e5b-0f3b7ae7b1cf-7ae7b1ca" className="w-layout-blockcontainer container-small text-wrap-balance w-container">
-              <div className="w-layout-vflex impact_top-wrap">
-                <div data-wf--slot-item-eyebrow-main--color="primary" className="eyebrow">
-                  <div className="eyebrow-dot"></div>
-                  <div className="eyebrow-text">OUR IMPACT</div>
-                </div>
-                <div className="w-layout-vflex impact_title-wrap">
-                  <h2 className="heading">Delivering faster paying customers and happier CFOs.</h2>
-                  <p>‍</p>
-                </div>
+            <div id="w-node-_065b0e05-5f0a-797e-47c0-74d31b81c151-1b81c14c" className="w-layout-vflex why_top-wrap">
+              <div data-wf--slot-item-eyebrow-main--color="primary" className="eyebrow">
+                <div className="eyebrow-dot"></div>
+                <div className="eyebrow-text">Why Daylit</div>
+              </div>
+              <div className="spacer-medium"></div>
+              <h2>Transport your A/R into the AI era</h2>
+              <div className="spacer-small"></div>
+              <div className="w-layout-vflex max-width-large text-wrap-balance">
+                <p className="u-is-100">We equip field services companies like yours with enterprise grade capabilities manage accounts receivables processes.</p>
               </div>
             </div>
-            <div data-slot="card-stats" className="card-stats_list">
-              <div data-wf--slot-item-card-stats--general-color="light-1" className="card-stat_component">
-                <img src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68aeb2adef78cac0ec857d1a_icon-dots-fast.svg" loading="lazy" alt="" className="icon-1x1-medium" />
-                <div className="spacer-medium"></div>
-                <div data-countup="true" className="heading-style-h1">14 days</div>
-                <div className="spacer-xsmall"></div>
-                <h3 className="heading-style-h3">Shrink DSO</h3>
-                <div className="spacer-xlarge"></div>
-                <div className="w-layout-vflex margin-top-auto">
-                  <p>{"We've helped hundreds of business reduce their DSO by utilizing our AI and capital platform. We're just getting started."}</p>
+            <div data-slot="card-info" className="cards_list">
+              <div card-border-gradient="true" data-wf--slot-item-card-info--icon-size="medium" className="w-layout-vflex card-wrap">
+                <div className="w-layout-vflex card-icon-wrap">
+                  <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68aed1d2b4ad8f96a87e3487_icon-target.svg" alt="" className="card-icon" />
                 </div>
+                <h2 className="heading-style-h6">Automate the manual work</h2>
+                <p id="w-node-_55763f69-ab1f-09b8-dca8-03b29c7c5075-9c7c5070">We provide you with a team of AI agents to handle all manual work and responses to keep customers on track.</p>
+                <div className="card-border-gradient"></div>
               </div>
-              <div data-wf--slot-item-card-stats--general-color="light-1" className="card-stat_component">
-                <img src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68aeb2adc33a0ea08b60fe21_icon-dots-star.svg" loading="lazy" alt="" className="icon-1x1-medium" />
-                <div className="spacer-medium"></div>
-                <div data-countup="true" className="heading-style-h1">90%</div>
-                <div className="spacer-xsmall"></div>
-                <h3 className="heading-style-h3">Time savings</h3>
-                <div className="spacer-xlarge"></div>
-                <div className="w-layout-vflex margin-top-auto">
-                  <p>Reduce more nearly all the manual effort your team spends chasing invoices and redeploy towards higher value.</p>
+              <div card-border-gradient="true" data-wf--slot-item-card-info--icon-size="medium" className="w-layout-vflex card-wrap">
+                <div className="w-layout-vflex card-icon-wrap">
+                  <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68aed1d2f92c17de793691bb_icon-cloud.svg" alt="" className="card-icon" />
                 </div>
+                <h2 className="heading-style-h6">Full visibility of your A/R</h2>
+                <p id="w-node-_55763f69-ab1f-09b8-dca8-03b29c7c5075-9c7c5070">Imagine knowing when customers will be late and catching issues ahead of time. Meet your A/R crystal ball.</p>
+                <div className="card-border-gradient"></div>
               </div>
-              <div data-wf--slot-item-card-stats--general-color="light-1" className="card-stat_component">
-                <img src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68aeb2adaf47ed6a02390dc9_icon-dots-heart.svg" loading="lazy" alt="" className="icon-1x1-medium" />
-                <div className="spacer-medium"></div>
-                <div data-countup="true" className="heading-style-h1">85%</div>
-                <div className="spacer-xsmall"></div>
-                <h3 className="heading-style-h3">Improved payment habits</h3>
-                <div className="spacer-xlarge"></div>
-                <div className="w-layout-vflex margin-top-auto">
-                  <p>Customers should pay you on the due date, not whenever they feel like. Track days past term in real-time and see the improvement in 30 days.</p>
+              <div card-border-gradient="true" data-wf--slot-item-card-info--icon-size="medium" className="w-layout-vflex card-wrap">
+                <div className="w-layout-vflex card-icon-wrap">
+                  <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68aed1d2f08a30eaeee80d62_icon-bell.svg" alt="" className="card-icon" />
                 </div>
+                <h2 className="heading-style-h6">Liquidity is a click away</h2>
+                <p id="w-node-_55763f69-ab1f-09b8-dca8-03b29c7c5075-9c7c5070">We buy your invoices or finance a payment plan for your customers right from your platform.</p>
+                <div className="card-border-gradient"></div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div data-wf--utility-spacer-section--padding="large" className="padding-section-wrap">
-        <div className="padding-top"></div>
+      <div data-wf--utility-spacer-section--padding="medium" className="padding-section-wrap">
+        <div className="padding-top w-variant-1adb59ca-4a0d-7415-a8be-0ad7bbe77144"></div>
       </div>
     </section>
   );

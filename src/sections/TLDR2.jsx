@@ -1,6 +1,7 @@
+// IA section(s): support.section-article-blog (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// TL;DR — the section's real markup, read from the rendered page (route /blog/daylit-vs-stuut, section 2).
+// TL;DR — the section's real markup, read from the rendered page (route /blog/daylit-vs-oddr, section 2).
 export default function TLDR2() {
   return (
     <article className="section_article-blog" data-clone-section="TLDR2">
@@ -96,29 +97,33 @@ export default function TLDR2() {
                   <div className="le-post">
                     <div className="blog-wrap">
                       <div className="blog-title-underline"></div>
-                      <p className="lead-subhead">{"Stuut goes live in 3 days and Daylit in 72 hours, so speed won't settle this. What settles it is how each platform handles the invoices that aren't routine, and whether it can turn one into cash before the customer pays. Here's the full comparison, including where Stuut actually has the edge."}</p>
+                      <p className="lead-subhead">
+                        {"The "}
+                        <a>2026 Citi Hildebrandt Client Advisory</a>
+                        {", an annual report on the legal industry, found the average law firm collection cycle grew from 115 days to 134. Here's how Oddr and Daylit each go after that gap, and where each one is the better fit."}
+                      </p>
                       <div className="tldr">
                         <h2>TL;DR</h2>
                         <ul>
                           <li>
-                            <strong>Speed is a tie:</strong>
-                            {" Stuut's homepage says \"Live in 3 days,\" and Daylit's integrations go live in 72 hours across nine supported ERP and accounting systems. Don't decide on this row."}
+                            <strong>Both are going after law firms:</strong>
+                            {" Oddr has been in legal since at least 2023, with named firms like Vorys and Ward and Smith. Daylit is newer to legal, runs on top of Aderant and the billing inbox, and is seeing strong demand from large law firms."}
                           </li>
                           <li>
-                            <strong>Stuut publishes three DSO numbers:</strong>
-                            {" 47% on its homepage, 37% in its Series A announcement, and 50% in its lead investor's announcement. None of them are reconciled."}
+                            <strong>They focus on different halves of the cycle:</strong>
+                            {" Oddr's published strength is billing, getting accurate invoices out fast. Daylit's is collection. It works out why each sent bill is still unpaid, then routes it to the person who can fix it."}
                           </li>
                           <li>
-                            <strong>{"Stuut's own materials list disputes as \"coming soon\":"}</strong>
-                            {" its Series A announcement did, and its homepage still does in one section. Daylit's disputes run through tracked cases today and resolve 10x faster, end to end."}
+                            <strong>DSO is unsettled:</strong>
+                            {" Oddr claims a 30% reduction and Daylit claims up to 50%, and neither publishes a baseline."}
                           </li>
                           <li>
-                            <strong>FundNow is the one row with no contest:</strong>
-                            {" Daylit's financing product buys invoices directly, and Stuut has no financing offering."}
+                            <strong>Three rows have no Oddr figure:</strong>
+                            {" Oddr publishes nothing for implementation time, dispute resolution time, or on-time payment lift."}
                           </li>
                           <li>
-                            <strong>Some teams should call Stuut:</strong>
-                            {" if you're an enterprise that wants big-name references, or your receivables already run through Fiserv, it fits. This page is for the mid-market team whose hardest invoices are disputes and slow payers."}
+                            <strong>Oddr has the longer track record, Daylit the collection features:</strong>
+                            {" Oddr can point to named law firms. Daylit opens a tracked case for every dispute and has built-in invoice financing, and Oddr describes neither."}
                           </li>
                         </ul>
                       </div>
@@ -128,12 +133,12 @@ export default function TLDR2() {
                           <li>
                             <span style={{ "color": "var(--maroon)", "fontWeight": "600" }}>1.</span>
                             {" "}
-                            <a href="#intro">Why Stuut Is a Harder Comparison Than Most</a>
+                            <a href="#intro">Why This Comparison Is Worth Your Time</a>
                           </li>
                           <li>
                             <span style={{ "color": "var(--maroon)", "fontWeight": "600" }}>2.</span>
                             {" "}
-                            <a href="#what-to-demand" className="">What to Demand From an AI Agent Before You Hand It Your Customers</a>
+                            <a href="#what-to-demand" className="">What to Demand From Any AR Platform Before Comparing Anyone</a>
                           </li>
                           <li>
                             <span style={{ "color": "var(--maroon)", "fontWeight": "600" }}>3.</span>
@@ -153,12 +158,12 @@ export default function TLDR2() {
                           <li>
                             <span style={{ "color": "var(--maroon)", "fontWeight": "600" }}>6.</span>
                             {" "}
-                            <a href="#where-different" className="">Where Daylit Is Deliberately Different</a>
+                            <a href="#where-different">Where Daylit Is Deliberately Different</a>
                           </li>
                           <li>
                             <span style={{ "color": "var(--maroon)", "fontWeight": "600" }}>7.</span>
                             {" "}
-                            <a href="#where-right-call">Where Stuut Is the Right Call</a>
+                            <a href="#where-right-call" className="">Where Oddr Is the Right Call</a>
                           </li>
                           <li>
                             <span style={{ "color": "var(--maroon)", "fontWeight": "600" }}>8.</span>
@@ -173,48 +178,53 @@ export default function TLDR2() {
                         </ol>
                       </nav>
                       <section id="intro" className="blog-section">
-                        <h2>Why Stuut Is a Harder Comparison Than Most</h2>
+                        <h2>Why This Comparison Is Worth Your Time</h2>
                         <p>
-                          {"If you're evaluating AR automation built on AI agents, Stuut has almost certainly come up. Andreessen Horowitz led its "}
-                          <a>$29.5 million Series A</a>
-                          , it deploys in days, and it names Honeywell and ZoomInfo as customers. None of that is in dispute.
+                          {"If you run billing or collections at a law firm, Oddr is probably one of the first names you've heard in AI for revenue operations. It's a real platform, used by firms including Vorys, Sater, Seymour and Pease, and Ward and Smith. Oddr says it was "}
+                          <a>developed with more than 80 firms across the Am Law 100, Am Law 200, and NLJ 500</a>
+                          .
                         </p>
-                        <p>{"Stuut and Daylit agree on more than most vendors in this category do, starting with the idea that a six-month implementation is unacceptable. So the real test comes after go-live. It's the customer who disputes an invoice a script can't handle, or who simply can't pay yet. That decides this comparison, not how fast the first email goes out."}</p>
+                        <p>{"In August 2026, Oddr announced AI-powered collections at ILTACON, ILTA's annual legal technology conference, with early access for select firms ahead of general availability later this year. None of that is in dispute."}</p>
+                        <p>
+                          {"Daylit is newer to legal, and it was built AI-native from the start. It "}
+                          <A href="/solution/legal">connects to Aderant and the billing inbox</A>
+                          {" and does the work of collections on top of them. The question worth working through is which part of your revenue cycle is actually stuck, because the two platforms were built to fix different parts of it."}
+                        </p>
                       </section>
                       <section id="what-to-demand" className="blog-section">
-                        <h2>What to Demand From an AI Agent Before You Hand It Your Customers</h2>
-                        <p>{"Before the row-by-row breakdown, here's what any agent-based AR platform should show you without hedging:"}</p>
+                        <h2>What to Demand From Any AR Platform Before Comparing Anyone</h2>
+                        <p>{"Before the row-by-row breakdown, here's what any platform should be able to show your firm without hedging:"}</p>
                         <ul>
                           <li>
-                            <strong>One DSO number:</strong>
-                            {" stated the same way on every page, with the sample behind it."}
+                            <strong>A timeline tied to your own system:</strong>
+                            {" not \"it depends,\" but a number for your own Aderant or Elite 3E setup."}
                           </li>
                           <li>
-                            <strong>A live disputes product:</strong>
-                            {" not a roadmap item, and a clear line between the disputes the agent closes on its own and the ones it hands back to your team."}
+                            <strong>A reason for every unpaid bill:</strong>
+                            {" a named process for finding out why a bill is stuck, not just a reminder schedule."}
                           </li>
                           <li>
-                            <strong>Your rules for each case type:</strong>
-                            {" so the agent follows your policy instead of replacing it."}
+                            <strong>Proof of what happens to cash when a client is slow to pay:</strong>
+                            {" not just faster follow-ups."}
                           </li>
                           <li>
-                            <strong>A plan for slow payers:</strong>
-                            {" a way to get cash when a customer pays late, not just faster outreach."}
+                            <strong>Workflows that follow how your firm already works:</strong>
+                            {" routing to the right biller or billing attorney, not one script every firm gets."}
                           </li>
                         </ul>
                         <p>{"Measure both platforms against that list, not against each other's marketing."}</p>
                       </section>
                       <section id="comparison-not-pitch" className="blog-section">
                         <h2>The Comparison, Not the Pitch</h2>
-                        <p>{"Every figure below comes from Daylit's or Stuut's own published materials, or, where noted, from Andreessen Horowitz, which led Stuut's Series A. Where Stuut hasn't published a claim, that gets said plainly instead of implied. These thirteen rows are the ones that actually change whether an AR platform fits a mid-market team: five measured results, then eight everyday AR tasks where the real question is whether an agent does the work or a person does. Figures last verified September 2026."}</p>
-                        <p className="table-caption">Here is the whole comparison in one view, with every figure explained underneath.</p>
+                        <p>{"Every figure below comes from Daylit's or Oddr's own published materials, and where a number doesn't exist publicly, we say so instead of implying one. These thirteen rows are the ones that actually change whether an AR platform fits a law firm: five measured results, then eight everyday AR tasks where the real question is whether an agent does the work or a person does. Daylit's legal work is newer, so its numbers come from its full book of companies across industries. Figures last verified September 29, 2026."}</p>
+                        <p className="table-caption">{"Here's the whole comparison in one view, with every figure explained underneath:"}</p>
                         <div className="cmp-table-wrap">
                           <table className="cmp">
                             <thead>
                               <tr>
                                 <th>Metric / Feature</th>
                                 <th>Daylit</th>
-                                <th>Stuut</th>
+                                <th>Oddr</th>
                               </tr>
                             </thead>
                             <tbody>
@@ -223,18 +233,18 @@ export default function TLDR2() {
                               </tr>
                               <tr>
                                 <td>Implementation time</td>
-                                <td>72 hours</td>
-                                <td>3 days</td>
+                                <td>From 72 hours</td>
+                                <td>N/A</td>
                               </tr>
                               <tr>
                                 <td>DSO reduction</td>
                                 <td>Up to 50%</td>
-                                <td>{"\"47% Faster DSO\" on its homepage, 37% in its press release, 50% per its investor"}</td>
+                                <td>Up to 30%</td>
                               </tr>
                               <tr>
                                 <td>Dispute resolution</td>
                                 <td>10x faster</td>
-                                <td>{"\"~9x as fast\" for early partners, per investor announcement"}</td>
+                                <td>N/A</td>
                               </tr>
                               <tr>
                                 <td>On-time payment lift</td>
@@ -242,7 +252,7 @@ export default function TLDR2() {
                                 <td>N/A</td>
                               </tr>
                               <tr>
-                                <td>Return on Investment</td>
+                                <td>Return on investment</td>
                                 <td>{">10x"}</td>
                                 <td>N/A</td>
                               </tr>
@@ -252,7 +262,7 @@ export default function TLDR2() {
                               <tr>
                                 <td>AI phone calls (inbound + outbound)</td>
                                 <td>Agent calls</td>
-                                <td>Outbound only</td>
+                                <td>Manual phone calls, AI-written brief</td>
                               </tr>
                               <tr>
                                 <td>Auto-tags dispute codes</td>
@@ -262,16 +272,16 @@ export default function TLDR2() {
                               <tr>
                                 <td>Daily AI prioritization</td>
                                 <td>Agent ranks</td>
-                                <td>AI-scored, collector works the list</td>
+                                <td>AI-ranked, finance team decides</td>
                               </tr>
                               <tr>
                                 <td>AI dunning emails</td>
                                 <td>Agent drafts, calls and sends</td>
-                                <td>AI drafts, collector reviews</td>
+                                <td>AI-drafted, rules-based reminders</td>
                               </tr>
                               <tr>
                                 <td>Invoice financing</td>
-                                <td>Built in</td>
+                                <td>Built-in</td>
                                 <td>Not offered</td>
                               </tr>
                               <tr>
@@ -282,12 +292,12 @@ export default function TLDR2() {
                               <tr>
                                 <td>Forecast updates with promises and disputes</td>
                                 <td>Agent updates from inbox</td>
-                                <td>Manually updated by treasury</td>
+                                <td>Updated from payment history only</td>
                               </tr>
                               <tr>
                                 <td>Auto-tracks promises to pay</td>
                                 <td>Agent logs</td>
-                                <td>Auto-logged</td>
+                                <td>Manually logged by collectors</td>
                               </tr>
                             </tbody>
                           </table>
@@ -297,111 +307,136 @@ export default function TLDR2() {
                         <h2>Taking It Apart, Row by Row</h2>
                         <p>
                           <strong>DSO reduction:</strong>
-                          {" Daylit reports a DSO reduction of up to 50%. That's a ceiling, the best result a company using Daylit has reached, not an average. Stuut is harder to pin down, because it publishes three different numbers. "}
-                          <a>Its homepage</a>
-                          {" says \"47% Faster DSO.\" "}
-                          <a>Its Series A announcement</a>
-                          {" says \"37% faster DSO.\" "}
-                          <a>{"Andreessen Horowitz's investment announcement"}</a>
-                          {" cites \"50% reductions in DSO\" for Stuut's early enterprise partners. None of them are reconciled. Ask Stuut which one applies to a company like yours, then ask both vendors for the median reduction and the baseline behind it."}
+                          {" Daylit reports up to 50% reduction. That's a ceiling, not an average. Oddr's "}
+                          <a>legal billing page</a>
+                          {" shows \"30% Reduction in DSO,\" and Oddr doesn't say whether that's an average, a best case, or how it was measured. Neither side publishes a baseline."}
                         </p>
+                        <p>Oddr also cites four collection figures across two pages, none with a definition:</p>
+                        <ul>
+                          <li>
+                            <strong>
+                              <a>Legal billing page</a>
+                              :
+                            </strong>
+                            {" \"19% Faster Collection\" and \"Get paid 30% faster.\""}
+                          </li>
+                          <li>
+                            <strong>
+                              <a>Solutions page</a>
+                              :
+                            </strong>
+                            {" \"30% Faster Collections\" and \"25% Reduction in Aged AR.\""}
+                          </li>
+                        </ul>
                         <p>
                           <strong>Implementation time:</strong>
-                          {" this is the row where the usual comparison collapses. "}
-                          <a>{"Stuut's homepage"}</a>
-                          {" says \"Live in 3 days. Cash flow in 7.\" and claims deployment in 3 to 4 days versus 6 to 18 months for traditional software. Daylit's integrations go live in 72 hours across nine native ERP and accounting systems: SAP, Sage, NetSuite, Epicor, QuickBooks, Microsoft Dynamics 365, Xero, Zoho Books, and FreshBooks. Both are measured in days, and neither is the reason to pick one over the other. Ask both vendors the same question: what does \"live\" include, and on what day does your first customer actually get contacted."}
+                          {" Oddr doesn't publish a timeline. Its own page says \""}
+                          <a>implementation timelines vary by firm size and integration scope</a>
+                          {".\" Charles Collins, Director of IT at Ward and Smith, "}
+                          <a>says</a>
+                          {" the firm reached \"a fully operational environment in a few weeks.\""}
+                        </p>
+                        <p>
+                          {"Daylit's published 72 hours covers its nine native ERP and accounting systems: SAP, Sage, NetSuite, Epicor, QuickBooks, Microsoft Dynamics 365, Xero, Zoho Books, and FreshBooks. On legal systems, Daylit connects to Aderant and the billing inbox, while Oddr integrates with "}
+                          <a>Elite, Aderant, Chrome River</a>
+                          {", and "}
+                          <a>Intapp</a>
+                          .
                         </p>
                         <p>
                           <strong>Dispute resolution:</strong>
-                          {" Daylit reports cutting total time from dispute opened to dispute resolved by 10x. Stuut's figure comes from "}
-                          <a>{"Andreessen Horowitz's investment announcement"}</a>
-                          {", which says disputes were resolved \"~9x as fast\" for Stuut's initial enterprise partners. It isn't a figure Stuut publishes across its customer base. The same funding round's "}
-                          <a>press release</a>
-                          {" listed disputes as \"coming soon.\" Ask Stuut whether its disputes agent is generally available today, and for the median number of days from dispute raised to cash applied."}
+                          {" Every dispute at Daylit opens as its own tracked case, called a Collection Case. Daylit cuts the time from dispute opened to dispute resolved by 10x. Oddr doesn't publish a resolution-time figure, and its public site doesn't describe a workflow for client disputes."}
                         </p>
                         <p>
                           <strong>On-time payment lift:</strong>
-                          {" Daylit reports a 40% increase in on-time payments versus fixed-interval dunning. It gets there by flagging payment risk 7 to 14 days before the due date and timing outreach per customer. Stuut publishes no on-time payment rate. Its nearest figure is in its "}
-                          <a>Series A announcement</a>
-                          {", which reports a 40% reduction in overdue balances among its customers. "}
-                          <a>Its homepage</a>
-                          {" also quotes Dan Manshaem, a customer CEO, whose overdue share dropped from 26% to 11% in two months. Both are real results. They measure how much is already late, not how much gets paid on time, so read this row as unmatched rather than beaten."}
+                          {" Daylit reports a 40% increase in on-time payment versus fixed-interval dunning. It gets there by flagging payment risk a week or two before the due date and timing outreach per client."}
                         </p>
+                        <p>{"Oddr doesn't publish this metric. Its closest figure is a 25% reduction in aged AR, which is related but measures something else."}</p>
                         <p>
                           <strong>Return on investment:</strong>
-                          {" Daylit reports a return of more than 10x on what teams spend on the platform. Stuut doesn't publish an ROI figure across its customers. Its "}
-                          <a>ZoomInfo case study</a>
-                          {" reports \"25% ROI in 30 days,\" which is one customer's first month rather than a return across the customer base, so the table leaves Stuut's cell as N/A. Ask Stuut what return a company your size typically sees over a full year."}
+                          {" Daylit reports a return of more than 10x on what teams spend on the platform. Oddr's "}
+                          <a>homepage</a>
+                          {" says \"most firms achieve an ROI of 1% of total firm revenue.\" That measures something different, a share of revenue rather than a return on spend, so the two can't be compared directly and the table leaves Oddr's cell as N/A."}
                         </p>
                         <p>
                           <strong>AI phone calls:</strong>
-                          {" Daylit's agent runs a collections call once a collector starts it, and before any call connects it checks opt-outs, do-not-call lists, the contact's local calling hours, and a cap of seven calls to one number in seven days. Inbound answering is built but not yet rolled out, so it's Daylit's edge on this row only once it is. On Stuut's side, "}
-                          <a>its collections page</a>
-                          {" says \"Stuut calls, texts, emails, and sends payment portal links.\" Every call Stuut describes, including in "}
-                          <a>its Versapay comparison</a>
-                          , is outbound, and we found no inbound answering in its published materials. Stuut also texts today, which Daylit is currently building.
+                          {" Daylit's agent handles calls in both directions. It answers inbound calls from clients, and it runs an outbound collections call once a collector starts it: it recognizes a voicemail greeting instead of talking into it, routes a wrong number into a case, and writes the outcome back to the account. Before any outbound call connects, Daylit checks opt-outs, do-not-call lists, the contact's local calling hours, and a cap of seven calls to one number in seven days."}
+                        </p>
+                        <p>
+                          {"Oddr's "}
+                          <a>Collections Agent</a>
+                          {" prepares \"a call brief to guide the conversation,\" so a person makes the call. It's in early access, with general availability "}
+                          <a>{"\"later this year\""}</a>
+                          {". We found no AI-run calling on Oddr's site."}
                         </p>
                         <p>
                           <strong>Auto-tags dispute codes:</strong>
-                          {" every dispute at Daylit opens as a "}
-                          <A href="/blog/slowest-part-of-a-dispute-manual-work">Collection Case</A>
-                          {", Daylit's tracked record for that dispute. Internal verification and customer resolution run at the same time rather than in sequence. Dunning on that invoice stops automatically the moment the case opens. No one gets chased for a payment they're actively disputing. Daylit's new "}
-                          <A href="/blog/your-dispute-categories-arent-broken-theyre-not-yours">Dispute Reasons</A>
-                          {" feature also sorts each incoming dispute into categories your team defines, and each category can carry its own default next steps. A collector sees the assigned reason, how confident the agent is, and why, before accepting or changing it. That's how a short-pay and a PO mismatch get worked differently from the start. On Stuut's side, its "}
-                          <a>Playbooks</a>
-                          {" let your team define reason codes, but we found nothing describing the agent assigning one to an incoming dispute, which leaves the tagging to your collectors. Disputes themselves are still partly on the roadmap: "}
-                          <a>its homepage</a>
-                          {" lists \"Disputes & Deductions\" as a product, while another section of the same page says \"Disputes and Credit coming soon.\" "}
-                          <a>Its AR Automation page</a>
-                          {" says the same. Ask Stuut which parts of disputes are live for your account, then ask to see one that isn't routine in the demo, like a partial short-pay, a PO mismatch, or a disputed line on a multi-line invoice. Watch whether reminders keep going out while it's open."}
+                          {" Daylit "}
+                          <A href="/solution/legal">reads client statements against amounts owed and tags the reason</A>
+                          {" each bill is unpaid. For a law firm, that reason might be a fee the partner is negotiating, a query waiting on the billing partner, or a payment applied to the wrong matter. Each firm defines its own dispute reasons, the agent classifies every dispute against them, and a collector corrects the tag only if it's wrong. Each dispute opens as a Collection Case, and follow-up on that bill stops automatically the moment the case opens."}
+                        </p>
+                        <p>
+                          {"Oddr's bill preparation includes \""}
+                          <a>rules-based validation, exceptions management, metrics, and dashboards</a>
+                          {"\" (January 2024), which catches problems before a bill goes out. Its "}
+                          <a>AI collections agent</a>
+                          {", announced in August 2026, is \"currently in development.\" It will surface priority accounts and recommend a next step, such as a follow-up email, a call, or an escalation to the attorney. Oddr says \"finance teams stay in control of every decision.\" We found no dispute tagging or client dispute workflow anywhere on Oddr's site."}
+                        </p>
+                        <p>
+                          <strong>The two handle different moments:</strong>
+                          {" Oddr's exception handling sits before the bill is sent, and Daylit's sits after the client pushes back on it."}
                         </p>
                         <p>
                           <strong>Daily AI prioritization:</strong>
-                          {" Both platforms score the book with AI. The difference is who sets the order and what happens next. Daylit's agent ranks every account each day using weights your AR manager sets, so the list follows your own collection policy. Stuut "}
-                          <a>scores every open account</a>
-                          {" \"using payment history, aging, behavior, and risk signals,\" and its high-risk accounts "}
-                          <a>{"\"surface at the top of the worklist,\""}</a>
-                          {" where a collector picks them up. Its "}
-                          <a>Playbooks</a>
-                          {" let you set payment terms, reason codes, escalation, and contact cadence, but we found no mention of managers adjusting how the account score is weighted. That's what Stuut has published, not proof of what it can't do."}
+                          {" Both platforms rank accounts with AI. Daylit ranks each collector's worklist every day from live account data, using weights your AR manager sets, so the list follows your firm's own collection policy. Oddr's "}
+                          <a>platform page</a>
+                          {" describes \"AI-prioritized outreach based on AR risk, age, and client behavior,\" and its "}
+                          <a>Collections Agent</a>
+                          {" will surface \"the accounts that matter most today,\" with finance teams staying \"in control of every decision.\" We found no mention of firms adjusting how Oddr's ranking is weighted."}
                         </p>
                         <p>
                           <strong>AI dunning emails:</strong>
-                          {" Daylit's agent drafts every dunning email, and your auto-vs-review rules decide which ones go out without a person, so your team only reviews the ones you've asked to see. "}
-                          <a>{"Stuut's collections page"}</a>
-                          {" says \"Stuut drafts emails, queues calls with talk tracks, composes texts,\" and that most teams start \"with human review on everything.\" In that setup, every message waits on a collector before it goes out. Stuut does send texts today. Daylit is also building text messaging for outreach."}
+                          {" Daylit's agent drafts every dunning email, and your auto-vs-review rules decide which ones go out without a person, so your team only reviews the ones you've asked to see. Oddr's "}
+                          <a>platform</a>
+                          {" \"dynamically drafts follow-up emails,\" and its August 2026 release added \""}
+                          <a>AI-drafted, context-aware collections emails with tone controls, and automated follow-up sequences</a>
+                          {".\" Its earlier "}
+                          <a>invoice-to-cash release</a>
+                          {" describes \"automated, rules-based reminders and internal escalations.\" Its Collections Agent prepares drafted emails for a collector to act on. Daylit is also building text messaging for outreach."}
                         </p>
                         <p>
                           <strong>Invoice financing:</strong>
-                          {" "}
-                          <A href="/product/fundnow">FundNow</A>
-                          {" buys the invoice directly from inside the Daylit platform. Cash lands today, without waiting on the customer or setting up a separate financing relationship. No financing or factoring offering appears anywhere in Stuut's published materials. This is the only row with no contest."}
+                          {" FundNow buys the invoice directly from inside the platform, so cash lands today instead of on the client's timeline, with no separate financing relationship to set up. We found no financing offering anywhere on Oddr's site. This is the only row with no contest."}
                         </p>
                         <p>
-                          <strong>Customer segmentation:</strong>
-                          {" Daylit's Smart Labels recompute on every sync, and Label Effects moves a customer into or out of a sequence or collection program the moment their label changes, with a \"Why this label?\" note on every change. Stuut's "}
-                          <a>Playbooks</a>
-                          {" let your team set payment terms by segment, but its published materials don't describe customers moving between segments on their own, so a change in how a customer pays waits for someone on your team to re-segment them. That's what Stuut has published, not proof of what it can't do."}
+                          <strong>Auto-updates customer segmentation:</strong>
+                          {" Daylit's Smart Labels recompute on every sync, and Label Effects moves a client into or out of a sequence or collection program the moment their label changes, with a \"Why this label?\" note on every automatic label. Oddr's "}
+                          <a>platform page</a>
+                          {" describes AI-prioritized outreach and \"smart workflows that assign tasks across billing, collections, and attorneys,\" but we found no client segmentation."}
                         </p>
                         <p>
-                          <strong>Cash forecasting:</strong>
-                          {" Daylit's Cash Flow Forecast gives a 13-week view weighted by how each customer actually pays. When a promise or dispute arrives by email, the agent shifts that invoice's predicted date, and the forecast refreshes nightly. "}
-                          <a>{"Stuut's collections page"}</a>
-                          {" shows a \"forecast-to-collect\" dashboard, but we found no cash forecast in its published materials. Without one, a promise or dispute that arrives by email changes your forecast only when someone on treasury updates it by hand."}
+                          <strong>Forecast updates with promises and disputes:</strong>
+                          {" Daylit's Cash Flow Forecast gives a 13-week view weighted by how each client actually pays. When a client promises a date or raises a dispute by email, the agent shifts that bill's predicted date, and the forecast refreshes nightly. Oddr's "}
+                          <a>CashPredict</a>
+                          {" (August 2024) offers 12-month projections, and its "}
+                          <a>platform page</a>
+                          {" says its models \"predict payment timing based on actual behavior.\" Oddr looks further out, but we found no mention of promises or disputes feeding its forecast."}
                         </p>
                         <p>
-                          <strong>Promises to pay:</strong>
-                          {" when a customer promises a payment date in an email, Daylit's agent logs it on the account and moves the forecast to match. Stuut "}
-                          <a>logs</a>
-                          {" \"every email, call, text, portal click, response, promise-to-pay, and broken commitment.\" This row is a tie."}
+                          <strong>Auto-tracks promises to pay:</strong>
+                          {" When a client promises a payment date in an email, Daylit's agent logs it on the account and moves the forecast to match. We found no promise-to-pay tracking described on Oddr's "}
+                          <a>platform page</a>
+                          {" or in its "}
+                          <a>Collections Agent announcement</a>
+                          .
                         </p>
                         <section fs-richtext-component="demo-cta" className="blog-cta-dynamic">
                           <div fs-richtext-component="" className="blog-cta-content-wrap">
                             <div className="blog-cta-content-inner">
                               <img src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68dcf1279b56a75325050551_logomark.svg" loading="lazy" alt="" className="blog-cta-icon" />
                               <div className="blog-cta-content">
-                                <div className="heading-style-h5">Bring your three messiest open disputes</div>
-                                <p className="blog-cta-p">{"We'll walk them through Daylit with you and show you exactly what the agent handles on its own, and when your team gets pulled in."}</p>
+                                <div className="heading-style-h5">Bring your fifteen largest balances over 60 days</div>
+                                <p className="blog-cta-p">{"We'll walk them through Daylit with you and show you the reason behind each one, and who at your firm can fix it."}</p>
                               </div>
                             </div>
                             <div className="blog-cta-btn-wrap">
@@ -450,42 +485,42 @@ export default function TLDR2() {
                       <section id="who-does-the-work" className="blog-section">
                         <h2>Who Does the Work</h2>
                         <p>
-                          {"Both platforms put AI to work across AR. The difference is where the AI stops. In Stuut's published materials, much of the work still ends with a collector: high-risk accounts surface on a worklist for someone to pick up, and most teams start with "}
-                          <a>{"\"human review on everything.\""}</a>
-                          {" Daylit's agents carry the work further on their own, under rules your team sets for each case type."}
+                          {"Oddr has built a lot of automation around the bill itself. On collections, its published materials keep a person at every step. Its "}
+                          <a>Collections Agent</a>
+                          {", still in early access, \"handles the analysis and preparation\" while finance teams \"stay in control of every decision.\" Daylit's agents carry the collection work on their own, under rules your firm sets for each case type."}
                         </p>
                         <p>Some of the work already runs on its own at both:</p>
                         <ul>
                           <li>
-                            <strong>Scoring the book:</strong>
-                            {" both score every open account and put the riskiest at the top. At Daylit, the agent ranks on weights your AR manager sets."}
+                            <strong>Ranking the book:</strong>
+                            {" both rank accounts with AI. At Daylit, the ranking follows weights your AR manager sets."}
                           </li>
                           <li>
-                            <strong>Logging promises to pay:</strong>
-                            {" both record payment commitments without a collector typing them in."}
+                            <strong>Drafting follow-ups:</strong>
+                            {" both draft collection emails with AI, and Oddr adds rules-based reminder sequences."}
                           </li>
                         </ul>
                         <p>Three more tasks show where the two models split:</p>
                         <p>
-                          <strong>A dispute becomes a case, not a roadmap item.</strong>
-                          {" Daylit sorts each dispute into reasons your company defines, opens a Collection Case, stops dunning on that invoice, and runs verification and customer resolution at the same time. Stuut's own homepage still lists \"Disputes and Credit coming soon\" in one section, so ask what's live for your account."}
+                          <strong>Every client reply gets read and sorted.</strong>
+                          {" Daylit's agent reads each reply in the billing inbox, tags why the bill is unpaid against reasons your firm defines, and opens a Collection Case for any dispute, with follow-up on that bill paused. We found no dispute tagging or client dispute workflow on Oddr's site."}
                         </p>
                         <p>
-                          <strong>Every message is re-checked before it sends.</strong>
-                          {" Daylit checks the balance on each draft at send time. If the amount changed, it updates the draft and flags the change to the reviewer. If the customer already paid, it cancels the message. We didn't find an equivalent described on Stuut's site."}
+                          <strong>A promise to pay moves the forecast.</strong>
+                          {" When a client commits to a date by email, Daylit's agent logs it on the account and shifts that bill's predicted date. We found no promise-to-pay tracking on Oddr's site, and its forecast runs on payment history."}
                         </p>
                         <p>
-                          <strong>Dead addresses stop getting automatic replies.</strong>
-                          {" When an email hard-bounces, Daylit marks that address as undeliverable and blocks its automatic replies from going back to it. We didn't find bounce handling described on Stuut's site."}
+                          <strong>The call gets made, not just prepared.</strong>
+                          {" Daylit's agent answers inbound calls and runs outbound calls once a collector starts one, then writes the outcome back to the account. Oddr's Collections Agent prepares \"a call brief to guide the conversation,\" so a person makes the call."}
                         </p>
-                        <p>{"Count the non-routine invoices on your team's list, the disputes, short-pays, and wrong contacts, and ask who handles each one under each model. That's where the headcount difference shows up."}</p>
+                        <p>{"Count the client replies, disputes, and promises your team logged by hand last month, and ask who would handle each one under each model. That's where the headcount difference shows up."}</p>
                       </section>
                     </div>
                   </div>
                 </div>
-                <figure style={{ "maxWidth": "2004pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
+                <figure style={{ "maxWidth": "1904pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
                   <div>
-                    <img alt="" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/6abe80351af81d05e16f4465_customers-app-clean.png" loading="lazy" />
+                    <img alt="" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/6abe70e6fb9613e28bfe2d2d_cases-app-clean.png" loading="lazy" />
                   </div>
                 </figure>
                 <div className="w-embed">
@@ -493,81 +528,68 @@ export default function TLDR2() {
                     <div className="blog-wrap">
                       <section id="where-different" className="blog-section">
                         <h2>Where Daylit Is Deliberately Different</h2>
-                        <p>{"Daylit and Stuut agree on the premise: AR should run on agents, not on a team clicking through a queue. Both now let your team set the rules those agents follow. Where they split is on what happens when a customer doesn't pay on schedule."}</p>
-                        <p>{"Daylit's decision layer, trained on $100B of AR transactions, works out why each customer isn't paying. A dispute becomes a tracked case the moment it arrives, sorted by your own reasons, with dunning paused. That part of the platform is live today, not on a roadmap."}</p>
-                        <p>{"Some customers aren't slow so much as short on cash. That's why FundNow is built into the same platform. The invoice becomes cash today, whenever the customer ends up paying."}</p>
+                        <p>{"Being newer to legal means Daylit didn't start from a billing system. It started from the unpaid bill, and it treats each one as a question to answer, not a date to chase."}</p>
+                        <p>A 90-day bill might be stuck on a fee the partner is negotiating, a short pay waiting on appeal, or a payment applied to the wrong matter. They sit in the same aging bucket and need three different people. Daylit sits on top of Aderant and the billing inbox, reads every client reply, and works out which of those it is. Then it routes the bill to the biller or billing attorney who can fix it.</p>
+                        <p>{"FundNow is built into the same platform because a firm's cash shouldn't depend entirely on how fast its clients pay."}</p>
+                        <p>{"And because Daylit works on top of the billing system a firm already runs, there's no billing migration before it starts collecting. Bills keep going out exactly the way they do today."}</p>
                       </section>
                       <section id="where-right-call" className="blog-section">
-                        <h2>Where Stuut Is the Right Call</h2>
-                        <p>{"This page doesn't apply to everyone. Here's where it breaks down:"}</p>
-                        <ul>
-                          <li>
-                            <strong>{"You're an enterprise and want big-name references:"}</strong>
-                            {" Stuut's "}
-                            <a>Series A announcement</a>
-                            {" names Honeywell, ZoomInfo, and PerkinElmer as live customers. If peer references at that scale decide your shortlist, that's a real advantage."}
-                          </li>
-                          <li>
-                            <strong>Your receivables already run through Fiserv:</strong>
-                            {" Stuut "}
-                            <a>announced a partnership with Fiserv</a>
-                            {" in August 2026 to bring agentic AI to enterprise receivables. If Fiserv is already in your stack, weigh it."}
-                          </li>
-                        </ul>
+                        <h2>Where Oddr Is the Right Call</h2>
+                        <p>
+                          {"If your problem is getting bills out the door and paid, that's Oddr's ground. Oddr "}
+                          <a>generates LEDES-compliant e-bills and submits them</a>
+                          {" to corporate and insurance clients, and it "}
+                          <a>takes payments through OddrPay and reconciles them automatically</a>
+                          {". That's a different job from Daylit's, which starts once the bill has gone out."}
+                        </p>
+                        <p>
+                          {"Oddr also handles "}
+                          <a>hourly, flat, contingency, and retainer billing</a>
+                          {". It sends bills through \""}
+                          <a>secure, encrypted links</a>
+                          {"\" and shows whether each one was sent, received, or opened. It connects to Chrome River and Intapp."}
+                        </p>
+                        <p>
+                          {"Oddr also has the longer legal track record. Vorys "}
+                          <a>cut the time required to send invoices by 75%</a>
+                          .
+                        </p>
                       </section>
                       <section id="real-question" className="blog-section">
-                        <h2>{"The Real Question Isn't How Fast You Go Live, It's Who Handles the Invoice That Doesn't Fit"}</h2>
-                        <p>{"Stuut matches Daylit on go-live speed and has the edge on enterprise references. What's left is the part of AR that's never routine: the disputed line item, the customer who needs a payment plan, the invoice you need as cash before the customer is ready to pay."}</p>
-                        <p>{"Pull last quarter's disputes and count how many a script could have closed on its own. Then take the rest to Stuut and ask three things:"}</p>
-                        <ul>
-                          <li>
-                            <strong>Coverage:</strong>
-                            {" whether its disputes agent is live for your account, and which of those disputes it handles without your team."}
-                          </li>
-                          <li>
-                            <strong>DSO:</strong>
-                            {" whether 37%, 47%, or 50% is the number that applies to a company your size."}
-                          </li>
-                          <li>
-                            <strong>Late payers:</strong>
-                            {" what happens to your cash when a good customer simply pays late."}
-                          </li>
-                        </ul>
-                        <p>Then bring the one dispute your team dreads to both demos.</p>
+                        <h2>The Real Question Is Which Half of Your Cycle Is Stuck</h2>
+                        <p>{"Daylit leads on the collection side. It's the only one of the two with published figures for dispute resolution and on-time payment, the only one whose agents read every client reply and make the call, and the only one with built-in invoice financing."}</p>
+                        <p>{"Oddr built a strong platform around how law firms bill and review, and on billing and legal-specific integrations it's ahead today. That's also why this doesn't have to be a choice. Daylit runs on top of Aderant and the billing inbox instead of replacing how bills go out, so a firm already on Oddr can add Daylit for collections without changing its billing. Some firms will end up running both: Oddr to get the bill out, Daylit to get it paid."}</p>
+                        <p>{"So run one test before your next call. Pull your fifteen largest balances over 60 days and write one sentence per balance saying why it hasn't been paid, with evidence. If the sentences come easily, your problem is getting bills out and prioritized, and that's Oddr's ground. If most come back as \"chasing\" or \"unknown,\" you have a diagnosis problem, and that's the one Daylit is built for, whichever system sends your bills."}</p>
                       </section>
                       <section id="faq" className="blog-section">
                         <h2>Frequently Asked Questions</h2>
                         <div className="faq-item">
                           <h3>What is Daylit, exactly?</h3>
-                          <p>{"An AI-native AR automation platform for mid-market B2B finance teams. A decision layer trained on $100B of AR transactions works out why each customer isn't paying, then runs collections, disputes, and follow-up through configurable playbooks per case type. FundNow, built into the same platform, converts outstanding invoices to cash without a separate factoring relationship."}</p>
+                          <p>An AI accounts receivable platform that does the work of collections. For law firms, it connects to Aderant and the billing inbox, works out why each bill is unpaid, and routes it to the right biller or billing attorney. FundNow, built into the same platform, converts outstanding invoices to cash without a separate factoring relationship.</p>
                         </div>
                         <div className="faq-item">
-                          <h3>Is this fair to Stuut?</h3>
-                          <p>{"Every Stuut claim here traces back to Stuut's own homepage, product blog, and Series A announcement, or to Andreessen Horowitz's investment announcement where noted, linked throughout. That includes the places where those sources don't agree with each other."}</p>
+                          <h3>Is Daylit actually built for law firms?</h3>
+                          <p>Daylit is newer to legal than Oddr, and it was built for the problem law firms describe most: bills that went out on time and still sit unpaid. It runs on top of Aderant and the billing inbox, routes each bill to the right biller or billing attorney, and gives billing attorneys their own portfolio view.</p>
                         </div>
                         <div className="faq-item">
-                          <h3>What does Stuut actually do better?</h3>
-                          <p>Enterprise references, including Honeywell, ZoomInfo, and PerkinElmer, and a Fiserv partnership for enterprise receivables.</p>
+                          <h3>Is this fair to Oddr?</h3>
+                          <p>{"Every Oddr figure here comes from Oddr's own website, case studies, and announcements, linked throughout. Where Oddr hasn't published a number, the page says so instead of implying one."}</p>
                         </div>
                         <div className="faq-item">
-                          <h3>How long does Stuut actually take to implement?</h3>
-                          <p>{"Stuut's homepage says 3 to 4 days, versus 6 to 18 months for traditional software, and \"Live in 3 days. Cash flow in 7.\" Either way it's measured in days, the same as Daylit."}</p>
+                          <h3>What does Oddr actually do better?</h3>
+                          <p>Billing and payment. It generates and submits LEDES e-bills, takes payments through OddrPay and reconciles them, and supports hourly, flat, contingency, and retainer billing. It also offers secure invoice delivery with status tracking and internal bill review before bills go out. It integrates with Chrome River and Intapp, and has published results from named law firms.</p>
                         </div>
                         <div className="faq-item">
-                          <h3>{"Doesn't Stuut have playbooks too?"}</h3>
-                          <p>It does. Stuut launched Playbooks in May 2026, a single place to define payment terms, reason codes, escalation rules, and exception policies. The difference is where the rules attach. Daylit gives each case type its own playbook, so a dispute, a promise to pay, and an inquiry each follow their own steps. Ask both vendors to walk the same disputed invoice through their setup and compare.</p>
+                          <h3>How long does Oddr actually take to implement?</h3>
+                          <p>{"Oddr doesn't publish a timeline, saying only that it varies \"by firm size and integration scope.\" Charles Collins, Director of IT at Ward and Smith, says the firm reached \"a fully operational environment in a few weeks.\""}</p>
                         </div>
                         <div className="faq-item">
-                          <h3>Is Daylit built for enterprise companies?</h3>
-                          <p>Daylit is built for mid-market B2B companies, typically $50M to $500M in revenue. Their AR teams usually run 2 to 5 people. A global enterprise running multiple ERPs is better served by an enterprise AR platform.</p>
+                          <h3>{"Oddr's AI collections agent sounds like what Daylit does."}</h3>
+                          <p>{"Oddr announced it in August 2026 and describes it as \"currently in development.\" It will recommend an action for each priority account and prepare the email, call brief, or attorney note, while finance teams make every decision. Daylit's agents work each case through its playbook automatically, following the rules your firm sets."}</p>
                         </div>
                         <div className="faq-item">
-                          <h3>When do results actually show up?</h3>
-                          <p>Integration is measured in days, not quarters, so the work starts the same week. The first visible change is on disputes, where resolution time drops by 10x. On-time payment and DSO move over the following billing cycles, as pre-due-date outreach replaces fixed reminder schedules. Both of those figures in the table above are ceilings companies have reached, not first-month expectations.</p>
-                        </div>
-                        <div className="faq-item">
-                          <h3>Why does this page keep flagging which Stuut number is which?</h3>
-                          <p>{"When two vendors both go live in days, speed can't separate them. The numbers underneath carry the whole decision. Stuut's 37% is one claim, \"47% Faster DSO\" is another, and its investor's 50% is a third. You should know which one you're being quoted. Two rows also have no comparable Stuut figure (on-time payment lift and return on investment), and on two more (cash forecasting and automatic segment moves) we couldn't find the capability in Stuut's published materials."}</p>
+                          <h3>{"Why does this page keep saying Oddr \"hasn't published\" a number?"}</h3>
+                          <p>{"Because a comparison only means something if every number in it holds up. Three of the thirteen rows have no Oddr figure at all, Oddr's ROI figure uses a different measure from Daylit's, and on three more we couldn't find the capability described anywhere on Oddr's site. The honest reading is that Oddr hasn't said, not that Daylit has proven it's ahead there."}</p>
                         </div>
                       </section>
                       <section className="blog-section">

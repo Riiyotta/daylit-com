@@ -1,3 +1,4 @@
+// IA section(s): content.section-color-wrap (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Latest insights about accounts — the section's real markup, read from the rendered page (route /solution/legal, section 10).

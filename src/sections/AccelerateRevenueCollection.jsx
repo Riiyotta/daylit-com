@@ -1,3 +1,4 @@
+// IA section(s): hero.section-home-hero (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Accelerate revenue collection. — the section's real markup, read from the rendered page (route /, section 1).
@@ -96,7 +97,7 @@ export default function AccelerateRevenueCollection() {
             <div className="home_hero-btm">
               <div className="her_btm-text">Agent impact</div>
               <div className="marquee">
-                <div className="marquee_track" style={{ "transform": "translate3d(-21.9575%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "transformStyle": "preserve-3d", "willChange": "transform" }}>
+                <div className="marquee_track" style={{ "transform": "translate3d(-22.2285%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "transformStyle": "preserve-3d", "willChange": "transform" }}>
                   <div className="marquee_list">
                     <div className="marquee_item">
                       <div className="marquee_item-box">

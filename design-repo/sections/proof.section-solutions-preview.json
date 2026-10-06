@@ -8,14 +8,14 @@
   "nameSource": "class",
   "evidence": {
     "level": "measured",
-    "instances": 7,
-    "routes": 5,
+    "instances": 13,
+    "routes": 7,
     "measuredFrom": [
-      "src/intelligence/index.html:3802-5461",
-      "src/intelligence/index.html:5462-7246",
-      "src/intelligence/index.html:7247-9290",
-      "src/product/drawdown/index.html:1900-2423",
-      "src/product/fundnow/index.html:1900-2423"
+      "src/ai-collections-strategy/index.html:1831-2525",
+      "src/ai-collections-strategy/index.html:2526-3574",
+      "src/ai-collections-strategy/index.html:3575-4483",
+      "src/become-a-partner/index.html:1745-2439",
+      "src/become-a-partner/index.html:2440-3488"
     ]
   },
   "content": {
@@ -72,11 +72,11 @@
     },
     "breakpoints": "tokens/00-foundation/breakpoint.json",
     "desktop": {
-      "heightPx": 1006,
+      "heightPx": 858,
       "columns": 1
     },
     "mobile": {
-      "heightPx": 1242,
+      "heightPx": 939,
       "columns": 1,
       "hiddenShare": 0
     },
@@ -86,5 +86,20 @@
     "content-image"
   ],
   "contentPolicy": "Measured copy quotes real customers and companies. Generated pages must write new, clearly fictional quotes and names, and use placeholders for customer logos and avatars.",
-  "implementedBy": "src/pages/Intelligence.jsx"
+  "implementedBy": "src/sections/HowGettingWorkingCapital.jsx",
+  "implementedByAll": [
+    "src/sections/HowGettingWorkingCapital.jsx",
+    "src/sections/HowOfferingPaymentPlans.jsx",
+    "src/sections/HowOfferingPaymentTerms.jsx",
+    "src/sections/HowSellingCustomerInvoices.jsx",
+    "src/sections/SeeWhatSComing.jsx",
+    "src/sections/SeeWhatSComing2.jsx",
+    "src/sections/SeeWhatSComing3.jsx",
+    "src/sections/SuperchargeCollectionsAtSca.jsx",
+    "src/sections/SuperchargeCollectionsAtSca2.jsx",
+    "src/sections/SuperchargeCollectionsAtSca3.jsx",
+    "src/sections/SuperchargeCollectionsAtSca4.jsx",
+    "src/sections/SuperchargeCollectionsAtSca5.jsx",
+    "src/sections/TurnReceivablesIntoCash.jsx"
+  ]
 }

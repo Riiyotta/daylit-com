@@ -245,7 +245,7 @@
       }
     },
     {
-      "type": "content.section-gradient-light",
+      "type": "content.block",
       "content": {
         "heading": "You might also like...",
         "body": [
@@ -371,14 +371,6 @@
           }
         ]
       },
-      "motion": {
-        "pattern": "css-transition",
-        "reducedMotionFallback": "disable-animation"
-      }
-    },
-    {
-      "type": "content.chat-widget",
-      "content": {},
       "motion": {
         "pattern": "css-transition",
         "reducedMotionFallback": "disable-animation"

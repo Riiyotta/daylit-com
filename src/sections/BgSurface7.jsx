@@ -1,94 +1,66 @@
-import A from "../lib/A.jsx";
-
-// bg-surface — the section's real markup, read from the rendered page (route /product/fundnow, section 5).
+// IA section(s): content.section-impact (ia/ia.json, design-repo/sections/)
+// bg-surface — the section's real markup, read from the rendered page (route /become-a-partner, section 4).
 export default function BgSurface7() {
   return (
-    <section data-texture-section="true" data-wf--build-section-cards-info--general-color="base" className="section_why bg-surface" data-clone-section="BgSurface7">
+    <section className="section_impact bg-surface" data-clone-section="BgSurface7">
       <div data-wf--utility-spacer-section--padding="large" className="padding-section-wrap">
         <div className="padding-top"></div>
       </div>
       <div className="big-section">
         <div className="w-layout-blockcontainer container-large w-container">
           <div className="impact_layout">
-            <div id="w-node-_065b0e05-5f0a-797e-47c0-74d31b81c151-1b81c14c" className="w-layout-vflex why_top-wrap">
-              <div data-wf--slot-item-eyebrow-main--color="primary" className="eyebrow">
-                <div className="eyebrow-dot"></div>
-                <div className="eyebrow-text">Benefits</div>
-              </div>
-              <div className="spacer-medium"></div>
-              <h2>Get paid early with invoice factoring</h2>
-              <div className="spacer-small"></div>
-              <div className="w-layout-vflex max-width-large text-wrap-balance">
-                <p className="u-is-100">{"Don't wait until your customers pay you. Unlock cash from your outstanding invoices and put it to work on your schedule."}</p>
-              </div>
-              <div className="w-layout-vflex">
-                <div className="spacer-xlarge"></div>
-                <div data-wf--slot-item-button-main--style="primary-plus" data-button=" main" className="button_main_wrap">
-                  <div className="clickable_wrap u-cover-absolute">
-                    <A target="" href="/learn-more/demo" className="clickable_link w-inline-block">
-                      <span className="clickable_text u-sr-only">Button</span>
-                    </A>
-                    <button type="link" className="clickable_btn">
-                      <span className="clickable_text u-sr-only">Button</span>
-                    </button>
-                  </div>
-                  <div data-button="main-content" className="w-layout-vflex button_main_content-wrap">
-                    <div aria-hidden="true" className="button_main_text">Learn more</div>
-                    <div className="w-layout-vflex button-main-icon-list">
-                      <div className="w-layout-vflex button-main-icon-wrap">
-                        <div className="button-main-icon w-embed">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 14 14" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
-                            <circle cx="7" cy="2.05031" r="1.16667" transform="rotate(45 7 2.05031)" fill="currentColor" />
-                            <circle cx="2.05078" cy="6.99855" r="1.16667" transform="rotate(45 2.05078 6.99855)" fill="currentColor" />
-                            <circle cx="11.9492" cy="7.00148" r="1.16667" transform="rotate(45 11.9492 7.00148)" fill="currentColor" />
-                            <circle cx="7" cy="11.9497" r="1.16667" transform="rotate(45 7 11.9497)" fill="currentColor" />
-                            <circle cx="7" cy="7.00001" r="1.16667" transform="rotate(45 7 7.00001)" fill="currentColor" />
-                          </svg>
-                        </div>
-                      </div>
-                      <div className="button-arrow-dots w-embed">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 11 14" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
-                          <circle cx="3.66927" cy="3.99984" r="1.33333" fill="currentColor" />
-                          <circle cx="3.66927" cy="11.9998" r="1.33333" fill="currentColor" />
-                          <circle cx="7.66927" cy="7.99984" r="1.33333" fill="currentColor" />
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
+            <div id="w-node-a5c43e71-3d47-9237-5e5b-0f3b7ae7b1cf-7ae7b1ca" className="w-layout-blockcontainer container-small text-wrap-balance w-container">
+              <div className="w-layout-vflex impact_top-wrap">
+                <div data-wf--slot-item-eyebrow-main--color="primary" className="eyebrow">
+                  <div className="eyebrow-dot"></div>
+                  <div className="eyebrow-text">OUR IMPACT</div>
+                </div>
+                <div className="w-layout-vflex impact_title-wrap">
+                  <h2 className="heading">Delivering faster paying customers and happier CFOs.</h2>
+                  <p>‍</p>
                 </div>
               </div>
             </div>
-            <div data-slot="card-info" className="cards_list">
-              <div card-border-gradient="true" data-wf--slot-item-card-info--icon-size="medium" className="w-layout-vflex card-wrap">
-                <div className="w-layout-vflex card-icon-wrap">
-                  <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68aed1d2b4ad8f96a87e3487_icon-target.svg" alt="" className="card-icon" />
+            <div data-slot="card-stats" className="card-stats_list">
+              <div data-wf--slot-item-card-stats--general-color="light-1" className="card-stat_component">
+                <img src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68aeb2adef78cac0ec857d1a_icon-dots-fast.svg" loading="lazy" alt="" className="icon-1x1-medium" />
+                <div className="spacer-medium"></div>
+                <div data-countup="true" className="heading-style-h1">14 days</div>
+                <div className="spacer-xsmall"></div>
+                <h3 className="heading-style-h3">Shrink DSO</h3>
+                <div className="spacer-xlarge"></div>
+                <div className="w-layout-vflex margin-top-auto">
+                  <p>{"We've helped hundreds of business reduce their DSO by utilizing our AI and capital platform. We're just getting started."}</p>
                 </div>
-                <h2 className="heading-style-h6">Speed up cash collection</h2>
-                <p id="w-node-_55763f69-ab1f-09b8-dca8-03b29c7c5075-9c7c5070">When you speed up collection from your customers, you have more cash for operations.</p>
-                <div className="card-border-gradient"></div>
               </div>
-              <div card-border-gradient="true" data-wf--slot-item-card-info--icon-size="medium" className="w-layout-vflex card-wrap">
-                <div className="w-layout-vflex card-icon-wrap">
-                  <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68aed1d2f92c17de793691bb_icon-cloud.svg" alt="" className="card-icon" />
+              <div data-wf--slot-item-card-stats--general-color="light-1" className="card-stat_component">
+                <img src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68aeb2adc33a0ea08b60fe21_icon-dots-star.svg" loading="lazy" alt="" className="icon-1x1-medium" />
+                <div className="spacer-medium"></div>
+                <div data-countup="true" className="heading-style-h1">90%</div>
+                <div className="spacer-xsmall"></div>
+                <h3 className="heading-style-h3">Time savings</h3>
+                <div className="spacer-xlarge"></div>
+                <div className="w-layout-vflex margin-top-auto">
+                  <p>Reduce more nearly all the manual effort your team spends chasing invoices and redeploy towards higher value.</p>
                 </div>
-                <h2 className="heading-style-h6">Avoid customer friction</h2>
-                <p id="w-node-_55763f69-ab1f-09b8-dca8-03b29c7c5075-9c7c5070">{"We will buy your invoices directly from you and let you pay us back when you're ready."}</p>
-                <div className="card-border-gradient"></div>
               </div>
-              <div card-border-gradient="true" data-wf--slot-item-card-info--icon-size="medium" className="w-layout-vflex card-wrap">
-                <div className="w-layout-vflex card-icon-wrap">
-                  <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68aed1d2f08a30eaeee80d62_icon-bell.svg" alt="" className="card-icon" />
+              <div data-wf--slot-item-card-stats--general-color="light-1" className="card-stat_component">
+                <img src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68aeb2adaf47ed6a02390dc9_icon-dots-heart.svg" loading="lazy" alt="" className="icon-1x1-medium" />
+                <div className="spacer-medium"></div>
+                <div data-countup="true" className="heading-style-h1">85%</div>
+                <div className="spacer-xsmall"></div>
+                <h3 className="heading-style-h3">Improved payment habits</h3>
+                <div className="spacer-xlarge"></div>
+                <div className="w-layout-vflex margin-top-auto">
+                  <p>Customers should pay you on the due date, not whenever they feel like. Track days past term in real-time and see the improvement in 30 days.</p>
                 </div>
-                <h2 className="heading-style-h6">Balance working capital cycles</h2>
-                <p id="w-node-_55763f69-ab1f-09b8-dca8-03b29c7c5075-9c7c5070">Keep your working capital cycles aligned with your business goals whether customers pay on time or not.</p>
-                <div className="card-border-gradient"></div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div data-wf--utility-spacer-section--padding="medium" className="padding-section-wrap">
-        <div className="padding-top w-variant-1adb59ca-4a0d-7415-a8be-0ad7bbe77144"></div>
+      <div data-wf--utility-spacer-section--padding="large" className="padding-section-wrap">
+        <div className="padding-top"></div>
       </div>
     </section>
   );

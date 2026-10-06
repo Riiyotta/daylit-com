@@ -74,5 +74,8 @@
   "assetRoles": [
     "content-image"
   ],
-  "implementedBy": "src/pages/Blog.jsx"
+  "implementedBy": "src/sections/TheHiddenTruthBehind.jsx",
+  "implementedByAll": [
+    "src/sections/TheHiddenTruthBehind.jsx"
+  ]
 }

@@ -1,3 +1,4 @@
+// IA section(s): content.u-texture (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // u-texture — the section's real markup, read from the rendered page (route /testimonial, section 7).

@@ -1,3 +1,4 @@
+// IA section(s): content.section-impact (ia/ia.json, design-repo/sections/)
 // bg-surface — the section's real markup, read from the rendered page (route /intelligence, section 4).
 export default function BgSurface() {
   return (

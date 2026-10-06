@@ -1,3 +1,4 @@
+// IA section(s): cta.section-demo-left (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // div — the section's real markup, read from the rendered page (route /learn-more/demo, section 0).
@@ -5,7 +6,7 @@ export default function Div2() {
   return (
     <div className="section_demo-left" data-clone-section="Div2">
       <div>
-        <div className="demo_testimonial_card-wrap" style={{ "transform": "translate3d(-82.9438px, 0px, 0px)" }}>
+        <div className="demo_testimonial_card-wrap" style={{ "transform": "translate3d(-87.9955px, 0px, 0px)" }}>
           <div data-wf--testimonial-card--variant="base" className="demo_testimonial_card">
             <div className="demo_testimonial_card-text">The Plaza Group</div>
             <p className="demo_testimonial_card-para">{"\"With Daylit, we’ve cut down the time spent managing receivables and chasing payments. That’s freed our finance team to focus on higher-value work like market analysis, smarter inventory management, and planning for expansion.\""}</p>
@@ -296,7 +297,7 @@ export default function Div2() {
       <div className="demo_logo-wrap">
         <div className="demo_logo-text">TRusted by  200+ enterprises</div>
         <div>
-          <div className="demo_logo-item" style={{ "transform": "translate3d(-82.9033px, 0px, 0px)" }}>
+          <div className="demo_logo-item" style={{ "transform": "translate3d(-87.9685px, 0px, 0px)" }}>
             <div className="demo_logo is-1">
               <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6a9b1308050f2932bb25c192_Vector%20(30).svg" alt="Atlas refining logo" />
             </div>

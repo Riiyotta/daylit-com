@@ -1,4 +1,5 @@
-// bg-surface — the section's real markup, read from the rendered page (route /solution/services, section 4).
+// IA section(s): content.section-why (ia/ia.json, design-repo/sections/)
+// bg-surface — the section's real markup, read from the rendered page (route /solution/staffing, section 4).
 export default function BgSurface21() {
   return (
     <section data-texture-section="true" data-wf--build-section-cards-info--general-color="base" className="section_why bg-surface" data-clone-section="BgSurface21">
@@ -17,7 +18,7 @@ export default function BgSurface21() {
               <h2>Transport your A/R into the AI era</h2>
               <div className="spacer-small"></div>
               <div className="w-layout-vflex max-width-large text-wrap-balance">
-                <p className="u-is-100">We equip field services companies like yours with enterprise grade capabilities manage accounts receivables processes.</p>
+                <p className="u-is-100">We equip recruiting companies like yours with enterprise grade capabilities manage accounts receivables processes.</p>
               </div>
             </div>
             <div data-slot="card-info" className="cards_list">

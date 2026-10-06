@@ -71,5 +71,8 @@
   "assetRoles": [
     "background"
   ],
-  "implementedBy": "src/sections/Section.jsx"
+  "implementedBy": "src/sections/AstFeatureSection.jsx",
+  "implementedByAll": [
+    "src/sections/AstFeatureSection.jsx"
+  ]
 }

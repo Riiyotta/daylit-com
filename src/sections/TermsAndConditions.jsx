@@ -1,3 +1,4 @@
+// IA section(s): hero.section-legal-article (ia/ia.json, design-repo/sections/)
 // Terms and Conditions — the section's real markup, read from the rendered page (route /legal/terms-conditions, section 1).
 export default function TermsAndConditions() {
   return (

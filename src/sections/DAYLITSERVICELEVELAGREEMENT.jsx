@@ -1,3 +1,4 @@
+// IA section(s): hero.section-legal-article (ia/ia.json, design-repo/sections/)
 // DAYLIT SERVICE LEVEL AGREEMENT — the section's real markup, read from the rendered page (route /legal/sla-customer, section 1).
 export default function DAYLITSERVICELEVELAGREEMENT() {
   return (

@@ -1,3 +1,4 @@
+// IA section(s): content.big-section (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // big-section — the section's real markup, read from the rendered page (route /solution/legal, section 8; shared by 4 routes).

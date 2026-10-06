@@ -1,3 +1,4 @@
+// IA section(s): hero.ast-detail (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // ast-detail — the section's real markup, read from the rendered page (route /ai-skills-training/how-to-route-dunning-emails-to-right-person, section 1).

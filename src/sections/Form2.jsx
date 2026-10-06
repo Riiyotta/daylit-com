@@ -1,3 +1,4 @@
+// IA section(s): shell.form (ia/ia.json, design-repo/sections/)
 // form — the section's real markup, read from the rendered page (route /blog, section 1).
 export default function Form2() {
   return (

@@ -37,7 +37,6 @@
         "assetRoles": [
           "avatar",
           "content-image",
-          "hero-image",
           "icon"
         ]
       }
@@ -75,8 +74,10 @@
   "assetRoles": [
     "avatar",
     "content-image",
-    "hero-image",
     "icon"
   ],
-  "implementedBy": "src/pages/HomePage.jsx"
+  "implementedBy": "src/sections/DiscoverHowDaylitS.jsx",
+  "implementedByAll": [
+    "src/sections/DiscoverHowDaylitS.jsx"
+  ]
 }

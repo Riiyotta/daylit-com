@@ -1,3 +1,4 @@
+// IA section(s): proof.section-blog-preview (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Latest insights about accounts — the section's real markup, read from the rendered page (route /product/fundnow, section 13; shared by 4 routes).

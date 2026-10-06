@@ -1,3 +1,4 @@
+// IA section(s): content.section-home-why (ia/ia.json, design-repo/sections/)
 // Accounts receivable just got b — the section's real markup, read from the rendered page (route /, section 4).
 export default function AccountsReceivableJustGot() {
   return (

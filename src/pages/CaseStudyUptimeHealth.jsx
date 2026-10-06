@@ -1,6 +1,6 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavbarSticky20 from "../sections/NavbarSticky20.jsx";
+import NavbarSticky11 from "../sections/NavbarSticky11.jsx";
 import CsrHero from "../sections/CsrHero.jsx";
 import CsrBand from "../sections/CsrBand.jsx";
 import CsrBody from "../sections/CsrBody.jsx";
@@ -22,13 +22,13 @@ import css12 from "../styles/inline-16.css?inline"; // only this page loads it
 import css13 from "../styles/inline-17.css?inline"; // only this page loads it
 import css14 from "../styles/inline-18.css?inline"; // only this page loads it
 import css15 from "../styles/inline-19.css?inline"; // only this page loads it
-import css16 from "../styles/inline-50.css?inline"; // only this page loads it
+import css16 from "../styles/inline-54.css?inline"; // only this page loads it
 import css17 from "../styles/inline-22.css?inline"; // only this page loads it
 import css18 from "../styles/inline-27.css?inline"; // only this page loads it
 
 // Route /case-study/uptime-health-services — 6 section(s), in page order.
 export default function CaseStudyUptimeHealth() {
-  usePageChrome({ title: "Uptime Health Services: 50% Improvement in AR, same lean team | Daylit", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "68ae879a941f59b9d91e8430", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "data-wf-collection": "68ae879a941f59b9d91e8422", "data-wf-item-slug": "uptime-health-services", "class": "w-mod-js w-mod-ix wf-opensans-n8-active wf-opensans-n6-active wf-opensans-n4-active wf-opensans-n3-active wf-opensans-n7-active wf-opensans-i7-active wf-opensans-i6-active wf-opensans-i4-active wf-opensans-i3-active wf-opensans-i8-active wf-active" }, body: {  } });
+  usePageChrome({ title: "Uptime Health Services: 50% Improvement in AR, same lean team | Daylit", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "68ae879a941f59b9d91e8430", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "data-wf-collection": "68ae879a941f59b9d91e8422", "data-wf-item-slug": "uptime-health-services", "class": "w-mod-js w-mod-ix wf-opensans-n4-active wf-opensans-n8-active wf-opensans-n3-active wf-opensans-n7-active wf-opensans-n6-active wf-opensans-i8-active wf-opensans-i6-active wf-opensans-i3-active wf-opensans-i7-active wf-opensans-i4-active wf-active" }, body: {  } });
   return (
     <>
       <style>{css0}</style>
@@ -59,7 +59,7 @@ export default function CaseStudyUptimeHealth() {
       <div className="w-embed"></div>
       <div className="w-embed"></div>
     </div>
-    <NavbarSticky20 />
+    <NavbarSticky11 />
     <CsrHero />
     <CsrBand />
     <CsrBody />

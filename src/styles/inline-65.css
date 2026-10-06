@@ -206,3 +206,16 @@ body {
   color: var(--text-soft);
   line-height: 1.6;
 }
+
+/* CALLOUT BLOCK */
+.callout {
+  background: var(--maroon-bg);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  padding: 20px 24px;
+  margin: 24px 0;
+  font-size: 15.5px;
+  color: var(--text-soft);
+  line-height: 1.6;
+}
+.callout strong { color: var(--maroon); }

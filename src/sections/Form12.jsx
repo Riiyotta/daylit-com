@@ -1,6 +1,7 @@
+// IA section(s): shell.form (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// form — the section's real markup, read from the rendered page (route /solution/manufacturing, section 1).
+// form — the section's real markup, read from the rendered page (route /solution/legal, section 1).
 export default function Form12() {
   return (
     <header data-wf--global-section-header--general-section-layout="text-media" id="form" data-texture-section="true" className="section_header-main" data-clone-section="Form12">
@@ -15,15 +16,12 @@ export default function Form12() {
                 <div className="w-layout-vflex header-main_title-wrap">
                   <div data-wf--slot-item-eyebrow-main--color="secondary" className="eyebrow w-variant-0af9f9ed-2d61-bd23-3bb5-4265d3f5f371">
                     <div className="eyebrow-dot"></div>
-                    <div className="eyebrow-text">Manufacturing</div>
+                    <div className="eyebrow-text">LAW FIRMS</div>
                   </div>
-                  <h1>Your AI agents for Manufacturing.</h1>
+                  <h1>{"Legal bills shouldn't get paid last."}</h1>
                 </div>
                 <div className="w-layout-vflex header-main_text-wrap">
-                  <p className="text-size-large">
-                    Our platform plugs right into your system to get you paid on time, every time, within days of going live.
-                    <br />
-                  </p>
+                  <p className="text-size-large">Daylit plugs right into Aderant, 3E and more along with your billing email inbox to get your firm paid when the invoice is due.</p>
                   <div className="w-layout-vflex button-group">
                     <div data-wf--slot-item-button-main--style="primary-plus" data-button=" main" className="button_main_wrap">
                       <div className="clickable_wrap u-cover-absolute">
@@ -60,7 +58,7 @@ export default function Form12() {
                     </div>
                     <div data-wf--slot-item-button-main--style="ghost" data-button=" main" className="button_main_wrap w-variant-bc08b67a-cdce-03f8-3fd3-cdc658df9199">
                       <div className="clickable_wrap u-cover-absolute">
-                        <A target="" href={"/learn-more/demo?utm_source=daylit.com&utm_content=manufacturing"} className="clickable_link w-inline-block">
+                        <A target="_blank" href={"/learn-more/demo?utm_source=daylit.com&utm_content=legal"} className="clickable_link w-inline-block">
                           <span className="clickable_text u-sr-only">Button</span>
                         </A>
                         <button type="link" className="clickable_btn">
@@ -97,7 +95,7 @@ export default function Form12() {
             </div>
             <div id="w-node-ee3274b2-2fb5-9472-59c0-766080a1fb66-64f646a4" className="header-main_media u-hide-if-empty">
               <div data-wf--media-image--image-style="stroke" className="w-layout-vflex media-img-wrap w-variant-e12155c7-e63f-8760-070d-b3154da518bb">
-                <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68caa9dab137e22b4c3cca53_3568726-p-1080.webp" alt="" sizes="(max-width: 767px) 100vw, (max-width: 991px) 727.9921875px, 939.9921875px" srcSet="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68caa9dab137e22b4c3cca53_3568726-p-500.webp 500w, /_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68caa9dab137e22b4c3cca53_3568726-p-800.webp 800w, /_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68caa9dab137e22b4c3cca53_3568726-p-1080.webp 1080w, /_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68caa9dab137e22b4c3cca53_3568726-p-1600.webp 1600w, /_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68caa9dab137e22b4c3cca53_3568726.webp 1722w" className="u-image-cover" />
+                <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6a90aede8a469cb3431bc30e_6138697-p-1080.jpg" alt="" sizes="(max-width: 767px) 100vw, (max-width: 991px) 727.9921875px, 939.9921875px" srcSet="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6a90aede8a469cb3431bc30e_6138697-p-500.jpg 500w, /_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6a90aede8a469cb3431bc30e_6138697-p-800.jpg 800w, /_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6a90aede8a469cb3431bc30e_6138697-p-1080.jpg 1080w, /_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6a90aede8a469cb3431bc30e_6138697-p-1600.jpg 1600w, /_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6a90aede8a469cb3431bc30e_6138697-p-2000.jpg 2000w, /_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6a90aede8a469cb3431bc30e_6138697-p-2600.jpg 2600w, /_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6a90aede8a469cb3431bc30e_6138697.jpg 2924w" className="u-image-cover" />
               </div>
             </div>
           </div>

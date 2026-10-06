@@ -1,6 +1,7 @@
+// IA section(s): shell.form (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// form — the section's real markup, read from the rendered page (route /product/drawdown, section 1).
+// form — the section's real markup, read from the rendered page (route /product/paylater, section 1).
 export default function Form10() {
   return (
     <header data-wf--global-section-header--general-section-layout="text-media" id="form" data-texture-section="true" className="section_header-main" data-clone-section="Form10">
@@ -15,15 +16,18 @@ export default function Form10() {
                 <div className="w-layout-vflex header-main_title-wrap">
                   <div data-wf--slot-item-eyebrow-main--color="secondary" className="eyebrow w-variant-0af9f9ed-2d61-bd23-3bb5-4265d3f5f371">
                     <div className="eyebrow-dot"></div>
-                    <div className="eyebrow-text">DrawDown</div>
+                    <div className="eyebrow-text">PayLater</div>
                     <div className="w-layout-vflex eyebrow-icon-wrap is-position">
                       <img src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68afe5a7ca9efc7e67623959_icon-product-PayLater.svg" loading="lazy" alt="" className="eyebrow-icon" />
                     </div>
                   </div>
-                  <h1>Working capital line of credit for smooth operations</h1>
+                  <h1>Offer customers payment plans</h1>
                 </div>
                 <div className="w-layout-vflex header-main_text-wrap">
-                  <p className="text-size-large">With DrawDown, you can draw larger amounts of cash for your growth projects without dilution.</p>
+                  <p className="text-size-large">
+                    Our payment plan product, called PayLater, can be added to any invoice to give your customers a little extra time when they need it most.
+                    <br />
+                  </p>
                   <div className="w-layout-vflex button-group">
                     <div data-wf--slot-item-button-main--style="primary-plus" data-button=" main" className="button_main_wrap">
                       <div className="clickable_wrap u-cover-absolute">

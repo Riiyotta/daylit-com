@@ -1,3 +1,4 @@
+// IA section(s): proof.section-faqs-preview (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // You’ve got questions, we’ve go — the section's real markup, read from the rendered page (route /become-a-partner, section 9).

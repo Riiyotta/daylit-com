@@ -1,16 +1,16 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavbarSticky14 from "../sections/NavbarSticky14.jsx";
-import Form9 from "../sections/Form9.jsx";
+import NavbarSticky15 from "../sections/NavbarSticky15.jsx";
+import Form10 from "../sections/Form10.jsx";
 import Section7 from "../sections/Section7.jsx";
 import Section2 from "../sections/Section2.jsx";
 import WLayoutVflex from "../sections/WLayoutVflex.jsx";
-import BgSurface11 from "../sections/BgSurface11.jsx";
+import BgSurface13 from "../sections/BgSurface13.jsx";
 import WantToSeeHow3 from "../sections/WantToSeeHow3.jsx";
 import WVariant0a13d40172e0 from "../sections/WVariant0a13d40172e0.jsx";
 import HowOfferingPaymentPlans from "../sections/HowOfferingPaymentPlans.jsx";
 import BgSurface6 from "../sections/BgSurface6.jsx";
-import BgSurface12 from "../sections/BgSurface12.jsx";
+import BgSurface14 from "../sections/BgSurface14.jsx";
 import BigSection2 from "../sections/BigSection2.jsx";
 import StillHaveQuestions from "../sections/StillHaveQuestions.jsx";
 import LatestInsightsAboutAccounts from "../sections/LatestInsightsAboutAccounts.jsx";
@@ -44,7 +44,7 @@ import css24 from "../styles/inline-27.css?inline"; // only this page loads it
 
 // Route /product/paylater — 17 section(s), in page order.
 export default function ProductPaylater() {
-  usePageChrome({ title: "Offer Customers Payment Plans | Daylit", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "68afe56c7fec3095a190a6a6", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "class": "w-mod-js w-mod-ix wf-opensans-i8-active wf-opensans-i3-active wf-opensans-i4-active wf-opensans-i7-active wf-opensans-i6-active wf-opensans-n8-active wf-opensans-n3-active wf-opensans-n4-active wf-opensans-n7-active wf-opensans-n6-active wf-active" }, body: {  } });
+  usePageChrome({ title: "Offer Customers Payment Plans | Daylit", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "68afe56c7fec3095a190a6a6", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "class": "w-mod-js w-mod-ix wf-opensans-n4-active wf-opensans-n7-active wf-opensans-n3-active wf-opensans-n8-active wf-opensans-n6-active wf-opensans-i7-active wf-opensans-i3-active wf-opensans-i8-active wf-opensans-i4-active wf-opensans-i6-active wf-active" }, body: {  } });
   return (
     <>
       <style>{css0}</style>
@@ -82,13 +82,13 @@ export default function ProductPaylater() {
         <div className="w-embed"></div>
         <div className="w-embed"></div>
       </div>
-      <NavbarSticky14 />
+      <NavbarSticky15 />
       <main className="main-wrapper">
-        <Form9 />
+        <Form10 />
         <Section7 />
         <Section2 />
         <WLayoutVflex />
-        <BgSurface11 />
+        <BgSurface13 />
         <WantToSeeHow3 />
         <div className="u-display-contents"></div>
         <div data-wf--utility-section-background-color--general-color="white-to-gray" className="u-display-contents u-pos-relative">
@@ -98,7 +98,7 @@ export default function ProductPaylater() {
         <div className="u-display-contents">
           <BgSurface6 />
         </div>
-        <BgSurface12 />
+        <BgSurface14 />
         <section data-texture-section="true" className="section_faqs-preview">
           <div className="w-embed"></div>
           <div data-wf--utility-spacer-section--padding="large" className="padding-section-wrap">

@@ -1,4 +1,5 @@
-// Header — the section's real markup, read from the rendered page (route /blog/ar-automation-software-for-wholesale-distribution-companies-in-2026, section 1).
+// IA section(s): shell.section-blog-header (ia/ia.json, design-repo/sections/)
+// Header — the section's real markup, read from the rendered page (route /blog/ai-powered-collections-automation-for-manufacturers, section 1).
 export default function Header17() {
   return (
     <header className="section_blog-header" data-clone-section="Header17">
@@ -10,8 +11,8 @@ export default function Header17() {
           <div className="blog-header_card">
             <div className="w-layout-vflex blog-header_content">
               <div className="w-layout-vflex blog-header_title-wrap">
-                <h1 className="heading-2">AR Automation Software for Wholesale Distributors</h1>
-                <p>Evaluate AR automation software for wholesale distributors: invoice delivery, deduction handling, cash application and ERP requirements to verify.</p>
+                <h1 className="heading-2">Accounts Receivable Automation for Manufacturers</h1>
+                <p>Evaluate accounts receivable automation for manufacturers with purchase orders, deduction evidence, collections workflows and a measurable baseline.</p>
               </div>
               <div className="w-layout-vflex button-group is-tags">
                 <div className="w-layout-hflex flex-block">
@@ -21,13 +22,13 @@ export default function Header17() {
                   </div>
                   <div data-wf--slot-item-eyebrow-main--color="primary" className="eyebrow">
                     <div className="eyebrow-dot"></div>
-                    <div className="eyebrow-text">March 11, 2026</div>
+                    <div className="eyebrow-text">March 16, 2026</div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="w-layout-vflex blog-header_image-wrap">
-              <img width="150" height="80" alt="" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b300762a90d193df3fdc9a_Screenshot%202026-03-12%20at%202.05.37%E2%80%AFPM-p-500.png" loading="lazy" sizes="150px" srcSet="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b300762a90d193df3fdc9a_Screenshot%202026-03-12%20at%202.05.37%E2%80%AFPM-p-500.png 500w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b300762a90d193df3fdc9a_Screenshot%202026-03-12%20at%202.05.37%E2%80%AFPM.png 754w" className="blog-header_image-cover" />
+              <img width="150" height="80" alt="" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b82700bc606cf82113f596_ChatGPT%20Image%20Mar%2016%2C%202026%2C%2011_51_09%20AM-p-500.png" loading="lazy" sizes="150px" srcSet="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b82700bc606cf82113f596_ChatGPT%20Image%20Mar%2016%2C%202026%2C%2011_51_09%20AM-p-500.png 500w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b82700bc606cf82113f596_ChatGPT%20Image%20Mar%2016%2C%202026%2C%2011_51_09%20AM-p-800.png 800w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b82700bc606cf82113f596_ChatGPT%20Image%20Mar%2016%2C%202026%2C%2011_51_09%20AM-p-1080.png 1080w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b82700bc606cf82113f596_ChatGPT%20Image%20Mar%2016%2C%202026%2C%2011_51_09%20AM.png 1536w" className="blog-header_image-cover" />
             </div>
           </div>
         </div>

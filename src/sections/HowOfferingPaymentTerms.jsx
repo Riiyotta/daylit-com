@@ -1,3 +1,4 @@
+// IA section(s): proof.section-solutions-preview (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // How offering payment terms wit — the section's real markup, read from the rendered page (route /product/offerterms, section 8).
@@ -83,7 +84,7 @@ export default function HowOfferingPaymentTerms() {
                       </svg>
                     </div>
                   </button>
-                  <div id="accordion-details-2" role="region" aria-labelledby="accordion-summary-2" cc-accordion-element="content" cc-schema-element="answer" className="accordion-img_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                  <div id="accordion-details-2" role="region" aria-labelledby="accordion-summary-2" cc-accordion-element="content" cc-schema-element="answer" className="accordion-img_bottom-container" style={{ "height": "0px" }}>
                     <div className="accordion-img_content-wrapper">
                       <p>{"Based on your customer's selected payment terms, Daylit pays you on their behalf."}</p>
                       <div data-wf--slot-item-button-main--style="primary-plus" data-button=" main" className="button_main_wrap">
@@ -134,7 +135,7 @@ export default function HowOfferingPaymentTerms() {
                       </svg>
                     </div>
                   </button>
-                  <div id="accordion-details-3" role="region" aria-labelledby="accordion-summary-3" cc-accordion-element="content" cc-schema-element="answer" className="accordion-img_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                  <div id="accordion-details-3" role="region" aria-labelledby="accordion-summary-3" cc-accordion-element="content" cc-schema-element="answer" className="accordion-img_bottom-container" style={{ "height": "0px" }}>
                     <div className="accordion-img_content-wrapper">
                       <p>Your customer picks the term length to pay Daylit back.</p>
                       <div data-wf--slot-item-button-main--style="primary-plus" data-button=" main" className="button_main_wrap">

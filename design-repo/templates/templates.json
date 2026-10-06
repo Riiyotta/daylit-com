@@ -59,11 +59,6 @@
           "section": "shell.footer-wrap",
           "required": true,
           "repeatable": false
-        },
-        {
-          "section": "content.chat-widget",
-          "required": true,
-          "repeatable": false
         }
       ],
       "evidence": {
@@ -142,12 +137,12 @@
           "repeatable": false
         },
         {
-          "section": "shell.footer-component",
+          "section": "cta.section-cta-main",
           "required": true,
           "repeatable": false
         },
         {
-          "section": "content.chat-widget",
+          "section": "shell.footer-component",
           "required": true,
           "repeatable": false
         }
@@ -190,11 +185,6 @@
           "section": "shell.footer-component",
           "required": true,
           "repeatable": false
-        },
-        {
-          "section": "content.chat-widget",
-          "required": true,
-          "repeatable": false
         }
       ],
       "evidence": {
@@ -235,11 +225,6 @@
           "section": "shell.footer-component",
           "required": true,
           "repeatable": false
-        },
-        {
-          "section": "content.chat-widget",
-          "required": true,
-          "repeatable": false
         }
       ],
       "evidence": {
@@ -248,24 +233,62 @@
       }
     },
     {
-      "id": "template.group",
-      "name": "Group",
-      "routeCount": 4,
-      "chrome": "none",
+      "id": "template.ai-collections-strategy",
+      "name": "Ai collections strategy",
+      "routeCount": 1,
+      "chrome": "full",
       "routes": [
-        "/ai-collections-strategy",
-        "/testimonial",
-        "/become-a-partner",
-        "/early-pay-savings-calculator-daylit-working-capital"
+        "/ai-collections-strategy"
       ],
       "nodes": [
         {
-          "section": "hero.page-wrapper",
+          "section": "shell.navbar-sticky",
           "required": true,
           "repeatable": false
         },
         {
-          "section": "content.chat-widget",
+          "section": "shell.form",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-logo",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-shine",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-impact",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-solutions-preview",
+          "required": true,
+          "repeatable": true,
+          "maxCount": 3
+        },
+        {
+          "section": "content.section-why",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-testimonials",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-faqs-preview",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
           "required": true,
           "repeatable": false
         }
@@ -328,11 +351,6 @@
           "section": "shell.footer-component",
           "required": true,
           "repeatable": false
-        },
-        {
-          "section": "content.chat-widget",
-          "required": true,
-          "repeatable": false
         }
       ],
       "evidence": {
@@ -390,12 +408,72 @@
           "repeatable": false
         },
         {
-          "section": "shell.footer-component",
+          "section": "content.section-why",
           "required": true,
           "repeatable": false
         },
         {
-          "section": "content.chat-widget",
+          "section": "shell.footer-component",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.testimonial",
+      "name": "Testimonial",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/testimonial"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar-sticky",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.section-testi-header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-shine",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-testi-wall",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-why",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-blog-preview",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-shine",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.u-texture",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
           "required": true,
           "repeatable": false
         }
@@ -440,12 +518,22 @@
           "repeatable": false
         },
         {
-          "section": "shell.footer-component",
+          "section": "content.section-why",
           "required": true,
           "repeatable": false
         },
         {
-          "section": "content.chat-widget",
+          "section": "content.section-shine",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.u-texture",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
           "required": true,
           "repeatable": false
         }
@@ -490,12 +578,78 @@
           "repeatable": false
         },
         {
-          "section": "shell.footer-component",
+          "section": "content.section-shine",
           "required": true,
           "repeatable": false
         },
         {
-          "section": "content.chat-widget",
+          "section": "content.u-texture",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.become-a-partner",
+      "name": "Become a partner",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/become-a-partner"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar-sticky",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.form",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-logo",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-shine",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-impact",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-solutions-preview",
+          "required": true,
+          "repeatable": true,
+          "maxCount": 3
+        },
+        {
+          "section": "proof.section-testimonials",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-faqs-preview",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
           "required": true,
           "repeatable": false
         }
@@ -515,8 +669,8 @@
         "/blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category",
         "/blog/your-ar-inbox-isnt-slow-its-a-trust-problem",
         "/blog/daylit-vs-monk",
-        "/blog/daylit-vs-stuut",
-        "/blog/the-hidden-truth-behind-12-5b-late-payments-and-how-ai-can-solve-it"
+        "/blog/daylit-vs-oddr",
+        "/blog/daylit-vs-stuut"
       ],
       "routesTruncated": true,
       "nodes": [
@@ -536,17 +690,12 @@
           "repeatable": false
         },
         {
-          "section": "content.section-gradient-light",
+          "section": "content.block",
           "required": true,
           "repeatable": false
         },
         {
           "section": "shell.footer-component",
-          "required": true,
-          "repeatable": false
-        },
-        {
-          "section": "content.chat-widget",
           "required": true,
           "repeatable": false
         }
@@ -604,7 +753,17 @@
           "repeatable": false
         },
         {
+          "section": "content.section-color-wrap",
+          "required": true,
+          "repeatable": false
+        },
+        {
           "section": "proof.section-solutions-preview",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-why",
           "required": true,
           "repeatable": false
         },
@@ -629,12 +788,17 @@
           "repeatable": false
         },
         {
-          "section": "shell.footer-component",
+          "section": "content.section-shine",
           "required": true,
           "repeatable": false
         },
         {
-          "section": "content.chat-widget",
+          "section": "content.u-texture",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
           "required": true,
           "repeatable": false
         }
@@ -684,6 +848,11 @@
           "repeatable": false
         },
         {
+          "section": "content.section-color-wrap",
+          "required": true,
+          "repeatable": false
+        },
+        {
           "section": "proof.section-testimonials",
           "required": true,
           "repeatable": false
@@ -699,12 +868,22 @@
           "repeatable": false
         },
         {
-          "section": "shell.footer-component",
+          "section": "content.section-color-wrap",
           "required": true,
           "repeatable": false
         },
         {
-          "section": "content.chat-widget",
+          "section": "content.section-shine",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.u-texture",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
           "required": true,
           "repeatable": false
         }
@@ -761,6 +940,12 @@
           "repeatable": false
         },
         {
+          "section": "content.section-color-wrap",
+          "required": true,
+          "repeatable": true,
+          "maxCount": 2
+        },
+        {
           "section": "proof.section-testimonials",
           "required": true,
           "repeatable": false
@@ -776,12 +961,22 @@
           "repeatable": false
         },
         {
-          "section": "shell.footer-component",
+          "section": "content.section-color-wrap",
           "required": true,
           "repeatable": false
         },
         {
-          "section": "content.chat-widget",
+          "section": "content.section-shine",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.u-texture",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
           "required": true,
           "repeatable": false
         }
@@ -801,12 +996,46 @@
       ],
       "nodes": [
         {
-          "section": "hero.section-demo",
+          "section": "cta.section-demo-left",
           "required": true,
           "repeatable": false
         },
         {
-          "section": "content.chat-widget",
+          "section": "support.section-demo-right",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.legal-2",
+      "name": "Legal pages",
+      "routeCount": 5,
+      "chrome": "full",
+      "routes": [
+        "/legal/dpa-customer",
+        "/legal/sla-customer",
+        "/legal/cookie-consent",
+        "/legal/privacy-policy",
+        "/legal/terms-conditions"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar-sticky",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.section-legal-article",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
           "required": true,
           "repeatable": false
         }
@@ -856,50 +1085,6 @@
           "section": "shell.footer-component",
           "required": true,
           "repeatable": false
-        },
-        {
-          "section": "content.chat-widget",
-          "required": true,
-          "repeatable": false
-        }
-      ],
-      "evidence": {
-        "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
-      }
-    },
-    {
-      "id": "template.legal-2",
-      "name": "Legal pages",
-      "routeCount": 5,
-      "chrome": "full",
-      "routes": [
-        "/legal/dpa-customer",
-        "/legal/sla-customer",
-        "/legal/cookie-consent",
-        "/legal/privacy-policy",
-        "/legal/terms-conditions"
-      ],
-      "nodes": [
-        {
-          "section": "shell.navbar-sticky",
-          "required": true,
-          "repeatable": false
-        },
-        {
-          "section": "hero.main-wrapper",
-          "required": true,
-          "repeatable": false
-        },
-        {
-          "section": "shell.footer-component",
-          "required": true,
-          "repeatable": false
-        },
-        {
-          "section": "content.chat-widget",
-          "required": true,
-          "repeatable": false
         }
       ],
       "evidence": {
@@ -934,9 +1119,34 @@
           "section": "shell.footer-component",
           "required": true,
           "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.early-pay-savings-calculator-daylit-work",
+      "name": "Early pay savings calculator daylit work",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/early-pay-savings-calculator-daylit-working-capital"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar-sticky",
+          "required": true,
+          "repeatable": false
         },
         {
-          "section": "content.chat-widget",
+          "section": "hero.section-tools-header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-component",
           "required": true,
           "repeatable": false
         }
@@ -955,15 +1165,15 @@
         "/blog/how-chemical-companies-use-daylit-to-unlock-working-capital",
         "/blog/cicis-pizza-customer-story",
         "/blog/ar-automation-practices-distributors",
-        "/blog/ar-automation-software-for-wholesale-distribution-companies-in-2026",
         "/blog/chemical-distributor-working-capital",
         "/blog/ai-powered-collections-automation-for-manufacturers",
-        "/blog/best-ai-tools-manufacturing-accounts-receivable",
         "/blog/best-ai-tools-staffing-agency-accounts-receivable-2026",
         "/blog/best-ai-tools-service-company-accounts-receivable-2026",
-        "/blog/ai-powered-collections-automation-for-field-services-firms",
         "/blog/ai-automate-invoice-follow-ups-service-companies",
-        "/blog/mj-highway-customer-story"
+        "/blog/mj-highway-customer-story",
+        "/blog/ar-automation-software-for-wholesale-distribution-companies-in-2026",
+        "/blog/best-ai-tools-manufacturing-accounts-receivable",
+        "/blog/ai-powered-collections-automation-for-field-services-firms"
       ],
       "nodes": [
         {
@@ -987,17 +1197,12 @@
           "repeatable": false
         },
         {
-          "section": "content.section-gradient-light",
+          "section": "content.block",
           "required": true,
           "repeatable": false
         },
         {
           "section": "shell.footer-component",
-          "required": true,
-          "repeatable": false
-        },
-        {
-          "section": "content.chat-widget",
           "required": true,
           "repeatable": false
         }

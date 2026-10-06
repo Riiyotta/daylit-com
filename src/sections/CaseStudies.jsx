@@ -1,3 +1,4 @@
+// IA section(s): proof.case-studies (ia/ia.json, design-repo/sections/)
 // case-studies — the section's real markup, read from the rendered page (route /case-studies, section 4).
 export default function CaseStudies() {
   return (

@@ -58,5 +58,8 @@
   "assetRoles": [
     "content-image"
   ],
-  "implementedBy": "src/pages/HomePage.jsx"
+  "implementedBy": "src/sections/Div.jsx",
+  "implementedByAll": [
+    "src/sections/Div.jsx"
+  ]
 }

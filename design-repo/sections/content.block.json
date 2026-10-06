@@ -1,7 +1,7 @@
 {
-  "id": "content.section-gradient-light",
+  "id": "content.block",
   "category": "CONTENT",
-  "label": "section-gradient-light",
+  "label": "Block",
   "tag": "div",
   "purpose": "Carries the substantive content of the page. Example headline: \"You might also like...\".",
   "purposeIsInferred": true,
@@ -74,5 +74,11 @@
   "assetRoles": [
     "content-image"
   ],
-  "implementedBy": "src/pages/BlogThisAiStartup.jsx"
+  "implementedBy": "src/sections/YouMightAlsoLike.jsx",
+  "implementedByAll": [
+    "src/sections/YouMightAlsoLike.jsx",
+    "src/sections/YouMightAlsoLike2.jsx",
+    "src/sections/YouMightAlsoLike3.jsx",
+    "src/sections/YouMightAlsoLike4.jsx"
+  ]
 }

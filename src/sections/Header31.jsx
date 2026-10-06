@@ -1,4 +1,5 @@
-// Header — the section's real markup, read from the rendered page (route /blog/ai-use-cases-accounts-receivable-automation-2026, section 1).
+// IA section(s): shell.section-blog-header (ia/ia.json, design-repo/sections/)
+// Header — the section's real markup, read from the rendered page (route /blog/how-this-cicis-franchise-owner-plans-his-pizza-empire-with-daylit, section 1).
 export default function Header31() {
   return (
     <header className="section_blog-header" data-clone-section="Header31">
@@ -10,8 +11,8 @@ export default function Header31() {
           <div className="blog-header_card">
             <div className="w-layout-vflex blog-header_content">
               <div className="w-layout-vflex blog-header_title-wrap">
-                <h1 className="heading-2">Accounts Receivable Automation: AI Use Cases in 2026</h1>
-                <p>Explore AI use cases for accounts receivable automation: collections, cash application, email handling, dispute routing and receivables forecasting.</p>
+                <h1 className="heading-2">Cicis Working Capital: Greg Smith’s Expansion Plans</h1>
+                <p>Greg Smith, the owner of three Cicis franchises in the Central Texas region, shares his experience with using accounts payable financing for growing his pizza empire.</p>
               </div>
               <div className="w-layout-vflex button-group is-tags">
                 <div className="w-layout-hflex flex-block">
@@ -21,13 +22,13 @@ export default function Header31() {
                   </div>
                   <div data-wf--slot-item-eyebrow-main--color="primary" className="eyebrow">
                     <div className="eyebrow-dot"></div>
-                    <div className="eyebrow-text">April 2, 2026</div>
+                    <div className="eyebrow-text">October 27, 2022</div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="w-layout-vflex blog-header_image-wrap">
-              <img width="150" height="80" alt="" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69ceb54ccd1cc45490c45041_Screenshot%202026-04-02%20at%202.28.23%E2%80%AFPM-p-500.png" loading="lazy" sizes="150px" srcSet="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69ceb54ccd1cc45490c45041_Screenshot%202026-04-02%20at%202.28.23%E2%80%AFPM-p-500.png 500w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69ceb54ccd1cc45490c45041_Screenshot%202026-04-02%20at%202.28.23%E2%80%AFPM.png 778w" className="blog-header_image-cover" />
+              <img width="150" height="80" alt="" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/68c97c0de5c1fcf0bc6e7c92_68c7ed9831db4a7d00d02d99_Cicis_Logo_2019_Stacked_CMYK_Logo.webp" loading="lazy" className="blog-header_image-cover" />
             </div>
           </div>
         </div>

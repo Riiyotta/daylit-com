@@ -64,5 +64,8 @@
     "changes": []
   },
   "assetRoles": [],
-  "implementedBy": "src/sections/AstHero.jsx"
+  "implementedBy": "src/sections/AstHero.jsx",
+  "implementedByAll": [
+    "src/sections/AstHero.jsx"
+  ]
 }

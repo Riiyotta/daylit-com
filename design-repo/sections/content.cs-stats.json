@@ -65,5 +65,8 @@
   "assetRoles": [
     "illustration"
   ],
-  "implementedBy": "src/sections/CsStats.jsx"
+  "implementedBy": "src/sections/CsStats.jsx",
+  "implementedByAll": [
+    "src/sections/CsStats.jsx"
+  ]
 }

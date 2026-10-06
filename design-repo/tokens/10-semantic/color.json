@@ -25,7 +25,7 @@
     "text.primary": {
       "$type": "color",
       "$value": "{color.red.01}",
-      "basis": "most-used text colour (40164 uses)"
+      "basis": "most-used text colour (40243 uses)"
     },
     "text.secondary": {
       "$type": "color",
@@ -40,7 +40,7 @@
     "text.accent": {
       "$type": "color",
       "$value": "{color.red.01}",
-      "basis": "most-used saturated text/fill colour (46070 uses)"
+      "basis": "most-used saturated text/fill colour (46173 uses)"
     },
     "border.default": {
       "$type": "color",
@@ -50,7 +50,7 @@
     "accent.primary": {
       "$type": "color",
       "$value": "{color.red.01}",
-      "basis": "most-used saturated colour overall (46976 uses)"
+      "basis": "most-used saturated colour overall (47079 uses)"
     }
   }
 }

@@ -75,5 +75,10 @@
   "assetRoles": [
     "logo"
   ],
-  "implementedBy": "src/sections/CsrBody.jsx"
+  "implementedBy": "src/sections/CsrBody.jsx",
+  "implementedByAll": [
+    "src/sections/CsrBody.jsx",
+    "src/sections/CsrBody2.jsx",
+    "src/sections/CsrBody3.jsx"
+  ]
 }

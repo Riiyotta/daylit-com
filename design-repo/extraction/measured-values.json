@@ -1,9 +1,9 @@
 {
   "version": "0.1.0",
   "sourceProject": {
-    "url": "https://www.daylit.com/?dl=anon_q5vd15p4muv2itl7--force",
+    "url": "https://www.daylit.com/",
     "framework": "React+Webflow+GSAP",
-    "scrapedAt": "2026-10-05T10:51:39Z",
+    "scrapedAt": "2026-10-06T08:57:19Z",
     "snapshotFolder": "recon/mirror/src/"
   },
   "note": "Citation ledger. `lines` are line ranges in the rendered-HTML snapshots under recon/mirror/src/; verify_all.py resolves them and degrades to a warning when src/ is absent.",
@@ -15,11 +15,11 @@
     "colors": [
       [
         "rgba(0,0,0,0)",
-        61483
+        61562
       ],
       [
         "rgb(77,21,32)",
-        46976
+        47079
       ],
       [
         "rgb(130,87,91)",
@@ -39,7 +39,7 @@
       ],
       [
         "rgb(0,0,0)",
-        3348
+        3406
       ],
       [
         "rgb(130,91,99)",
@@ -51,7 +51,7 @@
       ],
       [
         "rgb(255,255,255)",
-        1791
+        1779
       ],
       [
         "rgb(170,164,159)",
@@ -190,19 +190,23 @@
         23
       ],
       [
+        "rgb(232,232,232)",
+        22
+      ],
+      [
         "rgb(181,129,58)",
         21
       ],
       [
-        "rgb(232,232,232)",
+        "rgb(246,243,243)",
         20
       ],
       [
-        "rgb(246,243,243)",
-        16
+        "rgb(244,234,225)",
+        15
       ],
       [
-        "rgb(244,234,225)",
+        "rgb(248,247,242)",
         15
       ],
       [
@@ -235,10 +239,6 @@
       ],
       [
         "rgb(245,240,232)",
-        12
-      ],
-      [
-        "rgb(248,247,242)",
         12
       ],
       [
@@ -1205,16 +1205,6 @@
           "anchor": "footer-wrap",
           "lines": [
             3437,
-            4067
-          ]
-        },
-        {
-          "idx": 10,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            4068,
             4081
           ]
         }
@@ -1364,27 +1354,27 @@
           "anchor": "w-layout-vflex",
           "lines": [
             9580,
-            9832
+            9636
           ]
         },
         {
           "idx": 14,
+          "id": "cta.section-cta-main",
+          "tag": "section",
+          "anchor": "section_cta-main",
+          "lines": [
+            9637,
+            9832
+          ]
+        },
+        {
+          "idx": 15,
           "id": "shell.footer-component",
           "tag": "footer",
           "anchor": "footer_component",
           "lines": [
             9833,
-            10278
-          ]
-        },
-        {
-          "idx": 15,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            10279,
-            10292
+            10291
           ]
         }
       ]
@@ -1443,16 +1433,6 @@
           "anchor": "footer_component",
           "lines": [
             2574,
-            3019
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            3020,
             3033
           ]
         }
@@ -1512,16 +1492,6 @@
           "anchor": "footer_component",
           "lines": [
             2016,
-            2460
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2461,
             2474
           ]
         }
@@ -1531,26 +1501,126 @@
       "route": "/ai-collections-strategy",
       "title": "AI Collections Strategy",
       "h1": "Upgrade your collections strategy for the AI era.",
-      "template": "template.group",
+      "template": "template.ai-collections-strategy",
       "file": "src/ai-collections-strategy/index.html",
       "sections": [
         {
           "idx": 0,
-          "id": "hero.page-wrapper",
+          "id": "shell.navbar-sticky",
           "tag": "div",
-          "anchor": "page-wrapper",
+          "anchor": "navbar_sticky",
           "lines": [
-            34,
-            5855
+            586,
+            1329
           ]
         },
         {
           "idx": 1,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "id": "shell.form",
+          "tag": "header",
+          "anchor": "id=\"form\"",
           "lines": [
-            5856,
+            1330,
+            1555
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "proof.section-logo",
+          "tag": "section",
+          "anchor": "section_logo",
+          "lines": [
+            1556,
+            1703
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            1704,
+            1757
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-impact",
+          "tag": "section",
+          "anchor": "section_impact",
+          "lines": [
+            1758,
+            1830
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "proof.section-solutions-preview",
+          "tag": "section",
+          "anchor": "section_solutions-preview",
+          "lines": [
+            1831,
+            2525
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "proof.section-solutions-preview",
+          "tag": "section",
+          "anchor": "section_solutions-preview",
+          "lines": [
+            2526,
+            3574
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "proof.section-solutions-preview",
+          "tag": "section",
+          "anchor": "section_solutions-preview",
+          "lines": [
+            3575,
+            4483
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "content.section-why",
+          "tag": "section",
+          "anchor": "section_why",
+          "lines": [
+            4484,
+            4570
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "proof.section-testimonials",
+          "tag": "section",
+          "anchor": "section_testimonials",
+          "lines": [
+            4571,
+            5090
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "proof.section-faqs-preview",
+          "tag": "section",
+          "anchor": "section_faqs-preview",
+          "lines": [
+            5091,
+            5557
+          ]
+        },
+        {
+          "idx": 11,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            5558,
             5869
           ]
         }
@@ -1650,16 +1720,6 @@
           "anchor": "footer_component",
           "lines": [
             2372,
-            2816
-          ]
-        },
-        {
-          "idx": 9,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2817,
             2830
           ]
         }
@@ -1749,26 +1809,26 @@
           "anchor": "section_team-feed",
           "lines": [
             2522,
-            3127
+            3038
           ]
         },
         {
           "idx": 8,
+          "id": "content.section-why",
+          "tag": "section",
+          "anchor": "section_why",
+          "lines": [
+            3039,
+            3127
+          ]
+        },
+        {
+          "idx": 9,
           "id": "shell.footer-component",
           "tag": "footer",
           "anchor": "footer_component",
           "lines": [
             3128,
-            3573
-          ]
-        },
-        {
-          "idx": 9,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            3574,
             3587
           ]
         }
@@ -1778,26 +1838,96 @@
       "route": "/testimonial",
       "title": "Customer Testimonials | AI agents for A/R",
       "h1": "What Daylit's customers say",
-      "template": "template.group",
+      "template": "template.testimonial",
       "file": "src/testimonial/index.html",
       "sections": [
         {
           "idx": 0,
-          "id": "hero.page-wrapper",
+          "id": "shell.navbar-sticky",
           "tag": "div",
-          "anchor": "page-wrapper",
+          "anchor": "navbar_sticky",
           "lines": [
-            34,
-            2775
+            586,
+            1329
           ]
         },
         {
           "idx": 1,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "id": "shell.section-testi-header",
+          "tag": "header",
+          "anchor": "section_testi-header",
           "lines": [
-            2776,
+            1330,
+            1644
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            1645,
+            1698
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "proof.section-testi-wall",
+          "tag": "section",
+          "anchor": "section_testi-wall",
+          "lines": [
+            1699,
+            1896
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-why",
+          "tag": "section",
+          "anchor": "section_why",
+          "lines": [
+            1897,
+            1984
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "proof.section-blog-preview",
+          "tag": "section",
+          "anchor": "section_blog-preview",
+          "lines": [
+            1985,
+            2160
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            2161,
+            2214
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "content.u-texture",
+          "tag": "div",
+          "anchor": "u-texture",
+          "lines": [
+            2215,
+            2328
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2329,
             2789
           ]
         }
@@ -1857,27 +1987,47 @@
           "anchor": "section_different",
           "lines": [
             1644,
-            2198
+            1913
           ]
         },
         {
           "idx": 5,
+          "id": "content.section-why",
+          "tag": "section",
+          "anchor": "section_why",
+          "lines": [
+            1914,
+            2029
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            2030,
+            2083
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "content.u-texture",
+          "tag": "div",
+          "anchor": "u-texture",
+          "lines": [
+            2084,
+            2198
+          ]
+        },
+        {
+          "idx": 8,
           "id": "shell.footer-component",
           "tag": "footer",
           "anchor": "footer_component",
           "lines": [
             2199,
-            2644
-          ]
-        },
-        {
-          "idx": 6,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2645,
-            2658
+            2657
           ]
         }
       ]
@@ -1936,27 +2086,156 @@
           "anchor": "id=\"wf-form-FAQ-Filter-Form\"",
           "lines": [
             1645,
-            3679
+            3510
           ]
         },
         {
           "idx": 5,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            3511,
+            3564
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.u-texture",
+          "tag": "div",
+          "anchor": "u-texture",
+          "lines": [
+            3565,
+            3679
+          ]
+        },
+        {
+          "idx": 7,
           "id": "shell.footer-component",
           "tag": "footer",
           "anchor": "footer_component",
           "lines": [
             3680,
-            4125
+            4139
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/become-a-partner",
+      "title": "Become a Partner",
+      "h1": "Embedded finance on your platform",
+      "template": "template.become-a-partner",
+      "file": "src/become-a-partner/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            586,
+            1329
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.form",
+          "tag": "header",
+          "anchor": "id=\"form\"",
+          "lines": [
+            1330,
+            1469
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "proof.section-logo",
+          "tag": "section",
+          "anchor": "section_logo",
+          "lines": [
+            1470,
+            1617
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            1618,
+            1671
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-impact",
+          "tag": "section",
+          "anchor": "section_impact",
+          "lines": [
+            1672,
+            1744
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "proof.section-solutions-preview",
+          "tag": "section",
+          "anchor": "section_solutions-preview",
+          "lines": [
+            1745,
+            2439
           ]
         },
         {
           "idx": 6,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "id": "proof.section-solutions-preview",
+          "tag": "section",
+          "anchor": "section_solutions-preview",
           "lines": [
-            4126,
-            4139
+            2440,
+            3488
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "proof.section-solutions-preview",
+          "tag": "section",
+          "anchor": "section_solutions-preview",
+          "lines": [
+            3489,
+            4397
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "proof.section-testimonials",
+          "tag": "section",
+          "anchor": "section_testimonials",
+          "lines": [
+            4398,
+            4917
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "proof.section-faqs-preview",
+          "tag": "section",
+          "anchor": "section_faqs-preview",
+          "lines": [
+            4918,
+            5234
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            5235,
+            5528
           ]
         }
       ]
@@ -2000,7 +2279,7 @@
         },
         {
           "idx": 3,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -2015,17 +2294,7 @@
           "anchor": "footer_component",
           "lines": [
             1878,
-            2395
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2396,
-            2409
+            2410
           ]
         }
       ]
@@ -2104,21 +2373,41 @@
           "anchor": "section_cta-banner",
           "lines": [
             1778,
-            1899
+            1842
           ]
         },
         {
           "idx": 7,
+          "id": "content.section-color-wrap",
+          "tag": "div",
+          "anchor": "section-color-wrap",
+          "lines": [
+            1843,
+            1899
+          ]
+        },
+        {
+          "idx": 8,
           "id": "proof.section-solutions-preview",
           "tag": "section",
           "anchor": "section_solutions-preview",
           "lines": [
             1900,
+            2335
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "content.section-why",
+          "tag": "section",
+          "anchor": "section_why",
+          "lines": [
+            2336,
             2423
           ]
         },
         {
-          "idx": 8,
+          "idx": 10,
           "id": "proof.section-testimonials",
           "tag": "section",
           "anchor": "section_testimonials",
@@ -2128,7 +2417,7 @@
           ]
         },
         {
-          "idx": 9,
+          "idx": 11,
           "id": "content.big-section",
           "tag": "div",
           "anchor": "big-section",
@@ -2138,7 +2427,7 @@
           ]
         },
         {
-          "idx": 10,
+          "idx": 12,
           "id": "hero.section-cta-banner",
           "tag": "section",
           "anchor": "section_cta-banner",
@@ -2148,32 +2437,42 @@
           ]
         },
         {
-          "idx": 11,
+          "idx": 13,
           "id": "proof.section-blog-preview",
           "tag": "section",
           "anchor": "section_blog-preview",
           "lines": [
             3472,
+            3717
+          ]
+        },
+        {
+          "idx": 14,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            3718,
+            3771
+          ]
+        },
+        {
+          "idx": 15,
+          "id": "content.u-texture",
+          "tag": "div",
+          "anchor": "u-texture",
+          "lines": [
+            3772,
             3886
           ]
         },
         {
-          "idx": 12,
+          "idx": 16,
           "id": "shell.footer-component",
           "tag": "footer",
           "anchor": "footer_component",
           "lines": [
             3887,
-            4332
-          ]
-        },
-        {
-          "idx": 13,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            4333,
             4346
           ]
         }
@@ -2253,21 +2552,41 @@
           "anchor": "section_cta-banner",
           "lines": [
             1733,
-            1854
+            1797
           ]
         },
         {
           "idx": 7,
+          "id": "content.section-color-wrap",
+          "tag": "div",
+          "anchor": "section-color-wrap",
+          "lines": [
+            1798,
+            1854
+          ]
+        },
+        {
+          "idx": 8,
           "id": "proof.section-solutions-preview",
           "tag": "section",
           "anchor": "section_solutions-preview",
           "lines": [
             1855,
+            2290
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "content.section-why",
+          "tag": "section",
+          "anchor": "section_why",
+          "lines": [
+            2291,
             2378
           ]
         },
         {
-          "idx": 8,
+          "idx": 10,
           "id": "proof.section-testimonials",
           "tag": "section",
           "anchor": "section_testimonials",
@@ -2277,7 +2596,7 @@
           ]
         },
         {
-          "idx": 9,
+          "idx": 11,
           "id": "content.big-section",
           "tag": "div",
           "anchor": "big-section",
@@ -2287,7 +2606,7 @@
           ]
         },
         {
-          "idx": 10,
+          "idx": 12,
           "id": "hero.section-cta-banner",
           "tag": "section",
           "anchor": "section_cta-banner",
@@ -2297,33 +2616,43 @@
           ]
         },
         {
-          "idx": 11,
+          "idx": 13,
           "id": "proof.section-blog-preview",
           "tag": "section",
           "anchor": "section_blog-preview",
           "lines": [
             3427,
+            3672
+          ]
+        },
+        {
+          "idx": 14,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            3673,
+            3726
+          ]
+        },
+        {
+          "idx": 15,
+          "id": "content.u-texture",
+          "tag": "div",
+          "anchor": "u-texture",
+          "lines": [
+            3727,
             3841
           ]
         },
         {
-          "idx": 12,
+          "idx": 16,
           "id": "shell.footer-component",
           "tag": "footer",
           "anchor": "footer_component",
           "lines": [
             3842,
-            4286
-          ]
-        },
-        {
-          "idx": 13,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            4287,
-            4300
+            4301
           ]
         }
       ]
@@ -2402,21 +2731,41 @@
           "anchor": "section_cta-banner",
           "lines": [
             1779,
-            1900
+            1843
           ]
         },
         {
           "idx": 7,
+          "id": "content.section-color-wrap",
+          "tag": "div",
+          "anchor": "section-color-wrap",
+          "lines": [
+            1844,
+            1900
+          ]
+        },
+        {
+          "idx": 8,
           "id": "proof.section-solutions-preview",
           "tag": "section",
           "anchor": "section_solutions-preview",
           "lines": [
             1901,
+            2336
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "content.section-why",
+          "tag": "section",
+          "anchor": "section_why",
+          "lines": [
+            2337,
             2424
           ]
         },
         {
-          "idx": 8,
+          "idx": 10,
           "id": "proof.section-testimonials",
           "tag": "section",
           "anchor": "section_testimonials",
@@ -2426,7 +2775,7 @@
           ]
         },
         {
-          "idx": 9,
+          "idx": 11,
           "id": "content.big-section",
           "tag": "div",
           "anchor": "big-section",
@@ -2436,7 +2785,7 @@
           ]
         },
         {
-          "idx": 10,
+          "idx": 12,
           "id": "hero.section-cta-banner",
           "tag": "section",
           "anchor": "section_cta-banner",
@@ -2446,32 +2795,42 @@
           ]
         },
         {
-          "idx": 11,
+          "idx": 13,
           "id": "proof.section-blog-preview",
           "tag": "section",
           "anchor": "section_blog-preview",
           "lines": [
             3473,
+            3718
+          ]
+        },
+        {
+          "idx": 14,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            3719,
+            3772
+          ]
+        },
+        {
+          "idx": 15,
+          "id": "content.u-texture",
+          "tag": "div",
+          "anchor": "u-texture",
+          "lines": [
+            3773,
             3887
           ]
         },
         {
-          "idx": 12,
+          "idx": 16,
           "id": "shell.footer-component",
           "tag": "footer",
           "anchor": "footer_component",
           "lines": [
             3888,
-            4333
-          ]
-        },
-        {
-          "idx": 13,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            4334,
             4347
           ]
         }
@@ -2551,21 +2910,41 @@
           "anchor": "section_cta-banner",
           "lines": [
             1778,
-            1899
+            1842
           ]
         },
         {
           "idx": 7,
+          "id": "content.section-color-wrap",
+          "tag": "div",
+          "anchor": "section-color-wrap",
+          "lines": [
+            1843,
+            1899
+          ]
+        },
+        {
+          "idx": 8,
           "id": "proof.section-solutions-preview",
           "tag": "section",
           "anchor": "section_solutions-preview",
           "lines": [
             1900,
+            2335
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "content.section-why",
+          "tag": "section",
+          "anchor": "section_why",
+          "lines": [
+            2336,
             2423
           ]
         },
         {
-          "idx": 8,
+          "idx": 10,
           "id": "proof.section-testimonials",
           "tag": "section",
           "anchor": "section_testimonials",
@@ -2575,7 +2954,7 @@
           ]
         },
         {
-          "idx": 9,
+          "idx": 11,
           "id": "content.big-section",
           "tag": "div",
           "anchor": "big-section",
@@ -2585,7 +2964,7 @@
           ]
         },
         {
-          "idx": 10,
+          "idx": 12,
           "id": "hero.section-cta-banner",
           "tag": "section",
           "anchor": "section_cta-banner",
@@ -2595,32 +2974,42 @@
           ]
         },
         {
-          "idx": 11,
+          "idx": 13,
           "id": "proof.section-blog-preview",
           "tag": "section",
           "anchor": "section_blog-preview",
           "lines": [
             3472,
+            3717
+          ]
+        },
+        {
+          "idx": 14,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            3718,
+            3771
+          ]
+        },
+        {
+          "idx": 15,
+          "id": "content.u-texture",
+          "tag": "div",
+          "anchor": "u-texture",
+          "lines": [
+            3772,
             3886
           ]
         },
         {
-          "idx": 12,
+          "idx": 16,
           "id": "shell.footer-component",
           "tag": "footer",
           "anchor": "footer_component",
           "lines": [
             3887,
-            4332
-          ]
-        },
-        {
-          "idx": 13,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            4333,
             4346
           ]
         }
@@ -2690,11 +3079,21 @@
           "anchor": "section_cta-banner",
           "lines": [
             1712,
-            1837
+            1780
           ]
         },
         {
           "idx": 6,
+          "id": "content.section-color-wrap",
+          "tag": "div",
+          "anchor": "section-color-wrap",
+          "lines": [
+            1781,
+            1837
+          ]
+        },
+        {
+          "idx": 7,
           "id": "proof.section-testimonials",
           "tag": "section",
           "anchor": "section_testimonials",
@@ -2704,7 +3103,7 @@
           ]
         },
         {
-          "idx": 7,
+          "idx": 8,
           "id": "content.big-section",
           "tag": "div",
           "anchor": "big-section",
@@ -2714,32 +3113,52 @@
           ]
         },
         {
-          "idx": 8,
+          "idx": 9,
           "id": "hero.section-cta-banner",
           "tag": "section",
           "anchor": "section_cta-banner",
           "lines": [
             2590,
+            2886
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "content.section-color-wrap",
+          "tag": "div",
+          "anchor": "section-color-wrap",
+          "lines": [
+            2887,
+            3085
+          ]
+        },
+        {
+          "idx": 11,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            3086,
+            3139
+          ]
+        },
+        {
+          "idx": 12,
+          "id": "content.u-texture",
+          "tag": "div",
+          "anchor": "u-texture",
+          "lines": [
+            3140,
             3254
           ]
         },
         {
-          "idx": 9,
+          "idx": 13,
           "id": "shell.footer-component",
           "tag": "footer",
           "anchor": "footer_component",
           "lines": [
             3255,
-            3700
-          ]
-        },
-        {
-          "idx": 10,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            3701,
             3714
           ]
         }
@@ -2819,11 +3238,31 @@
           "anchor": "section_products-preview",
           "lines": [
             1781,
-            2328
+            2205
           ]
         },
         {
           "idx": 7,
+          "id": "content.section-color-wrap",
+          "tag": "div",
+          "anchor": "section-color-wrap",
+          "lines": [
+            2206,
+            2271
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "content.section-color-wrap",
+          "tag": "div",
+          "anchor": "section-color-wrap",
+          "lines": [
+            2272,
+            2328
+          ]
+        },
+        {
+          "idx": 9,
           "id": "proof.section-testimonials",
           "tag": "section",
           "anchor": "section_testimonials",
@@ -2833,7 +3272,7 @@
           ]
         },
         {
-          "idx": 8,
+          "idx": 10,
           "id": "content.big-section",
           "tag": "div",
           "anchor": "big-section",
@@ -2843,32 +3282,52 @@
           ]
         },
         {
-          "idx": 9,
+          "idx": 11,
           "id": "hero.section-cta-banner",
           "tag": "section",
           "anchor": "section_cta-banner",
           "lines": [
             3081,
+            3377
+          ]
+        },
+        {
+          "idx": 12,
+          "id": "content.section-color-wrap",
+          "tag": "div",
+          "anchor": "section-color-wrap",
+          "lines": [
+            3378,
+            3583
+          ]
+        },
+        {
+          "idx": 13,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            3584,
+            3637
+          ]
+        },
+        {
+          "idx": 14,
+          "id": "content.u-texture",
+          "tag": "div",
+          "anchor": "u-texture",
+          "lines": [
+            3638,
             3752
           ]
         },
         {
-          "idx": 10,
+          "idx": 15,
           "id": "shell.footer-component",
           "tag": "footer",
           "anchor": "footer_component",
           "lines": [
             3753,
-            4198
-          ]
-        },
-        {
-          "idx": 11,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            4199,
             4212
           ]
         }
@@ -2948,11 +3407,31 @@
           "anchor": "section_products-preview",
           "lines": [
             1781,
-            2328
+            2205
           ]
         },
         {
           "idx": 7,
+          "id": "content.section-color-wrap",
+          "tag": "div",
+          "anchor": "section-color-wrap",
+          "lines": [
+            2206,
+            2271
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "content.section-color-wrap",
+          "tag": "div",
+          "anchor": "section-color-wrap",
+          "lines": [
+            2272,
+            2328
+          ]
+        },
+        {
+          "idx": 9,
           "id": "proof.section-testimonials",
           "tag": "section",
           "anchor": "section_testimonials",
@@ -2962,7 +3441,7 @@
           ]
         },
         {
-          "idx": 8,
+          "idx": 10,
           "id": "content.big-section",
           "tag": "div",
           "anchor": "big-section",
@@ -2972,32 +3451,52 @@
           ]
         },
         {
-          "idx": 9,
+          "idx": 11,
           "id": "hero.section-cta-banner",
           "tag": "section",
           "anchor": "section_cta-banner",
           "lines": [
             3081,
+            3377
+          ]
+        },
+        {
+          "idx": 12,
+          "id": "content.section-color-wrap",
+          "tag": "div",
+          "anchor": "section-color-wrap",
+          "lines": [
+            3378,
+            3483
+          ]
+        },
+        {
+          "idx": 13,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            3484,
+            3537
+          ]
+        },
+        {
+          "idx": 14,
+          "id": "content.u-texture",
+          "tag": "div",
+          "anchor": "u-texture",
+          "lines": [
+            3538,
             3652
           ]
         },
         {
-          "idx": 10,
+          "idx": 15,
           "id": "shell.footer-component",
           "tag": "footer",
           "anchor": "footer_component",
           "lines": [
             3653,
-            4098
-          ]
-        },
-        {
-          "idx": 11,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            4099,
             4112
           ]
         }
@@ -3077,11 +3576,31 @@
           "anchor": "section_products-preview",
           "lines": [
             1781,
-            2328
+            2205
           ]
         },
         {
           "idx": 7,
+          "id": "content.section-color-wrap",
+          "tag": "div",
+          "anchor": "section-color-wrap",
+          "lines": [
+            2206,
+            2271
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "content.section-color-wrap",
+          "tag": "div",
+          "anchor": "section-color-wrap",
+          "lines": [
+            2272,
+            2328
+          ]
+        },
+        {
+          "idx": 9,
           "id": "proof.section-testimonials",
           "tag": "section",
           "anchor": "section_testimonials",
@@ -3091,7 +3610,7 @@
           ]
         },
         {
-          "idx": 8,
+          "idx": 10,
           "id": "content.big-section",
           "tag": "div",
           "anchor": "big-section",
@@ -3101,32 +3620,52 @@
           ]
         },
         {
-          "idx": 9,
+          "idx": 11,
           "id": "hero.section-cta-banner",
           "tag": "section",
           "anchor": "section_cta-banner",
           "lines": [
             3081,
+            3377
+          ]
+        },
+        {
+          "idx": 12,
+          "id": "content.section-color-wrap",
+          "tag": "div",
+          "anchor": "section-color-wrap",
+          "lines": [
+            3378,
+            3553
+          ]
+        },
+        {
+          "idx": 13,
+          "id": "content.section-shine",
+          "tag": "aside",
+          "anchor": "w-layout-vflex",
+          "lines": [
+            3554,
+            3607
+          ]
+        },
+        {
+          "idx": 14,
+          "id": "content.u-texture",
+          "tag": "div",
+          "anchor": "u-texture",
+          "lines": [
+            3608,
             3722
           ]
         },
         {
-          "idx": 10,
+          "idx": 15,
           "id": "shell.footer-component",
           "tag": "footer",
           "anchor": "footer_component",
           "lines": [
             3723,
-            4168
-          ]
-        },
-        {
-          "idx": 11,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            4169,
             4182
           ]
         }
@@ -3141,51 +3680,394 @@
       "sections": [
         {
           "idx": 0,
-          "id": "hero.section-demo",
-          "tag": "section",
-          "anchor": "section_demo",
+          "id": "cta.section-demo-left",
+          "tag": "div",
+          "anchor": "section_demo-left",
           "lines": [
-            75,
-            1544
+            77,
+            558
           ]
         },
         {
           "idx": 1,
-          "id": "content.chat-widget",
+          "id": "support.section-demo-right",
           "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "anchor": "section_demo-right",
           "lines": [
-            1545,
+            559,
             1558
           ]
         }
       ]
     },
     {
-      "route": "/become-a-partner",
-      "title": "Become a Partner",
-      "h1": "Embedded finance on your platform",
-      "template": "template.group",
-      "file": "src/become-a-partner/index.html",
+      "route": "/blog/your-ar-inbox-isnt-slow-its-a-trust-problem",
+      "title": "Your AR Inbox Isn't Slow. It's a Trust Problem. | Daylit",
+      "h1": "Your AR Inbox Isn't Slow. It's a Trust Problem.",
+      "template": "template.blog-2",
+      "file": "src/blog/your-ar-inbox-isnt-slow-its-a-trust-problem/index.html",
       "sections": [
         {
           "idx": 0,
-          "id": "hero.page-wrapper",
+          "id": "shell.navbar-sticky",
           "tag": "div",
-          "anchor": "page-wrapper",
+          "anchor": "navbar_sticky",
           "lines": [
-            34,
-            5274
+            615,
+            1358
           ]
         },
         {
           "idx": 1,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
           "lines": [
-            5275,
-            5288
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2073
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.block",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2074,
+            2182
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2183,
+            2714
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/daylit-vs-monk",
+      "title": "Daylit vs. Monk: Collection Automation Compared for Mid-Market Teams | Daylit",
+      "h1": "Daylit vs. Monk: Collection Automation Compared for Mid-Market Teams",
+      "template": "template.blog-2",
+      "file": "src/blog/daylit-vs-monk/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2292
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.block",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2293,
+            2401
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2402,
+            2934
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/legal/dpa-customer",
+      "title": "DPA | Daylit Working Capital Solutions",
+      "h1": "Daylit data processing agreement (DPA)",
+      "template": "template.legal-2",
+      "file": "src/legal/dpa-customer/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            587,
+            1330
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-legal-article",
+          "tag": "article",
+          "anchor": "section_legal-article",
+          "lines": [
+            1331,
+            1484
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1485,
+            1944
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/legal/sla-customer",
+      "title": "SLA | Daylit Working Capital Solutions",
+      "h1": "DAYLIT SERVICE LEVEL AGREEMENT",
+      "template": "template.legal-2",
+      "file": "src/legal/sla-customer/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            587,
+            1330
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-legal-article",
+          "tag": "article",
+          "anchor": "section_legal-article",
+          "lines": [
+            1331,
+            1501
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1502,
+            1961
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/legal/cookie-consent",
+      "title": "Cookie Consent | Daylit Working Capital Solutions",
+      "h1": "Cookie Policy",
+      "template": "template.legal-2",
+      "file": "src/legal/cookie-consent/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            587,
+            1330
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-legal-article",
+          "tag": "article",
+          "anchor": "section_legal-article",
+          "lines": [
+            1331,
+            1366
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1367,
+            1826
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/legal/privacy-policy",
+      "title": "Privacy Policy | Daylit Working Capital Solutions",
+      "h1": "Privacy Notice",
+      "template": "template.legal-2",
+      "file": "src/legal/privacy-policy/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            587,
+            1330
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-legal-article",
+          "tag": "article",
+          "anchor": "section_legal-article",
+          "lines": [
+            1331,
+            1553
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1554,
+            2013
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/legal/terms-conditions",
+      "title": "Terms & Conditions | Daylit Working Capital Solutions",
+      "h1": "Terms and Conditions",
+      "template": "template.legal-2",
+      "file": "src/legal/terms-conditions/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            587,
+            1330
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-legal-article",
+          "tag": "article",
+          "anchor": "section_legal-article",
+          "lines": [
+            1331,
+            1358
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1359,
+            1818
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/daylit-vs-oddr",
+      "title": "Daylit vs. Oddr: Which One Moves a Law Firm's Collection Cycle Faster? | Daylit",
+      "h1": "Daylit vs. Oddr: Which One Moves a Law Firm's Collection Cycle Faster?",
+      "template": "template.blog-2",
+      "file": "src/blog/daylit-vs-oddr/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2277
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.block",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2278,
+            2386
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2387,
+            2919
           ]
         }
       ]
@@ -3254,16 +4136,6 @@
           "anchor": "footer_component",
           "lines": [
             1658,
-            2102
-          ]
-        },
-        {
-          "idx": 6,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2103,
             2116
           ]
         }
@@ -3333,155 +4205,7 @@
           "anchor": "footer_component",
           "lines": [
             1634,
-            2078
-          ]
-        },
-        {
-          "idx": 6,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2079,
             2092
-          ]
-        }
-      ]
-    },
-    {
-      "route": "/blog/your-ar-inbox-isnt-slow-its-a-trust-problem",
-      "title": "Your AR Inbox Isn't Slow. It's a Trust Problem. | Daylit",
-      "h1": "Your AR Inbox Isn't Slow. It's a Trust Problem.",
-      "template": "template.blog-2",
-      "file": "src/blog/your-ar-inbox-isnt-slow-its-a-trust-problem/index.html",
-      "sections": [
-        {
-          "idx": 0,
-          "id": "shell.navbar-sticky",
-          "tag": "div",
-          "anchor": "navbar_sticky",
-          "lines": [
-            615,
-            1358
-          ]
-        },
-        {
-          "idx": 1,
-          "id": "shell.section-blog-header",
-          "tag": "header",
-          "anchor": "section_blog-header",
-          "lines": [
-            1359,
-            1397
-          ]
-        },
-        {
-          "idx": 2,
-          "id": "support.section-article-blog",
-          "tag": "article",
-          "anchor": "section_article-blog",
-          "lines": [
-            1398,
-            2073
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "content.section-gradient-light",
-          "tag": "div",
-          "anchor": "section-gradient-light",
-          "lines": [
-            2074,
-            2182
-          ]
-        },
-        {
-          "idx": 4,
-          "id": "shell.footer-component",
-          "tag": "footer",
-          "anchor": "footer_component",
-          "lines": [
-            2183,
-            2700
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2701,
-            2714
-          ]
-        }
-      ]
-    },
-    {
-      "route": "/blog/daylit-vs-monk",
-      "title": "Daylit vs. Monk: Collection Automation Compared for Mid-Market Teams | Daylit",
-      "h1": "Daylit vs. Monk: Collection Automation Compared for Mid-Market Teams",
-      "template": "template.blog-2",
-      "file": "src/blog/daylit-vs-monk/index.html",
-      "sections": [
-        {
-          "idx": 0,
-          "id": "shell.navbar-sticky",
-          "tag": "div",
-          "anchor": "navbar_sticky",
-          "lines": [
-            615,
-            1358
-          ]
-        },
-        {
-          "idx": 1,
-          "id": "shell.section-blog-header",
-          "tag": "header",
-          "anchor": "section_blog-header",
-          "lines": [
-            1359,
-            1397
-          ]
-        },
-        {
-          "idx": 2,
-          "id": "support.section-article-blog",
-          "tag": "article",
-          "anchor": "section_article-blog",
-          "lines": [
-            1398,
-            2292
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "content.section-gradient-light",
-          "tag": "div",
-          "anchor": "section-gradient-light",
-          "lines": [
-            2293,
-            2401
-          ]
-        },
-        {
-          "idx": 4,
-          "id": "shell.footer-component",
-          "tag": "footer",
-          "anchor": "footer_component",
-          "lines": [
-            2402,
-            2920
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2921,
-            2934
           ]
         }
       ]
@@ -3525,7 +4249,7 @@
         },
         {
           "idx": 3,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -3540,262 +4264,7 @@
           "anchor": "footer_component",
           "lines": [
             2393,
-            2911
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2912,
             2925
-          ]
-        }
-      ]
-    },
-    {
-      "route": "/legal/dpa-customer",
-      "title": "DPA | Daylit Working Capital Solutions",
-      "h1": "Daylit data processing agreement (DPA)",
-      "template": "template.legal-2",
-      "file": "src/legal/dpa-customer/index.html",
-      "sections": [
-        {
-          "idx": 0,
-          "id": "shell.navbar-sticky",
-          "tag": "div",
-          "anchor": "navbar_sticky",
-          "lines": [
-            587,
-            1329
-          ]
-        },
-        {
-          "idx": 1,
-          "id": "hero.main-wrapper",
-          "tag": "main",
-          "anchor": "main-wrapper",
-          "lines": [
-            1330,
-            1484
-          ]
-        },
-        {
-          "idx": 2,
-          "id": "shell.footer-component",
-          "tag": "footer",
-          "anchor": "footer_component",
-          "lines": [
-            1485,
-            1930
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            1931,
-            1944
-          ]
-        }
-      ]
-    },
-    {
-      "route": "/legal/sla-customer",
-      "title": "SLA | Daylit Working Capital Solutions",
-      "h1": "DAYLIT SERVICE LEVEL AGREEMENT",
-      "template": "template.legal-2",
-      "file": "src/legal/sla-customer/index.html",
-      "sections": [
-        {
-          "idx": 0,
-          "id": "shell.navbar-sticky",
-          "tag": "div",
-          "anchor": "navbar_sticky",
-          "lines": [
-            587,
-            1329
-          ]
-        },
-        {
-          "idx": 1,
-          "id": "hero.main-wrapper",
-          "tag": "main",
-          "anchor": "main-wrapper",
-          "lines": [
-            1330,
-            1501
-          ]
-        },
-        {
-          "idx": 2,
-          "id": "shell.footer-component",
-          "tag": "footer",
-          "anchor": "footer_component",
-          "lines": [
-            1502,
-            1947
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            1948,
-            1961
-          ]
-        }
-      ]
-    },
-    {
-      "route": "/legal/cookie-consent",
-      "title": "Cookie Consent | Daylit Working Capital Solutions",
-      "h1": "Cookie Policy",
-      "template": "template.legal-2",
-      "file": "src/legal/cookie-consent/index.html",
-      "sections": [
-        {
-          "idx": 0,
-          "id": "shell.navbar-sticky",
-          "tag": "div",
-          "anchor": "navbar_sticky",
-          "lines": [
-            587,
-            1329
-          ]
-        },
-        {
-          "idx": 1,
-          "id": "hero.main-wrapper",
-          "tag": "main",
-          "anchor": "main-wrapper",
-          "lines": [
-            1330,
-            1366
-          ]
-        },
-        {
-          "idx": 2,
-          "id": "shell.footer-component",
-          "tag": "footer",
-          "anchor": "footer_component",
-          "lines": [
-            1367,
-            1812
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            1813,
-            1826
-          ]
-        }
-      ]
-    },
-    {
-      "route": "/legal/privacy-policy",
-      "title": "Privacy Policy | Daylit Working Capital Solutions",
-      "h1": "Privacy Notice",
-      "template": "template.legal-2",
-      "file": "src/legal/privacy-policy/index.html",
-      "sections": [
-        {
-          "idx": 0,
-          "id": "shell.navbar-sticky",
-          "tag": "div",
-          "anchor": "navbar_sticky",
-          "lines": [
-            587,
-            1329
-          ]
-        },
-        {
-          "idx": 1,
-          "id": "hero.main-wrapper",
-          "tag": "main",
-          "anchor": "main-wrapper",
-          "lines": [
-            1330,
-            1553
-          ]
-        },
-        {
-          "idx": 2,
-          "id": "shell.footer-component",
-          "tag": "footer",
-          "anchor": "footer_component",
-          "lines": [
-            1554,
-            1999
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2000,
-            2013
-          ]
-        }
-      ]
-    },
-    {
-      "route": "/legal/terms-conditions",
-      "title": "Terms & Conditions | Daylit Working Capital Solutions",
-      "h1": "Terms and Conditions",
-      "template": "template.legal-2",
-      "file": "src/legal/terms-conditions/index.html",
-      "sections": [
-        {
-          "idx": 0,
-          "id": "shell.navbar-sticky",
-          "tag": "div",
-          "anchor": "navbar_sticky",
-          "lines": [
-            587,
-            1329
-          ]
-        },
-        {
-          "idx": 1,
-          "id": "hero.main-wrapper",
-          "tag": "main",
-          "anchor": "main-wrapper",
-          "lines": [
-            1330,
-            1358
-          ]
-        },
-        {
-          "idx": 2,
-          "id": "shell.footer-component",
-          "tag": "footer",
-          "anchor": "footer_component",
-          "lines": [
-            1359,
-            1804
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            1805,
-            1818
           ]
         }
       ]
@@ -3839,7 +4308,7 @@
         },
         {
           "idx": 3,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -3854,86 +4323,7 @@
           "anchor": "footer_component",
           "lines": [
             1836,
-            2469
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2470,
             2483
-          ]
-        }
-      ]
-    },
-    {
-      "route": "/blog/daylit-vs-oddr",
-      "title": "Daylit vs. Oddr: Which One Moves a Law Firm's Collection Cycle Faster? | Daylit",
-      "h1": "Daylit vs. Oddr: Which One Moves a Law Firm's Collection Cycle Faster?",
-      "template": "template.blog-2",
-      "file": "src/blog/daylit-vs-oddr/index.html",
-      "sections": [
-        {
-          "idx": 0,
-          "id": "shell.navbar-sticky",
-          "tag": "div",
-          "anchor": "navbar_sticky",
-          "lines": [
-            615,
-            1358
-          ]
-        },
-        {
-          "idx": 1,
-          "id": "shell.section-blog-header",
-          "tag": "header",
-          "anchor": "section_blog-header",
-          "lines": [
-            1359,
-            1397
-          ]
-        },
-        {
-          "idx": 2,
-          "id": "support.section-article-blog",
-          "tag": "article",
-          "anchor": "section_article-blog",
-          "lines": [
-            1398,
-            2277
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "content.section-gradient-light",
-          "tag": "div",
-          "anchor": "section-gradient-light",
-          "lines": [
-            2278,
-            2386
-          ]
-        },
-        {
-          "idx": 4,
-          "id": "shell.footer-component",
-          "tag": "footer",
-          "anchor": "footer_component",
-          "lines": [
-            2387,
-            2905
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2906,
-            2919
           ]
         }
       ]
@@ -3977,7 +4367,7 @@
         },
         {
           "idx": 3,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -3992,16 +4382,6 @@
           "anchor": "footer_component",
           "lines": [
             2355,
-            2873
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2874,
             2887
           ]
         }
@@ -4046,7 +4426,7 @@
         },
         {
           "idx": 3,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -4061,17 +4441,7 @@
           "anchor": "footer_component",
           "lines": [
             2128,
-            2644
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2645,
-            2658
+            2660
           ]
         }
       ]
@@ -4115,7 +4485,7 @@
         },
         {
           "idx": 3,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -4130,16 +4500,6 @@
           "anchor": "footer_component",
           "lines": [
             2352,
-            2870
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2871,
             2884
           ]
         }
@@ -4184,7 +4544,7 @@
         },
         {
           "idx": 3,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -4199,86 +4559,7 @@
           "anchor": "footer_component",
           "lines": [
             2124,
-            2641
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2642,
-            2655
-          ]
-        }
-      ]
-    },
-    {
-      "route": "/blog/daylit-vs-highradius",
-      "title": "Daylit vs. HighRadius: AR Automation Compared for Mid-Market Teams | Daylit",
-      "h1": "Daylit vs. HighRadius: AR Automation Compared for Mid-Market Teams",
-      "template": "template.blog-2",
-      "file": "src/blog/daylit-vs-highradius/index.html",
-      "sections": [
-        {
-          "idx": 0,
-          "id": "shell.navbar-sticky",
-          "tag": "div",
-          "anchor": "navbar_sticky",
-          "lines": [
-            615,
-            1358
-          ]
-        },
-        {
-          "idx": 1,
-          "id": "shell.section-blog-header",
-          "tag": "header",
-          "anchor": "section_blog-header",
-          "lines": [
-            1359,
-            1397
-          ]
-        },
-        {
-          "idx": 2,
-          "id": "support.section-article-blog",
-          "tag": "article",
-          "anchor": "section_article-blog",
-          "lines": [
-            1398,
-            2233
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "content.section-gradient-light",
-          "tag": "div",
-          "anchor": "section-gradient-light",
-          "lines": [
-            2234,
-            2342
-          ]
-        },
-        {
-          "idx": 4,
-          "id": "shell.footer-component",
-          "tag": "footer",
-          "anchor": "footer_component",
-          "lines": [
-            2343,
-            2861
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2862,
-            2875
+            2656
           ]
         }
       ]
@@ -4317,16 +4598,6 @@
           "anchor": "footer_component",
           "lines": [
             1781,
-            2296
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2297,
             2310
           ]
         }
@@ -4366,16 +4637,6 @@
           "anchor": "footer_component",
           "lines": [
             1781,
-            2296
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2297,
             2310
           ]
         }
@@ -4415,16 +4676,6 @@
           "anchor": "footer_component",
           "lines": [
             1824,
-            2339
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2340,
             2353
           ]
         }
@@ -4464,66 +4715,7 @@
           "anchor": "footer_component",
           "lines": [
             1824,
-            2339
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2340,
             2353
-          ]
-        }
-      ]
-    },
-    {
-      "route": "/ai-skills-training/how-to-route-dunning-emails-to-right-person",
-      "title": "AI Skill: How to Route Dunning Emails to the Right Person",
-      "h1": "How to Route Dunning Emails to the Right Person",
-      "template": "template.ai-skills-training",
-      "file": "src/ai-skills-training/how-to-route-dunning-emails-to-right-person/index.html",
-      "sections": [
-        {
-          "idx": 0,
-          "id": "shell.navbar-sticky",
-          "tag": "div",
-          "anchor": "navbar_sticky",
-          "lines": [
-            584,
-            1326
-          ]
-        },
-        {
-          "idx": 1,
-          "id": "hero.ast-detail",
-          "tag": "section",
-          "anchor": "ast-detail",
-          "lines": [
-            1327,
-            1824
-          ]
-        },
-        {
-          "idx": 2,
-          "id": "shell.footer-component",
-          "tag": "footer",
-          "anchor": "footer_component",
-          "lines": [
-            1825,
-            2340
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2341,
-            2354
           ]
         }
       ]
@@ -4592,17 +4784,7 @@
           "anchor": "footer_component",
           "lines": [
             1636,
-            2080
-          ]
-        },
-        {
-          "idx": 6,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2081,
-            2094
+            2093
           ]
         }
       ]
@@ -4646,7 +4828,7 @@
         },
         {
           "idx": 3,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -4661,17 +4843,7 @@
           "anchor": "footer_component",
           "lines": [
             2304,
-            2825
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2826,
-            2839
+            2838
           ]
         }
       ]
@@ -4680,27 +4852,37 @@
       "route": "/early-pay-savings-calculator-daylit-working-capital",
       "title": "Early-Pay Savings Calculator by Daylit Working Capital",
       "h1": "Pay your suppliers early, get the discounts",
-      "template": "template.group",
+      "template": "template.early-pay-savings-calculator-daylit-work",
       "file": "src/early-pay-savings-calculator-daylit-working-capital/index.html",
       "sections": [
         {
           "idx": 0,
-          "id": "hero.page-wrapper",
+          "id": "shell.navbar-sticky",
           "tag": "div",
-          "anchor": "page-wrapper",
+          "anchor": "navbar_sticky",
           "lines": [
-            35,
-            1634
+            587,
+            1330
           ]
         },
         {
           "idx": 1,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "id": "hero.section-tools-header",
+          "tag": "section",
+          "anchor": "section_tools-header",
           "lines": [
-            1635,
-            1648
+            1331,
+            1355
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1356,
+            1649
           ]
         }
       ]
@@ -4754,7 +4936,7 @@
         },
         {
           "idx": 4,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -4769,16 +4951,6 @@
           "anchor": "footer_component",
           "lines": [
             2332,
-            2855
-          ]
-        },
-        {
-          "idx": 6,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2856,
             2869
           ]
         }
@@ -4833,7 +5005,7 @@
         },
         {
           "idx": 4,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -4848,16 +5020,6 @@
           "anchor": "footer_component",
           "lines": [
             2015,
-            2534
-          ]
-        },
-        {
-          "idx": 6,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2535,
             2548
           ]
         }
@@ -4912,7 +5074,7 @@
         },
         {
           "idx": 4,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -4927,96 +5089,7 @@
           "anchor": "footer_component",
           "lines": [
             2038,
-            2670
-          ]
-        },
-        {
-          "idx": 6,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2671,
             2684
-          ]
-        }
-      ]
-    },
-    {
-      "route": "/blog/ar-automation-software-for-wholesale-distribution-companies-in-2026",
-      "title": "AR Automation Software for Wholesale Distributors | Daylit",
-      "h1": "AR Automation Software for Wholesale Distributors",
-      "template": "template.blog-3",
-      "file": "src/blog/ar-automation-software-for-wholesale-distribution-companies-in-2026/index.html",
-      "sections": [
-        {
-          "idx": 0,
-          "id": "shell.navbar-sticky",
-          "tag": "div",
-          "anchor": "navbar_sticky",
-          "lines": [
-            615,
-            1358
-          ]
-        },
-        {
-          "idx": 1,
-          "id": "shell.section-blog-header",
-          "tag": "header",
-          "anchor": "section_blog-header",
-          "lines": [
-            1359,
-            1397
-          ]
-        },
-        {
-          "idx": 2,
-          "id": "support.section-article-blog",
-          "tag": "article",
-          "anchor": "section_article-blog",
-          "lines": [
-            1398,
-            2138
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "cta.post-solution-cta",
-          "tag": "div",
-          "anchor": "post-solution-cta",
-          "lines": [
-            2139,
-            2144
-          ]
-        },
-        {
-          "idx": 4,
-          "id": "content.section-gradient-light",
-          "tag": "div",
-          "anchor": "section-gradient-light",
-          "lines": [
-            2145,
-            2253
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "shell.footer-component",
-          "tag": "footer",
-          "anchor": "footer_component",
-          "lines": [
-            2254,
-            2886
-          ]
-        },
-        {
-          "idx": 6,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2887,
-            2900
           ]
         }
       ]
@@ -5070,7 +5143,7 @@
         },
         {
           "idx": 4,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -5085,16 +5158,6 @@
           "anchor": "footer_component",
           "lines": [
             2274,
-            2797
-          ]
-        },
-        {
-          "idx": 6,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2798,
             2811
           ]
         }
@@ -5149,7 +5212,7 @@
         },
         {
           "idx": 4,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -5164,96 +5227,7 @@
           "anchor": "footer_component",
           "lines": [
             2343,
-            2975
-          ]
-        },
-        {
-          "idx": 6,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2976,
             2989
-          ]
-        }
-      ]
-    },
-    {
-      "route": "/blog/best-ai-tools-manufacturing-accounts-receivable",
-      "title": "Best AI Tools for Manufacturing Accounts Receivable in 2026 | Daylit",
-      "h1": "Best AI Tools for Manufacturing Accounts Receivable in 2026",
-      "template": "template.blog-3",
-      "file": "src/blog/best-ai-tools-manufacturing-accounts-receivable/index.html",
-      "sections": [
-        {
-          "idx": 0,
-          "id": "shell.navbar-sticky",
-          "tag": "div",
-          "anchor": "navbar_sticky",
-          "lines": [
-            615,
-            1358
-          ]
-        },
-        {
-          "idx": 1,
-          "id": "shell.section-blog-header",
-          "tag": "header",
-          "anchor": "section_blog-header",
-          "lines": [
-            1359,
-            1397
-          ]
-        },
-        {
-          "idx": 2,
-          "id": "support.section-article-blog",
-          "tag": "article",
-          "anchor": "section_article-blog",
-          "lines": [
-            1398,
-            2501
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "cta.post-solution-cta",
-          "tag": "div",
-          "anchor": "post-solution-cta",
-          "lines": [
-            2502,
-            2507
-          ]
-        },
-        {
-          "idx": 4,
-          "id": "content.section-gradient-light",
-          "tag": "div",
-          "anchor": "section-gradient-light",
-          "lines": [
-            2508,
-            2616
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "shell.footer-component",
-          "tag": "footer",
-          "anchor": "footer_component",
-          "lines": [
-            2617,
-            3249
-          ]
-        },
-        {
-          "idx": 6,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            3250,
-            3263
           ]
         }
       ]
@@ -5307,7 +5281,7 @@
         },
         {
           "idx": 4,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -5322,16 +5296,6 @@
           "anchor": "footer_component",
           "lines": [
             2389,
-            3021
-          ]
-        },
-        {
-          "idx": 6,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            3022,
             3035
           ]
         }
@@ -5386,7 +5350,7 @@
         },
         {
           "idx": 4,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -5401,96 +5365,7 @@
           "anchor": "footer_component",
           "lines": [
             2508,
-            3140
-          ]
-        },
-        {
-          "idx": 6,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            3141,
             3154
-          ]
-        }
-      ]
-    },
-    {
-      "route": "/blog/ai-powered-collections-automation-for-field-services-firms",
-      "title": "Accounts Receivable Automation for Field Services | Daylit",
-      "h1": "Accounts Receivable Automation for Field Services",
-      "template": "template.blog-3",
-      "file": "src/blog/ai-powered-collections-automation-for-field-services-firms/index.html",
-      "sections": [
-        {
-          "idx": 0,
-          "id": "shell.navbar-sticky",
-          "tag": "div",
-          "anchor": "navbar_sticky",
-          "lines": [
-            615,
-            1358
-          ]
-        },
-        {
-          "idx": 1,
-          "id": "shell.section-blog-header",
-          "tag": "header",
-          "anchor": "section_blog-header",
-          "lines": [
-            1359,
-            1397
-          ]
-        },
-        {
-          "idx": 2,
-          "id": "support.section-article-blog",
-          "tag": "article",
-          "anchor": "section_article-blog",
-          "lines": [
-            1398,
-            2073
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "cta.post-solution-cta",
-          "tag": "div",
-          "anchor": "post-solution-cta",
-          "lines": [
-            2074,
-            2079
-          ]
-        },
-        {
-          "idx": 4,
-          "id": "content.section-gradient-light",
-          "tag": "div",
-          "anchor": "section-gradient-light",
-          "lines": [
-            2080,
-            2188
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "shell.footer-component",
-          "tag": "footer",
-          "anchor": "footer_component",
-          "lines": [
-            2189,
-            2820
-          ]
-        },
-        {
-          "idx": 6,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2821,
-            2834
           ]
         }
       ]
@@ -5544,7 +5419,7 @@
         },
         {
           "idx": 4,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -5559,16 +5434,6 @@
           "anchor": "footer_component",
           "lines": [
             2347,
-            2864
-          ]
-        },
-        {
-          "idx": 6,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2865,
             2878
           ]
         }
@@ -5613,7 +5478,7 @@
         },
         {
           "idx": 3,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -5628,17 +5493,7 @@
           "anchor": "footer_component",
           "lines": [
             2105,
-            2737
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2738,
-            2751
+            2750
           ]
         }
       ]
@@ -5682,7 +5537,7 @@
         },
         {
           "idx": 3,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -5697,17 +5552,7 @@
           "anchor": "footer_component",
           "lines": [
             2378,
-            2903
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2904,
-            2917
+            2916
           ]
         }
       ]
@@ -5751,7 +5596,7 @@
         },
         {
           "idx": 3,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -5766,16 +5611,6 @@
           "anchor": "footer_component",
           "lines": [
             2141,
-            2660
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2661,
             2674
           ]
         }
@@ -5830,7 +5665,7 @@
         },
         {
           "idx": 4,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -5845,16 +5680,6 @@
           "anchor": "footer_component",
           "lines": [
             2159,
-            2678
-          ]
-        },
-        {
-          "idx": 6,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2679,
             2692
           ]
         }
@@ -5899,7 +5724,7 @@
         },
         {
           "idx": 3,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -5914,16 +5739,6 @@
           "anchor": "footer_component",
           "lines": [
             1873,
-            2391
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2392,
             2405
           ]
         }
@@ -5968,7 +5783,7 @@
         },
         {
           "idx": 3,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -5983,16 +5798,6 @@
           "anchor": "footer_component",
           "lines": [
             1833,
-            2351
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2352,
             2365
           ]
         }
@@ -6037,7 +5842,7 @@
         },
         {
           "idx": 3,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -6052,16 +5857,6 @@
           "anchor": "footer_component",
           "lines": [
             2237,
-            2869
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2870,
             2883
           ]
         }
@@ -6106,7 +5901,7 @@
         },
         {
           "idx": 3,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -6121,16 +5916,6 @@
           "anchor": "footer_component",
           "lines": [
             1913,
-            2546
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2547,
             2560
           ]
         }
@@ -6175,7 +5960,7 @@
         },
         {
           "idx": 3,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -6190,16 +5975,6 @@
           "anchor": "footer_component",
           "lines": [
             2020,
-            2652
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2653,
             2666
           ]
         }
@@ -6244,7 +6019,7 @@
         },
         {
           "idx": 3,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -6259,16 +6034,6 @@
           "anchor": "footer_component",
           "lines": [
             1947,
-            2466
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2467,
             2480
           ]
         }
@@ -6313,7 +6078,7 @@
         },
         {
           "idx": 3,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -6328,17 +6093,312 @@
           "anchor": "footer_component",
           "lines": [
             1981,
-            2500
+            2514
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/daylit-vs-highradius",
+      "title": "Daylit vs. HighRadius: AR Automation Compared for Mid-Market Teams | Daylit",
+      "h1": "Daylit vs. HighRadius: AR Automation Compared for Mid-Market Teams",
+      "template": "template.blog-2",
+      "file": "src/blog/daylit-vs-highradius/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2233
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.block",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2234,
+            2342
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2343,
+            2874
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/ai-skills-training/how-to-route-dunning-emails-to-right-person",
+      "title": "AI Skill: How to Route Dunning Emails to the Right Person",
+      "h1": "How to Route Dunning Emails to the Right Person",
+      "template": "template.ai-skills-training",
+      "file": "src/ai-skills-training/how-to-route-dunning-emails-to-right-person/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            584,
+            1326
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.ast-detail",
+          "tag": "section",
+          "anchor": "ast-detail",
+          "lines": [
+            1327,
+            1824
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            1825,
+            2354
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/ar-automation-software-for-wholesale-distribution-companies-in-2026",
+      "title": "AR Automation Software for Wholesale Distributors | Daylit",
+      "h1": "AR Automation Software for Wholesale Distributors",
+      "template": "template.blog-3",
+      "file": "src/blog/ar-automation-software-for-wholesale-distribution-companies-in-2026/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2138
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "cta.post-solution-cta",
+          "tag": "div",
+          "anchor": "post-solution-cta",
+          "lines": [
+            2139,
+            2144
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.block",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2145,
+            2253
           ]
         },
         {
           "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
           "lines": [
-            2501,
-            2514
+            2254,
+            2900
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/best-ai-tools-manufacturing-accounts-receivable",
+      "title": "Best AI Tools for Manufacturing Accounts Receivable in 2026 | Daylit",
+      "h1": "Best AI Tools for Manufacturing Accounts Receivable in 2026",
+      "template": "template.blog-3",
+      "file": "src/blog/best-ai-tools-manufacturing-accounts-receivable/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2501
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "cta.post-solution-cta",
+          "tag": "div",
+          "anchor": "post-solution-cta",
+          "lines": [
+            2502,
+            2507
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.block",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2508,
+            2616
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2617,
+            3263
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/ai-powered-collections-automation-for-field-services-firms",
+      "title": "Accounts Receivable Automation for Field Services | Daylit",
+      "h1": "Accounts Receivable Automation for Field Services",
+      "template": "template.blog-3",
+      "file": "src/blog/ai-powered-collections-automation-for-field-services-firms/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar-sticky",
+          "tag": "div",
+          "anchor": "navbar_sticky",
+          "lines": [
+            615,
+            1358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.section-blog-header",
+          "tag": "header",
+          "anchor": "section_blog-header",
+          "lines": [
+            1359,
+            1397
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.section-article-blog",
+          "tag": "article",
+          "anchor": "section_article-blog",
+          "lines": [
+            1398,
+            2073
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "cta.post-solution-cta",
+          "tag": "div",
+          "anchor": "post-solution-cta",
+          "lines": [
+            2074,
+            2079
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.block",
+          "tag": "div",
+          "anchor": "section-gradient-light",
+          "lines": [
+            2080,
+            2188
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.footer-component",
+          "tag": "footer",
+          "anchor": "footer_component",
+          "lines": [
+            2189,
+            2835
           ]
         }
       ]
@@ -6382,7 +6442,7 @@
         },
         {
           "idx": 3,
-          "id": "content.section-gradient-light",
+          "id": "content.block",
           "tag": "div",
           "anchor": "section-gradient-light",
           "lines": [
@@ -6397,16 +6457,6 @@
           "anchor": "footer_component",
           "lines": [
             2356,
-            2988
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "content.chat-widget",
-          "tag": "div",
-          "anchor": "id=\"hubspot-messages-iframe-container\"",
-          "lines": [
-            2989,
             3002
           ]
         }

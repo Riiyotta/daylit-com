@@ -11,7 +11,7 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
-      "src/our-team-story/index.html:2522-3127"
+      "src/our-team-story/index.html:2522-3038"
     ]
   },
   "content": {
@@ -79,5 +79,8 @@
     "content-image",
     "illustration"
   ],
-  "implementedBy": "src/pages/OurTeamStory.jsx"
+  "implementedBy": "src/sections/DesignersEngineersAndEx.jsx",
+  "implementedByAll": [
+    "src/sections/DesignersEngineersAndEx.jsx"
+  ]
 }

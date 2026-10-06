@@ -1,6 +1,7 @@
+// IA section(s): shell.navbar-sticky (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// navbar_sticky — the section's real markup, read from the rendered page (route /blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category, section 0).
+// navbar_sticky — the section's real markup, read from the rendered page (route /become-a-partner, section 0; shared by 49 routes).
 export default function NavbarSticky11() {
   return (
     <div className="navbar_sticky is-wrap" data-clone-section="NavbarSticky11">
@@ -44,7 +45,7 @@ export default function NavbarSticky11() {
           <div className="hide-mobile-landscape">
             <div className="nav_banner-item">
               <div className="nav_banner-item-text">AI Startup Raises $110m to Help Customers to Kill Its Own Category</div>
-              <A href="/blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category" aria-current="page" className="nan_banner-item-link w-inline-block w--current">
+              <A href="/blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category" className="nan_banner-item-link w-inline-block">
                 <div className="nav_banner-item-text is-2">Read more</div>
                 <div className="nan_banner-item-link-icon">
                   <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6aa688d34d021afa544019db_Img%20(4).svg" alt="" />

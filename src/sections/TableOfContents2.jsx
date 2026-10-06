@@ -1,3 +1,4 @@
+// IA section(s): support.section-article-blog (ia/ia.json, design-repo/sections/)
 // Table of Contents — the section's real markup, read from the rendered page (route /blog/your-dispute-categories-arent-broken-theyre-not-yours, section 2).
 export default function TableOfContents2() {
   return (

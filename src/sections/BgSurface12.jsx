@@ -1,4 +1,5 @@
-// bg-surface — the section's real markup, read from the rendered page (route /product/paylater, section 10).
+// IA section(s): proof.section-testimonials (ia/ia.json, design-repo/sections/)
+// bg-surface — the section's real markup, read from the rendered page (route /product/offerterms, section 10).
 export default function BgSurface12() {
   return (
     <section data-texture-section="true" data-wf--build-section-slider-testimonials--variant="base" className="section_testimonials bg-surface" data-clone-section="BgSurface12">
@@ -24,7 +25,7 @@ export default function BgSurface12() {
             <div data-swiper-autoplay="true" data-swiper="testimonials" className="swiper_component">
               <div className="w-layout-vflex testimonials_top_wrap">
                 <div data-swiper="thumbs" className="swiper-container is-testi-nav w-dyn-list swiper-initialized swiper-horizontal swiper-backface-hidden swiper-thumbs">
-                  <div role="list" className="swiper-wrapper is-testi-nav w-dyn-items" id="swiper-wrapper-2e6ff2f44e6fe9ef" aria-live="polite" style={{ "transform": "translate3d(0px, 0px, 0px)" }}>
+                  <div role="list" className="swiper-wrapper is-testi-nav w-dyn-items" id="swiper-wrapper-fc2377415443786e" aria-live="polite" style={{ "transform": "translate3d(0px, 0px, 0px)" }}>
                     <div role="button" className="swiper-slide is-testi-nav w-dyn-item swiper-slide-visible swiper-slide-fully-visible swiper-slide-active swiper-slide-thumb-active" aria-label="Go to slide 1">
                       <button className="testimonials_nav_button is-active">
                         <div>NuFace</div>
@@ -55,7 +56,7 @@ export default function BgSurface12() {
                 </div>
                 <div data-swiper="pagination-wrap" className="testimonials_buttons-area">
                   <div className="swiper_buttons-wrapper hide">
-                    <button data-swiper="arrow-prev" data-swiper-button="" id="" aria-label="Previous slide" className="swiper-button swiper-button-disabled" disabled tabIndex="-1" aria-controls="swiper-wrapper-6f74b1068cfed2fe5" aria-disabled="true">
+                    <button data-swiper="arrow-prev" data-swiper-button="" id="" aria-label="Previous slide" className="swiper-button swiper-button-disabled" disabled tabIndex="-1" aria-controls="swiper-wrapper-d6a10372cfd36e572" aria-disabled="true">
                       <div className="swiper-button-icon is-flip w-embed">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
                           <path d="M12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2ZM12 20C7.589 20 4 16.411 4 12C4 7.589 7.589 4 12 4C16.411 4 20 7.589 20 12C20 16.411 16.411 20 12 20Z" fill="currentColor" />
@@ -63,7 +64,7 @@ export default function BgSurface12() {
                         </svg>
                       </div>
                     </button>
-                    <button data-swiper="arrow-next" data-swiper-button="" id="" aria-label="Next slide" className="swiper-button" tabIndex="0" aria-controls="swiper-wrapper-6f74b1068cfed2fe5" aria-disabled="false">
+                    <button data-swiper="arrow-next" data-swiper-button="" id="" aria-label="Next slide" className="swiper-button" tabIndex="0" aria-controls="swiper-wrapper-d6a10372cfd36e572" aria-disabled="false">
                       <div className="swiper-button-icon w-embed">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
                           <path d="M12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2ZM12 20C7.589 20 4 16.411 4 12C4 7.589 7.589 4 12 4C16.411 4 20 7.589 20 12C20 16.411 16.411 20 12 20Z" fill="currentColor" />
@@ -85,7 +86,7 @@ export default function BgSurface12() {
                 </div>
               </div>
               <div data-swiper="slider" className="swiper is-testimonials is-tight w-dyn-list swiper-initialized swiper-horizontal swiper-watch-progress swiper-backface-hidden" aria-label="Testimonials slider">
-                <div role="list" className="swiper-wrapper is-testimonials w-dyn-items" id="swiper-wrapper-6f74b1068cfed2fe5" aria-live="off" style={{ "cursor": "grab", "transform": "translate3d(0px, 0px, 0px)" }}>
+                <div role="list" className="swiper-wrapper is-testimonials w-dyn-items" id="swiper-wrapper-d6a10372cfd36e572" aria-live="off" style={{ "cursor": "grab", "transform": "translate3d(0px, 0px, 0px)" }}>
                   <div role="listitem" className="swiper-slide is-testimonials is-tight w-dyn-item swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" aria-label="1 / 5" style={{ "marginRight": "20px" }}>
                     <div className="card-testi_card">
                       <div className="w-layout-vflex card-testi_title-wrap">

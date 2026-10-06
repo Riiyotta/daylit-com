@@ -1,6 +1,6 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavbarSticky20 from "../sections/NavbarSticky20.jsx";
+import NavbarSticky11 from "../sections/NavbarSticky11.jsx";
 import DaylitDataProcessingAgreeme from "../sections/DaylitDataProcessingAgreeme.jsx";
 import FooterComponent16 from "../sections/FooterComponent16.jsx";
 import css0 from "../styles/inline-04.css?inline"; // only this page loads it
@@ -24,7 +24,7 @@ import css17 from "../styles/inline-27.css?inline"; // only this page loads it
 
 // Route /legal/dpa-customer — 3 section(s), in page order.
 export default function LegalDpaCustomer() {
-  usePageChrome({ title: "DPA | Daylit Working Capital Solutions", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "68b13d1789dd7fab1ded97ec", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "data-wf-collection": "68b13d1789dd7fab1ded97e4", "data-wf-item-slug": "dpa-customer", "class": "w-mod-js w-mod-ix wf-opensans-n6-active wf-opensans-n3-active wf-opensans-n8-active wf-opensans-n7-active wf-opensans-n4-active wf-opensans-i4-active wf-opensans-i3-active wf-opensans-i8-active wf-opensans-i7-active wf-opensans-i6-active wf-active" }, body: {  } });
+  usePageChrome({ title: "DPA | Daylit Working Capital Solutions", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "68b13d1789dd7fab1ded97ec", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "data-wf-collection": "68b13d1789dd7fab1ded97e4", "data-wf-item-slug": "dpa-customer", "class": "w-mod-js w-mod-ix wf-opensans-n8-active wf-opensans-n7-active wf-opensans-n4-active wf-opensans-n3-active wf-opensans-n6-active wf-opensans-i8-active wf-opensans-i4-active wf-opensans-i6-active wf-opensans-i7-active wf-opensans-i3-active wf-active" }, body: {  } });
   return (
     <>
       <style>{css0}</style>
@@ -55,7 +55,7 @@ export default function LegalDpaCustomer() {
         <div className="w-embed"></div>
         <div className="w-embed"></div>
       </div>
-      <NavbarSticky20 />
+      <NavbarSticky11 />
       <main className="main-wrapper">
         <DaylitDataProcessingAgreeme />
       </main>

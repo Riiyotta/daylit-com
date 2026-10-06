@@ -1,9 +1,9 @@
 {
-  "id": "hero.section-demo",
-  "category": "HERO",
-  "label": "section_demo",
-  "tag": "section",
-  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"Unlock massive savings in your finance department with Daylit\".",
+  "id": "shell.section-testi-header",
+  "category": "SHELL",
+  "label": "section_testi-header",
+  "tag": "header",
+  "purpose": "Orients the visitor and provides navigation or site-wide links; carried across pages. Example headline: \"What Daylit's customers say\".",
   "purposeIsInferred": true,
   "nameSource": "class",
   "evidence": {
@@ -11,7 +11,7 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
-      "src/learn-more/demo/index.html:75-1544"
+      "src/testimonial/index.html:1330-1644"
     ]
   },
   "content": {
@@ -20,27 +20,26 @@
       "heading": {
         "type": "string",
         "required": true,
-        "maxWords": 9
+        "maxWords": 4
       },
       "body": {
         "type": "string[]",
         "required": true,
-        "maxItems": 19,
-        "maxWords": 15
+        "maxItems": 4,
+        "maxWords": 9
       },
       "ctas": {
         "type": "cta[]",
         "required": true,
-        "maxItems": 2,
-        "maxWords": 3
+        "maxItems": 3,
+        "maxWords": 1
       },
       "images": {
         "type": "image[]",
         "required": false,
-        "maxItems": 71,
+        "maxItems": 3,
         "assetRoles": [
-          "icon",
-          "logo"
+          "icon"
         ]
       }
     }
@@ -62,21 +61,21 @@
     },
     "breakpoints": "tokens/00-foundation/breakpoint.json",
     "desktop": {
-      "heightPx": 900,
-      "columns": 50
+      "heightPx": 854,
+      "columns": 1
     },
     "mobile": {
-      "heightPx": 1600,
-      "columns": 50,
+      "heightPx": 896,
+      "columns": 1,
       "hiddenShare": 0
     },
-    "changes": [
-      "grows taller on mobile (content stacks)"
-    ]
+    "changes": []
   },
   "assetRoles": [
-    "icon",
-    "logo"
+    "icon"
   ],
-  "implementedBy": "src/pages/LearnMoreDemo.jsx"
+  "implementedBy": "src/sections/Header.jsx",
+  "implementedByAll": [
+    "src/sections/Header.jsx"
+  ]
 }

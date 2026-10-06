@@ -1,6 +1,7 @@
+// IA section(s): support.section-article-blog (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// Table of Contents — the section's real markup, read from the rendered page (route /blog/ai-powered-collections-automation-for-field-services-firms, section 2).
+// Table of Contents — the section's real markup, read from the rendered page (route /blog/ai-use-cases-accounts-receivable-automation-2026, section 2).
 export default function TableOfContents9() {
   return (
     <article className="section_article-blog" data-clone-section="TableOfContents9">
@@ -14,10 +15,10 @@ export default function TableOfContents9() {
               <div className="blog-aside_block">
                 <div className="w-layout-vflex blog-author_layout">
                   <div id="w-node-f924fece-72ba-8f02-8376-addd84207940-fac81fab" className="blog-author_img-wrap">
-                    <img loading="lazy" alt="" className="u-image-cover w-dyn-bind-empty" />
+                    <img src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/68c9757c74340bd92977410e_jared-p-500.webp" loading="lazy" alt="" sizes="(max-width: 767px) 48vw, (max-width: 991px) 47vw, 462px" srcSet="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/68c9757c74340bd92977410e_jared-p-500.webp 500w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/68c9757c74340bd92977410e_jared.webp 763w" className="u-image-cover" />
                   </div>
-                  <div className="text-size-small w-dyn-bind-empty"></div>
-                  <div className="text-size-small text-color-secondary w-dyn-bind-empty"></div>
+                  <div className="text-size-small">Jared Shulman</div>
+                  <div className="text-size-small text-color-secondary">{"Co-Founder & CEO"}</div>
                 </div>
                 <div fs-list-instance="tags" fs-list-element="wrapper" className="w-dyn-list">
                   <div role="list" className="button-group is-tags w-dyn-items">
@@ -101,75 +102,66 @@ export default function TableOfContents9() {
                       <h2>Table of Contents</h2>
                       <ol>
                         <li>
-                          <a href="#what-is">What Makes Field Services Accounts Receivable Different?</a>
+                          <a href="#why-ar-hard">What Makes Mid-Market B2B Accounts Receivable So Difficult to Automate?</a>
                         </li>
                         <li>
-                          <a href="#why-need" className="">Why Do Field Services Companies Need AI-Specific AR Tools?</a>
+                          <a href="#ai-use-cases" className="">What Are the Top AI Use Cases for Accounts Receivable Automation?</a>
                         </li>
                         <li>
-                          <a href="#at-a-glance">Best AI Tools for Field Services AR at a Glance</a>
+                          <a href="#at-a-glance" className="">AI AR Platform Evaluation Checklist</a>
                         </li>
                         <li>
-                          <a href="#detailed-reviews" className="">Vendor Evaluation Questions for Field Services</a>
+                          <a href="#detailed-reviews" className="">Vendor Evaluation Questions for Mid-Market Companies</a>
                         </li>
                         <li>
-                          <a href="#manual-vs-ai" className="">Manual AR vs. AI-Powered AR in Field Services</a>
+                          <a href="#manual-vs-ai" className="">Manual AR vs. AI-Powered AR: How Do the Use Cases Compare?</a>
                         </li>
                         <li>
-                          <a href="#what-to-look-for" className="">What Should Field Services Companies Look for in AI AR Tools?</a>
+                          <a href="#what-to-look-for" className="">What Should Mid-Market Companies Look for in AI AR Software?</a>
                         </li>
                         <li>
-                          <a href="#feature-comparison" className="">Requirements to Verify for Field Services</a>
+                          <a href="#feature-comparison" className="">AI AR Software Feature Comparison</a>
                         </li>
                         <li>
-                          <a href="#cash-cycle">Bridging the Field Services Cash Conversion Cycle</a>
+                          <a href="#cash-cycle" className="">Bridging the Mid-Market Cash Conversion Cycle with AI</a>
                         </li>
                         <li>
-                          <a href="#how-to-choose">How to Evaluate AI AR Tools for Your Field Services Business</a>
+                          <a href="#how-to-evaluate" className="">How to Evaluate AI AR Tools for Your Business</a>
                         </li>
                         <li>
-                          <a href="#faq">Frequently Asked Questions</a>
+                          <a href="#faq" className="">Frequently Asked Questions</a>
                         </li>
                       </ol>
                     </nav>
-                    <section id="what-is" className="blog-section">
-                      <h2>What Makes Field Services Accounts Receivable Different?</h2>
-                      <p>Field-service billing depends on completed work, documentation and the agreed contract terms. Compare your DSO with your own history and similar portfolios rather than assuming a universal industry target.</p>
-                      <p>Field services invoices are generated from completed work orders, service tickets, change orders, and time-and-materials records tied to specific sites, technicians, and service dates. A single commercial property management client may generate 50–200 invoices per month across multiple sites, each referencing a different work order, crew, and scope of work. Unlike SaaS or product invoicing where billing triggers are predictable and systematic, field services billing is event-driven: dependent on work order completion, technician sign-off, site manager acceptance, and sometimes third-party inspection. The complexity multiplies for companies with mixed commercial and residential portfolios, where the same billing system manages net-90 national property management contracts alongside same-day residential emergency payments.</p>
-                      <p>Scope disputes can delay payment. Keep the work order, technician notes, photos, change-order approvals and time logs connected to the invoice so the responsible team can resolve the issue.</p>
+                    <section id="why-ar-hard" className="blog-section">
+                      <h2>What Makes Mid-Market B2B Accounts Receivable So Difficult to Automate?</h2>
+                      <p>B2B receivables depend on customer terms, invoice accuracy and collection processes. Automation should address a measured bottleneck rather than assume every company has the same DSO or staffing profile.</p>
+                      <p>B2B invoices may depend on purchase orders, delivery receipts, milestones or service records. Connect those records to the invoice so the team can resolve missing evidence without repeatedly searching separate systems.</p>
+                      <p>Pricing mismatches, short payments and missing evidence can delay collections. Assign an owner and assemble the supporting records as soon as an exception is detected.</p>
                     </section>
-                    <section id="why-need" className="blog-section">
-                      <h2>Why Do Field Services Companies Need AI-Specific AR Tools?</h2>
-                      <p>
-                        <A href="/blog/glossary-defining-commonly-used-financial-terms#ai-agent" style={{ "color": "var(--maroon)", "textDecoration": "underline" }}>AI agents</A>
-                        {" for accounts receivable solve 6 field-services-specific problems that rule-based automation and generic AR platforms cannot address. Each problem compounds directly into DSO impact and client retention risk."}
-                      </p>
-                      <p>Relationship-sensitive collections: Match outreach and escalation to account context and communication preferences. Measure complaints and exceptions rather than assuming automation improves retention.</p>
-                      <p>Work-order documentation: Include the service date, site, work order and agreed scope where the buyer needs them to approve payment. Verify that the source records are accurate.</p>
-                      <p>
-                        <strong>Mixed commercial and residential portfolio segmentation.</strong>
-                        {" A commercial HVAC company may manage net-90 national property management contracts alongside net-15 residential emergency calls in the same billing cycle. Without segmentation, collections teams apply the same follow-up cadence to both, under-collecting on commercial accounts and over-contacting residential clients. AI platforms auto-segment by payment profile and apply distinct strategies to each account type, improving collections effectiveness across both segments simultaneously."}
-                      </p>
-                      <p>
-                        <strong>Service agreement and retainer delinquency management.</strong>
-                        {" Recurring revenue from maintenance agreements is the financial backbone of most field services companies, yet retainer delinquencies are often detected late because they blend into aging reports alongside project invoices. When a client on a $120,000 annual maintenance agreement falls 60 days behind on a monthly payment, the stakes extend beyond that invoice to contract continuity. AI agents track retainer and agreement payments separately, flag delinquencies within days of occurrence, and route them to account managers before they escalate into contract cancellations."}
-                      </p>
-                      <p>Scope dispute resolution: Assemble evidence from the field-service system, ERP and approved communications. Track ownership and elapsed resolution time; automation does not guarantee a particular recovery or deadline.</p>
-                      <p>Peak-season continuity: Maintain a follow-up queue during high-volume periods. Test whether the proposed workflow keeps up with your own seasonal invoice load.</p>
+                    <section id="ai-use-cases" className="blog-section">
+                      <h2>What Are the Top AI Use Cases for Accounts Receivable Automation?</h2>
+                      <p>AI addresses 6 specific AR automation challenges that rule-based systems cannot solve for mid-market B2B companies. Each use case delivers measurable working capital impact when implemented with a platform purpose-built for mid-market operational complexity.</p>
+                      <p>AI-powered collections management: Use payment history and account context to prioritize outreach, then test whether the recommendations improve results. Preserve human review for exceptions and sensitive accounts.</p>
+                      <p>Automated cash application: Match incoming payments to invoices using remittance and account records. Route uncertain matches for review and measure accuracy on representative data.</p>
+                      <p>Payment notice and email management: Classify incoming messages, identify the invoice and draft an appropriate response. Require review where records conflict or the issue needs judgment.</p>
+                      <p>Deduction and dispute management: Identify short payments, categorize the reason and route the case with its supporting records. Measure resolution time and valid recoveries against the existing process.</p>
+                      <p>Receivables forecasting: Estimate expected receipts using invoice records, payment history and known exceptions. Compare the forecast with actual receipts at a stated horizon instead of assuming a standard accuracy improvement.</p>
+                      <p>Financing is a separate decision from AI automation. A company may still have a cash gap during agreed payment terms; compare eligible financing options using their fees, recourse and repayment conditions.</p>
                     </section>
                   </div>
                 </div>
                 <figure className="w-richtext-figure-type-image">
                   <div>
-                    <img alt="Field service workers reviewing operations near a utility truck, representing collections automation for service companies" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b84b29cf49bd5d0959c2d5_ChatGPT%20Image%20Mar%2016%2C%202026%2C%2002_25_32%20PM.png" loading="lazy" />
+                    <img alt="Finance professionals reviewing AI use cases for accounts receivable automation" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69ceb4df7b251a1ac05c4662_ChatGPT%20Image%20Apr%202%2C%202026%2C%2002_25_11%20PM.png" loading="lazy" />
                   </div>
                 </figure>
                 <p>‍</p>
                 <div className="w-embed">
                   <div className="blog-wrap">
                     <section id="at-a-glance" className="blog-section">
-                      <h2>AI AR Evaluation Checklist for Field Services</h2>
-                      <p>The best AI AR tool for a field services company depends on company size, FSM platform environment, commercial/residential mix, and whether the business needs AI-powered collections, dispute resolution, or embedded capital. Each platform below is evaluated through a field-services-specific lens.</p>
+                      <h2>AI AR Platform Evaluation Checklist</h2>
+                      <p>Evaluate platforms against the use cases your team needs. The following sections provide questions for demonstrations, not an independently verified ranking.</p>
                       <div className="table-scroll">
                         <table>
                           <thead>
@@ -204,21 +196,22 @@ export default function TableOfContents9() {
                       </div>
                     </section>
                     <section id="detailed-reviews" className="blog-section">
-                      <h2>Vendor Evaluation Questions for Field Services</h2>
+                      <h2>Vendor Evaluation Questions for Mid-Market Companies</h2>
                       <article className="platform-review">
                         <h3>Daylit — questions to verify</h3>
-                        <p>For Daylit, demonstrate the full field-service workflow with representative records: invoice delivery, follow-up, dispute evidence and receipt reconciliation. Confirm which ERP and field-service connections are supported in the proposed deployment.</p>
-                        <p>Evaluate any Daylit financing offer separately from automation. Confirm current eligibility, fees, advance amounts, settlement timing and recourse; this comparison does not establish exclusivity.</p>
+                        <p>Evaluate Daylit using representative collections, reconciliation, dispute and forecasting tasks. Confirm the required ERP connections, implementation work and current financing options in writing.</p>
+                        <p>For Daylit, demonstrate collections and any proposed financing workflow. Use representative records and request current documentation for integration requirements, costs and limitations.</p>
                         <ul>
-                          <li>Relationship-tier collections: Test how outreach changes by account context and how sensitive accounts reach a human reviewer.</li>
-                          <li>Field-service records: Verify access to the work order, service date, site and supporting records in your specific system.</li>
-                          <li>Cash application: Test representative remittances and measure correct matches and exception handling.</li>
-                          <li>Verify predictive cash flow forecasting: ask the vendor to demonstrate the proposed behavior with your records and explain limitations and review controls.</li>
-                          <li>Verify embedded capital via fundnow: ask the vendor to demonstrate the proposed behavior with your records and explain limitations and review controls.</li>
+                          <li>Verify autonomous ai collections agents: ask the vendor to demonstrate the proposed behavior with your records and explain limitations and review controls.</li>
+                          <li>Verify ai cash application: ask the vendor to demonstrate the proposed behavior with your records and explain limitations and review controls.</li>
+                          <li>Dispute routing: Test detection, categorization, evidence assembly and assignment using actual exception types.</li>
+                          <li>Verify ai receivables forecasting: ask the vendor to demonstrate the proposed behavior with your records and explain limitations and review controls.</li>
+                          <li>Financing: Confirm eligibility, advance amounts, fees and recourse for any embedded offer; do not assume immediate funding or an exclusive capability.</li>
                         </ul>
                       </article>
                       <article className="platform-review">
                         <h3>HighRadius — questions to verify</h3>
+                        <p>For HighRadius, demonstrate multi-entity cash application and deduction handling. Use representative records and request current documentation for integration requirements, costs and limitations.</p>
                         <p>For HighRadius, demonstrate multi-entity cash application and deduction handling. Use representative records and request current documentation for integration requirements, costs and limitations.</p>
                       </article>
                       <article className="platform-review">
@@ -239,8 +232,8 @@ export default function TableOfContents9() {
                       </article>
                     </section>
                     <section id="manual-vs-ai" className="blog-section">
-                      <h2>Manual AR vs. AI-Powered AR in Field Services</h2>
-                      <p>The gap between manual and AI-powered accounts receivable processes is amplified in field services by relationship sensitivity, work-order-based billing complexity, and seasonal volume swings. Every day of AR inefficiency compounds into working capital that could fund equipment, payroll, and growth.</p>
+                      <h2>Manual AR vs. AI-Powered AR: How Do the Use Cases Compare?</h2>
+                      <p>The working capital gap between manual and AI-powered AR is most acute at mid-market B2B companies, where invoice volume, payment term complexity, and AR team size are mismatched. Every additional day of collection delay or reconciliation lag compounds directly into operating cash pressure across payroll, inventory, and vendor obligations.</p>
                       <div className="table-scroll">
                         <table>
                           <thead>
@@ -279,42 +272,33 @@ export default function TableOfContents9() {
                           </tbody>
                         </table>
                       </div>
-                      <p>Illustrative calculation: with $50 million in annual credit sales, a 15-day DSO reduction corresponds to approximately $2.05 million in released receivables. This is a sensitivity calculation, not an expected outcome or annual profit.</p>
+                      <p>Illustrative sensitivity: $50 million in annual credit sales and a 15-day DSO reduction correspond to approximately $2.05 million in released receivables. This is not an expected AI outcome or a recurring annual benefit.</p>
                     </section>
                   </div>
                 </div>
                 <figure className="w-richtext-figure-type-image">
                   <div>
-                    <img alt="Field service technician near industrial pipes, representing HVAC and plumbing contractor AR automation" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b8576c66ee0656d3cd2d40_ChatGPT%20Image%20Mar%2016%2C%202026%2C%2003_17_49%20PM.png" loading="lazy" />
+                    <img alt="" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69ceb379b8de80db64d5c5b0_ChatGPT%20Image%20Apr%202%2C%202026%2C%2002_20_19%20PM.png" loading="lazy" />
                   </div>
                 </figure>
                 <p>‍</p>
                 <div className="w-embed">
                   <div className="blog-wrap">
                     <section id="what-to-look-for" className="blog-section">
-                      <h2>What Should Field Services Companies Look for in AI AR Tools?</h2>
-                      <p>Field services companies evaluating AI-powered accounts receivable tools should prioritize 6 capabilities that address service-industry-specific challenges. Generic AR platforms built for SaaS billing or simple invoice-and-remind workflows will fail to solve the problems that actually drive high DSO in field services.</p>
+                      <h2>What Should Mid-Market Companies Look for in AI AR Software?</h2>
+                      <p>Six capabilities separate purpose-built mid-market AI AR platforms from generic tools adapted from enterprise or SMB environments. Each maps directly to one of the top AI use cases for AR automation and determines whether a platform delivers measurable working capital impact or just replaces manual steps with automated ones.</p>
+                      <p>Adaptive collections: Ask whether the workflow changes based on customer history and how those decisions are reviewed. Test results on representative accounts before expanding.</p>
+                      <p>Cash application: Ask for measured results on remittances like yours, including missing references and partial payments. Track false matches as well as the share processed automatically.</p>
+                      <p>Dispute detection: Test how quickly exceptions are identified, who receives them and which supporting records are available. Compare actual resolution times before and after the pilot.</p>
+                      <p>Deployment: Request a plan covering data cleanup, integration, permissions, testing and adoption. The timeline depends on the specific scope and internal capacity.</p>
+                      <p>ERP integration: Confirm the connector and supported records for your exact ERP version. Test invoice, payment, credit and customer records in both directions where required.</p>
                       <p>
-                        <strong>Relationship-tier outreach calibration.</strong>
-                        {" The platform must support client-tier-based collections that adjust tone, timing, and escalation path based on client lifetime value and contract size. A platform that sends the same dunning email to a $1M maintenance contract client and a $2,000 one-time service call customer creates reputational risk with high-value accounts. Without this capability, aggressive automated collections will cost more in lost contracts than it recovers in late payments."}
+                        <strong>Embedded invoice financing for working capital access beyond collections.</strong>
+                        {" AI collections optimization reduces DSO but cannot eliminate the cash flow gap created by extended payment terms. Mid-market companies on 45- to 90-day terms need working capital access that collections efficiency alone cannot provide. Platforms with embedded invoice financing allow selective conversion of individual outstanding invoices to immediate cash from within the same environment that manages the receivables workflow. This eliminates the overhead of a separate factoring or credit line relationship and gives finance teams on-demand working capital access at the invoice level rather than as a fixed advance against the entire AR book."}
                       </p>
-                      <p>
-                        <strong>FSM platform integration with work order data.</strong>
-                        {" Every automated follow-up must reference work order number, service date, site address, and scope of work pulled directly from the FSM platform. ServiceTitan, Jobber, FieldEdge, Simpro, and Housecall Pro are the source of truth for field services billing data. Platforms that integrate only with the accounting ERP miss the work order context that makes field services follow-ups actionable for commercial AP departments."}
-                      </p>
-                      <p>Scope disputes: Test whether the workflow can assemble the work order, technician notes, authorizations and invoice evidence, then route the case to its owner. Measure resolution time from your own baseline.</p>
-                      <p>
-                        <strong>Service agreement and retainer payment tracking.</strong>
-                        {" The platform must track recurring maintenance agreement payments separately from project-based invoices, flag delinquencies within days of a missed payment, and route escalations to account managers before collections actions threaten service continuity. Without this capability, a 60-day delinquency on a $120,000 annual contract may not be detected until it has already progressed to potential cancellation."}
-                      </p>
-                      <p>
-                        <strong>Commercial and residential portfolio segmentation.</strong>
-                        {" Field services companies managing both commercial and residential clients need automated segmentation that applies distinct collections strategies to each portfolio. Commercial accounts require PO-referenced, AP-directed outreach with longer grace periods. Residential accounts require direct, simple reminders with digital payment links. Platforms that apply a single collections cadence to both segments consistently under-collect on at least one."}
-                      </p>
-                      <p>Long commercial terms can leave a cash gap after collections processes improve. Compare any financing offer against your forecast and written terms, including fees and recourse.</p>
                     </section>
                     <section id="feature-comparison" className="blog-section">
-                      <h2>Requirements to Verify for Field Services</h2>
+                      <h2>AI AR Software Requirements to Verify</h2>
                       <div className="table-scroll">
                         <table>
                           <thead>
@@ -349,33 +333,79 @@ export default function TableOfContents9() {
                       </div>
                     </section>
                     <section id="cash-cycle" className="blog-section">
-                      <h2>Bridging the Field Services Cash Conversion Cycle</h2>
-                      <p>A field-service business may pay for labor and parts before invoicing and then wait through the customer’s agreed terms. Model the actual dates and amounts for the contract rather than applying a general cash-cycle range.</p>
-                      <p>Even the best AI-powered collections platform cannot compress a contractual net-90 payment term into net-30. For field services companies with significant commercial portfolios on extended terms, the cash gap between service delivery and payment receipt is a structural constraint that requires a working capital solution alongside collections optimization.</p>
+                      <h2>Bridging the Mid-Market Cash Conversion Cycle with AI</h2>
+                      <p>Map the cash cycle from inventory and operating payments through invoicing to customer receipts. Use your own dates and balances; a generic industry range cannot replace that forecast.</p>
+                      <p>Even the most effective AI collections program cannot collapse the structural cash flow gap created by extended payment terms. A company that reduces DSO from 60 to 45 days through AI-powered AR automation still carries significant receivables balance during the 45-day window. For companies managing payroll, vendor obligations, and inventory financing in parallel against this receivables balance, the gap between cash deployed and cash collected creates liquidity pressure that collections efficiency alone cannot resolve.</p>
+                      <p>Invoice financing can provide cash against approved receivables. Compare offers on the same amount and duration, including reserves, fees, recourse and customer-notification requirements.</p>
                       <p>
-                        <strong>Invoice factoring from within the AR platform.</strong>
-                        {" Evaluate whether an eligible invoice can be financed under a written agreement. Compare advance rates, fees, recourse, customer notification and reserve release. Financing changes cash timing; it does not prove that the customer paid sooner."}
+                        <strong>Working capital for companies on extended B2B terms.</strong>
+                        {" Mid-market companies in distribution, manufacturing, and services routinely extend 45- to 90-day payment terms as a commercial standard across their customer base. During periods of rapid growth, large project delivery, or seasonal demand spikes, the cumulative receivables balance can compress operating headroom to levels that constrain business decisions. Embedded invoice financing at the platform level allows finance teams to smooth working capital timing without taking on revolving credit at the entity level or entering a traditional factoring arrangement that advances against the full AR book at fixed rates."}
                       </p>
+                      <p>Evaluate collections improvements and financing separately. The first addresses process delays; the second can change cash timing at a cost. Confirm each capability in the proposed implementation.</p>
+                    </section>
+                    <section id="how-to-evaluate" className="blog-section">
+                      <h2>How to Evaluate AI AR Tools for Your Mid-Market Business</h2>
+                      <p>Selecting the right AI-powered AR platform for a mid-market B2B company requires evaluating five criteria:</p>
+                      <ol className="styled-ol">
+                        <li>
+                          <strong>AI use case coverage depth.</strong>
+                          {" Request a demo that exercises all five core AI use cases: collections management, cash application, payment notice handling, dispute detection, and forecasting. Ask the vendor specifically how each use case performs on your actual invoice mix. A platform that handles standard reminders well but cannot process complex remittances or route deductions automatically will require significant manual AR work to remain in the company."}
+                        </li>
+                        <li>
+                          <strong>ERP integration certification for your specific system.</strong>
+                          {" Confirm that the platform maintains a certified native integration with your ERP, whether that is NetSuite, SAP Business One, Sage Intacct, Acumatica, or Epicor. Request the names of at least three current customers running the same ERP. Integration must include live invoice data, payment terms, and customer master records, not just periodic financial data extracts."}
+                        </li>
+                        <li>AI adaptability: Test whether the system responds appropriately to different customer histories and exceptions. Compare measured outcomes with the existing workflow.</li>
+                        <li>Dispute performance: Ask how resolution time is defined and request results for comparable cases. Set a pilot target from your own baseline.</li>
+                        <li>Economic impact: Model actual costs, measured recurring benefits and released working capital separately. Do not infer an annual ROI from the size of a cash release or from access to financing.</li>
+                      </ol>
+                    </section>
+                    <section id="faq" className="blog-section">
+                      <h2>Frequently Asked Questions</h2>
+                      <div className="faq-item">
+                        <h3>What are the top AI use cases for accounts receivable automation in 2026?</h3>
+                        <p>Practical AI use cases include collections prioritization, cash application, email classification, dispute routing and receivables forecasting. Validate each task with representative data and a human escalation path. Financing is a separate product decision.</p>
+                      </div>
+                      <div className="faq-item">
+                        <h3>What is the average DSO for mid-market B2B companies and how does AI improve it?</h3>
+                        <p>A suitable DSO comparison depends on terms, customer mix and the calculation method. Set a baseline and measure the effect of the specific workflow change; no standard AI reduction is established here.</p>
+                      </div>
+                      <div className="faq-item">
+                        <h3>How does AI handle deductions and short-pay disputes in B2B accounts receivable?</h3>
+                        <p>An AI-assisted workflow can flag short payments, classify the exception and assemble records for the responsible reviewer. Test the classification and measure resolution time without assuming a universal recovery rate.</p>
+                      </div>
+                      <div className="faq-item">
+                        <h3>Can AI AR platforms handle complex remittances with multiple invoices and partial payments?</h3>
+                        <p>Test complex remittances with partial payments, missing references, credits and deductions. Measure correct matches, false matches and exception handling on your own sample.</p>
+                      </div>
+                      <div className="faq-item">
+                        <h3>What ROI can mid-market B2B companies expect from AI AR automation?</h3>
+                        <p>Estimate ROI from attributable recurring benefits and total costs over a stated period. Report any one-time release of receivables separately, and include financing fees where financing is part of the workflow.</p>
+                      </div>
+                      <div className="faq-item">
+                        <h3>How long does it take to implement AI accounts receivable automation for a mid-market company?</h3>
+                        <p>Implementation time depends on the ERP, data quality, permissions and workflow scope. Ask for a written plan with testing and acceptance criteria.</p>
+                      </div>
                     </section>
                   </div>
                   <h2>Further reading</h2>
                   <p>
-                    {"Accurate billing and separate dispute workflows support collections. See "}
-                    <a target="_blank" rel="noopener">McKinsey’s analysis</a>
+                    {"Evaluate AI at the task level, including adoption costs and pilot results. See "}
+                    <a target="_blank" rel="noopener">MIT Sloan’s analysis</a>
                     .
                   </p>
                   <p>
                     {"Related guidance: "}
-                    <A href="/blog/ai-powered-collections-automation-for-manufacturers">Accounts Receivable Automation for Manufacturers</A>
+                    <A href="/blog/the-roi-of-ai-powered-accounts-receivable-automation">Accounts Receivable Automation ROI: Costs and Value</A>
                     {"; "}
-                    <A href="/blog/ai-automate-invoice-follow-ups-service-companies">Automated Payment Reminders for Service Companies</A>
+                    <A href="/blog/best-ai-tools-staffing-agency-accounts-receivable-2026">Accounts Receivable Automation for Staffing Agencies</A>
                     .
                   </p>
                   <h2>References</h2>
                   <ul>
                     <li>
-                      {"McKinsey: "}
-                      <a target="_blank" rel="noopener">Working capital process improvements</a>
+                      {"MIT Sloan: "}
+                      <a target="_blank" rel="noopener">Finding generative AI use cases</a>
                       . Read September 28, 2026.
                     </li>
                   </ul>

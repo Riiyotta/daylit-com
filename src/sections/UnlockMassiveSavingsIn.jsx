@@ -1,3 +1,4 @@
+// IA section(s): support.section-demo-right (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Unlock massive savings in your — the section's real markup, read from the rendered page (route /learn-more/demo, section 1).

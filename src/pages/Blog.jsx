@@ -26,7 +26,7 @@ import css17 from "../styles/inline-27.css?inline"; // only this page loads it
 
 // Route /blog — 5 section(s), in page order.
 export default function Blog() {
-  usePageChrome({ title: "Daylit's Blog | AI Agents for A/R Insights, Tips and Guides", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "68b14387377e2ca4f9b9f5b5", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "class": "w-mod-js w-mod-ix wf-opensans-i6-active wf-opensans-i7-active wf-opensans-i8-active wf-opensans-i3-active wf-opensans-i4-active wf-opensans-n6-active wf-opensans-n3-active wf-opensans-n8-active wf-opensans-n4-active wf-opensans-n7-active wf-active" }, body: {  } });
+  usePageChrome({ title: "Daylit's Blog | AI Agents for A/R Insights, Tips and Guides", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "68b14387377e2ca4f9b9f5b5", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "class": "w-mod-js w-mod-ix wf-opensans-n3-active wf-opensans-n6-active wf-opensans-n8-active wf-opensans-n7-active wf-opensans-n4-active wf-opensans-i8-active wf-opensans-i6-active wf-opensans-i3-active wf-opensans-i7-active wf-opensans-i4-active wf-active" }, body: {  } });
   return (
     <>
       <style>{css0}</style>

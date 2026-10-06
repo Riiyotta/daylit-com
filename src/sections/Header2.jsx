@@ -1,3 +1,4 @@
+// IA section(s): shell.section-blog-header (ia/ia.json, design-repo/sections/)
 // Header — the section's real markup, read from the rendered page (route /blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category, section 1).
 export default function Header2() {
   return (

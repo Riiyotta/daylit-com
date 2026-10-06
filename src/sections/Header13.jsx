@@ -1,4 +1,5 @@
-// Header — the section's real markup, read from the rendered page (route /blog/early-pay-discounts-101-a-simple-playbook, section 1).
+// IA section(s): shell.section-blog-header (ia/ia.json, design-repo/sections/)
+// Header — the section's real markup, read from the rendered page (route /blog/how-chemical-companies-use-daylit-to-unlock-working-capital, section 1).
 export default function Header13() {
   return (
     <header className="section_blog-header" data-clone-section="Header13">
@@ -10,8 +11,8 @@ export default function Header13() {
           <div className="blog-header_card">
             <div className="w-layout-vflex blog-header_content">
               <div className="w-layout-vflex blog-header_title-wrap">
-                <h1 className="heading-2">Early-Pay Discounts 101: A Simple Playbook to Lift Margins</h1>
-                <p>Learn about early-pay discounts, why they’re underused, and how to capture them safely with A/P financing.</p>
+                <h1 className="heading-2">Working Capital Management for Chemical Companies</h1>
+                <p>Explore working capital management for chemical companies using supplier and receivables financing, cash forecasts and clearly labeled illustrative calculations.</p>
               </div>
               <div className="w-layout-vflex button-group is-tags">
                 <div className="w-layout-hflex flex-block">
@@ -21,13 +22,13 @@ export default function Header13() {
                   </div>
                   <div data-wf--slot-item-eyebrow-main--color="primary" className="eyebrow">
                     <div className="eyebrow-dot"></div>
-                    <div className="eyebrow-text">October 29, 2025</div>
+                    <div className="eyebrow-text">October 9, 2025</div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="w-layout-vflex blog-header_image-wrap">
-              <img width="150" height="80" alt="" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/6902837af6eb0f49d9f0c3af_Screenshot%202025-10-29%20at%206.13.16%E2%80%AFPM-p-500.png" loading="lazy" sizes="150px" srcSet="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/6902837af6eb0f49d9f0c3af_Screenshot%202025-10-29%20at%206.13.16%E2%80%AFPM-p-500.png 500w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/6902837af6eb0f49d9f0c3af_Screenshot%202025-10-29%20at%206.13.16%E2%80%AFPM-p-800.png 800w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/6902837af6eb0f49d9f0c3af_Screenshot%202025-10-29%20at%206.13.16%E2%80%AFPM-p-1080.png 1080w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/6902837af6eb0f49d9f0c3af_Screenshot%202025-10-29%20at%206.13.16%E2%80%AFPM.png 1108w" className="blog-header_image-cover" />
+              <img width="150" height="80" alt="" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/68e6d14da8e7a6170e8eeedf_chem_image_compressed-p-500.jpg" loading="lazy" sizes="150px" srcSet="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/68e6d14da8e7a6170e8eeedf_chem_image_compressed-p-500.jpg 500w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/68e6d14da8e7a6170e8eeedf_chem_image_compressed.jpg 1536w" className="blog-header_image-cover" />
             </div>
           </div>
         </div>

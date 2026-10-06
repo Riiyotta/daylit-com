@@ -8,13 +8,14 @@
   "nameSource": "class",
   "evidence": {
     "level": "measured",
-    "instances": 4,
-    "routes": 4,
+    "instances": 5,
+    "routes": 5,
     "measuredFrom": [
-      "src/product/drawdown/index.html:3472-3886",
-      "src/product/fundnow/index.html:3472-3886",
-      "src/product/offerterms/index.html:3427-3841",
-      "src/product/paylater/index.html:3473-3887"
+      "src/product/drawdown/index.html:3472-3717",
+      "src/product/fundnow/index.html:3472-3717",
+      "src/product/offerterms/index.html:3427-3672",
+      "src/product/paylater/index.html:3473-3718",
+      "src/testimonial/index.html:1985-2160"
     ]
   },
   "content": {
@@ -73,5 +74,9 @@
     "content-image"
   ],
   "contentPolicy": "Measured copy quotes real customers and companies. Generated pages must write new, clearly fictional quotes and names, and use placeholders for customer logos and avatars.",
-  "implementedBy": "src/pages/ProductFundnow.jsx"
+  "implementedBy": "src/sections/LatestInsightsAboutAccounts.jsx",
+  "implementedByAll": [
+    "src/sections/LatestInsightsAboutAccounts.jsx",
+    "src/sections/LatestInsightsAboutWorking.jsx"
+  ]
 }

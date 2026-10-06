@@ -1,3 +1,4 @@
+// IA section(s): shell.form (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // form — the section's real markup, read from the rendered page (route /our-team-story, section 1).

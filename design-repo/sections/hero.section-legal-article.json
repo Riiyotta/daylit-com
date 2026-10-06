@@ -1,8 +1,8 @@
 {
-  "id": "hero.main-wrapper",
+  "id": "hero.section-legal-article",
   "category": "HERO",
-  "label": "main-wrapper",
-  "tag": "main",
+  "label": "section_legal-article",
+  "tag": "article",
   "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"COOKIE POLICY\".",
   "purposeIsInferred": true,
   "nameSource": "class",
@@ -11,11 +11,11 @@
     "instances": 5,
     "routes": 5,
     "measuredFrom": [
-      "src/legal/cookie-consent/index.html:1330-1366",
-      "src/legal/dpa-customer/index.html:1330-1484",
-      "src/legal/privacy-policy/index.html:1330-1553",
-      "src/legal/sla-customer/index.html:1330-1501",
-      "src/legal/terms-conditions/index.html:1330-1358"
+      "src/legal/cookie-consent/index.html:1331-1366",
+      "src/legal/dpa-customer/index.html:1331-1484",
+      "src/legal/privacy-policy/index.html:1331-1553",
+      "src/legal/sla-customer/index.html:1331-1501",
+      "src/legal/terms-conditions/index.html:1331-1358"
     ]
   },
   "content": {
@@ -75,5 +75,12 @@
     ]
   },
   "assetRoles": [],
-  "implementedBy": "src/pages/LegalDpaCustomer.jsx"
+  "implementedBy": "src/sections/CookiePolicy.jsx",
+  "implementedByAll": [
+    "src/sections/CookiePolicy.jsx",
+    "src/sections/DAYLITSERVICELEVELAGREEMENT.jsx",
+    "src/sections/DaylitDataProcessingAgreeme.jsx",
+    "src/sections/PrivacyNotice.jsx",
+    "src/sections/TermsAndConditions.jsx"
+  ]
 }

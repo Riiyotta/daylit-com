@@ -68,5 +68,12 @@
     "changes": []
   },
   "assetRoles": [],
-  "implementedBy": "src/sections/AstDetail.jsx"
+  "implementedBy": "src/sections/AstDetail.jsx",
+  "implementedByAll": [
+    "src/sections/AstDetail.jsx",
+    "src/sections/AstDetail2.jsx",
+    "src/sections/AstDetail3.jsx",
+    "src/sections/AstDetail4.jsx",
+    "src/sections/AstDetail5.jsx"
+  ]
 }

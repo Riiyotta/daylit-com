@@ -1,3 +1,4 @@
+// IA section(s): content.csr-body (ia/ia.json, design-repo/sections/)
 // csr-body — the section's real markup, read from the rendered page (route /case-study/clipboard-health, section 3).
 export default function CsrBody3() {
   return (
@@ -194,15 +195,15 @@ export default function CsrBody3() {
               <div className="w-dyn-list">
                 <div role="list" className="r-callouts w-dyn-items">
                   <div role="listitem" className="csr-stat w-dyn-item">
-                    <div className="csr-stat-num" style={{ "fontSize": "40px" }}>$110M</div>
+                    <div className="csr-stat-num" style={{ "fontSize": "38px" }}>$110M</div>
                     <div>In receivables collected faster, freeing working capital</div>
                   </div>
                   <div role="listitem" className="csr-stat w-dyn-item">
-                    <div className="csr-stat-num" style={{ "fontSize": "40px" }}>Uncapped</div>
+                    <div className="csr-stat-num" style={{ "fontSize": "38px" }}>Uncapped</div>
                     <div>Collections capacity, no longer tied to headcount</div>
                   </div>
                   <div role="listitem" className="csr-stat w-dyn-item">
-                    <div className="csr-stat-num" style={{ "fontSize": "40px" }}>Scales</div>
+                    <div className="csr-stat-num" style={{ "fontSize": "38px" }}>Scales</div>
                     <div>With the marketplace, without the manual cost</div>
                   </div>
                 </div>

@@ -1,3 +1,4 @@
+// IA section(s): content.csr-band (ia/ia.json, design-repo/sections/)
 // csr-band — the section's real markup, read from the rendered page (route /case-study/clipboard-health, section 2).
 export default function CsrBand3() {
   return (

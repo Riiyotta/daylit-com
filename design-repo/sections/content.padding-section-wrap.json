@@ -75,5 +75,8 @@
   "assetRoles": [
     "logo"
   ],
-  "implementedBy": "src/sections/PaddingSectionWrap.jsx"
+  "implementedBy": "src/sections/PaddingSectionWrap.jsx",
+  "implementedByAll": [
+    "src/sections/PaddingSectionWrap.jsx"
+  ]
 }

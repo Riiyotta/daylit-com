@@ -1,6 +1,7 @@
+// IA section(s): shell.navbar-sticky (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// navbar_sticky — the section's real markup, read from the rendered page (route /solution/staffing, section 0).
+// navbar_sticky — the section's real markup, read from the rendered page (route /solution/manufacturing, section 0).
 export default function NavbarSticky18() {
   return (
     <div className="navbar_sticky is-wrap" data-clone-section="NavbarSticky18">
@@ -16,7 +17,7 @@ export default function NavbarSticky18() {
       <div className="nav_banner">
         <div className="container-large">
           <div className="banner-marquee">
-            <div className="banner_marquee-track" style={{ "transform": "translate3d(-6.9995%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "transformStyle": "preserve-3d", "willChange": "transform" }}>
+            <div className="banner_marquee-track">
               <div className="banner_marquee-list">
                 <div className="nav_banner-item">
                   <div className="nav_banner-item-text">AI Startup Raises $110m to Help Customers to Kill Its Own Category</div>
@@ -206,7 +207,7 @@ export default function NavbarSticky18() {
                           </A>
                         </div>
                         <div id="w-node-a6b874bf-5a4c-9b92-b1d9-961be27eff74-e27eff71" role="listitem" className="w-dyn-item">
-                          <A href="/solution/manufacturing" className="nav-panel_card w-inline-block" tabIndex="0">
+                          <A href="/solution/manufacturing" aria-current="page" className="nav-panel_card w-inline-block w--current" tabIndex="0">
                             <div className="nav-panel_card_title-wrap">
                               <div className="nav-panel_card_icon-wrap">
                                 <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/68cbff96df58e17668649eb1_icon-packaging.svg" alt="" className="nav-panel_card_icon" />
@@ -223,7 +224,7 @@ export default function NavbarSticky18() {
                           </A>
                         </div>
                         <div id="w-node-a6b874bf-5a4c-9b92-b1d9-961be27eff74-e27eff71" role="listitem" className="w-dyn-item">
-                          <A href="/solution/staffing" aria-current="page" className="nav-panel_card w-inline-block w--current" tabIndex="0">
+                          <A href="/solution/staffing" className="nav-panel_card w-inline-block" tabIndex="0">
                             <div className="nav-panel_card_title-wrap">
                               <div className="nav-panel_card_icon-wrap">
                                 <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/68cbff24fd7db26cfdd529ff_Vector%20(1).svg" alt="" className="nav-panel_card_icon" />

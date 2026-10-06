@@ -1,4 +1,5 @@
-// Header — the section's real markup, read from the rendered page (route /blog/cicis-pizza-customer-story, section 1).
+// IA section(s): shell.section-blog-header (ia/ia.json, design-repo/sections/)
+// Header — the section's real markup, read from the rendered page (route /blog/ar-automation-practices-distributors, section 1).
 export default function Header15() {
   return (
     <header className="section_blog-header" data-clone-section="Header15">
@@ -10,8 +11,8 @@ export default function Header15() {
           <div className="blog-header_card">
             <div className="w-layout-vflex blog-header_content">
               <div className="w-layout-vflex blog-header_title-wrap">
-                <h1 className="heading-2">Cicis Pizza Working Capital: Robert Lesieur’s Story</h1>
-                <p>{"Daylit's PayLater helped Cicis Pizza with occasional expenses to keep up with franchise refreshes."}</p>
+                <h1 className="heading-2">Best AR Automation Practices for Wholesale Distributors</h1>
+                <p>{"Wholesale distributors face unique AR challenges: high invoice volumes, complex payment terms, and tight margins. This guide covers the eight best AR automation practices for distributors, including how Daylit's AI agents and FundNow embedded financing help you get paid faster."}</p>
               </div>
               <div className="w-layout-vflex button-group is-tags">
                 <div className="w-layout-hflex flex-block">
@@ -21,13 +22,13 @@ export default function Header15() {
                   </div>
                   <div data-wf--slot-item-eyebrow-main--color="primary" className="eyebrow">
                     <div className="eyebrow-dot"></div>
-                    <div className="eyebrow-text">January 1, 2025</div>
+                    <div className="eyebrow-text">April 1, 2026</div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="w-layout-vflex blog-header_image-wrap">
-              <img width="150" height="80" alt="" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/68cad712347a49e7d71b626a_Cicis%20Pizza-p-500.png" loading="lazy" sizes="150px" srcSet="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/68cad712347a49e7d71b626a_Cicis%20Pizza-p-500.png 500w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/68cad712347a49e7d71b626a_Cicis%20Pizza.png 596w" className="blog-header_image-cover" />
+              <img width="150" height="80" alt="" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69cd62a7a247486701126eae_ChatGPT%20Image%20Apr%201%2C%202026%2C%2002_23_27%20PM-p-500.png" loading="lazy" sizes="150px" srcSet="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69cd62a7a247486701126eae_ChatGPT%20Image%20Apr%201%2C%202026%2C%2002_23_27%20PM-p-500.png 500w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69cd62a7a247486701126eae_ChatGPT%20Image%20Apr%201%2C%202026%2C%2002_23_27%20PM-p-800.png 800w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69cd62a7a247486701126eae_ChatGPT%20Image%20Apr%201%2C%202026%2C%2002_23_27%20PM-p-1080.png 1080w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69cd62a7a247486701126eae_ChatGPT%20Image%20Apr%201%2C%202026%2C%2002_23_27%20PM.png 1536w" className="blog-header_image-cover" />
             </div>
           </div>
         </div>

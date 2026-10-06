@@ -1,3 +1,4 @@
+// IA section(s): support.ast-feature-section (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // ast-feature-section — the section's real markup, read from the rendered page (route /ai-skills, section 2).

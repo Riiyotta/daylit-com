@@ -1,3 +1,4 @@
+// IA section(s): support.section-article-blog (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // What is an early-pay discount? — the section's real markup, read from the rendered page (route /blog/early-pay-discounts-101-a-simple-playbook, section 2).

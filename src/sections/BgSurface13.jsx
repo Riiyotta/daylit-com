@@ -1,6 +1,7 @@
+// IA section(s): content.section-why (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// bg-surface — the section's real markup, read from the rendered page (route /product/drawdown, section 5).
+// bg-surface — the section's real markup, read from the rendered page (route /product/paylater, section 5).
 export default function BgSurface13() {
   return (
     <section data-texture-section="true" data-wf--build-section-cards-info--general-color="base" className="section_why bg-surface" data-clone-section="BgSurface13">
@@ -16,10 +17,10 @@ export default function BgSurface13() {
                 <div className="eyebrow-text">Benefits</div>
               </div>
               <div className="spacer-medium"></div>
-              <h2>Get reliable working capital</h2>
+              <h2>Become your customers favorite vendor</h2>
               <div className="spacer-small"></div>
               <div className="w-layout-vflex max-width-large text-wrap-balance">
-                <p className="u-is-100">Use non-dilutive capital to grow your business</p>
+                <p className="u-is-100">Offer your customers payment plans when they need it most to earn long term trust with your valuable accounts</p>
               </div>
               <div className="w-layout-vflex">
                 <div className="spacer-xlarge"></div>
@@ -63,24 +64,24 @@ export default function BgSurface13() {
                 <div className="w-layout-vflex card-icon-wrap">
                   <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68aed1d2b4ad8f96a87e3487_icon-target.svg" alt="" className="card-icon" />
                 </div>
-                <h2 className="heading-style-h6">Scale without giving up equity</h2>
-                <p id="w-node-_55763f69-ab1f-09b8-dca8-03b29c7c5075-9c7c5070">{"Preserve your business' equity as you invest in growth."}</p>
+                <h2 className="heading-style-h6">Offer flexible payments</h2>
+                <p id="w-node-_55763f69-ab1f-09b8-dca8-03b29c7c5075-9c7c5070">Get paid upfront and allow your customers to delay payments up to 180 days.</p>
                 <div className="card-border-gradient"></div>
               </div>
               <div card-border-gradient="true" data-wf--slot-item-card-info--icon-size="medium" className="w-layout-vflex card-wrap">
                 <div className="w-layout-vflex card-icon-wrap">
                   <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68aed1d2f92c17de793691bb_icon-cloud.svg" alt="" className="card-icon" />
                 </div>
-                <h2 className="heading-style-h6">Transparent and fair rates</h2>
-                <p id="w-node-_55763f69-ab1f-09b8-dca8-03b29c7c5075-9c7c5070">Only pay fees on what you draw, no early prepayment penalties.</p>
+                <h2 className="heading-style-h6">Earn customer goodwill</h2>
+                <p id="w-node-_55763f69-ab1f-09b8-dca8-03b29c7c5075-9c7c5070">Help your customers when they need it most by giving them flexible payment options.</p>
                 <div className="card-border-gradient"></div>
               </div>
               <div card-border-gradient="true" data-wf--slot-item-card-info--icon-size="medium" className="w-layout-vflex card-wrap">
                 <div className="w-layout-vflex card-icon-wrap">
                   <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68aed1d2f08a30eaeee80d62_icon-bell.svg" alt="" className="card-icon" />
                 </div>
-                <h2 className="heading-style-h6">Fast and easy application</h2>
-                <p id="w-node-_55763f69-ab1f-09b8-dca8-03b29c7c5075-9c7c5070">Apply online in minutes without any tedious paperwork.</p>
+                <h2 className="heading-style-h6">Avoid bad debt</h2>
+                <p id="w-node-_55763f69-ab1f-09b8-dca8-03b29c7c5075-9c7c5070">Offering a payment plan can be the difference between bad debt and a long term customer.</p>
                 <div className="card-border-gradient"></div>
               </div>
             </div>

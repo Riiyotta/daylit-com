@@ -1,3 +1,4 @@
+// IA section(s): content.block (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // You might also like... — the section's real markup, read from the rendered page (route /blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category, section 3; shared by 32 routes).

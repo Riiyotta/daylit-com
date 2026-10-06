@@ -8,14 +8,14 @@
   "nameSource": "class",
   "evidence": {
     "level": "measured",
-    "instances": 12,
-    "routes": 12,
+    "instances": 14,
+    "routes": 14,
     "measuredFrom": [
+      "src/ai-collections-strategy/index.html:1556-1703",
+      "src/become-a-partner/index.html:1470-1617",
       "src/faq/index.html:1442-1589",
       "src/intelligence/index.html:3413-3560",
-      "src/our-team-story/index.html:1445-1592",
-      "src/product/drawdown/index.html:1471-1618",
-      "src/product/fundnow/index.html:1471-1618"
+      "src/our-team-story/index.html:1445-1592"
     ]
   },
   "content": {
@@ -69,5 +69,9 @@
     "customer-logo"
   ],
   "contentPolicy": "Measured copy quotes real customers and companies. Generated pages must write new, clearly fictional quotes and names, and use placeholders for customer logos and avatars.",
-  "implementedBy": "src/pages/Intelligence.jsx"
+  "implementedBy": "src/sections/Section2.jsx",
+  "implementedByAll": [
+    "src/sections/Section2.jsx",
+    "src/sections/Section4.jsx"
+  ]
 }

@@ -1,4 +1,5 @@
-// Header — the section's real markup, read from the rendered page (route /blog/best-ai-tools-manufacturing-accounts-receivable, section 1).
+// IA section(s): shell.section-blog-header (ia/ia.json, design-repo/sections/)
+// Header — the section's real markup, read from the rendered page (route /blog/ai-automate-invoice-follow-ups-service-companies, section 1).
 export default function Header20() {
   return (
     <header className="section_blog-header" data-clone-section="Header20">
@@ -10,8 +11,8 @@ export default function Header20() {
           <div className="blog-header_card">
             <div className="w-layout-vflex blog-header_content">
               <div className="w-layout-vflex blog-header_title-wrap">
-                <h1 className="heading-2">Best AI Tools for Manufacturing Accounts Receivable in 2026</h1>
-                <p>The best AI tools for manufacturing accounts receivable handle production-specific complexity, progress billing, quality dispute resolution, warranty deduction automation, and complex remittances, with embedded financing to bridge the 120–210 day cash conversion cycle.</p>
+                <h1 className="heading-2">Automated Payment Reminders for Service Companies</h1>
+                <p>Build automated payment reminders for service companies with accurate invoices, customer context, dispute escalation and a measurable DSO baseline.</p>
               </div>
               <div className="w-layout-vflex button-group is-tags">
                 <div className="w-layout-hflex flex-block">
@@ -21,13 +22,13 @@ export default function Header20() {
                   </div>
                   <div data-wf--slot-item-eyebrow-main--color="primary" className="eyebrow">
                     <div className="eyebrow-dot"></div>
-                    <div className="eyebrow-text">March 13, 2026</div>
+                    <div className="eyebrow-text">March 10, 2026</div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="w-layout-vflex blog-header_image-wrap">
-              <img width="150" height="80" alt="" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b445ef37a882cf38b5f367_Screenshot%202026-03-13%20at%201.14.18%E2%80%AFPM-p-500.png" loading="lazy" sizes="150px" srcSet="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b445ef37a882cf38b5f367_Screenshot%202026-03-13%20at%201.14.18%E2%80%AFPM-p-500.png 500w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b445ef37a882cf38b5f367_Screenshot%202026-03-13%20at%201.14.18%E2%80%AFPM.png 756w" className="blog-header_image-cover" />
+              <img width="150" height="80" alt="" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b2dc67f00dad7e6f91c16b_Screenshot%202026-03-12%20at%2011.31.42%E2%80%AFAM-p-500.png" loading="lazy" sizes="150px" srcSet="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b2dc67f00dad7e6f91c16b_Screenshot%202026-03-12%20at%2011.31.42%E2%80%AFAM-p-500.png 500w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b2dc67f00dad7e6f91c16b_Screenshot%202026-03-12%20at%2011.31.42%E2%80%AFAM.png 786w" className="blog-header_image-cover" />
             </div>
           </div>
         </div>

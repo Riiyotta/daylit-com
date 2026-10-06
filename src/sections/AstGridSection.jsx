@@ -1,3 +1,4 @@
+// IA section(s): content.ast-grid-section (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // ast-grid-section — the section's real markup, read from the rendered page (route /ai-skills, section 3).

@@ -1,6 +1,7 @@
+// IA section(s): shell.navbar-sticky (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// navbar_sticky — the section's real markup, read from the rendered page (route /product/offerterms, section 0).
+// navbar_sticky — the section's real markup, read from the rendered page (route /product/fundnow, section 0).
 export default function NavbarSticky13() {
   return (
     <div className="navbar_sticky is-wrap" data-clone-section="NavbarSticky13">
@@ -16,7 +17,7 @@ export default function NavbarSticky13() {
       <div className="nav_banner">
         <div className="container-large">
           <div className="banner-marquee">
-            <div className="banner_marquee-track">
+            <div className="banner_marquee-track" style={{ "transform": "translate3d(-7.583%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "transformStyle": "preserve-3d", "willChange": "transform" }}>
               <div className="banner_marquee-list">
                 <div className="nav_banner-item">
                   <div className="nav_banner-item-text">AI Startup Raises $110m to Help Customers to Kill Its Own Category</div>
@@ -98,7 +99,7 @@ export default function NavbarSticky13() {
                     <div className="w-dyn-list">
                       <div role="list" className="nav-panel_card-list w-dyn-items">
                         <div role="listitem" className="w-dyn-item">
-                          <A href="/product/fundnow" className="nav-panel_card w-inline-block" tabIndex="0">
+                          <A href="/product/fundnow" aria-current="page" className="nav-panel_card w-inline-block w--current" tabIndex="0">
                             <div className="nav-panel_card_title-wrap">
                               <div className="nav-panel_card_icon-wrap">
                                 <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/68cc00be0f5c607da3a1b663_icon-FundNow.svg" alt="" className="nav-panel_card_icon" />
@@ -115,7 +116,7 @@ export default function NavbarSticky13() {
                           </A>
                         </div>
                         <div role="listitem" className="w-dyn-item">
-                          <A href="/product/offerterms" aria-current="page" className="nav-panel_card w-inline-block w--current" tabIndex="0">
+                          <A href="/product/offerterms" className="nav-panel_card w-inline-block" tabIndex="0">
                             <div className="nav-panel_card_title-wrap">
                               <div className="nav-panel_card_icon-wrap">
                                 <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/68cc00911d62ee53d898daf1_icon-OfferTerms.svg" alt="" className="nav-panel_card_icon" />

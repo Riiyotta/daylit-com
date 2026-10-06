@@ -1,7 +1,7 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavbarSticky20 from "../sections/NavbarSticky20.jsx";
-import Header13 from "../sections/Header13.jsx";
+import NavbarSticky11 from "../sections/NavbarSticky11.jsx";
+import Header12 from "../sections/Header12.jsx";
 import WhatIsAnEarly from "../sections/WhatIsAnEarly.jsx";
 import YouMightAlsoLike from "../sections/YouMightAlsoLike.jsx";
 import FooterComponent from "../sections/FooterComponent.jsx";
@@ -31,7 +31,7 @@ import css22 from "../styles/inline-44.css?inline"; // only this page loads it
 
 // Route /blog/early-pay-discounts-101-a-simple-playbook — 5 section(s), in page order.
 export default function BlogEarlyPayDiscounts() {
-  usePageChrome({ title: "Early-Pay Discounts 101: A Simple Playbook to Lift Margins | Daylit", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "68ae973e5e84ee02fac81fab", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "data-wf-collection": "68ae973d5e84ee02fac81f9a", "data-wf-item-slug": "early-pay-discounts-101-a-simple-playbook", "class": "w-mod-js w-mod-ix wf-opensans-n6-active wf-opensans-n3-active wf-opensans-n7-active wf-opensans-n4-active wf-opensans-n8-active wf-opensans-i7-active wf-opensans-i3-active wf-opensans-i8-active wf-opensans-i6-active wf-opensans-i4-active wf-active" }, body: {  } });
+  usePageChrome({ title: "Early-Pay Discounts 101: A Simple Playbook to Lift Margins | Daylit", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "68ae973e5e84ee02fac81fab", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "data-wf-collection": "68ae973d5e84ee02fac81f9a", "data-wf-item-slug": "early-pay-discounts-101-a-simple-playbook", "class": "w-mod-js w-mod-ix wf-opensans-n8-active wf-opensans-n7-active wf-opensans-n4-active wf-opensans-n6-active wf-opensans-n3-active wf-opensans-i7-active wf-opensans-i3-active wf-opensans-i6-active wf-opensans-i4-active wf-opensans-i8-active wf-active" }, body: {  } });
   return (
     <>
       <style>{css0}</style>
@@ -97,9 +97,9 @@ export default function BlogEarlyPayDiscounts() {
         <div className="w-embed"></div>
         <div className="w-embed"></div>
       </div>
-      <NavbarSticky20 />
+      <NavbarSticky11 />
       <main className="main-wrapper">
-        <Header13 />
+        <Header12 />
         <WhatIsAnEarly />
         <div className="w-dyn-bind-empty w-richtext"></div>
         <YouMightAlsoLike />

@@ -1,3 +1,4 @@
+// IA section(s): hero.section-cta-banner (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Book a demo today to unlock ma — the section's real markup, read from the rendered page (route /, section 8).

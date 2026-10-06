@@ -1,3 +1,4 @@
+// IA section(s): shell.footer-wrap (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // footer-wrap — the section's real markup, read from the rendered page (route /, section 9).

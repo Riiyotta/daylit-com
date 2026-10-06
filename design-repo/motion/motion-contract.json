@@ -7,7 +7,7 @@
     },
     "css-transition": {
       "description": "A CSS transition on hover/focus/state change.",
-      "observedSections": 336
+      "observedSections": 298
     },
     "css-animation": {
       "description": "A CSS @keyframes animation.",

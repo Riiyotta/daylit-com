@@ -1,16 +1,16 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavbarSticky13 from "../sections/NavbarSticky13.jsx";
-import Form8 from "../sections/Form8.jsx";
+import NavbarSticky14 from "../sections/NavbarSticky14.jsx";
+import Form9 from "../sections/Form9.jsx";
 import Section6 from "../sections/Section6.jsx";
 import Section2 from "../sections/Section2.jsx";
 import WLayoutVflex from "../sections/WLayoutVflex.jsx";
-import BgSurface9 from "../sections/BgSurface9.jsx";
+import BgSurface11 from "../sections/BgSurface11.jsx";
 import WantToSeeHow2 from "../sections/WantToSeeHow2.jsx";
 import WVariant0a13d40172e0 from "../sections/WVariant0a13d40172e0.jsx";
 import HowOfferingPaymentTerms from "../sections/HowOfferingPaymentTerms.jsx";
 import BgSurface6 from "../sections/BgSurface6.jsx";
-import BgSurface10 from "../sections/BgSurface10.jsx";
+import BgSurface12 from "../sections/BgSurface12.jsx";
 import BigSection2 from "../sections/BigSection2.jsx";
 import StillHaveQuestions from "../sections/StillHaveQuestions.jsx";
 import LatestInsightsAboutAccounts from "../sections/LatestInsightsAboutAccounts.jsx";
@@ -44,7 +44,7 @@ import css24 from "../styles/inline-27.css?inline"; // only this page loads it
 
 // Route /product/offerterms — 17 section(s), in page order.
 export default function ProductOfferterms() {
-  usePageChrome({ title: "Offer Flexible Payment Terms to Your Customers | Daylit", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "68b018183dede0bb2bc8ebcb", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "class": "w-mod-js wf-opensans-i4-active wf-opensans-i6-active wf-opensans-i3-active wf-opensans-i8-active wf-opensans-i7-active wf-opensans-n6-active wf-opensans-n7-active wf-opensans-n3-active wf-opensans-n4-active wf-opensans-n8-active wf-active w-mod-ix" }, body: {  } });
+  usePageChrome({ title: "Offer Flexible Payment Terms to Your Customers | Daylit", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "68b018183dede0bb2bc8ebcb", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "class": "w-mod-js w-mod-ix wf-opensans-n8-active wf-opensans-n6-active wf-opensans-n7-active wf-opensans-n3-active wf-opensans-n4-active wf-opensans-i7-active wf-opensans-i4-active wf-opensans-i6-active wf-opensans-i3-active wf-opensans-i8-active wf-active" }, body: {  } });
   return (
     <>
       <style>{css0}</style>
@@ -82,13 +82,13 @@ export default function ProductOfferterms() {
         <div className="w-embed"></div>
         <div className="w-embed"></div>
       </div>
-      <NavbarSticky13 />
+      <NavbarSticky14 />
       <main className="main-wrapper">
-        <Form8 />
+        <Form9 />
         <Section6 />
         <Section2 />
         <WLayoutVflex />
-        <BgSurface9 />
+        <BgSurface11 />
         <WantToSeeHow2 />
         <div className="u-display-contents"></div>
         <div data-wf--utility-section-background-color--general-color="white-to-gray" className="u-display-contents u-pos-relative">
@@ -98,7 +98,7 @@ export default function ProductOfferterms() {
         <div className="u-display-contents">
           <BgSurface6 />
         </div>
-        <BgSurface10 />
+        <BgSurface12 />
         <section data-texture-section="true" className="section_faqs-preview">
           <div className="w-embed"></div>
           <div data-wf--utility-spacer-section--padding="large" className="padding-section-wrap">

@@ -3,7 +3,7 @@
   "sections": [
     "content.ast-grid-section",
     "content.big-section",
-    "content.chat-widget",
+    "content.block",
     "content.cs-cases-grid",
     "content.cs-feat",
     "content.cs-stats",
@@ -11,8 +11,8 @@
     "content.csr-body",
     "content.padding-section-wrap",
     "content.section-blog-feed",
+    "content.section-color-wrap",
     "content.section-different",
-    "content.section-gradient-light",
     "content.section-home-dashboard",
     "content.section-home-enterprise",
     "content.section-home-insights",
@@ -22,36 +22,42 @@
     "content.section-team-feed",
     "content.section-timeline",
     "content.section-why",
+    "content.u-texture",
     "cta.csr-cta",
     "cta.post-solution-cta",
     "cta.section-cta-dashboard",
+    "cta.section-cta-main",
+    "cta.section-demo-left",
     "features.section-blog-featured",
     "hero.ast-detail",
     "hero.ast-hero",
     "hero.cs-hero",
     "hero.csr-hero",
-    "hero.main-wrapper",
-    "hero.page-wrapper",
     "hero.section-cta-banner",
-    "hero.section-demo",
     "hero.section-home-hero",
+    "hero.section-legal-article",
+    "hero.section-tools-header",
     "proof.case-studies",
     "proof.section-blog-preview",
+    "proof.section-faqs-preview",
     "proof.section-home-product",
     "proof.section-logo",
     "proof.section-products-preview",
     "proof.section-solutions-preview",
     "proof.section-story-cards",
+    "proof.section-testi-wall",
     "proof.section-testimonials",
     "shell.footer-component",
     "shell.footer-wrap",
     "shell.form",
     "shell.navbar-sticky",
     "shell.section-blog-header",
+    "shell.section-testi-header",
     "showcase.section-product-spread",
     "support.ast-feature-section",
     "support.faq-filter-form",
     "support.section-article-blog",
+    "support.section-demo-right",
     "support.section-home-faq"
   ],
   "components": [
@@ -386,7 +392,11 @@
       "ctas",
       "items"
     ],
-    "content.chat-widget": [],
+    "content.block": [
+      "heading",
+      "body",
+      "images"
+    ],
     "content.cs-cases-grid": [
       "ctas",
       "images"
@@ -420,16 +430,17 @@
       "ctas",
       "images"
     ],
+    "content.section-color-wrap": [
+      "heading",
+      "body",
+      "ctas",
+      "images"
+    ],
     "content.section-different": [
       "heading",
       "body",
       "ctas",
       "items"
-    ],
-    "content.section-gradient-light": [
-      "heading",
-      "body",
-      "images"
     ],
     "content.section-home-dashboard": [
       "images"
@@ -475,6 +486,12 @@
       "items",
       "images"
     ],
+    "content.u-texture": [
+      "heading",
+      "body",
+      "ctas",
+      "images"
+    ],
     "cta.csr-cta": [
       "heading",
       "body",
@@ -487,6 +504,16 @@
     "cta.section-cta-dashboard": [
       "heading",
       "ctas"
+    ],
+    "cta.section-cta-main": [
+      "heading",
+      "body",
+      "ctas",
+      "images"
+    ],
+    "cta.section-demo-left": [
+      "body",
+      "images"
     ],
     "features.section-blog-featured": [
       "heading",
@@ -515,36 +542,26 @@
       "body",
       "images"
     ],
-    "hero.main-wrapper": [
-      "heading",
-      "subheading",
-      "body",
-      "items"
-    ],
-    "hero.page-wrapper": [
-      "heading",
-      "subheading",
-      "body",
-      "ctas",
-      "items",
-      "images"
-    ],
     "hero.section-cta-banner": [
       "heading",
       "body",
       "ctas"
-    ],
-    "hero.section-demo": [
-      "heading",
-      "body",
-      "ctas",
-      "images"
     ],
     "hero.section-home-hero": [
       "heading",
       "body",
       "ctas",
       "images"
+    ],
+    "hero.section-legal-article": [
+      "heading",
+      "subheading",
+      "body",
+      "items"
+    ],
+    "hero.section-tools-header": [
+      "heading",
+      "body"
     ],
     "proof.case-studies": [
       "heading",
@@ -554,6 +571,12 @@
       "heading",
       "body",
       "images"
+    ],
+    "proof.section-faqs-preview": [
+      "heading",
+      "body",
+      "ctas",
+      "items"
     ],
     "proof.section-home-product": [
       "heading",
@@ -584,6 +607,11 @@
       "items",
       "images"
     ],
+    "proof.section-testi-wall": [
+      "heading",
+      "body",
+      "ctas"
+    ],
     "proof.section-testimonials": [
       "heading",
       "body",
@@ -602,6 +630,7 @@
     ],
     "shell.form": [
       "heading",
+      "subheading",
       "body",
       "ctas",
       "images"
@@ -614,6 +643,12 @@
     "shell.section-blog-header": [
       "heading",
       "body",
+      "images"
+    ],
+    "shell.section-testi-header": [
+      "heading",
+      "body",
+      "ctas",
       "images"
     ],
     "showcase.section-product-spread": [
@@ -635,6 +670,12 @@
       "body",
       "ctas",
       "items",
+      "images"
+    ],
+    "support.section-demo-right": [
+      "heading",
+      "body",
+      "ctas",
       "images"
     ],
     "support.section-home-faq": [

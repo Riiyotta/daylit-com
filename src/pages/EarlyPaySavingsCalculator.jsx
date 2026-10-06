@@ -1,6 +1,6 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavbarSticky20 from "../sections/NavbarSticky20.jsx";
+import NavbarSticky11 from "../sections/NavbarSticky11.jsx";
 import PayYourSuppliersEarly from "../sections/PayYourSuppliersEarly.jsx";
 import FooterComponent3 from "../sections/FooterComponent3.jsx";
 import css0 from "../styles/inline-04.css?inline"; // only this page loads it
@@ -23,7 +23,7 @@ import css16 from "../styles/inline-22.css?inline"; // only this page loads it
 
 // Route /early-pay-savings-calculator-daylit-working-capital — 3 section(s), in page order.
 export default function EarlyPaySavingsCalculator() {
-  usePageChrome({ title: "Early-Pay Savings Calculator by Daylit Working Capital", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "68d6559fa9fcef78318f2a97", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "class": "w-mod-js w-mod-ix wf-opensans-i8-active wf-opensans-i3-active wf-opensans-i4-active wf-opensans-i7-active wf-opensans-i6-active wf-opensans-n8-active wf-opensans-n7-active wf-opensans-n6-active wf-opensans-n3-active wf-opensans-n4-active wf-active" }, body: {  } });
+  usePageChrome({ title: "Early-Pay Savings Calculator by Daylit Working Capital", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "68d6559fa9fcef78318f2a97", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "class": "w-mod-js w-mod-ix wf-opensans-n8-active wf-opensans-n7-active wf-opensans-n6-active wf-opensans-n3-active wf-opensans-n4-active wf-opensans-i8-active wf-opensans-i3-active wf-opensans-i6-active wf-opensans-i4-active wf-opensans-i7-active wf-active" }, body: {  } });
   return (
     <>
       <style>{css0}</style>
@@ -53,7 +53,7 @@ export default function EarlyPaySavingsCalculator() {
         <div className="w-embed"></div>
         <div className="w-embed"></div>
       </div>
-      <NavbarSticky20 />
+      <NavbarSticky11 />
       <div className="main-wrapper">
         <PayYourSuppliersEarly />
         <FooterComponent3 />

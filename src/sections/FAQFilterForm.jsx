@@ -1,3 +1,4 @@
+// IA section(s): support.faq-filter-form (ia/ia.json, design-repo/sections/)
 // FAQ Filter Form — the section's real markup, read from the rendered page (route /faq, section 4).
 export default function FAQFilterForm() {
   return (
@@ -13,7 +14,7 @@ export default function FAQFilterForm() {
                 <div className="w-layout-vflex faq-filter_list hide-tablet">
                   <label className="w-checkbox intelligence-page">
                     <div className="w-checkbox-input w-checkbox-input--inputType-custom filter-faq_checkbox-button is-absolute"></div>
-                    <input type="checkbox" name="checkbox" fs-list-value="General" data-name="Checkbox" fs-list-field="products" style={{ "opacity": "0", "position": "absolute", "zIndex": "-1" }} />
+                    <input type="checkbox" name="checkbox" fs-list-value="General" data-name="Checkbox" fs-list-field="products" style={{ "position": "absolute", "zIndex": "-1" }} />
                     <span className="filter-faq_checkbox-label w-form-label" htmlFor="checkbox">General FAQs</span>
                   </label>
                   <div className="w-dyn-list">
@@ -21,28 +22,28 @@ export default function FAQFilterForm() {
                       <div role="listitem" className="faq-filter_item w-dyn-item">
                         <label className="w-checkbox intelligence-page">
                           <div className="w-checkbox-input w-checkbox-input--inputType-custom filter-faq_checkbox-button is-absolute"></div>
-                          <input type="checkbox" name="checkbox" fs-list-value="Sell an invoice" data-name="Checkbox" fs-list-field="products" style={{ "opacity": "0", "position": "absolute", "zIndex": "-1" }} />
+                          <input type="checkbox" name="checkbox" fs-list-value="Sell an invoice" data-name="Checkbox" fs-list-field="products" style={{ "position": "absolute", "zIndex": "-1" }} />
                           <span className="filter-faq_checkbox-label w-form-label" htmlFor="checkbox">Sell an invoice</span>
                         </label>
                       </div>
                       <div role="listitem" className="faq-filter_item w-dyn-item">
                         <label className="w-checkbox intelligence-page">
                           <div className="w-checkbox-input w-checkbox-input--inputType-custom filter-faq_checkbox-button is-absolute"></div>
-                          <input type="checkbox" name="checkbox" fs-list-value="Outsource net terms" data-name="Checkbox" fs-list-field="products" style={{ "opacity": "0", "position": "absolute", "zIndex": "-1" }} />
+                          <input type="checkbox" name="checkbox" fs-list-value="Outsource net terms" data-name="Checkbox" fs-list-field="products" style={{ "position": "absolute", "zIndex": "-1" }} />
                           <span className="filter-faq_checkbox-label w-form-label" htmlFor="checkbox">Outsource net terms</span>
                         </label>
                       </div>
                       <div role="listitem" className="faq-filter_item w-dyn-item">
                         <label className="w-checkbox intelligence-page">
                           <div className="w-checkbox-input w-checkbox-input--inputType-custom filter-faq_checkbox-button is-absolute"></div>
-                          <input type="checkbox" name="checkbox" fs-list-value="Offer payment plans" data-name="Checkbox" fs-list-field="products" style={{ "opacity": "0", "position": "absolute", "zIndex": "-1" }} />
+                          <input type="checkbox" name="checkbox" fs-list-value="Offer payment plans" data-name="Checkbox" fs-list-field="products" style={{ "position": "absolute", "zIndex": "-1" }} />
                           <span className="filter-faq_checkbox-label w-form-label" htmlFor="checkbox">Offer payment plans</span>
                         </label>
                       </div>
                       <div role="listitem" className="faq-filter_item w-dyn-item">
                         <label className="w-checkbox intelligence-page">
                           <div className="w-checkbox-input w-checkbox-input--inputType-custom filter-faq_checkbox-button is-absolute"></div>
-                          <input type="checkbox" name="checkbox" fs-list-value="Draw working capital" data-name="Checkbox" fs-list-field="products" style={{ "opacity": "0", "position": "absolute", "zIndex": "-1" }} />
+                          <input type="checkbox" name="checkbox" fs-list-value="Draw working capital" data-name="Checkbox" fs-list-field="products" style={{ "position": "absolute", "zIndex": "-1" }} />
                           <span className="filter-faq_checkbox-label w-form-label" htmlFor="checkbox">Draw working capital</span>
                         </label>
                       </div>
@@ -197,7 +198,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-2" role="region" aria-labelledby="accordion-summary-2" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-2" role="region" aria-labelledby="accordion-summary-2" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>Most A/R tools focus on workflow automation, dunning, or dashboards. Receivables Intelligence goes further by providing a source of truth for what is owed, why, and what needs to happen next. It eliminates manual reconciliation work, aligns teams, and generates true insights leadership can act on.</p>
@@ -248,7 +249,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-3" role="region" aria-labelledby="accordion-summary-3" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-3" role="region" aria-labelledby="accordion-summary-3" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>Daylit is designed for CFOs, controllers, A/R managers, and collections teams who want a more predictable, data-driven approach to cash flow and customer payments. It’s built for organizations that want to eliminate manual processes and move toward strategic</p>
@@ -298,7 +299,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-4" role="region" aria-labelledby="accordion-summary-4" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-4" role="region" aria-labelledby="accordion-summary-4" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>Daylit addresses the biggest pain points across finance and A/R teams, including unpredictable cash flow, fragmented systems, lack of visibility into customer behavior, manual reconciliation work, and chaotic weekly A/R meetings.</p>
@@ -348,7 +349,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-5" role="region" aria-labelledby="accordion-summary-5" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-5" role="region" aria-labelledby="accordion-summary-5" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>Daylit is designed to centralize data from the systems teams already use, including most ERPs, CRMs, email, and spreadsheets. We currently support integrations with Netsuite, Quickbooks, Microsoft Dynamics, ZohoBooks, Freshbooks, and several more.</p>
@@ -398,7 +399,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-6" role="region" aria-labelledby="accordion-summary-6" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-6" role="region" aria-labelledby="accordion-summary-6" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>By eliminating manual reconciliation, surfacing risk early, and telling teams exactly where to focus, Daylit removes the friction that slows down collections. Teams spend less time searching for answers and more time driving outcomes.</p>
@@ -448,7 +449,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-7" role="region" aria-labelledby="accordion-summary-7" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-7" role="region" aria-labelledby="accordion-summary-7" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>With factoring, a business uploads customer invoices into our portal or ERP integration. We then advance cash to the business right away, and the customer continues to pay on their standard schedule. Repayment occurs up to 60 days later, often after the invoice has already been paid, making it seamless for the business.</p>
@@ -489,7 +490,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-8" role="region" aria-labelledby="accordion-summary-8" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-8" role="region" aria-labelledby="accordion-summary-8" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>Accounts receivable financing is supplier-led; the business (supplier) gets paid early on its receivables.Reverse factoring is buyer-led; we pay the supplier upfront while the buyer repays us later.Receivables financing accelerates incoming cash while reverse factoring extends outgoing payments. We offer both, giving businesses liquidity on both sides of the cash cycle.</p>
@@ -530,7 +531,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-9" role="region" aria-labelledby="accordion-summary-9" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-9" role="region" aria-labelledby="accordion-summary-9" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>We can fund up to 100% of an invoice value, with a practical limit of $500,000 per invoice. This enables businesses to finance large customer orders and scale with confidence.</p>
@@ -571,7 +572,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-10" role="region" aria-labelledby="accordion-summary-10" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-10" role="region" aria-labelledby="accordion-summary-10" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>Pricing is simple and transparent:</p>
@@ -615,7 +616,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-11" role="region" aria-labelledby="accordion-summary-11" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-11" role="region" aria-labelledby="accordion-summary-11" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>Funding is designed to be immediate. Once invoices are uploaded and approved, businesses can receive payment the same day or the next business day via ACH. This is significantly faster than waiting 30–60 days for customers to pay.</p>
@@ -656,7 +657,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-12" role="region" aria-labelledby="accordion-summary-12" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-12" role="region" aria-labelledby="accordion-summary-12" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>A payment terms product allows vendors to extend flexible net terms to their customers. It’s designed to help vendors close bigger deals and help buyers manage cash flow, all while ensuring the vendor gets paid upfront with no added risk.</p>
@@ -697,7 +698,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-13" role="region" aria-labelledby="accordion-summary-13" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-13" role="region" aria-labelledby="accordion-summary-13" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>With a payment terms solution, when a buyer makes a purchase, they can opt to pay over time. We pay the vendor immediately (typically 90–98% of invoice value at delivery), and the buyer repays us on their extended schedule. Vendors can decide whether to absorb the financing cost themselves (to offer “free terms”) or pass it along to their customer.</p>
@@ -738,7 +739,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-14" role="region" aria-labelledby="accordion-summary-14" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-14" role="region" aria-labelledby="accordion-summary-14" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>Both sides win:</p>
@@ -781,7 +782,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-15" role="region" aria-labelledby="accordion-summary-15" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-15" role="region" aria-labelledby="accordion-summary-15" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>For suppliers, a payment terms product means they don’t have to wait for buyers to pay. They receive near-instant cash while still offering attractive terms to customers. This strengthens vendor–customer relationships by giving customers more purchasing flexibility, without suppliers having to act as the bank.</p>
@@ -822,7 +823,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-16" role="region" aria-labelledby="accordion-summary-16" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-16" role="region" aria-labelledby="accordion-summary-16" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>Suppliers are paid immediately upon delivery, typically 90–98% of the invoice value is disbursed upfront. There’s no waiting for the buyer’s 30-, 45-, or 60-day repayment cycle. The remaining balance (if any) is reconciled once the buyer pays their full invoice.</p>
@@ -863,7 +864,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-17" role="region" aria-labelledby="accordion-summary-17" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-17" role="region" aria-labelledby="accordion-summary-17" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>Costs are structured flexibly:</p>
@@ -906,7 +907,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-18" role="region" aria-labelledby="accordion-summary-18" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-18" role="region" aria-labelledby="accordion-summary-18" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>Working capital line of credit (for larger purchases) is designed for larger business needs like inventory, taxes, or expansion projects. It provides a revolving credit facility with terms ranging from 45 to 180 days, allowing businesses to borrow, repay, and redraw as needed.</p>
@@ -947,7 +948,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-19" role="region" aria-labelledby="accordion-summary-19" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-19" role="region" aria-labelledby="accordion-summary-19" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>Businesses draw only the funds they need and repay them in weekly installments. Each repayment refreshes the available limit, so companies can continue accessing capital without reapplying. The credit line scales with the company’s revenue and working capital needs, making it highly adaptable.</p>
@@ -988,7 +989,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-20" role="region" aria-labelledby="accordion-summary-20" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-20" role="region" aria-labelledby="accordion-summary-20" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>Unlike a term loan, which provides a lump sum with fixed repayment over a long period, a line of credit is revolving: funds are borrowed, repaid, and then available again. This makes it more flexible for businesses with short-term or recurring working capital needs rather than long-term, fixed obligations.</p>
@@ -1029,7 +1030,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-21" role="region" aria-labelledby="accordion-summary-21" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-21" role="region" aria-labelledby="accordion-summary-21" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>Processing fee: 3–5% at the time of draw (deducted upfront).</p>
@@ -1072,7 +1073,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-22" role="region" aria-labelledby="accordion-summary-22" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-22" role="region" aria-labelledby="accordion-summary-22" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>No. We do not require collateral or a personal guarantee for our line of credit product. Instead, approval is based on business performance and AI-driven underwriting, unlike banks or MCA providers.</p>
@@ -1113,7 +1114,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-23" role="region" aria-labelledby="accordion-summary-23" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-23" role="region" aria-labelledby="accordion-summary-23" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>Once approved and onboarded, businesses can draw funds directly from our portal. Funding is typically available immediately after a request and disbursed via ACH, making access much faster than traditional banks.</p>
@@ -1154,7 +1155,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-24" role="region" aria-labelledby="accordion-summary-24" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-24" role="region" aria-labelledby="accordion-summary-24" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>{"An AI agent for accounts receivable refers to software that acts like an extension to your A/R team, automatically chasing invoices, drafting replies, and handling even the more complex tasks like disputes and reconciliation. "}</p>
@@ -1194,7 +1195,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-25" role="region" aria-labelledby="accordion-summary-25" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-25" role="region" aria-labelledby="accordion-summary-25" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>Daylit’s AI agents are trained to handle all A/R communication by referencing your ERP and historical email communication. Our agents are able to understand all the context of your customer relationship and accurately draft responses for email, call or text to save each team member hundreds of hours of work every year.</p>
@@ -1233,7 +1234,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-26" role="region" aria-labelledby="accordion-summary-26" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-26" role="region" aria-labelledby="accordion-summary-26" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>Yes, our agents draft the messages for your team to send, giving you complete control over the tone and content. Daylit will provide the option to respond to certain messages or customers autonomously but will require users to opt-in to this feature.</p>
@@ -1272,7 +1273,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-27" role="region" aria-labelledby="accordion-summary-27" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-27" role="region" aria-labelledby="accordion-summary-27" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>We use data from your ERP, CRM, and historical communication, such as phone calls and email, to always understand the context of each customer and accurately respond to any situation.</p>
@@ -1311,7 +1312,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-28" role="region" aria-labelledby="accordion-summary-28" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-28" role="region" aria-labelledby="accordion-summary-28" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>We are actively completing our SOC II Type 1 compliance and in the process of completing compliance for SOC II Type 2. Please review our privacy policy to get a full review of our data privacy and protection standards.</p>
@@ -1350,7 +1351,7 @@ export default function FAQFilterForm() {
                             </div>
                           </div>
                         </button>
-                        <div id="accordion-details-29" role="region" aria-labelledby="accordion-summary-29" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px", "opacity": "0" }}>
+                        <div id="accordion-details-29" role="region" aria-labelledby="accordion-summary-29" cc-accordion-element="content" cc-schema-element="answer" className="faq-main-accordion_bottom-container" style={{ "height": "0px" }}>
                           <div className="faq-main-accordion_content-wrapper">
                             <div className="content-rich-text text-color-secondary w-richtext">
                               <p>Our platform comes with a bank that is ready to buy your invoices. When a customer invoice needs immediate liquidity, simply click on the “Sell invoice” button on the Invoices table and select all the invoices you’d like to sell. We will buy your invoices or offer a workout plan with your customers to get you paid on time without the manual work or risk of collection.</p>

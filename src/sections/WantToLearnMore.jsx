@@ -1,3 +1,4 @@
+// IA section(s): hero.section-cta-banner (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Want to learn more about Dayli — the section's real markup, read from the rendered page (route /solution/manufacturing, section 5; shared by 3 routes).

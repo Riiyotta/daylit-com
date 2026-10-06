@@ -1,3 +1,4 @@
+// IA section(s): proof.section-solutions-preview (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Turn receivables into cash — the section's real markup, read from the rendered page (route /intelligence, section 9).
@@ -93,21 +94,21 @@ export default function TurnReceivablesIntoCash() {
               <div className="u-image-cover" data-w-id="bd4fa6fa-bca0-ac8f-3a16-12122aa043de" data-animation-type="lottie" data-src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/694aac66c25203e225501d0a_Invoice.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="0" data-duration="0" data-loading="eager">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 582 512" width="582" height="512" preserveAspectRatio="xMidYMid meet" style={{ "width": "100%", "height": "100%", "transform": "translate3d(0px, 0px, 0px)", "contentVisibility": "visible" }}>
                   <defs>
-                    <clipPath id="__lottie_element_1338">
+                    <clipPath id="__lottie_element_956">
                       <rect width="582" height="512" x="0" y="0" />
                     </clipPath>
-                    <clipPath id="__lottie_element_1340">
+                    <clipPath id="__lottie_element_958">
                       <path d="M0,0 L582,0 L582,512 L0,512z" />
                     </clipPath>
-                    <clipPath id="__lottie_element_1344">
+                    <clipPath id="__lottie_element_962">
                       <path d="M0,0 L400,0 L400,400 L0,400z" />
                     </clipPath>
                   </defs>
-                  <g clipPath="url(#__lottie_element_1338)">
-                    <g clipPath="url(#__lottie_element_1340)" transform="matrix(1,0,0,1,0,-0.75)" opacity="1" style={{ "display": "block" }}>
+                  <g clipPath="url(#__lottie_element_956)">
+                    <g clipPath="url(#__lottie_element_958)" transform="matrix(1,0,0,1,0,-0.75)" opacity="1" style={{ "display": "block" }}>
                       <g transform="matrix(1,0,0,1,31.303009033203125,119.65899658203125)" opacity="1" style={{ "display": "block" }}>
                         <g opacity="1" transform="matrix(1,0,0,1,259.9460144042969,130.2790069580078)">
-                          <path fill="rgb(255,255,255)" fillOpacity="1" d=" M245.58900451660156,112.85848236083984 C245.58900451660156,112.85848236083984 -245.58700561523438,112.85848236083984 -245.58700561523438,112.85848236083984 C-253.37899780273438,112.85848236083984 -259.6960144042969,108.54163360595703 -259.6960144042969,100.7506332397461 C-259.6960144042969,100.7506332397461 -259.6960144042969,-98.61853790283203 -259.6960144042969,-98.61853790283203 C-259.6960144042969,-106.41053771972656 -253.37899780273438,-112.7265396118164 -245.58700561523438,-112.7265396118164 C-245.58700561523438,-112.7265396118164 245.58900451660156,-112.7265396118164 245.58900451660156,-112.7265396118164 C253.38099670410156,-112.7265396118164 259.6960144042969,-106.41053771972656 259.6960144042969,-98.61853790283203 C259.6960144042969,-98.61853790283203 259.6960144042969,98.7506332397461 259.6960144042969,98.7506332397461 C259.6960144042969,106.54163360595703 253.38099670410156,112.85848236083984 245.58900451660156,112.85848236083984z" />
+                          <path fill="rgb(255,255,255)" fillOpacity="1" d=" M245.58900451660156,108.94413757324219 C245.58900451660156,108.94413757324219 -245.58700561523438,108.94413757324219 -245.58700561523438,108.94413757324219 C-253.37899780273438,108.94413757324219 -259.6960144042969,104.62732696533203 -259.6960144042969,96.8363265991211 C-259.6960144042969,96.8363265991211 -259.6960144042969,-94.67411041259766 -259.6960144042969,-94.67411041259766 C-259.6960144042969,-102.46611022949219 -253.37899780273438,-108.78211212158203 -245.58700561523438,-108.78211212158203 C-245.58700561523438,-108.78211212158203 245.58900451660156,-108.78211212158203 245.58900451660156,-108.78211212158203 C253.38099670410156,-108.78211212158203 259.6960144042969,-102.46611022949219 259.6960144042969,-94.67411041259766 C259.6960144042969,-94.67411041259766 259.6960144042969,94.8363265991211 259.6960144042969,94.8363265991211 C259.6960144042969,102.62732696533203 253.38099670410156,108.94413757324219 245.58900451660156,108.94413757324219z" />
                         </g>
                       </g>
                       <g transform="matrix(0,0,0,1,291.260986328125,215.4199981689453)" opacity="1" style={{ "display": "block" }}>
@@ -125,7 +126,7 @@ export default function TurnReceivablesIntoCash() {
                           <path strokeLinecap="round" strokeLinejoin="round" fillOpacity="0" stroke="rgb(234,231,229)" strokeOpacity="1" strokeWidth="1.5" d=" M0.5009999871253967,0.5019999742507935 C0.5009999871253967,0.5019999742507935 0.5009999871253967,260.9169921875 0.5009999871253967,260.9169921875" />
                         </g>
                       </g>
-                      <g transform="matrix(1,0,0,1,257.8680114746094,207.08702087402344)" opacity="0.5728998198027884" style={{ "display": "block" }}>
+                      <g transform="matrix(1,0,0,1,257.8680114746094,210.858154296875)" opacity="0.530998238087867" style={{ "display": "block" }}>
                         <g opacity="1" transform="matrix(1,0,0,1,0,0)">
                           <path strokeLinecap="round" strokeLinejoin="round" fillOpacity="0" stroke="rgb(77,21,32)" strokeOpacity="1" strokeWidth="2" d=" M1,1 C1,1 25.066999435424805,1 25.066999435424805,1" />
                         </g>
@@ -136,7 +137,7 @@ export default function TurnReceivablesIntoCash() {
                           <path strokeLinecap="round" strokeLinejoin="round" fillOpacity="0" stroke="rgb(77,21,32)" strokeOpacity="1" strokeWidth="2" d=" M10.019000053405762,16.639999389648438 C10.019000053405762,16.639999389648438 16.048999786376953,16.639999389648438 16.048999786376953,16.639999389648438" />
                         </g>
                       </g>
-                      <g transform="matrix(1.0720700025558472,0,0,1.0720700025558472,-8.107528686523438,206.14874267578125)" opacity="1" style={{ "display": "none" }}>
+                      <g transform="matrix(1.0554900169372559,0,0,1.0554900169372559,-3.481719970703125,206.91970825195312)" opacity="1" style={{ "display": "none" }}>
                         <g opacity="1" transform="matrix(1,0,0,1,278.47900390625,46.637001037597656)">
                           <path fill="rgb(250,255,167)" fillOpacity="1" d=" M259.99798583984375,43.448001861572266 C259.99798583984375,43.448001861572266 -258.1990051269531,43.448001861572266 -258.1990051269531,43.448001861572266 C-258.1990051269531,43.448001861572266 -258.1990051269531,-43.448001861572266 -258.1990051269531,-43.448001861572266 C-258.1990051269531,-43.448001861572266 259.99798583984375,-43.448001861572266 259.99798583984375,-43.448001861572266 C259.99798583984375,-43.448001861572266 259.99798583984375,43.448001861572266 259.99798583984375,43.448001861572266z" />
                         </g>
@@ -147,7 +148,7 @@ export default function TurnReceivablesIntoCash() {
                           <path strokeLinecap="round" strokeLinejoin="round" fillOpacity="0" stroke="rgb(234,231,229)" strokeOpacity="1" strokeWidth="0" d=" M260.05999755859375,43.72100067138672 C260.05999755859375,43.72100067138672 -258.260986328125,43.72100067138672 -258.260986328125,43.72100067138672 C-258.260986328125,43.72100067138672 -258.260986328125,-43.72100067138672 -258.260986328125,-43.72100067138672" />
                         </g>
                       </g>
-                      <g transform="matrix(1,0,0,1,47.93299865722656,223.5360107421875)" opacity="0.5728998198027884" fill="rgb(77,21,32)" fontSize="32.127368927002" fontFamily="TT Commons Pro Trial" fontStyle="normal" fontWeight="normal" aria-label="Customer" style={{ "display": "block" }}>
+                      <g transform="matrix(1,0,0,1,47.93299865722656,227.30715942382812)" opacity="0.530998238087867" fill="rgb(77,21,32)" fontSize="32.127368927002" fontFamily="TT Commons Pro Trial" fontStyle="normal" fontWeight="normal" aria-label="Customer" style={{ "display": "block" }}>
                         <g strokeLinecap="butt" strokeLinejoin="round" strokeMiterlimit="4" transform="matrix(1,0,0,1,0,0)" opacity="1" style={{ "display": "inherit" }}>
                           <g>
                             <g transform="matrix(1,0,0,1,0,0)" opacity="1" style={{ "display": "block" }}>
@@ -213,7 +214,7 @@ export default function TurnReceivablesIntoCash() {
                           </g>
                         </g>
                       </g>
-                      <g transform="matrix(1,0,0,1,317.86798095703125,223.11801147460938)" opacity="0.5728998198027884" fill="rgb(77,21,32)" fontSize="32.127368927002" fontFamily="TT Commons Pro Trial" fontStyle="normal" fontWeight="normal" aria-label="Open Invoices" style={{ "display": "block" }}>
+                      <g transform="matrix(1,0,0,1,317.86798095703125,226.88916015625)" opacity="0.530998238087867" fill="rgb(77,21,32)" fontSize="32.127368927002" fontFamily="TT Commons Pro Trial" fontStyle="normal" fontWeight="normal" aria-label="Open Invoices" style={{ "display": "block" }}>
                         <g strokeLinecap="butt" strokeLinejoin="round" strokeMiterlimit="4" transform="matrix(1,0,0,1,0,0)" opacity="1" style={{ "display": "inherit" }}>
                           <g>
                             <g transform="matrix(1,0,0,1,0,0)" opacity="1" style={{ "display": "block" }}>
@@ -316,7 +317,7 @@ export default function TurnReceivablesIntoCash() {
                           </g>
                         </g>
                       </g>
-                      <g transform="matrix(1,0,0,1,48.050994873046875,319.88031005859375)" opacity="0.08450283841834388" fill="rgb(77,21,32)" fontSize="26.6407108306885" fontFamily="TT Commons Pro Trial" fontStyle="normal" fontWeight="400" aria-label="Vertex Components" style={{ "display": "block" }}>
+                      <g transform="matrix(1,0,0,1,48.050994873046875,324.66607666015625)" opacity="0.035351111637321866" fill="rgb(77,21,32)" fontSize="26.6407108306885" fontFamily="TT Commons Pro Trial" fontStyle="normal" fontWeight="400" aria-label="Vertex Components" style={{ "display": "block" }}>
                         <g strokeLinecap="butt" strokeLinejoin="round" strokeMiterlimit="4" transform="matrix(1,0,0,1,0,0)" opacity="1" style={{ "display": "inherit" }}>
                           <g>
                             <g transform="matrix(1,0,0,1,0,0)" opacity="1" style={{ "display": "block" }}>
@@ -451,7 +452,7 @@ export default function TurnReceivablesIntoCash() {
                           </g>
                         </g>
                       </g>
-                      <g transform="matrix(1.0720700025558472,0,0,1.0720700025558472,30.541656494140625,265.424560546875)" opacity="1" fill="rgb(77,21,32)" fontSize="26.6407108306885" fontFamily="TT Commons Pro Trial" fontStyle="normal" fontWeight="400" aria-label="Vertex Components" style={{ "display": "none" }}>
+                      <g transform="matrix(1.0554900169372559,0,0,1.0554900169372559,34.56974792480469,265.27880859375)" opacity="1" fill="rgb(77,21,32)" fontSize="26.6407108306885" fontFamily="TT Commons Pro Trial" fontStyle="normal" fontWeight="400" aria-label="Vertex Components" style={{ "display": "none" }}>
                         <g strokeLinecap="butt" strokeLinejoin="round" strokeMiterlimit="4" transform="matrix(1,0,0,1,0,0)" opacity="1" style={{ "display": "inherit" }}>
                           <g>
                             <g transform="matrix(1,0,0,1,0,0)" opacity="1" style={{ "display": "block" }}>
@@ -586,7 +587,7 @@ export default function TurnReceivablesIntoCash() {
                           </g>
                         </g>
                       </g>
-                      <g transform="matrix(1,0,0,1,378.6659851074219,319.3113098144531)" opacity="0.08450283841834388" fill="rgb(77,21,32)" fontSize="18" fontFamily="TT Commons Pro Trial" fontStyle="normal" fontWeight="400" aria-label="20 invoices" style={{ "display": "block" }}>
+                      <g transform="matrix(1,0,0,1,378.6659851074219,324.09710693359375)" opacity="0.035351111637321866" fill="rgb(77,21,32)" fontSize="18" fontFamily="TT Commons Pro Trial" fontStyle="normal" fontWeight="400" aria-label="20 invoices" style={{ "display": "block" }}>
                         <g strokeLinecap="butt" strokeLinejoin="round" strokeMiterlimit="4" transform="matrix(1,0,0,1,0,0)" opacity="1" style={{ "display": "inherit" }}>
                           <g>
                             <g transform="matrix(1,0,0,1,0,0)" opacity="1" style={{ "display": "block" }}>
@@ -673,7 +674,7 @@ export default function TurnReceivablesIntoCash() {
                           </g>
                         </g>
                       </g>
-                      <g transform="matrix(1.0720700025558472,0,0,1.0720700025558472,384.98406982421875,264.8145751953125)" opacity="1" fill="rgb(77,21,32)" fontSize="18" fontFamily="TT Commons Pro Trial" fontStyle="normal" fontWeight="400" aria-label="20 invoices" style={{ "display": "none" }}>
+                      <g transform="matrix(1.0554900169372559,0,0,1.0554900169372559,383.53057861328125,264.67822265625)" opacity="1" fill="rgb(77,21,32)" fontSize="18" fontFamily="TT Commons Pro Trial" fontStyle="normal" fontWeight="400" aria-label="20 invoices" style={{ "display": "none" }}>
                         <g strokeLinecap="butt" strokeLinejoin="round" strokeMiterlimit="4" transform="matrix(1,0,0,1,0,0)" opacity="1" style={{ "display": "inherit" }}>
                           <g>
                             <g transform="matrix(1,0,0,1,0,0)" opacity="1" style={{ "display": "block" }}>
@@ -760,7 +761,7 @@ export default function TurnReceivablesIntoCash() {
                           </g>
                         </g>
                       </g>
-                      <g transform="matrix(1,0,0,1,48.110992431640625,420.8302001953125)" opacity="0" fill="rgb(77,21,32)" fontSize="26.6407108306885" fontFamily="TT Commons Pro Trial" fontStyle="normal" fontWeight="400" aria-label="Metro Supplies" style={{ "display": "block" }}>
+                      <g transform="matrix(1,0,0,1,48.110992431640625,425.5587158203125)" opacity="0" fill="rgb(77,21,32)" fontSize="26.6407108306885" fontFamily="TT Commons Pro Trial" fontStyle="normal" fontWeight="400" aria-label="Metro Supplies" style={{ "display": "block" }}>
                         <g strokeLinecap="butt" strokeLinejoin="round" strokeMiterlimit="4" transform="matrix(1,0,0,1,0,0)" opacity="1" style={{ "display": "inherit" }}>
                           <g>
                             <g transform="matrix(1,0,0,1,0,0)" opacity="1" style={{ "display": "block" }}>
@@ -871,7 +872,7 @@ export default function TurnReceivablesIntoCash() {
                           </g>
                         </g>
                       </g>
-                      <g transform="matrix(1,0,0,1,379.75,417.8302001953125)" opacity="0" fill="rgb(77,21,32)" fontSize="18" fontFamily="TT Commons Pro Trial" fontStyle="normal" fontWeight="400" aria-label="18 invoices" style={{ "display": "block" }}>
+                      <g transform="matrix(1,0,0,1,379.75,422.5587158203125)" opacity="0" fill="rgb(77,21,32)" fontSize="18" fontFamily="TT Commons Pro Trial" fontStyle="normal" fontWeight="400" aria-label="18 invoices" style={{ "display": "block" }}>
                         <g strokeLinecap="butt" strokeLinejoin="round" strokeMiterlimit="4" transform="matrix(1,0,0,1,0,0)" opacity="1" style={{ "display": "inherit" }}>
                           <g>
                             <g transform="matrix(1,0,0,1,0,0)" opacity="1" style={{ "display": "block" }}>
@@ -959,7 +960,7 @@ export default function TurnReceivablesIntoCash() {
                         </g>
                       </g>
                     </g>
-                    <g clipPath="url(#__lottie_element_1344)" transform="matrix(0.18855947256088257,-0.06667328625917435,0.06667328625917435,0.18855947256088257,417.20635986328125,367.957275390625)" opacity="1" style={{ "display": "block" }} data-reveal="">
+                    <g clipPath="url(#__lottie_element_962)" transform="matrix(0.18576514720916748,-0.07410337030887604,0.07410337030887604,0.18576514720916748,437.566162109375,373.5396728515625)" opacity="1" style={{ "display": "block" }} data-reveal="">
                       <g transform="matrix(1,0,0,1,8.285995483398438,8.629013061523438)" opacity="1" style={{ "display": "block" }}>
                         <g opacity="1" transform="matrix(1,0,0,1,192.04600524902344,190.62399291992188)">
                           <path fill="rgb(255,255,255)" fillOpacity="1" d=" M-90.85199737548828,-18.697999954223633 C-90.85199737548828,-18.697999954223633 -129.6929931640625,-89.75700378417969 -140.41799926757812,-113.25700378417969 C-151.14199829101562,-136.7570037841797 -142.0030059814453,-161.3769989013672 -131.23199462890625,-166.9250030517578 C-112.3010025024414,-176.62399291992188 -90.33899688720703,-165.8990020751953 -77.05000305175781,-144.4510040283203 C-63.762001037597656,-123.00299835205078 -27.999000549316406,-50.40399932861328 -27.999000549316406,-50.40399932861328 C-27.999000549316406,-50.40399932861328 -41.194000244140625,-107.14800262451172 -11.633000373840332,-114.28199768066406 C22.125,-122.44200134277344 36.43899917602539,-70.31300354003906 36.43899917602539,-70.31300354003906 C36.43899917602539,-70.31300354003906 32.66299819946289,-124.4000015258789 62.50400161743164,-127.57099914550781 C96.26200103759766,-131.16099548339844 105.447998046875,-82.57599639892578 105.447998046875,-82.57599639892578 C105.447998046875,-82.57599639892578 116.26499938964844,-115.72799682617188 136.1280059814453,-113.76899719238281 C162.1929931640625,-111.20500183105469 174.26800537109375,-73.34400177001953 175.9929962158203,-30.959999084472656 C178.0449981689453,18.604999542236328 161.67999267578125,81.50299835205078 170.86500549316406,125.98600006103516 C134.07699584960938,136.19700622558594 102.88300323486328,118.85299682617188 102.88300323486328,118.85299682617188 C102.88300323486328,118.85299682617188 95.09600067138672,140.16099548339844 67.11900329589844,157.6929931640625 C41.05500030517578,174.0590057373047 4.7789998054504395,176.62399291992188 4.7789998054504395,176.62399291992188 C4.7789998054504395,176.62399291992188 5.804999828338623,154.1479949951172 5.804999828338623,154.1479949951172 C5.804999828338623,154.1479949951172 -22.31100082397461,138.2949981689453 -41.242000579833984,122.95500183105469 C-60.172000885009766,107.61499786376953 -76.49099731445312,81.55000305175781 -110.76200103759766,65.6969985961914 C-145.0330047607422,49.84400177001953 -178.04600524902344,26.577999114990234 -173.66299438476562,-6.38700008392334 C-168.53399658203125,-44.71500015258789 -90.85199737548828,-18.649999618530273 -90.85199737548828,-18.649999618530273 C-90.85199737548828,-18.649999618530273 -90.85199737548828,-18.697999954223633 -90.85199737548828,-18.697999954223633z" />

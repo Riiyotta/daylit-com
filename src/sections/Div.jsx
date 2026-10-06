@@ -1,3 +1,4 @@
+// IA section(s): content.section-home-dashboard (ia/ia.json, design-repo/sections/)
 // div — the section's real markup, read from the rendered page (route /, section 7).
 export default function Div() {
   return (

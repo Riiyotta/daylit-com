@@ -1,4 +1,7 @@
-// Table of Contents — the section's real markup, read from the rendered page (route /blog/slowest-part-of-a-dispute-manual-work, section 2).
+// IA section(s): support.section-article-blog (ia/ia.json, design-repo/sections/)
+import A from "../lib/A.jsx";
+
+// Table of Contents — the section's real markup, read from the rendered page (route /blog/ar-automation-software-for-wholesale-distribution-companies-in-2026, section 2).
 export default function TableOfContents11() {
   return (
     <article className="section_article-blog" data-clone-section="TableOfContents11">
@@ -91,156 +94,359 @@ export default function TableOfContents11() {
               <div className="w-dyn-bind-empty w-richtext"></div>
               <div fs-richtext-element="rich-text" className="text-rich-text w-richtext">
                 <div className="w-embed">
-                  <div className="cc-post">
-                    <div className="blog-wrap">
+                  <div className="blog-wrap">
+                    <header className="blog-hero">
                       <div className="blog-title-underline"></div>
-                      <nav className="toc">
-                        <h2>Table of Contents</h2>
-                        <ol>
-                          <li>
-                            <a href="#the-digging">{"The Real Time Sink in a Dispute Isn't the Customer, It's the Digging"}</a>
-                          </li>
-                          <li>
-                            <a href="#why-it-persists" className="">Why That Manual Work Never Gets Fixed on Its Own</a>
-                          </li>
-                          <li>
-                            <a href="#what-happens" className="">What Actually Happens When a Case Opens</a>
-                          </li>
-                          <li>
-                            <a href="#five-types">{"The Five Kinds of Cases You're Already Handling by Hand"}</a>
-                          </li>
-                          <li>
-                            <a href="#stays-human" className="">The Part That Stays Human: Suggestions, Not Auto-Resolution</a>
-                          </li>
-                          <li>
-                            <a href="#how-it-works" className="">How Collection Cases Works in Daylit, End to End</a>
-                          </li>
-                          <li>
-                            <a href="#why-it-matters" className="">Why This Matters Beyond Any Single Case</a>
-                          </li>
-                          <li>
-                            <a href="#conclusion">Conclusion</a>
-                          </li>
-                          <li>
-                            <a href="#faq" className="">Frequently Asked Questions</a>
-                          </li>
-                        </ol>
-                      </nav>
-                      <section id="the-digging" className="blog-section">
-                        <h2>{"The Real Time Sink in a Dispute Isn't the Customer, It's the Digging"}</h2>
-                        <p>{"When a customer disputes a charge or promises to pay, the actual bottleneck usually isn't waiting on them — it's everything your team has to do first. Reading through the thread. Copying notes into the system of record. Figuring out the right internal process, all before anyone even follows up. As we've covered before, disputes often sit unresolved for days simply because no one owns them — and even once someone does pick it up, most of that time goes into the digging, not the actual resolution."}</p>
-                        <p>{"That distinction matters more than it sounds like it should. If the bottleneck were really the customer — waiting for them to respond, waiting for them to pay — there wouldn't be much you could do about it beyond following up more often. But that's not usually what's happening. What's actually eating your team's day is the work that happens before any of that: reconstructing what's already known about a case every single time someone touches it."}</p>
-                      </section>
-                      <section id="why-it-persists" className="blog-section">
-                        <h2>Why That Manual Work Never Gets Fixed on Its Own</h2>
-                        <p>{"Here's the part that's easy to miss: what's happening right now is a hidden pattern, not a discipline problem. Your collectors are spending over 50% of their day copying and pasting the same notes within your system, then chasing down whoever internally can resolve the case. It's the same workflow, repeated case after case, just never written down as one."}</p>
-                        <p>
-                          <strong>That repetition exists because of a few specific gaps</strong>
-                          {" that don't show up on a dashboard, but show up constantly in the day-to-day:"}
-                        </p>
-                        <ul>
-                          <li>
-                            <strong>{"There's no durable record of the case itself."}</strong>
-                            {" When a customer commits to pay on a specific date, that promise doesn't live anywhere real — it's in the collector's head, a side spreadsheet, or a note buried in an email thread."}
-                          </li>
-                          <li>
-                            <strong>Dunning fires blind.</strong>
-                            {" Even when a customer is mid-dispute or has already promised payment, your automated reminders can still send another past-due notice, because nothing tells the scheduler to pause."}
-                          </li>
-                          <li>
-                            <strong>Classified intent has nowhere to land.</strong>
-                            {" Even when your team correctly identifies what an inbound message actually is, that classification usually doesn't get captured anywhere — it gets re-figured-out the next time someone looks at that customer."}
-                          </li>
-                        </ul>
-                        <p>{"Every day a case sits unresolved because of this is also a day added to your DSO, and the risk of that balance eventually getting written off climbs the longer it drags on. None of this is really about effort. It's about the fact that the same diagnostic work — what is this, who owns it, what happens next — gets done manually, from scratch, every single time."}</p>
-                      </section>
-                      <section id="what-happens" className="blog-section">
-                        <h2>What Actually Happens When a Case Opens</h2>
-                        <p>{"It's worth walking through what this looks like in practice, because the mechanics are simpler than the problem they solve."}</p>
-                        <p>{"Say a customer replies to an invoice saying the quantity billed doesn't match what they received. Today, without a system for this, someone on your team reads that email, decides it's a dispute, and then has to figure out — from memory, or by asking around — what usually happens next for a case like this. None of that is written down anywhere a system can act on."}</p>
-                        <p>{"With Collection Cases, that same email creates a case. The case is typed as a Dispute. Because a default sequence is already assigned to that case type, a suggested next step is sitting there the moment the case opens — no one has to reconstruct the process, because the process was already decided once, in advance, for every case of that type. Your team reviews the suggestion and confirms it with one click. While that case stays open, other dunning reminders pause automatically on the related invoice, so the same customer who just told you about a billing error doesn't also get a past-due notice three days later."}</p>
-                      </section>
-                    </div>
+                    </header>
+                    <nav className="toc">
+                      <h2>Table of Contents</h2>
+                      <ol>
+                        <li>
+                          <a href="#what-is">What Is Accounts Receivable Automation for Wholesale Distributors?</a>
+                        </li>
+                        <li>
+                          <a href="#why-automate" className="">Why Do Wholesale and Distribution Companies Need AR Automation?</a>
+                        </li>
+                        <li>
+                          <a href="#at-a-glance">Top 6 AR Automation Platforms for Wholesale at a Glance</a>
+                        </li>
+                        <li>
+                          <a href="#detailed-reviews" className="">Detailed Reviews: AR Automation Software for Distributors</a>
+                        </li>
+                        <li>
+                          <a href="#dso">Manual AR vs. AI-Powered AR for Wholesale Distributors</a>
+                        </li>
+                        <li>
+                          <a href="#mid-market" className="">What Should Wholesale Distributors Look for in AR Automation Software?</a>
+                        </li>
+                        <li>
+                          <a href="#feature-comparison" className="">Feature Comparison: AR Automation for Distribution</a>
+                        </li>
+                        <li>
+                          <a href="#cash-cycle" className="">Bridging the Wholesale Cash Cycle: When AR Automation Is Not Enough</a>
+                        </li>
+                        <li>
+                          <a href="#how-to-choose" className="">How to Evaluate AR Automation Software for Your Distribution Business</a>
+                        </li>
+                        <li>
+                          <a href="#faq" className="">Frequently Asked Questions</a>
+                        </li>
+                      </ol>
+                    </nav>
+                    <section id="what-is" className="blog-section">
+                      <h2>What Is Accounts Receivable Automation for Wholesale Distributors?</h2>
+                      <p>
+                        <A href="/blog/glossary-defining-commonly-used-financial-terms#accounts-receivable#accounts-receivable" style={{ "color": "inherit", "textDecoration": "underline" }}>accounts receivable</A>
+                        {" automation software for wholesale and distribution companies refers to AI-powered platforms that automate the invoice-to-cash lifecycle for businesses managing high-volume, low-margin B2B transactions. These platforms handle invoice generation from purchase orders, multi-channel delivery (EDI, email, AP portals), payment tracking, collections follow-up, deduction management, cash application, and dispute resolution without requiring manual intervention at each stage."}
+                      </p>
+                      <p>Wholesale distributors need accurate invoices, reliable delivery records and timely collections. Volume discounts, rebates and negotiated terms can create disputes, while inventory purchases consume cash before customer receipts arrive.</p>
+                      <p>Compare DSO with your own history and relevant peers. As a hypothetical sensitivity calculation, $30 million in annual credit sales multiplied by a 10-day DSO improvement and divided by 365 is approximately $822,000 of released receivables. That is not a promised software outcome or recurring annual profit.</p>
+                    </section>
+                    <section id="why-automate" className="blog-section">
+                      <h2>Why Do Wholesale and Distribution Companies Need AR Automation?</h2>
+                      <p>Wholesale distribution has six accounts receivable challenges that generic AR software fails to address. These industry-specific pain points explain why distributors experience higher DSO, more disputes, and greater bad debt exposure than companies in other B2B sectors.</p>
+                      <p>Thin margins amplify the cost of AR inefficiency. Review unresolved disputes and the actual cost of processing invoices before estimating the value of automation.</p>
+                      <p>
+                        <strong>PO-based invoicing creates matching complexity.</strong>
+                        {" Unlike service businesses that invoice from time entries, distributors invoice from purchase orders tied to shipments, receiving reports, and pricing agreements. Partial shipments, split deliveries, and backorders generate multiple invoices against a single PO. Measure the time your AR team spends reconciling purchase orders, invoices and shipment records before choosing an automation workflow."}
+                      </p>
+                      <p>Volume discounts and rebate programs generate deductions. Resolve each against purchase history, pricing agreements and shipment records; automation should support that evidence trail.</p>
+                      <p>Check and electronic payments can arrive with incomplete or bundled remittance information. Cash application should match receipts to the correct invoices and send uncertain matches for review.</p>
+                      <p>Seasonal invoice peaks can create collections backlogs. Test workflow capacity against your own peak volumes and maintain a clear exception queue.</p>
+                      <p>
+                        <strong>Multi-channel delivery is required, not optional.</strong>
+                        {" Large retail chains require EDI invoicing. Regional chains use AP portals. Independent retailers prefer email. Some customers still require paper. A distributor with 500+ accounts may need to support all four delivery channels simultaneously. AR automation platforms route each invoice through the customer's preferred channel automatically."}
+                      </p>
+                    </section>
+                    <section id="at-a-glance" className="blog-section">
+                      <h2>AR Automation Evaluation Checklist for Wholesale Distributors</h2>
+                      <p>The best accounts receivable automation software for wholesale and distribution depends on company size, invoice volume, ERP environment, and whether the organization needs AI-powered collections or collaborative payment portals. Each platform below is evaluated through a wholesale distribution lens.</p>
+                      <div className="table-scroll">
+                        <table>
+                          <thead>
+                            <tr>
+                              <th>Evaluation area</th>
+                              <th>Evidence to request</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Data connection</td>
+                              <td>Demonstrate your exact ERP version and required record types.</td>
+                            </tr>
+                            <tr>
+                              <td>Workflow coverage</td>
+                              <td>Run an invoice, partial payment and dispute through the proposed configuration.</td>
+                            </tr>
+                            <tr>
+                              <td>Implementation</td>
+                              <td>Document setup work, responsibilities, milestones and acceptance tests.</td>
+                            </tr>
+                            <tr>
+                              <td>Results</td>
+                              <td>Request a defined sample and method for any published performance claim.</td>
+                            </tr>
+                            <tr>
+                              <td>Financing</td>
+                              <td>Compare eligibility, costs, recourse and settlement terms separately.</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
                   </div>
                 </div>
-                <figure style={{ "maxWidth": "1200pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
+                <figure style={{ "maxWidth": "1024pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
                   <div>
-                    <img alt="Finance professional reviewing AR dispute documentation on a laptop" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/6a7f6583acf5d57016bfe9c0_mid-post-image-optimized.jpg" loading="lazy" />
+                    <img alt="Warehouse distribution worker with yellow hard hat in a distribution center, representing AR automation for wholesale and distribution companies" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b301ec4a090da7888dd598_ChatGPT%20Image%20Mar%2012%2C%202026%2C%2002_10_39%20PM.png" loading="lazy" />
                   </div>
                 </figure>
-                <div className="w-embed w-iframe">
-                  <div className="cc-post">
-                    <div className="blog-wrap">
-                      <section id="five-types" className="blog-section">
-                        <h2>{"The Five Kinds of Cases You're Already Handling by Hand"}</h2>
-                        <p>{"Collection Cases doesn't invent new categories of AR work — it gives structure to work you're already doing, just without a name for it. Every case falls into one of five types:"}</p>
+                <div className="w-embed">
+                  <div className="blog-wrap">
+                    <section id="detailed-reviews" className="blog-section">
+                      <h2>Vendor Evaluation Questions for Wholesale Distributors</h2>
+                      <article className="platform-review">
+                        <h3>Daylit — questions to verify</h3>
+                        <p>For Daylit, demonstrate collections and any proposed financing workflow. Use representative records and request current documentation for integration requirements, costs and limitations.</p>
                         <ul>
-                          <li>
-                            <strong>Dispute</strong>
-                            {" — the customer is pushing back on a charge, quantity, or price."}
-                          </li>
-                          <li>
-                            <strong>Promise to pay</strong>
-                            {" — the customer has committed to a payment date, and that commitment needs to be tracked and followed up on if it slips."}
-                          </li>
-                          <li>
-                            <strong>Inquiry</strong>
-                            {" — the customer has a question that needs an answer before anything else can move forward."}
-                          </li>
-                          <li>
-                            <strong>Wrong contact</strong>
-                            {" — the person you've been reaching isn't the right one, and the case needs to be rerouted."}
-                          </li>
-                          <li>
-                            <strong>Other actionable</strong>
-                            {" — anything that needs a next step but doesn't cleanly fit the other four."}
-                          </li>
+                          <li>Verify po-based invoice automation: ask the vendor to demonstrate the proposed behavior with your records and explain limitations and review controls.</li>
+                          <li>Verify autonomous collections for distributors: ask the vendor to demonstrate the proposed behavior with your records and explain limitations and review controls.</li>
+                          <li>Verify intelligent cash application: ask the vendor to demonstrate the proposed behavior with your records and explain limitations and review controls.</li>
+                          <li>Verify receivables intelligence and forecasting: ask the vendor to demonstrate the proposed behavior with your records and explain limitations and review controls.</li>
+                          <li>Embedded financing: Evaluate invoice financing separately from collections software. Confirm eligibility, fees, recourse and funding conditions in the written agreement.</li>
                         </ul>
-                        <p>{"Each of these can have its own default sequence, meaning a Dispute and a Promise to pay don't have to be handled the same way just because they happen to involve the same invoice, or the same customer."}</p>
-                      </section>
-                      <section id="stays-human" className="blog-section">
-                        <h2>The Part That Stays Human: Suggestions, Not Auto-Resolution</h2>
-                        <p>{"A case still needs a linked sequence to generate that suggested step — without one, it just sits there, tracked but not moving. Then when it does move, it's a suggestion, not a decision. Your team sees it, confirms it, sends it. Less manual work for them, and the call — still theirs."}</p>
-                        <p>{"It's also worth being honest about where the current scope stops. Today, a customer can have one sequence actively driving their case work at a time — the system doesn't yet handle two entirely independent cases running in parallel on the same customer with two separate playbooks. If a customer has both an open dispute on one invoice and a promise to pay on another, that's a real situation Collection Cases doesn't have a fully separated answer for yet. It's a known edge case, not something we're pretending doesn't exist."}</p>
-                      </section>
-                      <section id="how-it-works" className="blog-section">
-                        <h2>How Collection Cases Works in Daylit, End to End</h2>
-                        <p>{"In practice: a case gets created — from an inbound reply, a manual flag, or however your workflow starts it. The default sequence for its case type takes over from there, and your team works from a suggested action instead of starting cold every time. Opening a case shows the full communication history, whatever sequence it's enrolled in, and a running summary of what's happened, what's blocking it, and what's likely next."}</p>
-                        <p>{"That running summary matters more than it might seem. It means picking a case back up — even if you're not the person who originally opened it — doesn't mean re-reading the entire thread from scratch. Someone can hand off a case, go on vacation, or just be out sick, and whoever picks it up next isn't starting from zero."}</p>
-                        <div className="blog-video-wrap">
-                          <div data-removed="iframe" style={{ "width": "803px", "height": "453px" }}></div>
-                        </div>
-                      </section>
-                      <section id="why-it-matters" className="blog-section">
-                        <h2>Why This Matters Beyond Any Single Case</h2>
-                        <p>Cutting the manual work out of one case is a small thing on its own. What actually matters is what happens as your case volume grows. Without a system like this, more cases just means more of the same repeated diagnostic work, done by more people, with more chances for two similar cases to get two different treatments depending on who happens to open them.</p>
-                        <p>{"With a standardized case type and sequence structure in place, that scaling problem changes shape: the goal becomes making sure the manual work per case keeps shrinking as volume grows, instead of just holding steady while your team works harder to keep up. It's not about making disputes disappear — customers will always push back on charges, and promises to pay will always sometimes slip. It's about making sure the version of your team that handles case #500 this month isn't doing meaningfully more manual reconstruction than the version that handled case #50."}</p>
-                      </section>
-                      <section id="conclusion" className="blog-section">
-                        <h2>Conclusion</h2>
-                        <p>{"The slowest part of a dispute has rarely been the customer — it's the digging your own team has to do before anyone even follows up: reading the thread, deciding what it is, figuring out who needs to weigh in, and remembering to actually follow through. Collection Cases doesn't remove your team's judgment from that process. It removes the part where every case starts from scratch. A dispute, a promise to pay, an inquiry — each gets a suggested next step the moment it's created, your team confirms it, and the case moves without the manual reconstruction that used to eat the first half of the work."}</p>
-                      </section>
-                      <section id="faq" className="blog-section">
-                        <h2>Frequently Asked Questions</h2>
-                        <div className="faq-item">
-                          <h3>{"Does Collection Cases replace my team's judgment on disputes?"}</h3>
-                          <p>{"No. Collection Cases suggests a next step and keeps a case moving with a default sequence, but every suggestion needs your team's review and confirmation before anything happens."}</p>
-                        </div>
-                        <div className="faq-item">
-                          <h3>{"What happens if a case doesn't have a sequence attached?"}</h3>
-                          <p>{"It's still tracked and visible, but it won't generate an automatic suggested next step — that only happens once a sequence is linked to that case type."}</p>
-                        </div>
-                        <div className="faq-item">
-                          <h3>Can a customer have two different cases open at the same time, like a dispute on one invoice and a promise to pay on another?</h3>
-                          <p>{"This is a known scope limit today — Collection Cases doesn't yet run two fully independent sequences on the same customer in parallel. It's an honest gap, not something addressed yet."}</p>
-                        </div>
-                        <div className="faq-item">
-                          <h3>Does opening a case stop all reminders for that customer?</h3>
-                          <p>{"No — it pauses dunning specifically on the invoice tied to the open case, not every reminder across the customer's full account."}</p>
-                        </div>
-                      </section>
-                    </div>
+                      </article>
+                      <article className="platform-review">
+                        <h3>Versapay — questions to verify</h3>
+                        <p>For Versapay, demonstrate customer invoice access, payment and dispute handling. Use representative records and request current documentation for integration requirements, costs and limitations.</p>
+                      </article>
+                      <article className="platform-review">
+                        <h3>Billtrust — questions to verify</h3>
+                        <p>For Billtrust, demonstrate invoice delivery through your customers’ required channels. Use representative records and request current documentation for integration requirements, costs and limitations.</p>
+                      </article>
+                      <article className="platform-review">
+                        <h3>Gaviti — questions to verify</h3>
+                        <p>For Gaviti, demonstrate the individual modules and exception-routing rules you need. Use representative records and request current documentation for integration requirements, costs and limitations.</p>
+                      </article>
+                      <article className="platform-review">
+                        <h3>Esker — questions to verify</h3>
+                        <p>For Esker, demonstrate document processing and the handoff between finance systems. Use representative records and request current documentation for integration requirements, costs and limitations.</p>
+                      </article>
+                      <article className="platform-review">
+                        <h3>BILL — questions to verify</h3>
+                        <p>For BILL, demonstrate invoice, payment and accounting-record reconciliation. Use representative records and request current documentation for integration requirements, costs and limitations.</p>
+                      </article>
+                    </section>
+                    <section id="dso" className="blog-section">
+                      <h2>Manual AR vs. AI-Powered AR for Wholesale Distributors</h2>
+                      <p>The operational gap between manual accounts receivable processes and AI-powered automation is wider in wholesale distribution than in almost any other B2B sector. Thin margins, high invoice volumes, and complex pricing structures mean that every inefficiency compounds into measurable cash flow impact.</p>
+                      <div className="table-scroll">
+                        <table>
+                          <thead>
+                            <tr>
+                              <th>Process</th>
+                              <th>Measure</th>
+                              <th>Verification</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Invoice delivery</td>
+                              <td>Accepted invoices and rejected submissions</td>
+                              <td>Reconcile delivery acknowledgments with the invoice register.</td>
+                            </tr>
+                            <tr>
+                              <td>Collections</td>
+                              <td>Overdue balance and days past terms</td>
+                              <td>Compare matched periods and customer terms.</td>
+                            </tr>
+                            <tr>
+                              <td>Cash application</td>
+                              <td>Correct matches and unresolved exceptions</td>
+                              <td>Check partial payments, credits and missing references.</td>
+                            </tr>
+                            <tr>
+                              <td>Disputes</td>
+                              <td>Elapsed resolution time and valid recoveries</td>
+                              <td>Assign an owner and keep the supporting evidence.</td>
+                            </tr>
+                            <tr>
+                              <td>Forecasting</td>
+                              <td>Forecast receipts versus actual receipts</td>
+                              <td>State the forecast horizon and compare consistently.</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div className="callout">Illustrative cash effect: $30 million in annual credit sales and a 10-day DSO reduction imply approximately $822,000 in released receivables. A recurring financing benefit depends on an actual reduction in financing cost; other savings must be measured separately.</div>
+                    </section>
+                    <section id="mid-market" className="blog-section">
+                      <h2>What Should Wholesale Distributors Look for in AR Automation Software?</h2>
+                      <p>Wholesale and distribution companies evaluating accounts receivable automation software should prioritize six capabilities that address their industry-specific challenges.</p>
+                      <p>
+                        <strong>PO-to-invoice-to-shipment matching.</strong>
+                        {" The platform must reconcile purchase orders, shipment confirmations, and invoices automatically. Partial shipments, split deliveries, and backorders should generate accurate invoices without manual intervention. Track PO matching errors as a dispute category and use your own data to establish their priority."}
+                      </p>
+                      <p>
+                        <strong>Deduction management and dispute intelligence.</strong>
+                        {" Volume rebates, early-payment discounts, damage claims, and price protection deductions are standard in distribution. The platform should automatically identify, categorize, and reconcile deductions against pricing agreements and purchase history — not just flag them for manual review."}
+                      </p>
+                      <p>
+                        <strong>Multi-channel invoice delivery.</strong>
+                        {" Distributors need to send invoices via EDI (large retailers), AP portals (mid-size chains), email (independent accounts), and sometimes print. The platform should route each invoice through the customer's required channel automatically with delivery confirmation."}
+                      </p>
+                      <p>
+                        <strong>AI-powered cash application for complex remittances.</strong>
+                        {" Wholesale customers frequently bundle payments across multiple invoices, take partial payments, apply deductions at the payment level, or send checks with minimal remittance information. AI cash application must handle all four scenarios without manual intervention."}
+                      </p>
+                      <p>Seasonal scalability: Test the platform with your actual peak invoice volume and exception workload.</p>
+                      <p>
+                        <strong>Working capital solutions for the inventory cycle.</strong>
+                        {" Distributors buy inventory on Net 30–60 from suppliers but sell on Net 30–90 to customers, creating a persistent cash gap. Platforms with embedded invoice financing allow distributors to convert outstanding receivables into immediate cash."}
+                      </p>
+                    </section>
                   </div>
+                </div>
+                <figure style={{ "maxWidth": "1024pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
+                  <div>
+                    <img alt="Wholesale distribution manager on the phone in a warehouse, representing AR automation software for distribution companies" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b3070464bcdae98faa3898_ChatGPT%20Image%20Mar%2012%2C%202026%2C%2002_32_47%20PM.png" loading="lazy" />
+                  </div>
+                </figure>
+                <div className="w-embed">
+                  <div className="blog-wrap">
+                    <section id="feature-comparison" className="blog-section">
+                      <h2>Requirements to Verify for Wholesale Distribution</h2>
+                      <p>Core accounts receivable automation capabilities compared across all 6 platforms through a wholesale distribution lens:</p>
+                      <div className="table-scroll">
+                        <table>
+                          <thead>
+                            <tr>
+                              <th>Evaluation area</th>
+                              <th>Evidence to request</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Data connection</td>
+                              <td>Demonstrate your exact ERP version and required record types.</td>
+                            </tr>
+                            <tr>
+                              <td>Workflow coverage</td>
+                              <td>Run an invoice, partial payment and dispute through the proposed configuration.</td>
+                            </tr>
+                            <tr>
+                              <td>Implementation</td>
+                              <td>Document setup work, responsibilities, milestones and acceptance tests.</td>
+                            </tr>
+                            <tr>
+                              <td>Results</td>
+                              <td>Request a defined sample and method for any published performance claim.</td>
+                            </tr>
+                            <tr>
+                              <td>Financing</td>
+                              <td>Compare eligibility, costs, recourse and settlement terms separately.</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                    <section id="cash-cycle" className="blog-section">
+                      <h2>Bridging the Wholesale Cash Cycle: When AR Automation Is Not Enough</h2>
+                      <p>A distributor’s cash cycle depends on supplier terms, inventory holding time and customer receipts. Measure those components for your business before choosing collections changes or financing.</p>
+                      <p>AR automation compresses the collection side of this cycle by reducing DSO. But for distributors with customers on extended terms (Net 60–90) or chronically slow-paying accounts, even optimized collections cannot close the gap entirely. This is where embedded working capital solutions become critical.</p>
+                      <p>
+                        <strong>Invoice factoring from within the AR platform.</strong>
+                        {" Rather than arranging separate financing through a bank or factoring company, distributors can convert outstanding receivables into immediate cash directly from the platform that manages those receivables."}
+                      </p>
+                      <p>
+                        <strong>Outsourced net terms.</strong>
+                        {" Distributors can offer extended payment terms (Net 60, Net 90) to win competitive deals while receiving payment upfront. Confirm who bears non-payment risk, recourse obligations, fees and repayment timing in the financing agreement."}
+                      </p>
+                      <p>
+                        <strong>Working capital draws.</strong>
+                        {" For inventory purchasing during seasonal peaks, distributors can draw working capital against their receivables portfolio, with repayment tied to actual collections."}
+                      </p>
+                      <div className="callout">
+                        {" "}
+                        <strong>Why this matters for platform selection:</strong>
+                        {" Most AR automation platforms stop at collections optimization. Distributors should evaluate whether the platform offers integrated financing that closes the cash cycle gap, or whether they will need to maintain separate banking and factoring relationships alongside their AR software. "}
+                      </div>
+                    </section>
+                    <section id="how-to-choose" className="blog-section">
+                      <h2>How to Evaluate AR Automation Software for Your Distribution Business</h2>
+                      <p>Selecting the right accounts receivable automation software for a wholesale or distribution company requires evaluating five criteria through a distribution-specific lens:</p>
+                      <ol className="styled-ol">
+                        <li>
+                          <strong>Wholesale workflow fit.</strong>
+                          {" Request a demo using your actual invoice data, including PO-based invoices, partial shipments, deductions, and bundled payments. Ask specifically: how does the platform handle a payment that covers 12 invoices with 3 deductions and incomplete remittance detail?"}
+                        </li>
+                        <li>
+                          <strong>ERP integration depth.</strong>
+                          {" Verify native integration with your specific ERP (NetSuite, SAP Business One, Sage 100/X3, Microsoft Dynamics 365, Acumatica, or industry-specific platforms like Epicor or Infor). Integration should be real-time and bidirectional, not batch-based CSV uploads."}
+                        </li>
+                        <li>
+                          <strong>AI collections intelligence vs. workflow automation.</strong>
+                          {" There is a significant difference between platforms that send automated email reminders on fixed schedules and platforms that use AI to determine the optimal channel, timing, and message content for each customer. Compare response rates, resolved balances and exceptions in a controlled pilot; this article does not establish a universal response-rate improvement."}
+                        </li>
+                        <li>
+                          <strong>Deduction resolution capability.</strong>
+                          {" Deductions are the single most time-consuming AR task in distribution. Evaluate whether the platform automates deduction identification, categorization, and reconciliation against pricing agreements."}
+                        </li>
+                        <li>
+                          <strong>Total economic impact, not just subscription cost.</strong>
+                          {" A $30M distributor with 45-day DSO that reduces DSO by 10 days frees $822,000 in working capital. Evaluate platform cost against total economic impact, including working capital freed, bad debt reduced, deductions recovered, and headcount avoided."}
+                        </li>
+                      </ol>
+                    </section>
+                    <section id="faq" className="blog-section">
+                      <h2>Frequently Asked Questions</h2>
+                      <div className="faq-item">
+                        <h3>What is the best accounts receivable automation software for wholesale distributors?</h3>
+                        <p>The best AR automation software for wholesale distributors handles the industry-specific challenges that generic platforms miss: PO-based invoice generation, multi-channel delivery (EDI, AP portals, email), deduction management, AI-powered cash application for bundled check payments, and seasonal scalability. Platforms like Daylit add autonomous AI agents for accounts receivable and embedded invoice financing, addressing both the collections efficiency gap and the structural cash cycle challenge unique to distribution.</p>
+                      </div>
+                      <div className="faq-item">
+                        <h3>How does AR automation reduce DSO for distribution companies?</h3>
+                        <p>Automation can support invoice delivery, reminders, cash application and dispute routing. Measure whether each step removes an observed delay; this article does not establish a standard DSO reduction.</p>
+                      </div>
+                      <div className="faq-item">
+                        <h3>What is the average DSO for wholesale distribution companies?</h3>
+                        <p>There is no single DSO benchmark suitable for every distributor. Compare businesses with similar customer terms, product categories and reporting methods, and track overdue balances as well as DSO.</p>
+                      </div>
+                      <div className="faq-item">
+                        <h3>Can AR automation handle deductions and rebates in wholesale distribution?</h3>
+                        <p>Evaluate deduction handling with actual purchase orders, price agreements, rebate schedules and delivery evidence. Test how exceptions are routed and who approves a resolution.</p>
+                      </div>
+                      <div className="faq-item">
+                        <h3>How long does it take to implement AR automation for a distribution company?</h3>
+                        <p>Implementation depends on the ERP, data quality, workflow scope and internal resources. Request a written plan and verify each required integration with a representative transaction.</p>
+                      </div>
+                      <div className="faq-item">
+                        <h3>What is the ROI of AR automation for a mid-market wholesale distributor?</h3>
+                        <p>Calculate recurring labor and processing savings, verified recoveries and financing-cost effects, then subtract subscription, implementation and maintenance costs. Keep one-time released working capital separate from annual savings.</p>
+                      </div>
+                    </section>
+                  </div>
+                  <h2>Further reading</h2>
+                  <p>
+                    {"Reliable receivables records depend on timely cash application and billing controls. See "}
+                    <a target="_blank" rel="noopener">Deloitte’s analysis</a>
+                    .
+                  </p>
+                  <p>
+                    {"Related guidance: "}
+                    <A href="/blog/glossary-defining-commonly-used-financial-terms">Accounts Receivable and Working Capital Glossary</A>
+                    {"; "}
+                    <A href="/blog/ai-powered-collections-automation-for-manufacturers">Accounts Receivable Automation for Manufacturers</A>
+                    .
+                  </p>
+                  <h2>References</h2>
+                  <ul>
+                    <li>
+                      {"Deloitte: "}
+                      <a target="_blank" rel="noopener">Strategies for optimizing accounts receivable</a>
+                      . Read September 28, 2026.
+                    </li>
+                  </ul>
                 </div>
               </div>
               <div className="blog-table-css w-embed"></div>

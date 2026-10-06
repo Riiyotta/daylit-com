@@ -60,5 +60,11 @@
   "assetRoles": [
     "content-image"
   ],
-  "implementedBy": "src/pages/ProductFundnow.jsx"
+  "implementedBy": "src/sections/Section5.jsx",
+  "implementedByAll": [
+    "src/sections/Section5.jsx",
+    "src/sections/Section6.jsx",
+    "src/sections/Section7.jsx",
+    "src/sections/Section8.jsx"
+  ]
 }

@@ -1,0 +1,83 @@
+{
+  "id": "proof.section-faqs-preview",
+  "category": "PROOF",
+  "label": "section_faqs-preview",
+  "tag": "section",
+  "purpose": "Builds trust with customers, quotes or logos. Example headline: \"You’ve got questions, we’ve got answers\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 2,
+    "routes": 2,
+    "measuredFrom": [
+      "src/ai-collections-strategy/index.html:5091-5557",
+      "src/become-a-partner/index.html:4918-5234"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 6
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 2,
+        "maxWords": 3
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 6,
+        "maxWords": 13
+      },
+      "items": {
+        "type": "item[]",
+        "required": false,
+        "maxItems": 5,
+        "titleMaxWords": 13,
+        "bodyMaxWords": 52
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 1336,
+      "columns": 3
+    },
+    "mobile": {
+      "heightPx": 1311,
+      "columns": 2,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "columns change from 3 to 2"
+    ]
+  },
+  "assetRoles": [],
+  "contentPolicy": "Measured copy quotes real customers and companies. Generated pages must write new, clearly fictional quotes and names, and use placeholders for customer logos and avatars.",
+  "implementedBy": "src/sections/YouVeGotQuestions2.jsx",
+  "implementedByAll": [
+    "src/sections/YouVeGotQuestions2.jsx",
+    "src/sections/YouVeGotQuestions3.jsx"
+  ]
+}

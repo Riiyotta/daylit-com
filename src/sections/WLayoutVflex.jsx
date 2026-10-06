@@ -1,3 +1,4 @@
+// IA section(s): content.section-shine (ia/ia.json, design-repo/sections/)
 // w-layout-vflex — the section's real markup, read from the rendered page (route /intelligence, section 3; shared by 27 routes).
 export default function WLayoutVflex() {
   return (

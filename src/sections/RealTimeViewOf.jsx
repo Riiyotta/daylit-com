@@ -1,3 +1,4 @@
+// IA section(s): cta.section-cta-dashboard (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Real-time view of receivables, — the section's real markup, read from the rendered page (route /intelligence, section 11).

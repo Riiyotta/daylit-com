@@ -1,3 +1,4 @@
+// IA section(s): content.section-home-enterprise (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // section — the section's real markup, read from the rendered page (route /, section 2).
@@ -137,7 +138,7 @@ export default function Section() {
         </div>
         <div className="home_enterprise-swiper show-tablet">
           <div className="swiper is-card swiper-initialized swiper-horizontal swiper-pointer-events">
-            <div className="swiper-wrapper is-card" id="swiper-wrapper-f41375d8e7e73c98" aria-live="polite" style={{ "transitionDuration": "0ms" }}>
+            <div className="swiper-wrapper is-card" id="swiper-wrapper-d663f4e9e8232fec" aria-live="polite" style={{ "transitionDuration": "0ms" }}>
               <div className="swiper-slide is-card">
                 <div className="enterprise_card-item">
                   <A href="/case-study/uptime-health-services" className="home_enterprise-card w-inline-block">
@@ -196,10 +197,10 @@ export default function Section() {
           <div className="swiper_pagination-wrap">
             <div className="swiper_pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"></div>
             <div className="swiper_arrow_button-wrap">
-              <div className="swiper_arrow_button is-left" tabIndex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-f41375d8e7e73c98" aria-disabled="false">
+              <div className="swiper_arrow_button is-left" tabIndex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-d663f4e9e8232fec" aria-disabled="false">
                 <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6aa688d37b55c753b16cd697_Img%20(3).svg" alt="" />
               </div>
-              <div className="swiper_arrow_button is-right" tabIndex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-f41375d8e7e73c98" aria-disabled="false">
+              <div className="swiper_arrow_button is-right" tabIndex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-d663f4e9e8232fec" aria-disabled="false">
                 <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6aa688d34d021afa544019db_Img%20(4).svg" alt="" />
               </div>
             </div>

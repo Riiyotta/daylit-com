@@ -1,4 +1,5 @@
-// Header — the section's real markup, read from the rendered page (route /blog/ai-powered-collections-automation-for-manufacturers, section 1).
+// IA section(s): shell.section-blog-header (ia/ia.json, design-repo/sections/)
+// Header — the section's real markup, read from the rendered page (route /blog/best-ai-tools-service-company-accounts-receivable-2026, section 1).
 export default function Header19() {
   return (
     <header className="section_blog-header" data-clone-section="Header19">
@@ -10,8 +11,8 @@ export default function Header19() {
           <div className="blog-header_card">
             <div className="w-layout-vflex blog-header_content">
               <div className="w-layout-vflex blog-header_title-wrap">
-                <h1 className="heading-2">Accounts Receivable Automation for Manufacturers</h1>
-                <p>Evaluate accounts receivable automation for manufacturers with purchase orders, deduction evidence, collections workflows and a measurable baseline.</p>
+                <h1 className="heading-2">Best AI Tools for Service Company Accounts Receivable in 2026</h1>
+                <p>Service companies face unique AR challenges, project billing, relationship-sensitive collections, and extended payment terms. This guide compares the seven best AI-powered AR tools built for professional services, staffing, and field services in 2026.</p>
               </div>
               <div className="w-layout-vflex button-group is-tags">
                 <div className="w-layout-hflex flex-block">
@@ -21,13 +22,13 @@ export default function Header19() {
                   </div>
                   <div data-wf--slot-item-eyebrow-main--color="primary" className="eyebrow">
                     <div className="eyebrow-dot"></div>
-                    <div className="eyebrow-text">March 16, 2026</div>
+                    <div className="eyebrow-text">March 27, 2026</div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="w-layout-vflex blog-header_image-wrap">
-              <img width="150" height="80" alt="" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b82700bc606cf82113f596_ChatGPT%20Image%20Mar%2016%2C%202026%2C%2011_51_09%20AM-p-500.png" loading="lazy" sizes="150px" srcSet="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b82700bc606cf82113f596_ChatGPT%20Image%20Mar%2016%2C%202026%2C%2011_51_09%20AM-p-500.png 500w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b82700bc606cf82113f596_ChatGPT%20Image%20Mar%2016%2C%202026%2C%2011_51_09%20AM-p-800.png 800w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b82700bc606cf82113f596_ChatGPT%20Image%20Mar%2016%2C%202026%2C%2011_51_09%20AM-p-1080.png 1080w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b82700bc606cf82113f596_ChatGPT%20Image%20Mar%2016%2C%202026%2C%2011_51_09%20AM.png 1536w" className="blog-header_image-cover" />
+              <img width="150" height="80" alt="" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b2dfe7ad6eebcc158aacce_ChatGPT%20Image%20Mar%2012%2C%202026%2C%2011_46_22%20AM-p-500.png" loading="lazy" sizes="150px" srcSet="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b2dfe7ad6eebcc158aacce_ChatGPT%20Image%20Mar%2012%2C%202026%2C%2011_46_22%20AM-p-500.png 500w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b2dfe7ad6eebcc158aacce_ChatGPT%20Image%20Mar%2012%2C%202026%2C%2011_46_22%20AM-p-800.png 800w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b2dfe7ad6eebcc158aacce_ChatGPT%20Image%20Mar%2012%2C%202026%2C%2011_46_22%20AM.png 1024w" className="blog-header_image-cover" />
             </div>
           </div>
         </div>

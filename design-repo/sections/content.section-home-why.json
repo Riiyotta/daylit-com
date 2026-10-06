@@ -81,5 +81,8 @@
     "icon",
     "illustration"
   ],
-  "implementedBy": "src/pages/HomePage.jsx"
+  "implementedBy": "src/sections/AccountsReceivableJustGot.jsx",
+  "implementedByAll": [
+    "src/sections/AccountsReceivableJustGot.jsx"
+  ]
 }

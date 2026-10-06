@@ -1,6 +1,7 @@
+// IA section(s): shell.navbar-sticky (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// navbar_sticky — the section's real markup, read from the rendered page (route /product/fundnow, section 0).
+// navbar_sticky — the section's real markup, read from the rendered page (route /blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category, section 0).
 export default function NavbarSticky12() {
   return (
     <div className="navbar_sticky is-wrap" data-clone-section="NavbarSticky12">
@@ -16,7 +17,7 @@ export default function NavbarSticky12() {
       <div className="nav_banner">
         <div className="container-large">
           <div className="banner-marquee">
-            <div className="banner_marquee-track" style={{ "transform": "translate3d(-7.0415%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "transformStyle": "preserve-3d", "willChange": "transform" }}>
+            <div className="banner_marquee-track">
               <div className="banner_marquee-list">
                 <div className="nav_banner-item">
                   <div className="nav_banner-item-text">AI Startup Raises $110m to Help Customers to Kill Its Own Category</div>
@@ -44,7 +45,7 @@ export default function NavbarSticky12() {
           <div className="hide-mobile-landscape">
             <div className="nav_banner-item">
               <div className="nav_banner-item-text">AI Startup Raises $110m to Help Customers to Kill Its Own Category</div>
-              <A href="/blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category" className="nan_banner-item-link w-inline-block">
+              <A href="/blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category" aria-current="page" className="nan_banner-item-link w-inline-block w--current">
                 <div className="nav_banner-item-text is-2">Read more</div>
                 <div className="nan_banner-item-link-icon">
                   <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6aa688d34d021afa544019db_Img%20(4).svg" alt="" />
@@ -98,7 +99,7 @@ export default function NavbarSticky12() {
                     <div className="w-dyn-list">
                       <div role="list" className="nav-panel_card-list w-dyn-items">
                         <div role="listitem" className="w-dyn-item">
-                          <A href="/product/fundnow" aria-current="page" className="nav-panel_card w-inline-block w--current" tabIndex="0">
+                          <A href="/product/fundnow" className="nav-panel_card w-inline-block" tabIndex="0">
                             <div className="nav-panel_card_title-wrap">
                               <div className="nav-panel_card_icon-wrap">
                                 <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/68cc00be0f5c607da3a1b663_icon-FundNow.svg" alt="" className="nav-panel_card_icon" />

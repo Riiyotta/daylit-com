@@ -1,6 +1,7 @@
+// IA section(s): shell.form (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// form — the section's real markup, read from the rendered page (route /solution/services, section 1).
+// form — the section's real markup, read from the rendered page (route /solution/staffing, section 1).
 export default function Form14() {
   return (
     <header data-wf--global-section-header--general-section-layout="text-media" id="form" data-texture-section="true" className="section_header-main" data-clone-section="Form14">
@@ -15,9 +16,9 @@ export default function Form14() {
                 <div className="w-layout-vflex header-main_title-wrap">
                   <div data-wf--slot-item-eyebrow-main--color="secondary" className="eyebrow w-variant-0af9f9ed-2d61-bd23-3bb5-4265d3f5f371">
                     <div className="eyebrow-dot"></div>
-                    <div className="eyebrow-text">FIELD SERVICES</div>
+                    <div className="eyebrow-text">STAFFING</div>
                   </div>
-                  <h1>Your AI agents for Field Services A/R</h1>
+                  <h1>Your AI agents for Staffing A/R</h1>
                 </div>
                 <div className="w-layout-vflex header-main_text-wrap">
                   <p className="text-size-large">
@@ -60,7 +61,7 @@ export default function Form14() {
                     </div>
                     <div data-wf--slot-item-button-main--style="ghost" data-button=" main" className="button_main_wrap w-variant-bc08b67a-cdce-03f8-3fd3-cdc658df9199">
                       <div className="clickable_wrap u-cover-absolute">
-                        <A target="_blank" href={"/learn-more/demo?utm_source=daylit.com&utm_content=construction"} className="clickable_link w-inline-block">
+                        <A target="_blank" href={"/learn-more/demo?utm_source=daylit.com&utm_content=recruiting"} className="clickable_link w-inline-block">
                           <span className="clickable_text u-sr-only">Button</span>
                         </A>
                         <button type="link" className="clickable_btn">
@@ -97,7 +98,7 @@ export default function Form14() {
             </div>
             <div id="w-node-ee3274b2-2fb5-9472-59c0-766080a1fb66-64f646a4" className="header-main_media u-hide-if-empty">
               <div data-wf--media-image--image-style="stroke" className="w-layout-vflex media-img-wrap w-variant-e12155c7-e63f-8760-070d-b3154da518bb">
-                <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68caa9da12a127abbbadd5a8_3988086-p-1080.webp" alt="" sizes="(max-width: 767px) 100vw, (max-width: 991px) 727.9921875px, 939.9921875px" srcSet="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68caa9da12a127abbbadd5a8_3988086-p-500.webp 500w, /_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68caa9da12a127abbbadd5a8_3988086-p-800.webp 800w, /_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68caa9da12a127abbbadd5a8_3988086-p-1080.webp 1080w, /_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68caa9da12a127abbbadd5a8_3988086-p-1600.webp 1600w, /_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68caa9da12a127abbbadd5a8_3988086.webp 1733w" className="u-image-cover" />
+                <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68caa9da13ee936f26068912_4714317-p-1080.webp" alt="" sizes="(max-width: 767px) 100vw, (max-width: 991px) 727.9921875px, 939.9921875px" srcSet="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68caa9da13ee936f26068912_4714317-p-500.webp 500w, /_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68caa9da13ee936f26068912_4714317-p-800.webp 800w, /_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68caa9da13ee936f26068912_4714317-p-1080.webp 1080w, /_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68caa9da13ee936f26068912_4714317-p-1600.webp 1600w, /_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/68caa9da13ee936f26068912_4714317.webp 1733w" className="u-image-cover" />
               </div>
             </div>
           </div>

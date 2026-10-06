@@ -1,3 +1,4 @@
+// IA section(s): hero.section-legal-article (ia/ia.json, design-repo/sections/)
 // Cookie Policy — the section's real markup, read from the rendered page (route /legal/cookie-consent, section 1).
 export default function CookiePolicy() {
   return (

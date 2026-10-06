@@ -1,3 +1,4 @@
+// IA section(s): proof.section-logo (ia/ia.json, design-repo/sections/)
 // section — the section's real markup, read from the rendered page (route /intelligence, section 2; shared by 13 routes).
 export default function Section2() {
   return (

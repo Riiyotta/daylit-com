@@ -1,0 +1,85 @@
+{
+  "id": "support.section-demo-right",
+  "category": "SUPPORT",
+  "label": "section_demo-right",
+  "tag": "div",
+  "purpose": "Answers questions or collects a message. Example headline: \"Unlock massive savings in your finance department with Daylit\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/learn-more/demo/index.html:559-1558"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 9
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 19,
+        "maxWords": 15
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 2,
+        "maxWords": 3
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 5,
+        "assetRoles": [
+          "icon",
+          "logo"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 884,
+      "columns": 9
+    },
+    "mobile": {
+      "heightPx": 943,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "9 columns collapse to a single column"
+    ]
+  },
+  "assetRoles": [
+    "icon",
+    "logo"
+  ],
+  "implementedBy": "src/sections/UnlockMassiveSavingsIn.jsx",
+  "implementedByAll": [
+    "src/sections/UnlockMassiveSavingsIn.jsx"
+  ]
+}

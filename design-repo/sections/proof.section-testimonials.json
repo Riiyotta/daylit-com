@@ -8,14 +8,14 @@
   "nameSource": "class",
   "evidence": {
     "level": "measured",
-    "instances": 9,
-    "routes": 9,
+    "instances": 11,
+    "routes": 11,
     "measuredFrom": [
+      "src/ai-collections-strategy/index.html:4571-5090",
+      "src/become-a-partner/index.html:4398-4917",
       "src/case-studies/index.html:1577-2096",
       "src/product/drawdown/index.html:2424-2959",
-      "src/product/fundnow/index.html:2424-2959",
-      "src/product/offerterms/index.html:2379-2914",
-      "src/product/paylater/index.html:2425-2960"
+      "src/product/fundnow/index.html:2424-2959"
     ]
   },
   "content": {
@@ -79,5 +79,18 @@
     "avatar"
   ],
   "contentPolicy": "Measured copy quotes real customers and companies. Generated pages must write new, clearly fictional quotes and names, and use placeholders for customer logos and avatars.",
-  "implementedBy": "src/pages/CaseStudiesPage.jsx"
+  "implementedBy": "src/sections/BgSurface10.jsx",
+  "implementedByAll": [
+    "src/sections/BgSurface10.jsx",
+    "src/sections/BgSurface12.jsx",
+    "src/sections/BgSurface14.jsx",
+    "src/sections/BgSurface16.jsx",
+    "src/sections/BgSurface18.jsx",
+    "src/sections/BgSurface20.jsx",
+    "src/sections/BgSurface22.jsx",
+    "src/sections/BgSurface24.jsx",
+    "src/sections/BgSurface4.jsx",
+    "src/sections/BgSurface8.jsx",
+    "src/sections/WVariant53df6ab0A0a2.jsx"
+  ]
 }

@@ -65,5 +65,10 @@
     "changes": []
   },
   "assetRoles": [],
-  "implementedBy": "src/sections/CsrCta.jsx"
+  "implementedBy": "src/sections/CsrCta.jsx",
+  "implementedByAll": [
+    "src/sections/CsrCta.jsx",
+    "src/sections/CsrCta2.jsx",
+    "src/sections/CsrCta3.jsx"
+  ]
 }

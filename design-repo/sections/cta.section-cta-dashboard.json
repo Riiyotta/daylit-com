@@ -60,5 +60,8 @@
     ]
   },
   "assetRoles": [],
-  "implementedBy": "src/pages/Intelligence.jsx"
+  "implementedBy": "src/sections/RealTimeViewOf.jsx",
+  "implementedByAll": [
+    "src/sections/RealTimeViewOf.jsx"
+  ]
 }

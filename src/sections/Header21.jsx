@@ -1,4 +1,5 @@
-// Header — the section's real markup, read from the rendered page (route /blog/best-ai-tools-staffing-agency-accounts-receivable-2026, section 1).
+// IA section(s): shell.section-blog-header (ia/ia.json, design-repo/sections/)
+// Header — the section's real markup, read from the rendered page (route /blog/slowest-part-of-a-dispute-manual-work, section 1).
 export default function Header21() {
   return (
     <header className="section_blog-header" data-clone-section="Header21">
@@ -10,8 +11,8 @@ export default function Header21() {
           <div className="blog-header_card">
             <div className="w-layout-vflex blog-header_content">
               <div className="w-layout-vflex blog-header_title-wrap">
-                <h1 className="heading-2">Accounts Receivable Automation for Staffing Agencies</h1>
-                <p>Evaluate accounts receivable automation for staffing agencies, from timesheets and customer portals to payment reconciliation and payroll cash planning.</p>
+                <h1 className="heading-2">{"The Slowest Part of a Dispute Isn't the Customer — It's the Manual Work"}</h1>
+                <p>{"Collection Cases standardizes how AR teams handle disputes, promises to pay, and inquiries. Instead of each case depending on who opens it, every case type gets a default sequence with an AI-suggested next step your team confirms with one click. "}</p>
               </div>
               <div className="w-layout-vflex button-group is-tags">
                 <div className="w-layout-hflex flex-block">
@@ -21,13 +22,13 @@ export default function Header21() {
                   </div>
                   <div data-wf--slot-item-eyebrow-main--color="primary" className="eyebrow">
                     <div className="eyebrow-dot"></div>
-                    <div className="eyebrow-text">March 10, 2026</div>
+                    <div className="eyebrow-text">August 14, 2026</div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="w-layout-vflex blog-header_image-wrap">
-              <img width="150" height="80" alt="" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b062453d72993a1eec76ee_ChatGPT%20Image%20Mar%2010%2C%202026%2C%2002_25_54%20PM-p-500.png" loading="lazy" sizes="150px" srcSet="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b062453d72993a1eec76ee_ChatGPT%20Image%20Mar%2010%2C%202026%2C%2002_25_54%20PM-p-500.png 500w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b062453d72993a1eec76ee_ChatGPT%20Image%20Mar%2010%2C%202026%2C%2002_25_54%20PM-p-800.png 800w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b062453d72993a1eec76ee_ChatGPT%20Image%20Mar%2010%2C%202026%2C%2002_25_54%20PM-p-1080.png 1080w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b062453d72993a1eec76ee_ChatGPT%20Image%20Mar%2010%2C%202026%2C%2002_25_54%20PM.png 1536w" className="blog-header_image-cover" />
+              <img width="150" height="80" alt="" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/6a7f20c58679cdce6cd382cd_Stocksy_txpa6e661dbv6B400_Medium_6869524-p-500.jpg" loading="lazy" sizes="150px" srcSet="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/6a7f20c58679cdce6cd382cd_Stocksy_txpa6e661dbv6B400_Medium_6869524-p-500.jpg 500w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/6a7f20c58679cdce6cd382cd_Stocksy_txpa6e661dbv6B400_Medium_6869524-p-800.jpg 800w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/6a7f20c58679cdce6cd382cd_Stocksy_txpa6e661dbv6B400_Medium_6869524-p-1080.jpg 1080w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/6a7f20c58679cdce6cd382cd_Stocksy_txpa6e661dbv6B400_Medium_6869524-p-1600.jpg 1600w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/6a7f20c58679cdce6cd382cd_Stocksy_txpa6e661dbv6B400_Medium_6869524.jpg 1733w" className="blog-header_image-cover" />
             </div>
           </div>
         </div>

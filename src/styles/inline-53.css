@@ -1,62 +1,7 @@
 
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-.le-post {
-  --maroon: #5c1a1a;
-  --maroon-light: #7a2e2e;
-  --maroon-bg: #f9f5f0;
-  --maroon-tint: #f2ebe1;
-  --rule: #ddd5c8;
-  --text: #2c1f1f;
-  --text-soft: #4a3a3a;
-  --text-muted: #7a6a6a;
-  --accent-underline: #b5813a;
-  --serif: 'Lora', Georgia, serif;
-  --sans: 'Source Sans 3', system-ui, sans-serif;
-  --max: 860px;
-  color: var(--text);
-  font-family: var(--sans);
-  font-size: 17px;
-  line-height: 1.8;
-  -webkit-font-smoothing: antialiased;
-}
-.le-post .blog-wrap { max-width: var(--max); margin: 0 auto; padding: 24px 24px 10px; }
-.le-post .blog-title-repeat { font-family: var(--serif); font-size: clamp(28px, 4vw, 44px); font-weight: 550; line-height: 1.2; color: var(--maroon); margin-bottom: 20px; }
-.le-post .blog-title-underline { width: 60px; height: 4px; background: var(--accent-underline); border-radius: 2px; margin-bottom: 28px; }
-.le-post .lead-subhead { font-size: 19px; line-height: 1.6; color: var(--text-soft); margin-bottom: 40px; }
-.le-post .tldr { background: var(--maroon-tint); border: 1px solid var(--rule); border-left: 4px solid var(--accent-underline); border-radius: 6px; padding: 26px 30px; margin-bottom: 48px; }
-.le-post .tldr h2 { font-family: var(--sans); font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 14px; }
-.le-post .tldr ul { list-style: none; display: grid; gap: 10px; }
-.le-post .tldr li { font-size: 15.5px; color: var(--text-soft); padding-left: 18px; position: relative; }
-.le-post .tldr li::before { content: "\2022"; color: var(--maroon); position: absolute; left: 0; }
-.le-post .tldr li strong { color: var(--text); font-weight: 600; }
-.le-post .toc { background: var(--maroon-tint); border: 1px solid var(--rule); border-left: 4px solid var(--maroon); border-radius: 6px; padding: 28px 32px; margin-bottom: 64px; }
-.le-post .toc h2 { font-family: var(--sans); font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 14px; }
-.le-post .toc ol { padding-left: 20px; display: grid; gap: 6px; }
-.le-post .toc li { font-size: 15px; color: var(--text-soft); }
-.le-post .toc a { color: var(--maroon); text-decoration: none; font-weight: 500; }
-.le-post .toc a:hover { text-decoration: underline; }
-.le-post .blog-section { margin-bottom: 64px; scroll-margin-top: 24px; }
-.le-post .blog-section h2 { font-family: var(--serif); font-size: clamp(20px, 3vw, 28px); font-weight: 550; line-height: 1.25; color: var(--maroon); margin-bottom: 18px; padding-bottom: 12px; border-bottom: 2px solid var(--rule); }
-.le-post .blog-section p { color: var(--text-soft); margin-bottom: 16px; font-size: 16.5px; }
-.le-post .blog-section p:last-child { margin-bottom: 0; }
-.le-post .blog-section p strong { color: var(--text); font-weight: 600; }
-.le-post .blog-section a { color: var(--maroon); }
-.le-post .blog-section ul { list-style: disc; padding-left: 22px; margin-bottom: 16px; display: grid; gap: 8px; }
-.le-post .blog-section ul li { color: var(--text-soft); font-size: 16.5px; }
-.le-post .blog-section ul li strong { color: var(--text); font-weight: 600; }
-.le-post .cmp-table-wrap { overflow-x: auto; margin-bottom: 24px; border: 1px solid var(--rule); border-radius: 6px; }
-.le-post table.cmp { width: 100%; border-collapse: collapse; font-size: 15px; min-width: 480px; }
-.le-post table.cmp th { background: var(--maroon-tint); font-family: var(--sans); font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted); text-align: left; padding: 14px 16px; border-bottom: 2px solid var(--rule); }
-.le-post table.cmp td { padding: 14px 16px; border-bottom: 1px solid var(--rule); color: var(--text-soft); vertical-align: top; line-height: 1.6; }
-.le-post table.cmp tr:last-child td { border-bottom: 0; }
-.le-post table.cmp td:first-child { font-weight: 600; color: var(--text); }
-.le-post table.cmp tr.cmp-group td { background: var(--maroon-bg); font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--maroon); padding: 12px 16px; }
-.le-post .table-caption { font-family: var(--serif); font-style: italic; color: var(--text-soft); font-size: 15px; margin-bottom: 16px; }
-.le-post .faq-item { padding: 22px 0; border-bottom: 1px solid var(--rule); }
-.le-post .faq-item:first-of-type { border-top: 1px solid var(--rule); }
-.le-post .faq-item h3 { font-family: var(--serif); font-size: 16px; font-weight: 550; color: var(--maroon); margin-bottom: 10px; line-height: 1.4; }
-.le-post .faq-item p { font-size: 15.5px; color: var(--text-soft); }
-.le-post .proof-box { background: var(--maroon-bg); border: 1px dashed var(--rule); border-radius: 6px; padding: 24px 28px; font-family: var(--serif); font-style: italic; color: var(--text-soft); font-size: 16px; }
-.le-post .proof-box .proof-note { font-family: var(--sans); font-style: normal; font-size: 13px; color: var(--text-muted); margin-bottom: 12px; display: block; }
-.le-post .cta-btn .primary-button { font-size: 0.75rem !important; }
-.le-post .cta-btn .button-secondary { font-size: 0.75rem !important; }
+          .blog-cta-btn .primary-button { font-size: 0.75rem !important; }
+          .blog-cta-btn .button-secondary { font-size: 0.75rem !important; }
+          .blog-cta-content .blog-cta-p { margin-bottom: 0rem !important; }
+          .blog-cta-dynamic { margin-top: 40px !important; margin-bottom: 24px !important; }
+          .blog-cta-dynamic .heading-style-h5 { font-size: 1.25rem !important; }
+        

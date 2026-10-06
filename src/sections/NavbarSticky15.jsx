@@ -1,6 +1,7 @@
+// IA section(s): shell.navbar-sticky (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// navbar_sticky — the section's real markup, read from the rendered page (route /product/drawdown, section 0).
+// navbar_sticky — the section's real markup, read from the rendered page (route /product/paylater, section 0).
 export default function NavbarSticky15() {
   return (
     <div className="navbar_sticky is-wrap" data-clone-section="NavbarSticky15">
@@ -132,7 +133,7 @@ export default function NavbarSticky15() {
                           </A>
                         </div>
                         <div role="listitem" className="w-dyn-item">
-                          <A href="/product/paylater" className="nav-panel_card w-inline-block" tabIndex="0">
+                          <A href="/product/paylater" aria-current="page" className="nav-panel_card w-inline-block w--current" tabIndex="0">
                             <div className="nav-panel_card_title-wrap">
                               <div className="nav-panel_card_icon-wrap">
                                 <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/68cc00d3cf4cf1e816de877a_PayLater.svg" alt="" className="nav-panel_card_icon" />
@@ -149,7 +150,7 @@ export default function NavbarSticky15() {
                           </A>
                         </div>
                         <div role="listitem" className="w-dyn-item">
-                          <A href="/product/drawdown" aria-current="page" className="nav-panel_card w-inline-block w--current" tabIndex="0">
+                          <A href="/product/drawdown" className="nav-panel_card w-inline-block" tabIndex="0">
                             <div className="nav-panel_card_title-wrap">
                               <div className="nav-panel_card_icon-wrap">
                                 <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/68cc006265f2e002fd7d6c85_Icon-DrawDown.svg" alt="" className="nav-panel_card_icon" />

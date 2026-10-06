@@ -1,3 +1,4 @@
+// IA section(s): support.section-article-blog (ia/ia.json, design-repo/sections/)
 // article — the section's real markup, read from the rendered page (route /blog/the-hidden-truth-behind-12-5b-late-payments-and-how-ai-can-solve-it, section 2).
 export default function Article2() {
   return (

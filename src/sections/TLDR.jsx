@@ -1,3 +1,4 @@
+// IA section(s): support.section-article-blog (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // TL;DR — the section's real markup, read from the rendered page (route /blog/daylit-vs-monk, section 2).

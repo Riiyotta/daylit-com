@@ -1,3 +1,4 @@
+// IA section(s): support.section-article-blog (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // The Pattern We Couldn’t Ignore — the section's real markup, read from the rendered page (route /blog/why-we-built-receivables-intelligence, section 2).

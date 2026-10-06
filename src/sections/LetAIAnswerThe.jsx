@@ -1,3 +1,4 @@
+// IA section(s): support.section-article-blog (ia/ia.json, design-repo/sections/)
 // Let AI Answer the Inbox. You S — the section's real markup, read from the rendered page (route /blog/your-ar-inbox-isnt-slow-its-a-trust-problem, section 2).
 export default function LetAIAnswerThe() {
   return (

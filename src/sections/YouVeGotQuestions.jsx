@@ -1,3 +1,4 @@
+// IA section(s): support.section-home-faq (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // You’ve got questions, we’ve go — the section's real markup, read from the rendered page (route /, section 5).
@@ -88,11 +89,11 @@ export default function YouVeGotQuestions() {
           </div>
           <div fs-accordion-initial="1" fs-accordion-element="group" fs-accordion-single="true" className="home_faq-right">
             <div fs-accordion-element="accordion" className="faqs_accordion is-active-accordion">
-              <div fs-accordion-element="trigger" className="faqs_accordion_header is-active-accordion" id="B9QUO-WNcRLNzlDX1IqV7" role="button" aria-controls="KbhbgqMPLIJq5T-txYsXt" tabIndex="0">
+              <div fs-accordion-element="trigger" className="faqs_accordion_header is-active-accordion" id="1qvOh9KsOGnXT0ZpyvPK-" role="button" aria-controls="b__qV3bmyZFJHdq5liept" tabIndex="0">
                 <h3 className="faqs_accordion_header-title">What is an AI agent for accounts receivable?</h3>
                 <img fs-accordion-element="arrow" fs-accordion-active="rotate" alt="" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6abcc5d8437f44a20a20a2c7_chevron-down.svg" loading="lazy" className="faqs_accordion_header_arrow rotate" />
               </div>
-              <div fs-accordion-element="content" className="faqs_accordion_body is-active-accordion" id="KbhbgqMPLIJq5T-txYsXt" aria-labelledby="B9QUO-WNcRLNzlDX1IqV7">
+              <div fs-accordion-element="content" className="faqs_accordion_body is-active-accordion" id="b__qV3bmyZFJHdq5liept" aria-labelledby="1qvOh9KsOGnXT0ZpyvPK-">
                 <div className="faqs_accordion_body_content">
                   <div className="faqs_accordion_header-para w-richtext">
                     <p>{"An AI agent for accounts receivable refers to software that acts like an extension to your A/R team, automatically chasing invoices, drafting replies, and handling even the more complex tasks like disputes and reconciliation. "}</p>
@@ -103,11 +104,11 @@ export default function YouVeGotQuestions() {
               </div>
             </div>
             <div fs-accordion-element="accordion" className="faqs_accordion">
-              <div fs-accordion-element="trigger" className="faqs_accordion_header" id="MzSzdLWVMmLoFq69DxjTX" role="button" aria-controls="r1wxYLqzW5XjQDIBBt3nB" tabIndex="0">
+              <div fs-accordion-element="trigger" className="faqs_accordion_header" id="9edXyhp4CYeRpiZMq-YVX" role="button" aria-controls="KPYdSpzkk9eaUPi-VgbBQ" tabIndex="0">
                 <h3 className="faqs_accordion_header-title">How will Daylit AI agents handle my manual work?</h3>
                 <img fs-accordion-element="arrow" fs-accordion-active="rotate" alt="" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6abcc5d8437f44a20a20a2c7_chevron-down.svg" loading="lazy" className="faqs_accordion_header_arrow" />
               </div>
-              <div fs-accordion-element="content" className="faqs_accordion_body" id="r1wxYLqzW5XjQDIBBt3nB" aria-labelledby="MzSzdLWVMmLoFq69DxjTX" style={{ "maxHeight": "0px", "display": "none" }}>
+              <div fs-accordion-element="content" className="faqs_accordion_body" id="KPYdSpzkk9eaUPi-VgbBQ" aria-labelledby="9edXyhp4CYeRpiZMq-YVX" style={{ "maxHeight": "0px", "display": "none" }}>
                 <div className="faqs_accordion_body_content">
                   <div className="faqs_accordion_header-para w-richtext">
                     <p>Daylit’s AI agents are trained to handle all A/R communication by referencing your ERP and historical email communication. Our agents are able to understand all the context of your customer relationship and accurately draft responses for email, call or text to save each team member hundreds of hours of work every year.</p>
@@ -116,11 +117,11 @@ export default function YouVeGotQuestions() {
               </div>
             </div>
             <div fs-accordion-element="accordion" className="faqs_accordion">
-              <div fs-accordion-element="trigger" className="faqs_accordion_header" id="oXkw48-MMTjgERVWusdUN" role="button" aria-controls="ly_wWuDWXQfdPnHS5HNVw" tabIndex="0">
+              <div fs-accordion-element="trigger" className="faqs_accordion_header" id="NJ_AqPBQvQnXppHLTFFg_" role="button" aria-controls="ftdx45E7Dc6gM-ZuKXh-U" tabIndex="0">
                 <h3 className="faqs_accordion_header-title">Is it safe to let AI agents respond to emails from my customers?</h3>
                 <img fs-accordion-element="arrow" fs-accordion-active="rotate" alt="" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6abcc5d8437f44a20a20a2c7_chevron-down.svg" loading="lazy" className="faqs_accordion_header_arrow" />
               </div>
-              <div fs-accordion-element="content" className="faqs_accordion_body" id="ly_wWuDWXQfdPnHS5HNVw" aria-labelledby="oXkw48-MMTjgERVWusdUN" style={{ "maxHeight": "0px", "display": "none" }}>
+              <div fs-accordion-element="content" className="faqs_accordion_body" id="ftdx45E7Dc6gM-ZuKXh-U" aria-labelledby="NJ_AqPBQvQnXppHLTFFg_" style={{ "maxHeight": "0px", "display": "none" }}>
                 <div className="faqs_accordion_body_content">
                   <div className="faqs_accordion_header-para w-richtext">
                     <p>Yes, our agents draft the messages for your team to send, giving you complete control over the tone and content. In future releases, Daylit will provide the option to respond to certain messages or customers autonomously but will require users to opt-in to this feature.</p>
@@ -129,11 +130,11 @@ export default function YouVeGotQuestions() {
               </div>
             </div>
             <div fs-accordion-element="accordion" className="faqs_accordion">
-              <div fs-accordion-element="trigger" className="faqs_accordion_header" id="KrIghD43Jpv1iQVf5scFe" role="button" aria-controls="hLK6QT8wXCM8Cs_TneC0Y" tabIndex="0">
+              <div fs-accordion-element="trigger" className="faqs_accordion_header" id="E1gEFCo6L57_L90d1yC8v" role="button" aria-controls="_gUlXY5h6CWN21U_4ZLWO" tabIndex="0">
                 <h3 className="faqs_accordion_header-title">What data does Daylit use to respond accurately to my customers?</h3>
                 <img fs-accordion-element="arrow" fs-accordion-active="rotate" alt="" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6abcc5d8437f44a20a20a2c7_chevron-down.svg" loading="lazy" className="faqs_accordion_header_arrow" />
               </div>
-              <div fs-accordion-element="content" className="faqs_accordion_body" id="hLK6QT8wXCM8Cs_TneC0Y" aria-labelledby="KrIghD43Jpv1iQVf5scFe" style={{ "maxHeight": "0px", "display": "none" }}>
+              <div fs-accordion-element="content" className="faqs_accordion_body" id="_gUlXY5h6CWN21U_4ZLWO" aria-labelledby="E1gEFCo6L57_L90d1yC8v" style={{ "maxHeight": "0px", "display": "none" }}>
                 <div className="faqs_accordion_body_content">
                   <div className="faqs_accordion_header-para w-richtext">
                     <p>We use data from your ERP, CRM, and historical communication, such as phone calls and email, to always understand the context of each customer and accurately respond to any situation.</p>
@@ -142,11 +143,11 @@ export default function YouVeGotQuestions() {
               </div>
             </div>
             <div fs-accordion-element="accordion" className="faqs_accordion">
-              <div fs-accordion-element="trigger" className="faqs_accordion_header" id="5Nd_sofvtSG2VGksmBcoq" role="button" aria-controls="vRAQ2l7_wl9CeAHokNUKN" tabIndex="0">
+              <div fs-accordion-element="trigger" className="faqs_accordion_header" id="zsa5oDBFpcJIKeenV7M1p" role="button" aria-controls="nB5Hy_qGk1ebed20Qzb0J" tabIndex="0">
                 <h3 className="faqs_accordion_header-title">How does Daylit protect my data and privacy?</h3>
                 <img fs-accordion-element="arrow" fs-accordion-active="rotate" alt="" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6abcc5d8437f44a20a20a2c7_chevron-down.svg" loading="lazy" className="faqs_accordion_header_arrow" />
               </div>
-              <div fs-accordion-element="content" className="faqs_accordion_body" id="vRAQ2l7_wl9CeAHokNUKN" aria-labelledby="5Nd_sofvtSG2VGksmBcoq" style={{ "maxHeight": "0px", "display": "none" }}>
+              <div fs-accordion-element="content" className="faqs_accordion_body" id="nB5Hy_qGk1ebed20Qzb0J" aria-labelledby="zsa5oDBFpcJIKeenV7M1p" style={{ "maxHeight": "0px", "display": "none" }}>
                 <div className="faqs_accordion_body_content">
                   <div className="faqs_accordion_header-para w-richtext">
                     <p>We are actively completing our SOC II Type 1 compliance and in the process of completing compliance for SOC II Type 2. Please review our privacy policy to get a full review of our data privacy and protection standards.</p>
@@ -155,11 +156,11 @@ export default function YouVeGotQuestions() {
               </div>
             </div>
             <div fs-accordion-element="accordion" className="faqs_accordion">
-              <div fs-accordion-element="trigger" className="faqs_accordion_header" id="5Qth6aqpS_GF4dE3KVX1G" role="button" aria-controls="qitfueN2MKInIz7J78WYV" tabIndex="0">
+              <div fs-accordion-element="trigger" className="faqs_accordion_header" id="lUEIqwBGznh92hMQ3ufLg" role="button" aria-controls="B9XN7WSZqbdVPNvHq99Jw" tabIndex="0">
                 <h3 className="faqs_accordion_header-title">How can I sell my invoices to Daylit?</h3>
                 <img fs-accordion-element="arrow" fs-accordion-active="rotate" alt="" src="/_ext/cdn.prod.website-files.com/68abd7e02c174baf0a9c5df1/6abcc5d8437f44a20a20a2c7_chevron-down.svg" loading="lazy" className="faqs_accordion_header_arrow" />
               </div>
-              <div fs-accordion-element="content" className="faqs_accordion_body" id="qitfueN2MKInIz7J78WYV" aria-labelledby="5Qth6aqpS_GF4dE3KVX1G" style={{ "maxHeight": "0px", "display": "none" }}>
+              <div fs-accordion-element="content" className="faqs_accordion_body" id="B9XN7WSZqbdVPNvHq99Jw" aria-labelledby="lUEIqwBGznh92hMQ3ufLg" style={{ "maxHeight": "0px", "display": "none" }}>
                 <div className="faqs_accordion_body_content">
                   <div className="faqs_accordion_header-para w-richtext">
                     <p>Our platform comes with a bank that is ready to buy your invoices. When a customer invoice needs immediate liquidity, simply click on the “Sell invoice” button on the Invoices table and select all the invoices you’d like to sell. We will buy your invoices or offer a workout plan with your customers to get you paid on time without the manual work or risk of collection.</p>

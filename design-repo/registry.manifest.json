@@ -16,18 +16,18 @@
     "file": "tokens/themes/light.json"
   },
   "sourceProject": {
-    "url": "https://www.daylit.com/?dl=anon_q5vd15p4muv2itl7--force",
+    "url": "https://www.daylit.com/",
     "framework": "React+Webflow+GSAP",
-    "scrapedAt": "2026-10-05T10:51:39Z"
+    "scrapedAt": "2026-10-06T08:57:19Z"
   },
   "generatedBy": "website-builder (heuristic extraction; see README)",
   "counts": {
-    "sections": 52,
-    "templates": 18,
+    "sections": 58,
+    "templates": 21,
     "routes": 69,
     "primitives": 12,
     "components": 299,
-    "assets": 1080,
+    "assets": 1096,
     "tokens": {
       "foundation": 183,
       "semantic": 20,

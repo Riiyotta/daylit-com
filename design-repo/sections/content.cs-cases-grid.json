@@ -65,5 +65,8 @@
     "background",
     "logo"
   ],
-  "implementedBy": "src/sections/CsCasesGrid.jsx"
+  "implementedBy": "src/sections/CsCasesGrid.jsx",
+  "implementedByAll": [
+    "src/sections/CsCasesGrid.jsx"
+  ]
 }

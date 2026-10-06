@@ -1,3 +1,4 @@
+// IA section(s): proof.section-logo (ia/ia.json, design-repo/sections/)
 // section — the section's real markup, read from the rendered page (route /referral, section 2).
 export default function Section4() {
   return (

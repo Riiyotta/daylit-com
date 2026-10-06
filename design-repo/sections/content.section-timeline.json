@@ -79,5 +79,8 @@
     "icon",
     "illustration"
   ],
-  "implementedBy": "src/pages/OurTeamStory.jsx"
+  "implementedBy": "src/sections/FromHumbleRootsTo.jsx",
+  "implementedByAll": [
+    "src/sections/FromHumbleRootsTo.jsx"
+  ]
 }

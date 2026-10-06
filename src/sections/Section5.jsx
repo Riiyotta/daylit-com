@@ -1,3 +1,4 @@
+// IA section(s): showcase.section-product-spread (ia/ia.json, design-repo/sections/)
 // section — the section's real markup, read from the rendered page (route /product/fundnow, section 2).
 export default function Section5() {
   return (

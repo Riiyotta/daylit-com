@@ -1,3 +1,4 @@
+// IA section(s): proof.section-home-product (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Enterprise grade. Onboarded in — the section's real markup, read from the rendered page (route /, section 3).

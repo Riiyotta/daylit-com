@@ -1,3 +1,4 @@
+// IA section(s): proof.section-products-preview (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Say goodbye to working capital — the section's real markup, read from the rendered page (route /solution/manufacturing, section 6; shared by 3 routes).

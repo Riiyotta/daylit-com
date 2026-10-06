@@ -31,7 +31,6 @@
         "content.section-home-dashboard": 1,
         "hero.section-cta-banner": 2,
         "shell.footer-wrap": 1,
-        "content.chat-widget": 1,
         "shell.form": 1,
         "proof.section-logo": 1,
         "content.section-shine": 2,
@@ -41,37 +40,44 @@
         "proof.section-solutions-preview": 3,
         "content.section-different": 1,
         "cta.section-cta-dashboard": 1,
-        "content.section-why": 1,
+        "content.section-why": 2,
+        "cta.section-cta-main": 1,
         "shell.footer-component": 1,
         "features.section-blog-featured": 1,
         "content.section-blog-feed": 1,
         "hero.ast-hero": 1,
         "support.ast-feature-section": 1,
         "content.ast-grid-section": 1,
-        "hero.page-wrapper": 1,
+        "proof.section-testimonials": 1,
+        "proof.section-faqs-preview": 1,
         "hero.cs-hero": 1,
         "content.cs-stats": 1,
         "proof.case-studies": 1,
         "content.cs-cases-grid": 1,
-        "proof.section-testimonials": 1,
         "content.cs-feat": 1,
         "proof.section-story-cards": 1,
         "content.section-timeline": 1,
         "content.section-team-feed": 1,
+        "shell.section-testi-header": 1,
+        "proof.section-testi-wall": 1,
+        "proof.section-blog-preview": 1,
+        "content.u-texture": 1,
         "support.faq-filter-form": 1,
         "shell.section-blog-header": 1,
         "support.section-article-blog": 1,
-        "content.section-gradient-light": 1,
+        "content.block": 1,
         "showcase.section-product-spread": 1,
-        "proof.section-blog-preview": 1,
+        "content.section-color-wrap": 3,
         "proof.section-products-preview": 1,
-        "hero.section-demo": 1,
+        "cta.section-demo-left": 1,
+        "support.section-demo-right": 1,
+        "hero.section-legal-article": 1,
         "hero.csr-hero": 1,
         "content.csr-band": 1,
         "content.csr-body": 1,
         "cta.csr-cta": 1,
-        "hero.main-wrapper": 1,
         "hero.ast-detail": 1,
+        "hero.section-tools-header": 1,
         "cta.post-solution-cta": 1
       },
       "description": "No section appears more often on one page than it does in any measured template."
@@ -89,7 +95,10 @@
       "id": "SHELL_MUST_BE_LAST",
       "severity": "error",
       "kind": "mustBeLast",
-      "sections": [],
+      "sections": [
+        "shell.footer-wrap",
+        "shell.footer-component"
+      ],
       "description": "Sections that closed every template they appear in must be the last node."
     },
     {
@@ -98,7 +107,8 @@
       "kind": "noConsecutive",
       "sections": [
         "hero.section-cta-banner",
-        "content.section-shine"
+        "content.section-shine",
+        "content.section-why"
       ],
       "description": "These sections were never observed back-to-back."
     },
@@ -132,6 +142,10 @@
           "content.section-shine"
         ],
         [
+          "proof.section-testimonials",
+          "proof.section-faqs-preview"
+        ],
+        [
           "content.section-shine",
           "content.cs-stats"
         ],
@@ -144,20 +158,36 @@
           "content.section-team-feed"
         ],
         [
+          "content.section-team-feed",
+          "content.section-why"
+        ],
+        [
+          "shell.navbar-sticky",
+          "shell.section-testi-header"
+        ],
+        [
+          "content.section-shine",
+          "content.u-texture"
+        ],
+        [
           "content.section-shine",
           "content.section-different"
         ],
         [
-          "shell.navbar-sticky",
-          "shell.section-blog-header"
+          "content.section-different",
+          "content.section-why"
         ],
         [
           "proof.section-solutions-preview",
           "proof.section-testimonials"
         ],
         [
-          "proof.section-products-preview",
-          "proof.section-testimonials"
+          "shell.navbar-sticky",
+          "shell.section-blog-header"
+        ],
+        [
+          "content.section-color-wrap",
+          "content.section-shine"
         ],
         [
           "content.csr-band",

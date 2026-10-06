@@ -12,9 +12,9 @@
     "routes": 9,
     "measuredFrom": [
       "src/index.html:3410-3436",
-      "src/product/drawdown/index.html:1778-1899",
+      "src/product/drawdown/index.html:1778-1842",
       "src/product/drawdown/index.html:3176-3471",
-      "src/product/fundnow/index.html:1778-1899",
+      "src/product/fundnow/index.html:1778-1842",
       "src/product/fundnow/index.html:3176-3471"
     ]
   },
@@ -71,5 +71,15 @@
     ]
   },
   "assetRoles": [],
-  "implementedBy": "src/pages/HomePage.jsx"
+  "implementedBy": "src/sections/StillHaveQuestions.jsx",
+  "implementedByAll": [
+    "src/sections/StillHaveQuestions.jsx",
+    "src/sections/WantToLearnMore.jsx",
+    "src/sections/BookADemoToday.jsx",
+    "src/sections/WantToSeeHow.jsx",
+    "src/sections/WantToSeeHow2.jsx",
+    "src/sections/WantToSeeHow3.jsx",
+    "src/sections/WantToSeeHow4.jsx",
+    "src/sections/WantToSeeHow5.jsx"
+  ]
 }

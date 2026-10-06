@@ -1,6 +1,5 @@
-import A from "../lib/A.jsx";
-
-// Table of Contents — the section's real markup, read from the rendered page (route /blog/best-ai-tools-service-company-accounts-receivable-2026, section 2).
+// IA section(s): support.section-article-blog (ia/ia.json, design-repo/sections/)
+// Table of Contents — the section's real markup, read from the rendered page (route /blog/slowest-part-of-a-dispute-manual-work, section 2).
 export default function TableOfContents8() {
   return (
     <article className="section_article-blog" data-clone-section="TableOfContents8">
@@ -93,545 +92,155 @@ export default function TableOfContents8() {
               <div className="w-dyn-bind-empty w-richtext"></div>
               <div fs-richtext-element="rich-text" className="text-rich-text w-richtext">
                 <div className="w-embed">
-                  <div className="blog-wrap">
-                    <header className="blog-hero">
+                  <div className="cc-post">
+                    <div className="blog-wrap">
                       <div className="blog-title-underline"></div>
-                    </header>
-                    <div className="blog-lede">
-                      {" "}
-                      <strong>Service companies require fundamentally different accounts receivable automation than product-based businesses.</strong>
-                      {" Project-based billing, relationship-sensitive collections, Net 60–90 payment terms, and multi-stakeholder approval workflows make standard AR platforms a poor fit for professional services, consulting, staffing, and field services firms. Most AI AR tools on the market were built for transactional, high-volume B2B environments — distribution and manufacturing — and break down when applied to milestone billing, retainer drawdowns, and engagement-level complexity. For mid-market service companies with $50M–$500M in revenue, choosing the wrong AR tool means inflated Days Sales Outstanding (DSO), damaged client relationships, and persistent revenue leakage averaging 3–5% of total revenue annually. "}
+                      <nav className="toc">
+                        <h2>Table of Contents</h2>
+                        <ol>
+                          <li>
+                            <a href="#the-digging">{"The Real Time Sink in a Dispute Isn't the Customer, It's the Digging"}</a>
+                          </li>
+                          <li>
+                            <a href="#why-it-persists" className="">Why That Manual Work Never Gets Fixed on Its Own</a>
+                          </li>
+                          <li>
+                            <a href="#what-happens" className="">What Actually Happens When a Case Opens</a>
+                          </li>
+                          <li>
+                            <a href="#five-types">{"The Five Kinds of Cases You're Already Handling by Hand"}</a>
+                          </li>
+                          <li>
+                            <a href="#stays-human" className="">The Part That Stays Human: Suggestions, Not Auto-Resolution</a>
+                          </li>
+                          <li>
+                            <a href="#how-it-works" className="">How Collection Cases Works in Daylit, End to End</a>
+                          </li>
+                          <li>
+                            <a href="#why-it-matters" className="">Why This Matters Beyond Any Single Case</a>
+                          </li>
+                          <li>
+                            <a href="#conclusion">Conclusion</a>
+                          </li>
+                          <li>
+                            <a href="#faq" className="">Frequently Asked Questions</a>
+                          </li>
+                        </ol>
+                      </nav>
+                      <section id="the-digging" className="blog-section">
+                        <h2>{"The Real Time Sink in a Dispute Isn't the Customer, It's the Digging"}</h2>
+                        <p>{"When a customer disputes a charge or promises to pay, the actual bottleneck usually isn't waiting on them — it's everything your team has to do first. Reading through the thread. Copying notes into the system of record. Figuring out the right internal process, all before anyone even follows up. As we've covered before, disputes often sit unresolved for days simply because no one owns them — and even once someone does pick it up, most of that time goes into the digging, not the actual resolution."}</p>
+                        <p>{"That distinction matters more than it sounds like it should. If the bottleneck were really the customer — waiting for them to respond, waiting for them to pay — there wouldn't be much you could do about it beyond following up more often. But that's not usually what's happening. What's actually eating your team's day is the work that happens before any of that: reconstructing what's already known about a case every single time someone touches it."}</p>
+                      </section>
+                      <section id="why-it-persists" className="blog-section">
+                        <h2>Why That Manual Work Never Gets Fixed on Its Own</h2>
+                        <p>{"Here's the part that's easy to miss: what's happening right now is a hidden pattern, not a discipline problem. Your collectors are spending over 50% of their day copying and pasting the same notes within your system, then chasing down whoever internally can resolve the case. It's the same workflow, repeated case after case, just never written down as one."}</p>
+                        <p>
+                          <strong>That repetition exists because of a few specific gaps</strong>
+                          {" that don't show up on a dashboard, but show up constantly in the day-to-day:"}
+                        </p>
+                        <ul>
+                          <li>
+                            <strong>{"There's no durable record of the case itself."}</strong>
+                            {" When a customer commits to pay on a specific date, that promise doesn't live anywhere real — it's in the collector's head, a side spreadsheet, or a note buried in an email thread."}
+                          </li>
+                          <li>
+                            <strong>Dunning fires blind.</strong>
+                            {" Even when a customer is mid-dispute or has already promised payment, your automated reminders can still send another past-due notice, because nothing tells the scheduler to pause."}
+                          </li>
+                          <li>
+                            <strong>Classified intent has nowhere to land.</strong>
+                            {" Even when your team correctly identifies what an inbound message actually is, that classification usually doesn't get captured anywhere — it gets re-figured-out the next time someone looks at that customer."}
+                          </li>
+                        </ul>
+                        <p>{"Every day a case sits unresolved because of this is also a day added to your DSO, and the risk of that balance eventually getting written off climbs the longer it drags on. None of this is really about effort. It's about the fact that the same diagnostic work — what is this, who owns it, what happens next — gets done manually, from scratch, every single time."}</p>
+                      </section>
+                      <section id="what-happens" className="blog-section">
+                        <h2>What Actually Happens When a Case Opens</h2>
+                        <p>{"It's worth walking through what this looks like in practice, because the mechanics are simpler than the problem they solve."}</p>
+                        <p>{"Say a customer replies to an invoice saying the quantity billed doesn't match what they received. Today, without a system for this, someone on your team reads that email, decides it's a dispute, and then has to figure out — from memory, or by asking around — what usually happens next for a case like this. None of that is written down anywhere a system can act on."}</p>
+                        <p>{"With Collection Cases, that same email creates a case. The case is typed as a Dispute. Because a default sequence is already assigned to that case type, a suggested next step is sitting there the moment the case opens — no one has to reconstruct the process, because the process was already decided once, in advance, for every case of that type. Your team reviews the suggestion and confirms it with one click. While that case stays open, other dunning reminders pause automatically on the related invoice, so the same customer who just told you about a billing error doesn't also get a past-due notice three days later."}</p>
+                      </section>
                     </div>
-                    <nav className="toc">
-                      <h2>Table of Contents</h2>
-                      <ol>
-                        <li>
-                          <a href="#why-different" className="">Why Do Service Companies Need Different AR Tools?</a>
-                        </li>
-                        <li>
-                          <a href="#ar-complexity" className="">What Makes Accounts Receivable Uniquely Complex for Service Businesses?</a>
-                        </li>
-                        <li>
-                          <a href="#benchmarks" className="">Key DSO and Billing Benchmarks for Service Companies in 2026</a>
-                        </li>
-                        <li>
-                          <a href="#how-to-evaluate" className="">How Should Service Companies Evaluate AI AR Tools?</a>
-                        </li>
-                        <li>
-                          <a href="#comparison" className="">Which AI AR Tools Are Best for Service Companies in 2026?</a>
-                        </li>
-                        <li>
-                          <a href="#reviews" className="">How Does Each Tool Handle Project-Based Billing and Service-Specific AR?</a>
-                        </li>
-                        <li>
-                          <a href="#leakage" className="">What Is the Real Cost of Billing Errors and Revenue Leakage in Services?</a>
-                        </li>
-                        <li>
-                          <a href="#reduce-dso" className="">How Can Service Companies Reduce DSO Without Damaging Client Relationships?</a>
-                        </li>
-                        <li>
-                          <a href="#faq" className="">Frequently Asked Questions</a>
-                        </li>
-                      </ol>
-                    </nav>
-                    <section id="why-different" className="blog-section">
-                      <h2>Why Do Service Companies Need Different AR Tools?</h2>
-                      <div className="definition-block">
-                        {" "}
-                        <strong>
-                          <A href="/blog/glossary-defining-commonly-used-financial-terms#accounts-receivable" style={{ "color": "var(--maroon)", "textDecoration": "underline" }}>accounts receivable</A>
-                          {" automation for service companies"}
-                        </strong>
-                        {" refers to AI-powered software that manages the full invoice-to-cash cycle while accounting for project-based billing structures, relationship-sensitive communication, extended payment terms, and multi-stakeholder approval workflows common in professional services, consulting, staffing, and field services. "}
-                      </div>
-                      <p>Most AI-powered AR automation platforms on the market in 2026 were built for transactional, high-volume B2B environments — distribution, manufacturing, and SaaS subscription billing. They excel at automating dunning sequences, matching payments to purchase orders, and prioritizing aging buckets. But service companies face four challenges that these platforms do not adequately address.</p>
-                      <p>
-                        <strong>Project-based billing complexity.</strong>
-                        {" Service firms bill on milestones, time-and-materials, retainer drawdowns, fixed-fee phases, and hybrid models — often within a single client engagement. Change orders, scope amendments, and retainer true-ups introduce billing variability that standard AR platforms cannot parse without manual intervention. When a $400,000 consulting engagement spans six months with milestone payments tied to deliverable acceptance, the AR system must understand project status, not just invoice age."}
-                      </p>
-                      <p>
-                        <strong>Relationship sensitivity.</strong>
-                        {" Service businesses cannot apply aggressive dunning cadences to a $1 million consulting client the way a distributor might chase a delinquent wholesale buyer. The billing contact, the project sponsor, and the accounts payable team are often different people with different levels of authority and sensitivity. A poorly timed or poorly worded collections email can damage a relationship that took years to build and jeopardize future engagements worth multiples of the overdue invoice."}
-                      </p>
-                      <p>
-                        <strong>Extended payment terms.</strong>
-                        {" Net 60 and Net 90 terms are standard in professional services, government contracting, and enterprise consulting. AR tools designed around Net 30 cycles misclassify these accounts as delinquent, generate false urgency in collections workflows, and produce inaccurate aging reports. According to industry benchmarks, professional services firms typically experience "}
-                        <A href="/blog/glossary-defining-commonly-used-financial-terms#days-sales-outstanding-(dso)" style={{ "color": "var(--maroon)", "textDecoration": "underline" }}>Days Sales Outstanding (DSO)</A>
-                        {" in the range of 50–65 days, with top performers achieving 35–40 days."}
-                      </p>
-                      <p>
-                        <strong>Multiple stakeholder management.</strong>
-                        {" Service engagements involve billing contacts, project sponsors, engagement managers, procurement teams, and AP departments — all of whom may need to be involved in resolving invoice disputes or approving payment. AR tools built for single-contact B2B relationships cannot route communications appropriately across these stakeholder maps."}
-                      </p>
-                    </section>
-                    <section id="ar-complexity" className="blog-section">
-                      <h2>What Makes Accounts Receivable Uniquely Complex for Service Businesses?</h2>
-                      <p>The core challenge of accounts receivable in professional services is that revenue recognition, project delivery, and cash collection are deeply intertwined. Unlike product companies where billing follows shipment, service companies must navigate billing complexity at every stage of the engagement lifecycle.</p>
-                      <p>
-                        <strong>Milestone and progress billing</strong>
-                        {" requires the AR system to track deliverable completion and trigger invoices only when predefined conditions are met. If a project phase is 90% complete but the client has not formally accepted the deliverable, the invoice cannot be issued — yet the revenue has largely been earned. This creates timing gaps that inflate DSO and reduce cash flow visibility."}
-                      </p>
-                      <p>
-                        <strong>Retainer drawdown management</strong>
-                        {" adds another layer of complexity. Clients pay an upfront retainer, and the service firm draws against it as work is performed. When the retainer is depleted, the firm must either bill additional amounts or negotiate a retainer replenishment — both of which require coordination between project managers and the AR team."}
-                      </p>
-                      <p>
-                        <strong>Change order billing</strong>
-                        {" is one of the most common sources of revenue leakage in professional services. According to Sage's analysis of SPI Benchmark data, average revenue leakage in professional services sits at approximately 4.3% of total revenue. For a $30 million service firm, that represents $1.29 million in lost income annually. Much of this leakage comes from unbilled change orders, scope creep that is never invoiced, and rate adjustments that are not captured in the billing system."}
-                      </p>
-                      <p>
-                        <strong>Blended and tiered rate structures</strong>
-                        {" create invoicing complexity when multiple team members work on the same project at different hourly rates. The AR system must reconcile time entries with contracted rates, apply any negotiated discounts or rate caps, and produce invoices that clearly communicate the value delivered — reducing the likelihood of client disputes."}
-                      </p>
-                    </section>
-                    <section id="benchmarks" className="blog-section">
-                      <h2>What Are the Key DSO and Billing Benchmarks for Service Companies in 2026?</h2>
-                      <p>Service company finance leaders need industry-specific benchmarks to evaluate AR performance. General B2B benchmarks are misleading for firms operating with extended payment terms and project-based billing cycles.</p>
-                      <div className="table-scroll">
-                        <table>
-                          <thead>
-                            <tr>
-                              <th>Metric</th>
-                              <th>Industry Average</th>
-                              <th>Top Performers</th>
-                              <th>Bottom Quartile</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td className="dso-label">Days Sales Outstanding (DSO)</td>
-                              <td>50–65 days</td>
-                              <td>35–40 days</td>
-                              <td>80–100+ days</td>
-                            </tr>
-                            <tr>
-                              <td className="dso-label">Revenue Leakage Rate</td>
-                              <td>3–5%</td>
-                              <td>Under 1.5%</td>
-                              <td>6–8%</td>
-                            </tr>
-                            <tr>
-                              <td className="dso-label">Billing Cycle Length</td>
-                              <td>15–25 days</td>
-                              <td>3–5 days</td>
-                              <td>30–45 days</td>
-                            </tr>
-                            <tr>
-                              <td className="dso-label">Invoice Dispute Rate</td>
-                              <td>8–12%</td>
-                              <td>Under 3%</td>
-                              <td>15–20%</td>
-                            </tr>
-                            <tr>
-                              <td className="dso-label">Billable Utilization</td>
-                              <td>68–70%</td>
-                              <td>75–80%</td>
-                              <td>Under 65%</td>
-                            </tr>
-                            <tr>
-                              <td className="dso-label">Collections Effectiveness Index</td>
-                              <td>75–82%</td>
-                              <td>90%+</td>
-                              <td>Under 70%</td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <p>{"According to CreditPulse's 2025 DSO benchmarks, professional services firms typically fall in the 30–60 day DSO range, while construction and government-adjacent services extend to 60–90+ days. Companies offering Net 60 terms typically experience actual DSO of 68–75 days — 13–25% over their stated terms."}</p>
-                      <div className="callout">
-                        {" "}
-                        <strong>The working capital opportunity:</strong>
-                        {" A service company with $25 million in annual revenue that reduces DSO from 60 days to 40 days frees approximately $1.37 million in working capital. Companies with automated AR workflows reduce DSO by 20–35% compared to manual processes. Automated payment reminders alone can reduce DSO by 8–12 days. "}
-                      </div>
-                    </section>
                   </div>
                 </div>
-                <figure style={{ "maxWidth": "1024pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
+                <figure style={{ "maxWidth": "1200pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
                   <div>
-                    <img alt="Service company managers smiling in warehouse, representing field service companies using AR automation" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69af3570648ae10a5a3b7aba_ChatGPT%20Image%20Mar%209%2C%202026%2C%2004_53_24%20PM.png" loading="lazy" />
+                    <img alt="Finance professional reviewing AR dispute documentation on a laptop" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/6a7f6583acf5d57016bfe9c0_mid-post-image-optimized.jpg" loading="lazy" />
                   </div>
                 </figure>
-                <div className="w-embed">
-                  <div className="blog-wrap">
-                    <section id="how-to-evaluate" className="blog-section">
-                      <h2>How Should Service Companies Evaluate AI AR Tools?</h2>
-                      <p>When evaluating tools powered by AI agents for accounts receivable automation, service companies should assess against five criteria that reflect the unique demands of project-based billing and relationship-driven revenue.</p>
-                      <ol className="styled-ol">
-                        <li>
-                          <strong>Project billing integration.</strong>
-                          {" Does the tool connect with Professional Services Automation (PSA) platforms like Kantata, Sage Intacct, or ConnectWise? Can it handle milestone billing, retainer drawdowns, T&M invoicing, and hybrid billing models without manual workarounds? Tools that only support simple invoice generation from ERP data will create bottlenecks for service firms."}
-                        </li>
-                        <li>
-                          <strong>Client relationship sensitivity.</strong>
-                          {" Does the collections engine allow tone customization by client tier, engagement value, or relationship status? Can it route communications to appropriate stakeholders (billing contact vs. project sponsor vs. AP department)? Service companies need AR tools that treat a $2 million strategic consulting client differently from a $15,000 one-time engagement."}
-                        </li>
-                        <li>
-                          <strong>Extended payment term handling.</strong>
-                          {" Can the tool properly manage Net 60 and Net 90 payment terms without generating false-positive aging alerts? Does the AI model understand that an invoice at day 45 on Net 60 terms is not delinquent, while the same invoice on Net 30 terms is 15 days past due?"}
-                        </li>
-                        <li>
-                          <strong>Multi-stakeholder communication.</strong>
-                          {" Can the tool manage multiple contacts per account with different communication preferences and escalation paths? Service engagements often involve 3–5 stakeholders who each play a role in the payment process."}
-                        </li>
-                        <li>
-                          <strong>ERP and PSA integration depth.</strong>
-                          {" Seamless integration with Sage Intacct, NetSuite, QuickBooks Enterprise, and PSA platforms is essential. The tool should pull project data — not just invoice data — to provide context-aware collections and accurate cash forecasting."}
-                        </li>
-                      </ol>
-                    </section>
-                    <section id="comparison" className="blog-section">
-                      <h2>Which AI AR Tools Are Best for Service Companies in 2026?</h2>
-                      <p>The following comparison evaluates seven leading AI AR platforms through a service-company lens. Each tool is assessed on project billing support, PSA integration, relationship sensitivity, and ability to handle extended payment terms.</p>
-                      <div className="table-scroll">
-                        <table>
-                          <thead>
-                            <tr>
-                              <th>Tool</th>
-                              <th>Best For</th>
-                              <th>Project Billing</th>
-                              <th>PSA/ERP Integration</th>
-                              <th>Relationship Sensitivity</th>
-                              <th>Net 60/90 Support</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td className="feat-label">Daylit</td>
-                              <td>Mid-market services ($50M–$500M)</td>
-                              <td>Strong</td>
-                              <td>Sage Intacct, NetSuite, QB</td>
-                              <td>AI-driven tone adjustment</td>
-                              <td>Native support</td>
-                            </tr>
-                            <tr>
-                              <td className="feat-label">Tesorio</td>
-                              <td>Cash forecasting</td>
-                              <td>Moderate</td>
-                              <td>NetSuite, Sage Intacct, QB</td>
-                              <td>Customizable cadences</td>
-                              <td>Configurable</td>
-                            </tr>
-                            <tr>
-                              <td className="feat-label">Versapay</td>
-                              <td>Client collaboration</td>
-                              <td>Moderate</td>
-                              <td>NetSuite, Sage Intacct, D365</td>
-                              <td>Two-way portal</td>
-                              <td>Standard config</td>
-                            </tr>
-                            <tr>
-                              <td className="feat-label">Gaviti</td>
-                              <td>Analytics-driven collections</td>
-                              <td>Limited</td>
-                              <td>ERP-dependent</td>
-                              <td>Template-based</td>
-                              <td>Configurable rules</td>
-                            </tr>
-                            <tr>
-                              <td className="feat-label">HighRadius</td>
-                              <td>Enterprise order-to-cash</td>
-                              <td>Limited</td>
-                              <td>Broad ERP support</td>
-                              <td>Template-based</td>
-                              <td>Aging customization</td>
-                            </tr>
-                            <tr>
-                              <td className="feat-label">Invoiced</td>
-                              <td>SMB service firms</td>
-                              <td>Moderate</td>
-                              <td>Broad integrations</td>
-                              <td>Automated reminders</td>
-                              <td>Standard handling</td>
-                            </tr>
-                            <tr>
-                              <td className="feat-label">Growfin</td>
-                              <td>Fast-growing companies</td>
-                              <td>Moderate</td>
-                              <td>NetSuite primary</td>
-                              <td>AI-optimized comms</td>
-                              <td>Behavioral prediction</td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </section>
-                    <section id="reviews" className="blog-section">
-                      <h2>How Does Each Tool Handle Project-Based Billing and Service-Specific AR?</h2>
-                      <article className="platform-review">
-                        <h3>Daylit — Best for Mid-Market Service Companies</h3>
-                        <p>{"Daylit's AI agents for accounts receivable automate collections, payment follow-ups, dispute resolution, and cash flow forecasting. For service companies in the $50M–$500M revenue range — including professional services, staffing, and field services — Daylit addresses the core challenge that other platforms miss: AR workflows that understand project context, not just invoice data."}</p>
-                        <p>{"Daylit's AI agents adjust communication tone based on client tier and engagement value, ensuring that collections for a strategic consulting client follow a different cadence and tone than collections for a transactional engagement. The platform handles milestone billing, retainer drawdowns, and blended rate structures by integrating deeply with PSA and ERP systems including Sage Intacct, NetSuite, and QuickBooks Enterprise."}</p>
+                <div className="w-embed w-iframe">
+                  <div className="cc-post">
+                    <div className="blog-wrap">
+                      <section id="five-types" className="blog-section">
+                        <h2>{"The Five Kinds of Cases You're Already Handling by Hand"}</h2>
+                        <p>{"Collection Cases doesn't invent new categories of AR work — it gives structure to work you're already doing, just without a name for it. Every case falls into one of five types:"}</p>
                         <ul>
                           <li>
-                            <strong>Relationship-sensitive AI:</strong>
-                            {" Adjusts tone and cadence by client tier and engagement value — protecting high-value relationships while accelerating collections on transactional accounts."}
+                            <strong>Dispute</strong>
+                            {" — the customer is pushing back on a charge, quantity, or price."}
                           </li>
                           <li>
-                            <strong>Mid-market fit:</strong>
-                            {" Purpose-built for firms with AR balances of $2M–$35M and small AR teams of 2–5 people — without the enterprise-scale implementation timeline of platforms like HighRadius."}
+                            <strong>Promise to pay</strong>
+                            {" — the customer has committed to a payment date, and that commitment needs to be tracked and followed up on if it slips."}
                           </li>
                           <li>
-                            <strong>Native extended-term support:</strong>
-                            {" Understands Net 60 and Net 90 terms natively, preventing false overdue alerts on long-cycle engagements."}
+                            <strong>Inquiry</strong>
+                            {" — the customer has a question that needs an answer before anything else can move forward."}
                           </li>
                           <li>
-                            <strong>Fast implementation:</strong>
-                            {" Operational in weeks, not months."}
+                            <strong>Wrong contact</strong>
+                            {" — the person you've been reaching isn't the right one, and the case needs to be rerouted."}
+                          </li>
+                          <li>
+                            <strong>Other actionable</strong>
+                            {" — anything that needs a next step but doesn't cleanly fit the other four."}
                           </li>
                         </ul>
-                        <p>
-                          <strong>Limitations:</strong>
-                          {" Newer platform with a growing integration ecosystem."}
-                        </p>
-                        <p className="platform-best-for">
-                          <strong>Best for:</strong>
-                          {" Mid-market professional services, staffing, and field services companies with $50M–$500M in revenue handling project-based billing, milestone payments, and retainer structures."}
-                        </p>
-                      </article>
-                      <article className="platform-review">
-                        <h3>Tesorio — Best for Cash Forecasting and Finance Operations</h3>
-                        <p>Tesorio approaches AR from a cash intelligence and forecasting perspective. The platform excels at predicting payment timing, visualizing cash flow, and automating dunning campaigns. Its AI models analyze historical payment behavior to forecast when specific invoices will be paid — valuable for service companies managing cash flow across long-cycle engagements.</p>
-                        <ul>
-                          <li>
-                            <strong>Cash forecasting:</strong>
-                            {" AI payment prediction models show when specific invoices are likely to be paid, enabling proactive liquidity planning."}
-                          </li>
-                          <li>
-                            <strong>ERP integration:</strong>
-                            {" Native connections to NetSuite and Sage Intacct."}
-                          </li>
-                          <li>
-                            <strong>Collaborative workspace:</strong>
-                            {" Allows AR teams to coordinate with sales and customer success — useful when collections require cross-functional input."}
-                          </li>
-                        </ul>
-                        <p>
-                          <strong>Limitations:</strong>
-                          {" Project billing support is invoice-level only — the platform does not natively understand milestone billing or retainer structures. Collections automation is primarily email-based. Best suited for firms where forecasting accuracy matters more than collections execution."}
-                        </p>
-                        <p className="platform-best-for">
-                          <strong>Best for:</strong>
-                          {" Service firms prioritizing cash flow visibility and payment prediction over deep collections automation."}
-                        </p>
-                      </article>
-                      <article className="platform-review">
-                        <h3>Versapay — Best for Client-Facing Collaboration</h3>
-                        <p>{"Versapay's primary differentiator is its collaborative AR portal, which allows service companies and their clients to manage invoices, resolve disputes, and communicate within a shared platform. For service firms where invoice disputes arise from misunderstood scope, milestone disagreements, or documentation gaps, Versapay's two-way communication tools reduce the friction that typically extends payment cycles. Versapay reports that customers achieve approximately 25% faster payment collection through its integrated payment and collaboration tools."}</p>
-                        <ul>
-                          <li>
-                            <strong>Client collaboration portal:</strong>
-                            {" Branded self-service environment where clients can view invoices, make payments, and raise disputes — reducing back-and-forth email chains."}
-                          </li>
-                          <li>
-                            <strong>ERP integrations:</strong>
-                            {" NetSuite, Sage Intacct, and Microsoft Dynamics 365."}
-                          </li>
-                          <li>
-                            <strong>Dispute resolution:</strong>
-                            {" Two-way communication tools reduce the friction that extends payment cycles in project-based service engagements."}
-                          </li>
-                        </ul>
-                        <p>
-                          <strong>Limitations:</strong>
-                          {" Project billing capabilities are dependent on ERP data — Versapay processes invoices as-is rather than understanding the underlying project structure. Implementation and training requirements are higher than lighter-weight alternatives. Pricing can be expensive for mid-market firms."}
-                        </p>
-                        <p className="platform-best-for">
-                          <strong>Best for:</strong>
-                          {" Service firms where invoice disputes and client communication friction are the primary drivers of extended DSO."}
-                        </p>
-                      </article>
-                      <article className="platform-review">
-                        <h3>Gaviti — Best for Analytics-Driven Collections</h3>
-                        <p>Gaviti embeds AI directly into collections execution, using machine learning to prioritize accounts based on payment behavior, invoice risk, and responsiveness. The platform continuously evaluates collection strategies and adjusts prioritization, which helps service firms focus limited AR resources on accounts with the highest impact.</p>
-                        <ul>
-                          <li>
-                            <strong>AI-driven prioritization:</strong>
-                            {" Machine learning models rank accounts by payment probability and risk, focusing collector effort where it matters most."}
-                          </li>
-                          <li>
-                            <strong>Collections analytics:</strong>
-                            {" Detailed reporting on collector performance, aging trends, and campaign effectiveness."}
-                          </li>
-                          <li>
-                            <strong>Payment portal:</strong>
-                            {" Free ACH processing reduces friction for clients paying online."}
-                          </li>
-                        </ul>
-                        <p>
-                          <strong>Limitations:</strong>
-                          {" Limited project billing awareness — operates at the invoice level without understanding project milestones or retainer structures. Automated reminders can be excessive for sensitive client relationships. Implementation with complex or legacy ERP systems can be challenging."}
-                        </p>
-                        <p className="platform-best-for">
-                          <strong>Best for:</strong>
-                          {" Service firms with high invoice volumes that need AI-driven prioritization to focus limited AR team bandwidth."}
-                        </p>
-                      </article>
-                      <article className="platform-review">
-                        <h3>HighRadius — Best for Enterprise Order-to-Cash</h3>
-                        <p>HighRadius offers the most comprehensive order-to-cash suite on the market, covering credit management, electronic invoicing, cash application, deductions, and collections. The platform is used by Fortune 500 companies and processes over $1 trillion in invoice volume. HighRadius claims DSO reduction of 20% and productivity improvement of 30% for organizations implementing its platform. The RadiusOne product targets mid-market companies specifically.</p>
-                        <ul>
-                          <li>
-                            <strong>Full O2C suite:</strong>
-                            {" The most comprehensive feature set in the market across credit, invoicing, cash application, deductions, and collections."}
-                          </li>
-                          <li>
-                            <strong>Enterprise scalability:</strong>
-                            {" Proven at Fortune 500 scale with broad ERP integration."}
-                          </li>
-                          <li>
-                            <strong>AI capabilities:</strong>
-                            {" Payment prediction, worklist prioritization, and automated deduction management."}
-                          </li>
-                        </ul>
-                        <p>
-                          <strong>Limitations:</strong>
-                          {" Built for high-volume transactional environments (manufacturing, distribution) rather than project-based services. Implementation is complex and time-consuming — typically measured in months, not weeks. Pricing is enterprise-level and may exceed the budget of mid-market service firms. Limited native understanding of project-based billing, PSA integration, or relationship-sensitive collections."}
-                        </p>
-                        <p className="platform-best-for">
-                          <strong>Best for:</strong>
-                          {" Enterprise service organizations ($100M+ revenue) with the budget and timeline for a full order-to-cash transformation."}
-                        </p>
-                      </article>
-                      <article className="platform-review">
-                        <h3>Invoiced — Best for SMB Service Firms</h3>
-                        <p>Invoiced provides a straightforward AR automation platform covering billing, collections, payment acceptance, and cash application. The platform supports recurring billing, subscription management, and multi-channel invoice delivery. Its AI-powered CashMatch feature automates payment matching, and the self-service portal allows clients to view invoices, make payments, and manage disputes.</p>
-                        <ul>
-                          <li>
-                            <strong>Straightforward implementation:</strong>
-                            {" Lower configuration burden than enterprise-tier alternatives."}
-                          </li>
-                          <li>
-                            <strong>Recurring and subscription billing:</strong>
-                            {" Useful for service firms with retainer or subscription revenue models."}
-                          </li>
-                          <li>
-                            <strong>Global payment capabilities:</strong>
-                            {" Multi-currency support and verified B2B network for fraud prevention."}
-                          </li>
-                        </ul>
-                        <p>
-                          <strong>Limitations:</strong>
-                          {" Limited advanced AI capabilities for collections prioritization. Workflow configuration is more manual than AI-driven alternatives. Not designed for complex milestone or retainer billing models used by larger professional services firms."}
-                        </p>
-                        <p className="platform-best-for">
-                          <strong>Best for:</strong>
-                          {" Small service firms under $10M revenue needing straightforward invoicing, payment tracking, and basic collections reminders."}
-                        </p>
-                      </article>
-                      <article className="platform-review">
-                        <h3>Growfin — Best for Fast-Growing Service Companies</h3>
-                        <p>Growfin uses behavioral AI that adapts to customer signals in real time, adjusting collections strategies based on payment patterns and communication responsiveness. The platform focuses on helping fast-growing companies modernize AR operations without the overhead of large enterprise platforms. Users report DSO reductions from 45 to 30 days on the Growfin platform.</p>
-                        <ul>
-                          <li>
-                            <strong>Behavioral AI:</strong>
-                            {" Adapts follow-up timing and tone to each customer's real-time payment signals and communication responsiveness."}
-                          </li>
-                          <li>
-                            <strong>NetSuite integration:</strong>
-                            {" Strong native connection for firms already on NetSuite."}
-                          </li>
-                          <li>
-                            <strong>Growth-stage fit:</strong>
-                            {" Designed for companies modernizing AR without enterprise overhead."}
-                          </li>
-                        </ul>
-                        <p>
-                          <strong>Limitations:</strong>
-                          {" Primary integration is NetSuite — service firms using Sage Intacct or other ERPs may have limited options. Project billing features are not as developed as purpose-built service platforms. Smaller market presence means fewer case studies specific to professional services."}
-                        </p>
-                        <p className="platform-best-for">
-                          <strong>Best for:</strong>
-                          {" Fast-growing service companies on NetSuite seeking behavioral AI-driven collections without enterprise complexity."}
-                        </p>
-                      </article>
-                    </section>
-                  </div>
-                </div>
-                <figure style={{ "maxWidth": "1024pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
-                  <div>
-                    <img alt="Field service contractor in hard hat working on rooftop, representing service company AR management" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b2e084625a9e823d1e89c3_ChatGPT%20Image%20Mar%2012%2C%202026%2C%2011_48_36%20AM.png" loading="lazy" />
-                  </div>
-                </figure>
-                <div className="w-embed">
-                  <div className="blog-wrap">
-                    <section id="leakage" className="blog-section">
-                      <h2>What Is the Real Cost of Billing Errors and Revenue Leakage in Services?</h2>
-                      <p>Revenue leakage in professional services is a persistent and often underestimated drain on profitability. According to Service Performance Insight (SPI) benchmark data reported by Sage, the average professional services firm loses approximately 4.3% of revenue to leakage — unbilled work, billing errors, scope creep, and missed change orders. For firms with complex billing structures including subscriptions and project-based work, leakage can reach 5–8% of revenue.</p>
-                      <div className="callout">
-                        {" "}
-                        <strong>The scale of the problem:</strong>
-                        {" For a mid-market service company generating $30 million in annual revenue, a 4.3% leakage rate represents approximately $1.29 million in lost income. At 5–8%, that figure climbs to $1.5–$2.4 million. This revenue is not lost to bad debt or client non-payment — it is revenue that was earned but never invoiced. "}
-                      </div>
-                      <p>The most common sources of revenue leakage in service companies include:</p>
-                      <p>
-                        <strong>Unbilled change orders and scope amendments.</strong>
-                        {" Project teams deliver additional work without formal change requests, and the work is never billed. This is the single largest source of leakage in most service firms."}
-                      </p>
-                      <p>
-                        <strong>Late or inaccurate time entry.</strong>
-                        {" When consultants submit timesheets days or weeks after work is performed, they underestimate hours and miss billable activities. This delays billing and reduces accuracy."}
-                      </p>
-                      <p>
-                        <strong>Rate discrepancies.</strong>
-                        {" Invoices are generated at incorrect rates due to outdated rate cards, misapplied discounts, or failure to capture rate escalation clauses in contracts."}
-                      </p>
-                      <p>
-                        <strong>Billing cycle delays.</strong>
-                        {" The average billing cycle in professional services — from work performed to invoice sent — is 15–25 days. Top performers compress this to 3–5 days. Every day of delay in the billing cycle adds a day to DSO and defers cash collection."}
-                      </p>
-                      <p>
-                        <strong>Failed invoice delivery.</strong>
-                        {" Invoices sent to wrong contacts, outdated email addresses, or without required purchase order references are effectively lost until someone notices the missing payment."}
-                      </p>
-                      <p>AI-powered AR automation addresses leakage by integrating with PSA and time-tracking systems to capture all billable events, flagging unbilled work, automating invoice generation at milestone completion, and ensuring invoices are delivered to the correct stakeholders with all required documentation.</p>
-                    </section>
-                    <section id="reduce-dso" className="blog-section">
-                      <h2>How Can Service Companies Reduce DSO Without Damaging Client Relationships?</h2>
-                      <p>Reducing Days Sales Outstanding in a service business requires balancing collection efficiency with relationship preservation. Aggressive dunning that works for commodity B2B transactions can permanently damage high-value consulting relationships. Service firms need an approach that accelerates payment without creating friction.</p>
-                      <p>
-                        <strong>Tier collections by client value and relationship.</strong>
-                        {" AI-powered AR tools like Daylit enable service companies to create distinct collections workflows based on client tier. A top-10 strategic client with a $50,000 invoice at day 65 on Net 60 terms should receive a personalized, consultative reminder — not an automated past-due notice. A one-time engagement client with a $5,000 invoice at the same age can receive standard automated collections."}
-                      </p>
-                      <p>
-                        <strong>Shorten the billing cycle, not the payment terms.</strong>
-                        {" The most effective DSO lever for service companies is not chasing payment faster — it is billing faster. Reducing the billing cycle from 20 days to 5 days reduces DSO by 15 days without any change to client payment behavior. This requires integrating AR with project management and time-tracking systems to trigger invoicing immediately upon milestone completion or period close."}
-                      </p>
-                      <p>
-                        <strong>Proactive communication before due dates.</strong>
-                        {" Sending invoice confirmations and payment reminders before the due date — not after — reduces late payments without creating adversarial dynamics. A reminder at day 50 on a Net 60 invoice that confirms payment is due in 10 days is helpful. A notice at day 65 that flags a past-due balance is confrontational."}
-                      </p>
-                      <p>
-                        <strong>Offer multiple payment channels.</strong>
-                        {" Service companies that accept ACH, credit card, wire transfer, and online portal payments reduce DSO by 5–8 days compared to check-only or single-channel payment processes. Self-service payment portals allow clients to pay at their convenience without AR team involvement."}
-                      </p>
-                      <p>
-                        <strong>Resolve disputes faster through transparency.</strong>
-                        {" Service invoice disputes often stem from misunderstandings about scope, rates, or deliverable status. AR platforms with client-facing portals — where supporting documentation, project status, and communication history are visible — resolve disputes in days rather than weeks."}
-                      </p>
-                    </section>
-                    <section id="faq" className="blog-section">
-                      <h2>Frequently Asked Questions</h2>
-                      <div className="faq-item">
-                        <h3>What is the best AI accounts receivable tool for professional services firms?</h3>
-                        <p>The best AI accounts receivable tool for professional services depends on company size and billing complexity. For mid-market service companies with $50M–$500M in revenue handling project-based billing, milestone payments, and retainer structures, Daylit offers AR automation specifically designed for service complexity using fully autonomous AI agents for accounts receivable. For enterprises needing full order-to-cash transformation, HighRadius provides the broadest feature set. For firms prioritizing cash forecasting, Tesorio excels at payment prediction and cash flow visibility.</p>
-                      </div>
-                      <div className="faq-item">
-                        <h3>How does AI-powered AR automation handle project-based billing?</h3>
-                        <p>AI-powered AR automation handles project-based billing by integrating with Professional Services Automation (PSA) and ERP systems to access project status, milestone completion data, and time-and-materials records. The AI can trigger invoice generation upon milestone acceptance, calculate retainer drawdowns, apply blended rate structures, and flag unbilled change orders. Platforms designed for service companies — rather than transactional B2B — understand that a $200,000 consulting invoice tied to a Phase 2 deliverable requires different handling than a $200,000 product invoice on Net 30 terms.</p>
-                      </div>
-                      <div className="faq-item">
-                        <h3>What is a good DSO for professional services companies in 2026?</h3>
-                        <p>A good Days Sales Outstanding (DSO) for professional services companies in 2026 falls in the range of 35–50 days. The industry average sits at 50–65 days, while top-performing firms achieve 35–40 days. Companies with extended Net 60 or Net 90 payment terms should benchmark DSO relative to their weighted average payment terms rather than against general industry figures. Firms using automated AR workflows typically achieve DSO 20–35% below their manual-process peers.</p>
-                      </div>
-                      <div className="faq-item">
-                        <h3>Can AR automation tools handle Net 60 and Net 90 payment terms common in services?</h3>
-                        <p>Most AR automation platforms allow configurable payment terms, but not all handle extended terms intelligently. Tools built for Net 30 environments may classify a Net 60 invoice at day 35 as overdue and trigger unnecessary collection activity. Service-focused AR platforms account for the stated payment terms when calculating aging, triggering reminders, and prioritizing collections. The AI should understand that an invoice at day 55 on Net 60 terms requires a gentle pre-due-date reminder, not a past-due escalation.</p>
-                      </div>
-                      <div className="faq-item">
-                        <h3>How much revenue do service companies lose to billing errors?</h3>
-                        <p>Service companies lose an average of 3–5% of total revenue to billing-related revenue leakage, with firms facing complex billing structures potentially losing 5–8%. According to SPI Benchmark data, the average professional services revenue leakage rate is approximately 4.3%. The primary causes include unbilled change orders, late time entry, rate discrepancies, billing cycle delays, and invoices sent to incorrect contacts. For a $30 million service firm, this represents $900,000–$1.5 million in annual lost revenue. AI-powered AR tools reduce leakage by capturing all billable events, automating invoice generation, and ensuring accurate rate application.</p>
-                      </div>
-                    </section>
+                        <p>{"Each of these can have its own default sequence, meaning a Dispute and a Promise to pay don't have to be handled the same way just because they happen to involve the same invoice, or the same customer."}</p>
+                      </section>
+                      <section id="stays-human" className="blog-section">
+                        <h2>The Part That Stays Human: Suggestions, Not Auto-Resolution</h2>
+                        <p>{"A case still needs a linked sequence to generate that suggested step — without one, it just sits there, tracked but not moving. Then when it does move, it's a suggestion, not a decision. Your team sees it, confirms it, sends it. Less manual work for them, and the call — still theirs."}</p>
+                        <p>{"It's also worth being honest about where the current scope stops. Today, a customer can have one sequence actively driving their case work at a time — the system doesn't yet handle two entirely independent cases running in parallel on the same customer with two separate playbooks. If a customer has both an open dispute on one invoice and a promise to pay on another, that's a real situation Collection Cases doesn't have a fully separated answer for yet. It's a known edge case, not something we're pretending doesn't exist."}</p>
+                      </section>
+                      <section id="how-it-works" className="blog-section">
+                        <h2>How Collection Cases Works in Daylit, End to End</h2>
+                        <p>{"In practice: a case gets created — from an inbound reply, a manual flag, or however your workflow starts it. The default sequence for its case type takes over from there, and your team works from a suggested action instead of starting cold every time. Opening a case shows the full communication history, whatever sequence it's enrolled in, and a running summary of what's happened, what's blocking it, and what's likely next."}</p>
+                        <p>{"That running summary matters more than it might seem. It means picking a case back up — even if you're not the person who originally opened it — doesn't mean re-reading the entire thread from scratch. Someone can hand off a case, go on vacation, or just be out sick, and whoever picks it up next isn't starting from zero."}</p>
+                        <div className="blog-video-wrap">
+                          <div data-removed="iframe" style={{ "width": "803px", "height": "453px" }}></div>
+                        </div>
+                      </section>
+                      <section id="why-it-matters" className="blog-section">
+                        <h2>Why This Matters Beyond Any Single Case</h2>
+                        <p>Cutting the manual work out of one case is a small thing on its own. What actually matters is what happens as your case volume grows. Without a system like this, more cases just means more of the same repeated diagnostic work, done by more people, with more chances for two similar cases to get two different treatments depending on who happens to open them.</p>
+                        <p>{"With a standardized case type and sequence structure in place, that scaling problem changes shape: the goal becomes making sure the manual work per case keeps shrinking as volume grows, instead of just holding steady while your team works harder to keep up. It's not about making disputes disappear — customers will always push back on charges, and promises to pay will always sometimes slip. It's about making sure the version of your team that handles case #500 this month isn't doing meaningfully more manual reconstruction than the version that handled case #50."}</p>
+                      </section>
+                      <section id="conclusion" className="blog-section">
+                        <h2>Conclusion</h2>
+                        <p>{"The slowest part of a dispute has rarely been the customer — it's the digging your own team has to do before anyone even follows up: reading the thread, deciding what it is, figuring out who needs to weigh in, and remembering to actually follow through. Collection Cases doesn't remove your team's judgment from that process. It removes the part where every case starts from scratch. A dispute, a promise to pay, an inquiry — each gets a suggested next step the moment it's created, your team confirms it, and the case moves without the manual reconstruction that used to eat the first half of the work."}</p>
+                      </section>
+                      <section id="faq" className="blog-section">
+                        <h2>Frequently Asked Questions</h2>
+                        <div className="faq-item">
+                          <h3>{"Does Collection Cases replace my team's judgment on disputes?"}</h3>
+                          <p>{"No. Collection Cases suggests a next step and keeps a case moving with a default sequence, but every suggestion needs your team's review and confirmation before anything happens."}</p>
+                        </div>
+                        <div className="faq-item">
+                          <h3>{"What happens if a case doesn't have a sequence attached?"}</h3>
+                          <p>{"It's still tracked and visible, but it won't generate an automatic suggested next step — that only happens once a sequence is linked to that case type."}</p>
+                        </div>
+                        <div className="faq-item">
+                          <h3>Can a customer have two different cases open at the same time, like a dispute on one invoice and a promise to pay on another?</h3>
+                          <p>{"This is a known scope limit today — Collection Cases doesn't yet run two fully independent sequences on the same customer in parallel. It's an honest gap, not something addressed yet."}</p>
+                        </div>
+                        <div className="faq-item">
+                          <h3>Does opening a case stop all reminders for that customer?</h3>
+                          <p>{"No — it pauses dunning specifically on the invoice tied to the open case, not every reminder across the customer's full account."}</p>
+                        </div>
+                      </section>
+                    </div>
                   </div>
                 </div>
               </div>

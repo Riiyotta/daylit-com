@@ -1,3 +1,4 @@
+// IA section(s): content.section-blog-feed (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // section — the section's real markup, read from the rendered page (route /blog, section 3).
@@ -19,35 +20,35 @@ export default function Section3() {
                       <div role="listitem" className="w-dyn-item">
                         <label className="filter_radio w-radio">
                           <div className="w-form-formradioinput w-form-formradioinput--inputType-custom filter_radio-button w-radio-input"></div>
-                          <input type="radio" name="radio" fs-list-value={"Daylit Product & News"} data-name="Radio" fs-list-field="categories" style={{ "opacity": "0", "position": "absolute", "zIndex": "-1" }} defaultValue="Radio" />
+                          <input type="radio" name="radio" fs-list-value={"Daylit Product & News"} data-name="Radio" fs-list-field="categories" style={{ "position": "absolute", "zIndex": "-1" }} defaultValue="Radio" />
                           <span className="filter_radio-label w-form-label">{"Daylit Product & News"}</span>
                         </label>
                       </div>
                       <div role="listitem" className="w-dyn-item">
                         <label className="filter_radio w-radio">
                           <div className="w-form-formradioinput w-form-formradioinput--inputType-custom filter_radio-button w-radio-input"></div>
-                          <input type="radio" name="radio" fs-list-value="PE Value Creation" data-name="Radio" fs-list-field="categories" style={{ "opacity": "0", "position": "absolute", "zIndex": "-1" }} defaultValue="Radio" />
+                          <input type="radio" name="radio" fs-list-value="PE Value Creation" data-name="Radio" fs-list-field="categories" style={{ "position": "absolute", "zIndex": "-1" }} defaultValue="Radio" />
                           <span className="filter_radio-label w-form-label">PE Value Creation</span>
                         </label>
                       </div>
                       <div role="listitem" className="w-dyn-item">
                         <label className="filter_radio w-radio">
                           <div className="w-form-formradioinput w-form-formradioinput--inputType-custom filter_radio-button w-radio-input"></div>
-                          <input type="radio" name="radio" fs-list-value={"AR automation & AI agents"} data-name="Radio" fs-list-field="categories" style={{ "opacity": "0", "position": "absolute", "zIndex": "-1" }} defaultValue="Radio" />
+                          <input type="radio" name="radio" fs-list-value={"AR automation & AI agents"} data-name="Radio" fs-list-field="categories" style={{ "position": "absolute", "zIndex": "-1" }} defaultValue="Radio" />
                           <span className="filter_radio-label w-form-label">{"AR automation & AI agents"}</span>
                         </label>
                       </div>
                       <div role="listitem" className="w-dyn-item">
                         <label className="filter_radio w-radio">
                           <div className="w-form-formradioinput w-form-formradioinput--inputType-custom filter_radio-button w-radio-input"></div>
-                          <input type="radio" name="radio" fs-list-value={"Cash flow & DSO"} data-name="Radio" fs-list-field="categories" style={{ "opacity": "0", "position": "absolute", "zIndex": "-1" }} defaultValue="Radio" />
+                          <input type="radio" name="radio" fs-list-value={"Cash flow & DSO"} data-name="Radio" fs-list-field="categories" style={{ "position": "absolute", "zIndex": "-1" }} defaultValue="Radio" />
                           <span className="filter_radio-label w-form-label">{"Cash flow & DSO"}</span>
                         </label>
                       </div>
                       <div role="listitem" className="w-dyn-item">
                         <label className="filter_radio w-radio">
                           <div className="w-form-formradioinput w-form-formradioinput--inputType-custom filter_radio-button w-radio-input"></div>
-                          <input type="radio" name="radio" fs-list-value="Collections Operations" data-name="Radio" fs-list-field="categories" style={{ "opacity": "0", "position": "absolute", "zIndex": "-1" }} defaultValue="Radio" />
+                          <input type="radio" name="radio" fs-list-value="Collections Operations" data-name="Radio" fs-list-field="categories" style={{ "position": "absolute", "zIndex": "-1" }} defaultValue="Radio" />
                           <span className="filter_radio-label w-form-label">Collections Operations</span>
                         </label>
                       </div>

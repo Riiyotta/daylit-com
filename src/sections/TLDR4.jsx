@@ -1,3 +1,4 @@
+// IA section(s): support.section-article-blog (ia/ia.json, design-repo/sections/)
 // TL;DR — the section's real markup, read from the rendered page (route /blog/daylit-vs-tesorio, section 2).
 export default function TLDR4() {
   return (

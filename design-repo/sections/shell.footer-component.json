@@ -8,14 +8,14 @@
   "nameSource": "class",
   "evidence": {
     "level": "measured",
-    "instances": 63,
-    "routes": 63,
+    "instances": 67,
+    "routes": 67,
     "measuredFrom": [
-      "src/ai-skills/index.html:2016-2460",
-      "src/ai-skills-training/getting-started-ai-agents-ar/index.html:1781-2296",
-      "src/ai-skills-training/how-to-match-bank-records-to-open-invoices/index.html:1824-2339",
-      "src/ai-skills-training/how-to-route-dunning-emails-to-right-person/index.html:1825-2340",
-      "src/ai-skills-training/how-to-validate-invoices-before-they-go-out/index.html:1824-2339"
+      "src/ai-collections-strategy/index.html:5558-5869",
+      "src/ai-skills/index.html:2016-2474",
+      "src/ai-skills-training/getting-started-ai-agents-ar/index.html:1781-2310",
+      "src/ai-skills-training/how-to-match-bank-records-to-open-invoices/index.html:1824-2353",
+      "src/ai-skills-training/how-to-route-dunning-emails-to-right-person/index.html:1825-2354"
     ]
   },
   "content": {
@@ -23,13 +23,13 @@
     "fields": {
       "heading": {
         "type": "string",
-        "required": true,
+        "required": false,
         "maxWords": 6
       },
       "body": {
         "type": "string[]",
         "required": true,
-        "maxItems": 1,
+        "maxItems": 5,
         "maxWords": 10
       },
       "ctas": {
@@ -41,7 +41,8 @@
     }
   },
   "constraints": {
-    "onePerPage": true
+    "onePerPage": true,
+    "mustBeLast": true
   },
   "motion": {
     "allowedPatterns": [
@@ -70,5 +71,27 @@
     ]
   },
   "assetRoles": [],
-  "implementedBy": "src/sections/FooterComponent.jsx"
+  "implementedBy": "src/sections/FooterComponent.jsx",
+  "implementedByAll": [
+    "src/sections/FooterComponent.jsx",
+    "src/sections/FooterComponent3.jsx",
+    "src/sections/FooterComponent10.jsx",
+    "src/sections/FooterComponent11.jsx",
+    "src/sections/FooterComponent12.jsx",
+    "src/sections/FooterComponent13.jsx",
+    "src/sections/FooterComponent14.jsx",
+    "src/sections/FooterComponent15.jsx",
+    "src/sections/FooterComponent16.jsx",
+    "src/sections/FooterComponent17.jsx",
+    "src/sections/FooterComponent18.jsx",
+    "src/sections/FooterComponent19.jsx",
+    "src/sections/FooterComponent2.jsx",
+    "src/sections/FooterComponent20.jsx",
+    "src/sections/FooterComponent4.jsx",
+    "src/sections/FooterComponent5.jsx",
+    "src/sections/FooterComponent6.jsx",
+    "src/sections/FooterComponent7.jsx",
+    "src/sections/FooterComponent8.jsx",
+    "src/sections/FooterComponent9.jsx"
+  ]
 }

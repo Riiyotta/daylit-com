@@ -1,3 +1,4 @@
+// IA section(s): proof.section-story-cards (ia/ia.json, design-repo/sections/)
 // Mission — the section's real markup, read from the rendered page (route /our-team-story, section 5).
 export default function Mission() {
   return (

@@ -1,3 +1,4 @@
+// IA section(s): content.csr-body (ia/ia.json, design-repo/sections/)
 // csr-body — the section's real markup, read from the rendered page (route /case-study/maintera, section 3).
 export default function CsrBody2() {
   return (

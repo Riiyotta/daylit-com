@@ -69,5 +69,8 @@
     "icon",
     "logo"
   ],
-  "implementedBy": "src/pages/HomePage.jsx"
+  "implementedBy": "src/sections/Section.jsx",
+  "implementedByAll": [
+    "src/sections/Section.jsx"
+  ]
 }

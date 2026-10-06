@@ -1,3 +1,4 @@
+// IA section(s): content.section-timeline (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // From humble roots to staying h — the section's real markup, read from the rendered page (route /our-team-story, section 6).

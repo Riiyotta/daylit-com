@@ -1,6 +1,7 @@
+// IA section(s): shell.navbar-sticky (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// navbar_sticky — the section's real markup, read from the rendered page (route /become-a-partner, section 0; shared by 49 routes).
+// navbar_sticky — the section's real markup, read from the rendered page (route /solution/services, section 0).
 export default function NavbarSticky20() {
   return (
     <div className="navbar_sticky is-wrap" data-clone-section="NavbarSticky20">
@@ -240,7 +241,7 @@ export default function NavbarSticky20() {
                           </A>
                         </div>
                         <div id="w-node-a6b874bf-5a4c-9b92-b1d9-961be27eff74-e27eff71" role="listitem" className="w-dyn-item">
-                          <A href="/solution/services" className="nav-panel_card w-inline-block" tabIndex="0">
+                          <A href="/solution/services" aria-current="page" className="nav-panel_card w-inline-block w--current" tabIndex="0">
                             <div className="nav-panel_card_title-wrap">
                               <div className="nav-panel_card_icon-wrap">
                                 <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/68cbff85c4ebf4b0248a97c6_icon-specility.svg" alt="" className="nav-panel_card_icon" />

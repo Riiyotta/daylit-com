@@ -74,5 +74,8 @@
   "assetRoles": [
     "avatar"
   ],
-  "implementedBy": "src/sections/CsHero.jsx"
+  "implementedBy": "src/sections/CsHero.jsx",
+  "implementedByAll": [
+    "src/sections/CsHero.jsx"
+  ]
 }

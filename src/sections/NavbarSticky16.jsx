@@ -1,6 +1,7 @@
+// IA section(s): shell.navbar-sticky (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// navbar_sticky — the section's real markup, read from the rendered page (route /solution/legal, section 0).
+// navbar_sticky — the section's real markup, read from the rendered page (route /product/drawdown, section 0).
 export default function NavbarSticky16() {
   return (
     <div className="navbar_sticky is-wrap" data-clone-section="NavbarSticky16">
@@ -149,7 +150,7 @@ export default function NavbarSticky16() {
                           </A>
                         </div>
                         <div role="listitem" className="w-dyn-item">
-                          <A href="/product/drawdown" className="nav-panel_card w-inline-block" tabIndex="0">
+                          <A href="/product/drawdown" aria-current="page" className="nav-panel_card w-inline-block w--current" tabIndex="0">
                             <div className="nav-panel_card_title-wrap">
                               <div className="nav-panel_card_icon-wrap">
                                 <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/68cc006265f2e002fd7d6c85_Icon-DrawDown.svg" alt="" className="nav-panel_card_icon" />
@@ -189,7 +190,7 @@ export default function NavbarSticky16() {
                     <div className="w-dyn-list">
                       <div role="list" className="nav-panel_card-list w-dyn-items">
                         <div id="w-node-a6b874bf-5a4c-9b92-b1d9-961be27eff74-e27eff71" role="listitem" className="w-dyn-item">
-                          <A href="/solution/legal" aria-current="page" className="nav-panel_card w-inline-block w--current" tabIndex="0">
+                          <A href="/solution/legal" className="nav-panel_card w-inline-block" tabIndex="0">
                             <div className="nav-panel_card_title-wrap">
                               <div className="nav-panel_card_icon-wrap">
                                 <img loading="lazy" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/6ab56a16b2774450045d5043_icon-scales.svg" alt="" className="nav-panel_card_icon" />

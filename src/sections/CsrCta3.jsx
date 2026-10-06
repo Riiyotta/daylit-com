@@ -1,3 +1,4 @@
+// IA section(s): cta.csr-cta (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // csr-cta — the section's real markup, read from the rendered page (route /case-study/clipboard-health, section 4).

@@ -1,6 +1,7 @@
+// IA section(s): support.section-article-blog (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// Table of Contents — the section's real markup, read from the rendered page (route /blog/how-to-reduce-dso, section 2).
+// Table of Contents — the section's real markup, read from the rendered page (route /blog/ai-powered-collections-automation-for-field-services-firms, section 2).
 export default function TableOfContents13() {
   return (
     <article className="section_article-blog" data-clone-section="TableOfContents13">
@@ -14,10 +15,10 @@ export default function TableOfContents13() {
               <div className="blog-aside_block">
                 <div className="w-layout-vflex blog-author_layout">
                   <div id="w-node-f924fece-72ba-8f02-8376-addd84207940-fac81fab" className="blog-author_img-wrap">
-                    <img src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/68c9757c74340bd92977410e_jared-p-500.webp" loading="lazy" alt="" sizes="(max-width: 767px) 48vw, (max-width: 991px) 47vw, 462px" srcSet="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/68c9757c74340bd92977410e_jared-p-500.webp 500w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/68c9757c74340bd92977410e_jared.webp 763w" className="u-image-cover" />
+                    <img loading="lazy" alt="" className="u-image-cover w-dyn-bind-empty" />
                   </div>
-                  <div className="text-size-small">Jared Shulman</div>
-                  <div className="text-size-small text-color-secondary">{"Co-Founder & CEO"}</div>
+                  <div className="text-size-small w-dyn-bind-empty"></div>
+                  <div className="text-size-small text-color-secondary w-dyn-bind-empty"></div>
                 </div>
                 <div fs-list-instance="tags" fs-list-element="wrapper" className="w-dyn-list">
                   <div role="list" className="button-group is-tags w-dyn-items">
@@ -94,157 +95,268 @@ export default function TableOfContents13() {
               <div fs-richtext-element="rich-text" className="text-rich-text w-richtext">
                 <div className="w-embed">
                   <div className="blog-wrap">
+                    <header className="blog-hero">
+                      <div className="blog-title-underline"></div>
+                    </header>
                     <nav className="toc">
                       <h2>Table of Contents</h2>
                       <ol>
                         <li>
-                          <a href="#why-dso-hard">Diagnose the cause of slow payment</a>
+                          <a href="#what-is">What Makes Field Services Accounts Receivable Different?</a>
                         </li>
                         <li>
-                          <a href="#why-ai" className="">Six steps to reduce DSO</a>
+                          <a href="#why-need" className="">Why Do Field Services Companies Need AI-Specific AR Tools?</a>
                         </li>
                         <li>
-                          <a href="#how-to-evaluate" className="">Put the plan into practice</a>
+                          <a href="#at-a-glance">Best AI Tools for Field Services AR at a Glance</a>
                         </li>
                         <li>
-                          <a href="#cash-cycle" className="">Separate collections from financing</a>
+                          <a href="#detailed-reviews" className="">Vendor Evaluation Questions for Field Services</a>
                         </li>
                         <li>
-                          <a href="#faq" className="">Frequently asked questions</a>
+                          <a href="#manual-vs-ai" className="">Manual AR vs. AI-Powered AR in Field Services</a>
+                        </li>
+                        <li>
+                          <a href="#what-to-look-for" className="">What Should Field Services Companies Look for in AI AR Tools?</a>
+                        </li>
+                        <li>
+                          <a href="#feature-comparison" className="">Requirements to Verify for Field Services</a>
+                        </li>
+                        <li>
+                          <a href="#cash-cycle">Bridging the Field Services Cash Conversion Cycle</a>
+                        </li>
+                        <li>
+                          <a href="#how-to-choose">How to Evaluate AI AR Tools for Your Field Services Business</a>
+                        </li>
+                        <li>
+                          <a href="#faq">Frequently Asked Questions</a>
                         </li>
                       </ol>
                     </nav>
-                    <p>To reduce DSO, start with accurate invoices, confirmed payment terms, consistent follow-up and prompt dispute resolution. Reconcile cash receipts before contacting a customer, then review overdue balances and unresolved exceptions. Use automation where it removes a demonstrated delay; measure results against your own baseline rather than a vendor’s promised reduction.</p>
-                    <section id="why-dso-hard" className="blog-section">
-                      <h2>Diagnose why customers pay late</h2>
-                      <p>Days sales outstanding (DSO) estimates the time it takes to collect receivables relative to credit sales. Use a consistent calculation and reporting period. Changes in sales, seasonality and customer terms can affect the result even when collection behavior is unchanged.</p>
-                      <p>Separate invoices still within agreed terms from overdue balances. For overdue invoices, record the cause: missing purchase order, rejected delivery, disputed work, an unapplied payment, a missing approver or a customer cash constraint. Each cause needs a different response.</p>
-                      <p>
-                        <a target="_blank" rel="noopener">McKinsey’s working-capital guidance</a>
-                        {" supports accurate billing and a separate process for disputed invoices. It does not establish a standard percentage improvement for Daylit or another vendor."}
-                      </p>
+                    <section id="what-is" className="blog-section">
+                      <h2>What Makes Field Services Accounts Receivable Different?</h2>
+                      <p>Field-service billing depends on completed work, documentation and the agreed contract terms. Compare your DSO with your own history and similar portfolios rather than assuming a universal industry target.</p>
+                      <p>Field services invoices are generated from completed work orders, service tickets, change orders, and time-and-materials records tied to specific sites, technicians, and service dates. A single commercial property management client may generate 50–200 invoices per month across multiple sites, each referencing a different work order, crew, and scope of work. Unlike SaaS or product invoicing where billing triggers are predictable and systematic, field services billing is event-driven: dependent on work order completion, technician sign-off, site manager acceptance, and sometimes third-party inspection. The complexity multiplies for companies with mixed commercial and residential portfolios, where the same billing system manages net-90 national property management contracts alongside same-day residential emergency payments.</p>
+                      <p>Scope disputes can delay payment. Keep the work order, technician notes, photos, change-order approvals and time logs connected to the invoice so the responsible team can resolve the issue.</p>
                     </section>
-                    <section id="why-ai" className="blog-section">
-                      <h2>Six practical steps to reduce DSO</h2>
-                      <ol>
-                        <li>
-                          <strong>Confirm terms before delivery.</strong>
-                          {" Record the agreed due date, billing contact, purchase-order requirements and approval process. Make those details available to sales, operations and finance."}
-                        </li>
-                        <li>
-                          <strong>Send a complete invoice promptly.</strong>
-                          {" Match the price and quantity to the agreement, attach the required evidence and confirm receipt through the customer’s approved channel. Correct rejected invoices promptly."}
-                        </li>
-                        <li>
-                          <strong>Use a consistent reminder process.</strong>
-                          {" Reference the invoice and due date, ask for a payment date and record the response. Tailor escalation to the account context. See "}
-                          <A href="/blog/ai-automate-invoice-follow-ups-service-companies">automated payment reminders for service companies</A>
-                          {" for workflow considerations."}
-                        </li>
-                        <li>
-                          <strong>Apply received cash before chasing payment.</strong>
-                          {" Reconcile receipts, credits and partial payments so reminders reflect the balance actually due. Route uncertain matches to a reviewer."}
-                        </li>
-                        <li>
-                          <strong>Give disputes an owner.</strong>
-                          {" Capture the reason and supporting records, assign the responsible team and agree the next action. Avoid repeating standard reminders while a genuine dispute remains unresolved."}
-                        </li>
-                        <li>
-                          <strong>Review the results together.</strong>
-                          {" Track DSO alongside overdue balances, days past terms, open disputes and unapplied cash. Investigate whether an improvement reflects faster collection, changed sales or financing."}
-                        </li>
-                      </ol>
+                    <section id="why-need" className="blog-section">
+                      <h2>Why Do Field Services Companies Need AI-Specific AR Tools?</h2>
                       <p>
-                        <a target="_blank" rel="noopener">Deloitte’s receivables guidance</a>
-                        {" explains the importance of accurate billing records and timely cash application."}
+                        <A href="/blog/glossary-defining-commonly-used-financial-terms#ai-agent" style={{ "color": "var(--maroon)", "textDecoration": "underline" }}>AI agents</A>
+                        {" for accounts receivable solve 6 field-services-specific problems that rule-based automation and generic AR platforms cannot address. Each problem compounds directly into DSO impact and client retention risk."}
                       </p>
+                      <p>Relationship-sensitive collections: Match outreach and escalation to account context and communication preferences. Measure complaints and exceptions rather than assuming automation improves retention.</p>
+                      <p>Work-order documentation: Include the service date, site, work order and agreed scope where the buyer needs them to approve payment. Verify that the source records are accurate.</p>
+                      <p>
+                        <strong>Mixed commercial and residential portfolio segmentation.</strong>
+                        {" A commercial HVAC company may manage net-90 national property management contracts alongside net-15 residential emergency calls in the same billing cycle. Without segmentation, collections teams apply the same follow-up cadence to both, under-collecting on commercial accounts and over-contacting residential clients. AI platforms auto-segment by payment profile and apply distinct strategies to each account type, improving collections effectiveness across both segments simultaneously."}
+                      </p>
+                      <p>
+                        <strong>Service agreement and retainer delinquency management.</strong>
+                        {" Recurring revenue from maintenance agreements is the financial backbone of most field services companies, yet retainer delinquencies are often detected late because they blend into aging reports alongside project invoices. When a client on a $120,000 annual maintenance agreement falls 60 days behind on a monthly payment, the stakes extend beyond that invoice to contract continuity. AI agents track retainer and agreement payments separately, flag delinquencies within days of occurrence, and route them to account managers before they escalate into contract cancellations."}
+                      </p>
+                      <p>Scope dispute resolution: Assemble evidence from the field-service system, ERP and approved communications. Track ownership and elapsed resolution time; automation does not guarantee a particular recovery or deadline.</p>
+                      <p>Peak-season continuity: Maintain a follow-up queue during high-volume periods. Test whether the proposed workflow keeps up with your own seasonal invoice load.</p>
                     </section>
                   </div>
                 </div>
-                <figure style={{ "maxWidth": "1024pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
+                <figure className="w-richtext-figure-type-image">
                   <div>
-                    <img alt="Finance professional reviewing DSO metrics to improve cash flow for mid-market B2B company" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69cebab7dd4b62b54fd50ab6_ChatGPT%20Image%20Apr%202%2C%202026%2C%2002_51_15%20PM.png" loading="lazy" />
+                    <img alt="Field service workers reviewing operations near a utility truck, representing collections automation for service companies" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b84b29cf49bd5d0959c2d5_ChatGPT%20Image%20Mar%2016%2C%202026%2C%2002_25_32%20PM.png" loading="lazy" />
                   </div>
                 </figure>
+                <p>‍</p>
                 <div className="w-embed">
                   <div className="blog-wrap">
-                    <section id="how-to-evaluate" className="blog-section">
-                      <h2>Put the DSO reduction plan into practice</h2>
-                      <p>Start with a representative set of invoices and a clearly defined bottleneck. Record the baseline, assign an owner and decide what evidence would show improvement. Choose an observation period that covers the relevant payment cycle; avoid judging the result from a few isolated payments.</p>
+                    <section id="at-a-glance" className="blog-section">
+                      <h2>AI AR Evaluation Checklist for Field Services</h2>
+                      <p>The best AI AR tool for a field services company depends on company size, FSM platform environment, commercial/residential mix, and whether the business needs AI-powered collections, dispute resolution, or embedded capital. Each platform below is evaluated through a field-services-specific lens.</p>
                       <div className="table-scroll">
                         <table>
                           <thead>
                             <tr>
-                              <th>Problem</th>
-                              <th>Action</th>
-                              <th>Measure</th>
+                              <th>Evaluation area</th>
+                              <th>Evidence to request</th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
-                              <td>Invoice rejected or not received</td>
-                              <td>Verify billing requirements and delivery acknowledgment</td>
-                              <td>Rejected invoices and elapsed time to acceptance</td>
+                              <td>Data connection</td>
+                              <td>Demonstrate your exact ERP version and required record types.</td>
                             </tr>
                             <tr>
-                              <td>Follow-up missed</td>
-                              <td>Use a reminder queue with a named owner</td>
-                              <td>Overdue balance and commitments kept</td>
+                              <td>Workflow coverage</td>
+                              <td>Run an invoice, partial payment and dispute through the proposed configuration.</td>
                             </tr>
                             <tr>
-                              <td>Payment received but not matched</td>
-                              <td>Reconcile remittances and route exceptions</td>
-                              <td>Unapplied cash and time to correct posting</td>
+                              <td>Implementation</td>
+                              <td>Document setup work, responsibilities, milestones and acceptance tests.</td>
                             </tr>
                             <tr>
-                              <td>Dispute stalled</td>
-                              <td>Assign a reason, owner and next action</td>
-                              <td>Resolution time and amount legitimately recovered</td>
+                              <td>Results</td>
+                              <td>Request a defined sample and method for any published performance claim.</td>
+                            </tr>
+                            <tr>
+                              <td>Financing</td>
+                              <td>Compare eligibility, costs, recourse and settlement terms separately.</td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
-                      <h3>Use automation where it removes an observed delay</h3>
-                      <p>Before selecting software, demonstrate invoice delivery, a partial payment and a disputed invoice using representative data. Confirm the required ERP version, permissions, records and error-handling process. Request a written implementation plan rather than assuming a connector or deployment timeline.</p>
-                      <p>Keep a human review path for uncertain matches, disputes and sensitive relationships. Compare pilot results with similar accounts and reporting periods, accounting for customer mix and sales changes. Expand the workflow after the team understands its exceptions.</p>
-                      <h3>Estimate cash impact without overstating ROI</h3>
-                      <p>A simple sensitivity calculation is annual credit sales divided by 365, multiplied by the assumed DSO reduction. For a hypothetical $50 million in annual credit sales and a 15-day improvement, that is approximately $2.05 million in released receivables.</p>
-                      <p>
-                        {"This is a one-time liquidity effect, not recurring annual profit or a promised software result. Separately estimate verified labor, processing and financing-cost savings, then subtract implementation and operating costs. See "}
-                        <A href="/blog/the-roi-of-ai-powered-accounts-receivable-automation">how to calculate accounts receivable automation ROI</A>
-                        .
-                      </p>
+                    </section>
+                    <section id="detailed-reviews" className="blog-section">
+                      <h2>Vendor Evaluation Questions for Field Services</h2>
+                      <article className="platform-review">
+                        <h3>Daylit — questions to verify</h3>
+                        <p>For Daylit, demonstrate the full field-service workflow with representative records: invoice delivery, follow-up, dispute evidence and receipt reconciliation. Confirm which ERP and field-service connections are supported in the proposed deployment.</p>
+                        <p>Evaluate any Daylit financing offer separately from automation. Confirm current eligibility, fees, advance amounts, settlement timing and recourse; this comparison does not establish exclusivity.</p>
+                        <ul>
+                          <li>Relationship-tier collections: Test how outreach changes by account context and how sensitive accounts reach a human reviewer.</li>
+                          <li>Field-service records: Verify access to the work order, service date, site and supporting records in your specific system.</li>
+                          <li>Cash application: Test representative remittances and measure correct matches and exception handling.</li>
+                          <li>Verify predictive cash flow forecasting: ask the vendor to demonstrate the proposed behavior with your records and explain limitations and review controls.</li>
+                          <li>Verify embedded capital via fundnow: ask the vendor to demonstrate the proposed behavior with your records and explain limitations and review controls.</li>
+                        </ul>
+                      </article>
+                      <article className="platform-review">
+                        <h3>HighRadius — questions to verify</h3>
+                        <p>For HighRadius, demonstrate multi-entity cash application and deduction handling. Use representative records and request current documentation for integration requirements, costs and limitations.</p>
+                      </article>
+                      <article className="platform-review">
+                        <h3>Billtrust — questions to verify</h3>
+                        <p>For Billtrust, demonstrate invoice delivery through your customers’ required channels. Use representative records and request current documentation for integration requirements, costs and limitations.</p>
+                      </article>
+                      <article className="platform-review">
+                        <h3>Esker — questions to verify</h3>
+                        <p>For Esker, demonstrate document processing and the handoff between finance systems. Use representative records and request current documentation for integration requirements, costs and limitations.</p>
+                      </article>
+                      <article className="platform-review">
+                        <h3>Gaviti — questions to verify</h3>
+                        <p>For Gaviti, demonstrate the individual modules and exception-routing rules you need. Use representative records and request current documentation for integration requirements, costs and limitations.</p>
+                      </article>
+                      <article className="platform-review">
+                        <h3>Quadient AR — questions to verify</h3>
+                        <p>For Quadient AR, demonstrate payment forecasts, customer self-service and collection workflows. Use representative records and request current documentation for integration requirements, costs and limitations.</p>
+                      </article>
+                    </section>
+                    <section id="manual-vs-ai" className="blog-section">
+                      <h2>Manual AR vs. AI-Powered AR in Field Services</h2>
+                      <p>The gap between manual and AI-powered accounts receivable processes is amplified in field services by relationship sensitivity, work-order-based billing complexity, and seasonal volume swings. Every day of AR inefficiency compounds into working capital that could fund equipment, payroll, and growth.</p>
+                      <div className="table-scroll">
+                        <table>
+                          <thead>
+                            <tr>
+                              <th>Process</th>
+                              <th>Measure</th>
+                              <th>Verification</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Invoice delivery</td>
+                              <td>Accepted invoices and rejected submissions</td>
+                              <td>Reconcile delivery acknowledgments with the invoice register.</td>
+                            </tr>
+                            <tr>
+                              <td>Collections</td>
+                              <td>Overdue balance and days past terms</td>
+                              <td>Compare matched periods and customer terms.</td>
+                            </tr>
+                            <tr>
+                              <td>Cash application</td>
+                              <td>Correct matches and unresolved exceptions</td>
+                              <td>Check partial payments, credits and missing references.</td>
+                            </tr>
+                            <tr>
+                              <td>Disputes</td>
+                              <td>Elapsed resolution time and valid recoveries</td>
+                              <td>Assign an owner and keep the supporting evidence.</td>
+                            </tr>
+                            <tr>
+                              <td>Forecasting</td>
+                              <td>Forecast receipts versus actual receipts</td>
+                              <td>State the forecast horizon and compare consistently.</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <p>Illustrative calculation: with $50 million in annual credit sales, a 15-day DSO reduction corresponds to approximately $2.05 million in released receivables. This is a sensitivity calculation, not an expected outcome or annual profit.</p>
                     </section>
                   </div>
                 </div>
-                <figure style={{ "maxWidth": "1536pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
+                <figure className="w-richtext-figure-type-image">
                   <div>
-                    <img alt="" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69cebd120965cce15d6ede22_ChatGPT%20Image%20Apr%202%2C%202026%2C%2003_01_23%20PM.png" loading="lazy" />
+                    <img alt="Field service technician near industrial pipes, representing HVAC and plumbing contractor AR automation" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/69b8576c66ee0656d3cd2d40_ChatGPT%20Image%20Mar%2016%2C%202026%2C%2003_17_49%20PM.png" loading="lazy" />
                   </div>
                 </figure>
+                <p>‍</p>
                 <div className="w-embed">
                   <div className="blog-wrap">
-                    <section id="cash-cycle" className="blog-section">
-                      <h2>Separate faster collections from financing</h2>
-                      <p>A business can improve collections and still have a cash gap during agreed customer terms. Model supplier payments, inventory and payroll alongside expected receipts before choosing a financing option.</p>
+                    <section id="what-to-look-for" className="blog-section">
+                      <h2>What Should Field Services Companies Look for in AI AR Tools?</h2>
+                      <p>Field services companies evaluating AI-powered accounts receivable tools should prioritize 6 capabilities that address service-industry-specific challenges. Generic AR platforms built for SaaS billing or simple invoice-and-remind workflows will fail to solve the problems that actually drive high DSO in field services.</p>
                       <p>
-                        {"Factoring can provide cash against approved receivables, but it does not by itself make the customer pay sooner. Compare fees, recourse, reserves and collection responsibilities. CFO.com’s "}
-                        <a target="_blank" rel="noopener">working-capital methodology discussion</a>
-                        {" explains why receivables financing can affect reported DSO without improving underlying collection behavior. The linked historical methodology is not a current benchmark."}
+                        <strong>Relationship-tier outreach calibration.</strong>
+                        {" The platform must support client-tier-based collections that adjust tone, timing, and escalation path based on client lifetime value and contract size. A platform that sends the same dunning email to a $1M maintenance contract client and a $2,000 one-time service call customer creates reputational risk with high-value accounts. Without this capability, aggressive automated collections will cost more in lost contracts than it recovers in late payments."}
                       </p>
+                      <p>
+                        <strong>FSM platform integration with work order data.</strong>
+                        {" Every automated follow-up must reference work order number, service date, site address, and scope of work pulled directly from the FSM platform. ServiceTitan, Jobber, FieldEdge, Simpro, and Housecall Pro are the source of truth for field services billing data. Platforms that integrate only with the accounting ERP miss the work order context that makes field services follow-ups actionable for commercial AP departments."}
+                      </p>
+                      <p>Scope disputes: Test whether the workflow can assemble the work order, technician notes, authorizations and invoice evidence, then route the case to its owner. Measure resolution time from your own baseline.</p>
+                      <p>
+                        <strong>Service agreement and retainer payment tracking.</strong>
+                        {" The platform must track recurring maintenance agreement payments separately from project-based invoices, flag delinquencies within days of a missed payment, and route escalations to account managers before collections actions threaten service continuity. Without this capability, a 60-day delinquency on a $120,000 annual contract may not be detected until it has already progressed to potential cancellation."}
+                      </p>
+                      <p>
+                        <strong>Commercial and residential portfolio segmentation.</strong>
+                        {" Field services companies managing both commercial and residential clients need automated segmentation that applies distinct collections strategies to each portfolio. Commercial accounts require PO-referenced, AP-directed outreach with longer grace periods. Residential accounts require direct, simple reminders with digital payment links. Platforms that apply a single collections cadence to both segments consistently under-collect on at least one."}
+                      </p>
+                      <p>Long commercial terms can leave a cash gap after collections processes improve. Compare any financing offer against your forecast and written terms, including fees and recourse.</p>
                     </section>
-                    <section id="faq" className="blog-section">
-                      <h2>Frequently asked questions</h2>
-                      <h3>What is a good DSO?</h3>
-                      <p>Use your own agreed terms and a relevant peer group. Match the period and calculation method, and distinguish invoices still within terms from overdue balances. A single cross-industry number can obscure the cause of delay.</p>
-                      <h3>Do payment reminders always reduce DSO?</h3>
-                      <p>No. Reminders can address missed follow-up, but a rejected invoice, unresolved dispute or customer cash constraint requires a different action. Check the reason for delay before increasing message frequency.</p>
-                      <h3>Should we offer an early-payment discount?</h3>
-                      <p>Compare the discount with the cost and value of receiving cash sooner. Use the actual number of days accelerated and consider whether the customer would otherwise have paid on time. Agree the discount in writing and account for it consistently.</p>
-                      <h3>How soon should we expect results?</h3>
-                      <p>Set milestones for invoice acceptance, follow-up, cash application and dispute resolution. Evaluate results over comparable payment cycles; there is no universal DSO reduction or payback period established by this article.</p>
-                      <h3>Does lower DSO mean more profit?</h3>
-                      <p>Not necessarily. Faster collection can release cash from receivables. Profit improves only where costs fall or attributable economic benefits exceed the costs of the changes.</p>
+                    <section id="feature-comparison" className="blog-section">
+                      <h2>Requirements to Verify for Field Services</h2>
+                      <div className="table-scroll">
+                        <table>
+                          <thead>
+                            <tr>
+                              <th>Evaluation area</th>
+                              <th>Evidence to request</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Data connection</td>
+                              <td>Demonstrate your exact ERP version and required record types.</td>
+                            </tr>
+                            <tr>
+                              <td>Workflow coverage</td>
+                              <td>Run an invoice, partial payment and dispute through the proposed configuration.</td>
+                            </tr>
+                            <tr>
+                              <td>Implementation</td>
+                              <td>Document setup work, responsibilities, milestones and acceptance tests.</td>
+                            </tr>
+                            <tr>
+                              <td>Results</td>
+                              <td>Request a defined sample and method for any published performance claim.</td>
+                            </tr>
+                            <tr>
+                              <td>Financing</td>
+                              <td>Compare eligibility, costs, recourse and settlement terms separately.</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                    <section id="cash-cycle" className="blog-section">
+                      <h2>Bridging the Field Services Cash Conversion Cycle</h2>
+                      <p>A field-service business may pay for labor and parts before invoicing and then wait through the customer’s agreed terms. Model the actual dates and amounts for the contract rather than applying a general cash-cycle range.</p>
+                      <p>Even the best AI-powered collections platform cannot compress a contractual net-90 payment term into net-30. For field services companies with significant commercial portfolios on extended terms, the cash gap between service delivery and payment receipt is a structural constraint that requires a working capital solution alongside collections optimization.</p>
+                      <p>
+                        <strong>Invoice factoring from within the AR platform.</strong>
+                        {" Evaluate whether an eligible invoice can be financed under a written agreement. Compare advance rates, fees, recourse, customer notification and reserve release. Financing changes cash timing; it does not prove that the customer paid sooner."}
+                      </p>
                     </section>
                   </div>
                   <h2>Further reading</h2>
@@ -255,9 +367,9 @@ export default function TableOfContents13() {
                   </p>
                   <p>
                     {"Related guidance: "}
-                    <A href="/blog/ai-automate-invoice-follow-ups-service-companies">Automated Payment Reminders for Service Companies</A>
+                    <A href="/blog/ai-powered-collections-automation-for-manufacturers">Accounts Receivable Automation for Manufacturers</A>
                     {"; "}
-                    <A href="/blog/the-roi-of-ai-powered-accounts-receivable-automation">Accounts Receivable Automation ROI: Costs and Value</A>
+                    <A href="/blog/ai-automate-invoice-follow-ups-service-companies">Automated Payment Reminders for Service Companies</A>
                     .
                   </p>
                   <h2>References</h2>

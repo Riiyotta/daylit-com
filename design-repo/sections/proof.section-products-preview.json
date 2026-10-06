@@ -11,9 +11,9 @@
     "instances": 3,
     "routes": 3,
     "measuredFrom": [
-      "src/solution/manufacturing/index.html:1781-2328",
-      "src/solution/services/index.html:1781-2328",
-      "src/solution/staffing/index.html:1781-2328"
+      "src/solution/manufacturing/index.html:1781-2205",
+      "src/solution/services/index.html:1781-2205",
+      "src/solution/staffing/index.html:1781-2205"
     ]
   },
   "content": {
@@ -86,5 +86,8 @@
     "icon"
   ],
   "contentPolicy": "Measured copy quotes real customers and companies. Generated pages must write new, clearly fictional quotes and names, and use placeholders for customer logos and avatars.",
-  "implementedBy": "src/pages/SolutionManufacturing.jsx"
+  "implementedBy": "src/sections/SayGoodbyeToWorking.jsx",
+  "implementedByAll": [
+    "src/sections/SayGoodbyeToWorking.jsx"
+  ]
 }

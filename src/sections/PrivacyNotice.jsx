@@ -1,3 +1,4 @@
+// IA section(s): hero.section-legal-article (ia/ia.json, design-repo/sections/)
 // Privacy Notice — the section's real markup, read from the rendered page (route /legal/privacy-policy, section 1).
 export default function PrivacyNotice() {
   return (

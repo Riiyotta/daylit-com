@@ -1,3 +1,4 @@
+// IA section(s): shell.section-testi-header (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Header — the section's real markup, read from the rendered page (route /testimonial, section 1).

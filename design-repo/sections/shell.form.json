@@ -3,19 +3,19 @@
   "category": "SHELL",
   "label": "form",
   "tag": "header",
-  "purpose": "Orients the visitor and provides navigation or site-wide links; carried across pages. Example headline: \"Accounts receivable insights, tips and guides\".",
+  "purpose": "Orients the visitor and provides navigation or site-wide links; carried across pages. Example headline: \"Upgrade your collections strategy for the AI era.\".",
   "purposeIsInferred": true,
   "nameSource": "id",
   "evidence": {
     "level": "measured",
-    "instances": 13,
-    "routes": 13,
+    "instances": 15,
+    "routes": 15,
     "measuredFrom": [
+      "src/ai-collections-strategy/index.html:1330-1555",
+      "src/become-a-partner/index.html:1330-1469",
       "src/blog/index.html:1330-1359",
       "src/faq/index.html:1330-1441",
-      "src/intelligence/index.html:1329-3412",
-      "src/our-team-story/index.html:1330-1444",
-      "src/product/drawdown/index.html:1330-1449"
+      "src/intelligence/index.html:1329-3412"
     ]
   },
   "content": {
@@ -26,11 +26,16 @@
         "required": true,
         "maxWords": 12
       },
+      "subheading": {
+        "type": "string",
+        "required": false,
+        "maxWords": 7
+      },
       "body": {
         "type": "string[]",
         "required": true,
-        "maxItems": 1,
-        "maxWords": 27
+        "maxItems": 5,
+        "maxWords": 31
       },
       "ctas": {
         "type": "cta[]",
@@ -41,7 +46,7 @@
       "images": {
         "type": "image[]",
         "required": false,
-        "maxItems": 1,
+        "maxItems": 4,
         "assetRoles": [
           "background",
           "content-image",
@@ -71,7 +76,7 @@
       "columns": 2
     },
     "mobile": {
-      "heightPx": 685,
+      "heightPx": 702,
       "columns": 1,
       "hiddenShare": 0
     },
@@ -84,5 +89,22 @@
     "content-image",
     "icon"
   ],
-  "implementedBy": "src/sections/Form.jsx"
+  "implementedBy": "src/sections/Form.jsx",
+  "implementedByAll": [
+    "src/sections/Form.jsx",
+    "src/sections/Form10.jsx",
+    "src/sections/Form11.jsx",
+    "src/sections/Form12.jsx",
+    "src/sections/Form13.jsx",
+    "src/sections/Form14.jsx",
+    "src/sections/Form15.jsx",
+    "src/sections/Form2.jsx",
+    "src/sections/Form3.jsx",
+    "src/sections/Form4.jsx",
+    "src/sections/Form5.jsx",
+    "src/sections/Form6.jsx",
+    "src/sections/Form7.jsx",
+    "src/sections/Form8.jsx",
+    "src/sections/Form9.jsx"
+  ]
 }

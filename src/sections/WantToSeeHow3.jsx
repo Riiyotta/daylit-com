@@ -1,3 +1,4 @@
+// IA section(s): hero.section-cta-banner (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Want to see how PayLater works — the section's real markup, read from the rendered page (route /product/paylater, section 6).

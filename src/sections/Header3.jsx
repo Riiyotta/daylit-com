@@ -1,3 +1,4 @@
+// IA section(s): shell.section-blog-header (ia/ia.json, design-repo/sections/)
 // Header — the section's real markup, read from the rendered page (route /blog/your-ar-inbox-isnt-slow-its-a-trust-problem, section 1).
 export default function Header3() {
   return (

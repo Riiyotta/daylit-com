@@ -1,3 +1,4 @@
+// IA section(s): shell.footer-component (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // footer_component — the section's real markup, read from the rendered page (route /product/drawdown, section 16).

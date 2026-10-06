@@ -12,7 +12,7 @@
     "routes": 2,
     "measuredFrom": [
       "src/intelligence/index.html:9291-9428",
-      "src/referral/index.html:1644-2198"
+      "src/referral/index.html:1644-1913"
     ]
   },
   "content": {
@@ -73,5 +73,9 @@
     "changes": []
   },
   "assetRoles": [],
-  "implementedBy": "src/pages/Intelligence.jsx"
+  "implementedBy": "src/sections/CutARCosts.jsx",
+  "implementedByAll": [
+    "src/sections/CutARCosts.jsx",
+    "src/sections/HowDaylitSReferral.jsx"
+  ]
 }

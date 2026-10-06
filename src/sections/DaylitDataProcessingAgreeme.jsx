@@ -1,3 +1,4 @@
+// IA section(s): hero.section-legal-article (ia/ia.json, design-repo/sections/)
 // Daylit data processing agreeme — the section's real markup, read from the rendered page (route /legal/dpa-customer, section 1).
 export default function DaylitDataProcessingAgreeme() {
   return (

@@ -1,3 +1,4 @@
+// IA section(s): content.cs-stats (ia/ia.json, design-repo/sections/)
 // cs-stats — the section's real markup, read from the rendered page (route /case-studies, section 3).
 export default function CsStats() {
   return (

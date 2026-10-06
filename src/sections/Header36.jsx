@@ -1,3 +1,4 @@
+// IA section(s): shell.section-blog-header (ia/ia.json, design-repo/sections/)
 // Header — the section's real markup, read from the rendered page (route /blog/the-roi-of-ai-powered-accounts-receivable-automation, section 1).
 export default function Header36() {
   return (

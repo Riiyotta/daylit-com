@@ -1,0 +1,91 @@
+{
+  "id": "content.u-texture",
+  "category": "CONTENT",
+  "label": "u-texture",
+  "tag": "div",
+  "purpose": "Carries the substantive content of the page. Example headline: \"Accounts receivable just got a little brighter\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 11,
+    "routes": 11,
+    "measuredFrom": [
+      "src/faq/index.html:3565-3679",
+      "src/product/drawdown/index.html:3772-3886",
+      "src/product/fundnow/index.html:3772-3886",
+      "src/product/offerterms/index.html:3727-3841",
+      "src/product/paylater/index.html:3773-3887"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 7
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 24
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 2,
+        "maxWords": 1
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 2,
+        "assetRoles": [
+          "background",
+          "icon"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 1056,
+      "columns": 2
+    },
+    "mobile": {
+      "heightPx": 920,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "2 columns collapse to a single column"
+    ]
+  },
+  "assetRoles": [
+    "background",
+    "icon"
+  ],
+  "implementedBy": "src/sections/UTexture2.jsx",
+  "implementedByAll": [
+    "src/sections/UTexture2.jsx",
+    "src/sections/UTexture.jsx",
+    "src/sections/UTexture3.jsx"
+  ]
+}

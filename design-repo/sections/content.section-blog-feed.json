@@ -72,5 +72,8 @@
   "assetRoles": [
     "content-image"
   ],
-  "implementedBy": "src/pages/Blog.jsx"
+  "implementedBy": "src/sections/Section3.jsx",
+  "implementedByAll": [
+    "src/sections/Section3.jsx"
+  ]
 }

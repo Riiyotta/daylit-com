@@ -61,5 +61,11 @@
     "changes": []
   },
   "assetRoles": [],
-  "implementedBy": "src/sections/PostSolutionCta.jsx"
+  "implementedBy": "src/sections/PostSolutionCta2.jsx",
+  "implementedByAll": [
+    "src/sections/PostSolutionCta2.jsx",
+    "src/sections/PostSolutionCta.jsx",
+    "src/sections/PostSolutionCta4.jsx",
+    "src/sections/PostSolutionCta3.jsx"
+  ]
 }

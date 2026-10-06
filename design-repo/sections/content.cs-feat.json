@@ -66,5 +66,8 @@
     ]
   },
   "assetRoles": [],
-  "implementedBy": "src/sections/CsFeat.jsx"
+  "implementedBy": "src/sections/CsFeat.jsx",
+  "implementedByAll": [
+    "src/sections/CsFeat.jsx"
+  ]
 }

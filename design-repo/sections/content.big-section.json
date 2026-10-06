@@ -77,5 +77,10 @@
     ]
   },
   "assetRoles": [],
-  "implementedBy": "src/sections/Section.jsx"
+  "implementedBy": "src/sections/BigSection2.jsx",
+  "implementedByAll": [
+    "src/sections/BigSection2.jsx",
+    "src/sections/BigSection3.jsx",
+    "src/sections/BigSection.jsx"
+  ]
 }

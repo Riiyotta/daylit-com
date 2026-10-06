@@ -84,5 +84,8 @@
   "assetRoles": [
     "icon"
   ],
-  "implementedBy": "src/pages/HomePage.jsx"
+  "implementedBy": "src/sections/YouVeGotQuestions.jsx",
+  "implementedByAll": [
+    "src/sections/YouVeGotQuestions.jsx"
+  ]
 }

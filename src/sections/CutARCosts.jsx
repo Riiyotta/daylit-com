@@ -1,3 +1,4 @@
+// IA section(s): content.section-different (ia/ia.json, design-repo/sections/)
 // Cut A/R costs by 75% — the section's real markup, read from the rendered page (route /intelligence, section 10).
 export default function CutARCosts() {
   return (

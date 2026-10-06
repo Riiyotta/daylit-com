@@ -1,3 +1,4 @@
+// IA section(s): content.cs-feat (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // cs-feat — the section's real markup, read from the rendered page (route /case-studies, section 7).

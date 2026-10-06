@@ -1,3 +1,4 @@
+// IA section(s): content.section-different (ia/ia.json, design-repo/sections/)
 // How Daylit's referral program  — the section's real markup, read from the rendered page (route /referral, section 4).
 export default function HowDaylitSReferral() {
   return (

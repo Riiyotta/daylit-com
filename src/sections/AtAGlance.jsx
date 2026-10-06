@@ -1,3 +1,4 @@
+// IA section(s): support.section-article-blog (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // At a glance — the section's real markup, read from the rendered page (route /blog/cicis-pizza-customer-story, section 2).

@@ -1,3 +1,4 @@
+// IA section(s): content.block (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // You might also like... — the section's real markup, read from the rendered page (route /blog/your-ar-inbox-isnt-slow-its-a-trust-problem, section 3).

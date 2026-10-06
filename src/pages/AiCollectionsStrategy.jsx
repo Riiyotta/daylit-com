@@ -38,7 +38,7 @@ import css22 from "../styles/inline-22.css?inline"; // only this page loads it
 
 // Route /ai-collections-strategy — 12 section(s), in page order.
 export default function AiCollectionsStrategy() {
-  usePageChrome({ title: "AI Collections Strategy", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "69af33ab9af1f1b2e4eae72a", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "class": "w-mod-js w-mod-ix wf-opensans-i7-active wf-opensans-i8-active wf-opensans-i4-active wf-opensans-i6-active wf-opensans-i3-active wf-opensans-n7-active wf-opensans-n8-active wf-opensans-n4-active wf-opensans-n3-active wf-opensans-n6-active wf-active" }, body: {  } });
+  usePageChrome({ title: "AI Collections Strategy", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "69af33ab9af1f1b2e4eae72a", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "class": "w-mod-js w-mod-ix wf-opensans-n4-active wf-opensans-n7-active wf-opensans-n3-active wf-opensans-n6-active wf-opensans-n8-active wf-opensans-i4-active wf-opensans-i8-active wf-opensans-i7-active wf-opensans-i3-active wf-opensans-i6-active wf-active" }, body: {  } });
   return (
     <>
       <style>{css0}</style>

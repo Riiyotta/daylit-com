@@ -1,3 +1,4 @@
+// IA section(s): hero.csr-hero (ia/ia.json, design-repo/sections/)
 // csr-hero — the section's real markup, read from the rendered page (route /case-study/maintera, section 1).
 export default function CsrHero2() {
   return (

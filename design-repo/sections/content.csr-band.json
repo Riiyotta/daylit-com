@@ -67,5 +67,10 @@
   "assetRoles": [
     "avatar"
   ],
-  "implementedBy": "src/sections/CsrBand.jsx"
+  "implementedBy": "src/sections/CsrBand.jsx",
+  "implementedByAll": [
+    "src/sections/CsrBand.jsx",
+    "src/sections/CsrBand2.jsx",
+    "src/sections/CsrBand3.jsx"
+  ]
 }

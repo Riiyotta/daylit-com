@@ -1,4 +1,5 @@
-// Header — the section's real markup, read from the rendered page (route /blog/why-we-built-receivables-intelligence, section 1).
+// IA section(s): shell.section-blog-header (ia/ia.json, design-repo/sections/)
+// Header — the section's real markup, read from the rendered page (route /blog/daylit-vs-highradius, section 1).
 export default function Header32() {
   return (
     <header className="section_blog-header" data-clone-section="Header32">
@@ -10,8 +11,8 @@ export default function Header32() {
           <div className="blog-header_card">
             <div className="w-layout-vflex blog-header_content">
               <div className="w-layout-vflex blog-header_title-wrap">
-                <h1 className="heading-2">Why We Built Accounts Receivable Intelligence</h1>
-                <p>{"Learn why Daylit's Receivables Intelligence was created to fix slow payments, manual A/R work, and the quiet cash flow friction that holds operators back—and how Receivables Intelligence solves it."}</p>
+                <h1 className="heading-2">Daylit vs. HighRadius: AR Automation Compared for Mid-Market Teams</h1>
+                <p>{"HighRadius runs on a decade of enterprise history. Daylit runs on days, not quarters. A row-by-row look at where each one actually holds up, sourced from each company's own published materials, with Gartner, IDC, and Forrester validation cited where HighRadius provides it."}</p>
               </div>
               <div className="w-layout-vflex button-group is-tags">
                 <div className="w-layout-hflex flex-block">
@@ -21,13 +22,13 @@ export default function Header32() {
                   </div>
                   <div data-wf--slot-item-eyebrow-main--color="primary" className="eyebrow">
                     <div className="eyebrow-dot"></div>
-                    <div className="eyebrow-text">November 18, 2025</div>
+                    <div className="eyebrow-text">September 11, 2026</div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="w-layout-vflex blog-header_image-wrap">
-              <img width="150" height="80" alt="" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/691ce13210fb06598e060ec8_Untitled%20design-7-p-500.png" loading="lazy" sizes="150px" srcSet="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/691ce13210fb06598e060ec8_Untitled%20design-7-p-500.png 500w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/691ce13210fb06598e060ec8_Untitled%20design-7-p-800.png 800w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/691ce13210fb06598e060ec8_Untitled%20design-7.png 1158w" className="blog-header_image-cover" />
+              <img width="150" height="80" alt="" src="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/6aa81c6dbd19da820e08be28_hero-image-2-cropped-p-500.png" loading="lazy" sizes="150px" srcSet="/_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/6aa81c6dbd19da820e08be28_hero-image-2-cropped-p-500.png 500w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/6aa81c6dbd19da820e08be28_hero-image-2-cropped-p-800.png 800w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/6aa81c6dbd19da820e08be28_hero-image-2-cropped-p-1080.png 1080w, /_ext/cdn.prod.website-files.com/68ae872ea1f1fc625315711a/6aa81c6dbd19da820e08be28_hero-image-2-cropped.png 1168w" className="blog-header_image-cover" />
             </div>
           </div>
         </div>

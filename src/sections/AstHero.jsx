@@ -1,3 +1,4 @@
+// IA section(s): hero.ast-hero (ia/ia.json, design-repo/sections/)
 // ast-hero — the section's real markup, read from the rendered page (route /ai-skills, section 1).
 export default function AstHero() {
   return (

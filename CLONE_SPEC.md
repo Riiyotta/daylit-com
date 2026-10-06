@@ -1,21 +1,21 @@
 # CLONE_SPEC — AI Agents for Account Receivables | Daylit
 
-Source: https://www.daylit.com/?dl=anon_q5vd15p4muv2itl7--force · stack guess: React+Webflow+GSAP · 69 route(s), 18 template(s), 52 section type(s).
+Source: https://www.daylit.com/ · stack guess: React+Webflow+GSAP · 69 route(s), 21 template(s), 58 section type(s).
 Measured from the rendered pages at 1440, 1280 and 390px wide. Colours are hex. Values are measurements; role names are inferred from usage.
 
 ## Colours
 
 | Token | Hex | Uses | Mostly used as |
 |---|---|---|---|
-| `color.red.01` | `#4d1520` | 46976 | text, fill, bg |
+| `color.red.01` | `#4d1520` | 47079 | text, fill, bg |
 | `color.red.02` | `#82575b` | 6574 | text, fill |
 | `color.neutral.01` | `#fbf9f6` | 6256 | text, fill, bg |
 | `color.orange.01` | `#f2eee7` | 5484 | text, fill, bg |
 | `color.yellow.01` | `#faffa7` | 4163 | bg, text, fill |
-| `color.neutral.02` | `#000000` | 3348 | fill, text, bg |
+| `color.neutral.02` | `#000000` | 3406 | fill, text, bg |
 | `color.red.03` | `#825b63` | 3011 | text |
 | `color.orange.02` | `#d3cac3` | 2383 | text, fill |
-| `color.neutral.03` | `#ffffff` | 1791 | text, bg, fill |
+| `color.neutral.03` | `#ffffff` | 1779 | text, bg, fill |
 | `color.neutral.04` | `#aaa49f` | 1284 | text, bg |
 | `color.red.04` | `#5c1a1a` | 813 | text, bg |
 | `color.neutral.05` | `#feffe1` | 720 | text, bg |
@@ -54,12 +54,12 @@ Semantic roles:
 - `surface.alt` → `color.neutral.03` (#ffffff): second most-used neutral background (620 uses)
 - `surface.inverse` → `color.neutral.04` (#aaa49f): most-used background neutral, with opposite lightness to surface.default (279 uses)
 - `surface.accent` → `color.yellow.01` (#faffa7): most-used saturated background (1905 uses)
-- `text.primary` → `color.red.01` (#4d1520): most-used text colour (40164 uses)
+- `text.primary` → `color.red.01` (#4d1520): most-used text colour (40243 uses)
 - `text.secondary` → `color.red.02` (#82575b): most-used neutral text colour with lower contrast than text.primary on surface.default (6189 uses)
 - `text.inverse` → `color.neutral.01` (#fbf9f6): most-used text colour neutral, with opposite lightness to text.primary (5182 uses)
-- `text.accent` → `color.red.01` (#4d1520): most-used saturated text/fill colour (46070 uses)
+- `text.accent` → `color.red.01` (#4d1520): most-used saturated text/fill colour (46173 uses)
 - `border.default` → `color.orange.01` (#f2eee7): most-used border colour (130 uses)
-- `accent.primary` → `color.red.01` (#4d1520): most-used saturated colour overall (46976 uses)
+- `accent.primary` → `color.red.01` (#4d1520): most-used saturated colour overall (47079 uses)
 
 ## Type roles
 
@@ -152,7 +152,7 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 
 ### `shell.navbar-sticky` (SHELL)
 
-- appears on 64 route(s), 64 instance(s); tag `<div>`, named "navbar_sticky"
+- appears on 68 route(s), 68 instance(s); tag `<div>`, named "navbar_sticky"
 - height: 117px @1440 · 117px @1280 · 93px @390
 - columns: 6 @1440 · 6 @1280 · 1 @390
 - box: padding 0/0px · first child 1440px wide · gap 8px
@@ -262,19 +262,10 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 - motion: css-transition
 - example headline: "Transport your A/R into the AI-era"
 
-### `content.chat-widget` (CONTENT)
-
-- appears on 69 route(s), 69 instance(s); tag `<div>`, named "Chat Widget"
-- height: 96px @1440 · 96px @1280 · 96px @390
-- columns: 1 @1440 · 1 @1280 · 1 @390
-- box: padding 0/0px · first child 100px wide · gap none
-- colour: background #ffffff · text #4d1520 · align start
-- motion: css-transition
-
 ### `shell.form` (SHELL)
 
-- appears on 13 route(s), 13 instance(s); tag `<header>`, named "form"
-- height: 625px @1440 · 625px @1280 · 685px @390
+- appears on 15 route(s), 15 instance(s); tag `<header>`, named "form"
+- height: 625px @1440 · 649px @1280 · 702px @390
 - columns: 3 @1440 · 3 @1280 · 1 @390
 - box: padding 0/0px · first child 1440px wide · gap 20px
 - colour: background ? · text #4d1520 · align start
@@ -282,11 +273,11 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 - body: Tt Commons Pro Variable 20px/28px weight 500 #825b63
 - layout: text + visual, 650 / 650px, text on the left
 - motion: css-transition
-- example headline: "Accounts receivable insights, tips and guides"
+- example headline: "Upgrade your collections strategy for the AI era."
 
 ### `proof.section-logo` (PROOF)
 
-- appears on 12 route(s), 12 instance(s); tag `<section>`, named "section_logo"
+- appears on 14 route(s), 14 instance(s); tag `<section>`, named "section_logo"
 - height: 300px @1440 · 300px @1280 · 284px @390
 - columns: 16 @1440 · 16 @1280 · 16 @390
 - box: padding 0/0px · first child 1440px wide · gap 64px
@@ -295,24 +286,24 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 
 ### `content.section-shine` (CONTENT)
 
-- appears on 13 route(s), 14 instance(s); tag `<aside>`, named "section_shine"
+- appears on 16 route(s), 28 instance(s); tag `<aside>`, named "section_shine"
 - height: 296px @1440 · 272px @1280 · 171px @390
 - columns: 1 @1440 · 1 @1280 · 1 @390
 - box: padding 0/0px · first child 1440px wide · gap none
-- colour: background ? · text #4d1520 · align start
+- colour: background #ffffff · text #4d1520 · align start
 - motion: none observed
 
 ### `content.section-impact` (CONTENT)
 
-- appears on 1 route(s), 1 instance(s); tag `<section>`, named "section_impact"
-- height: 1053px @1440 · 1053px @1280 · 1715px @390
+- appears on 3 route(s), 3 instance(s); tag `<section>`, named "section_impact"
+- height: 1145px @1440 · 1169px @1280 · 1946px @390
 - columns: 1 @1440 · 1 @1280 · 1 @390
 - box: padding 0/0px · first child 1440px wide · gap 64px
 - colour: background #ffffff · text #4d1520 · align center
 - headline: Tt Commons Pro Variable 56px/64.4px weight 500 tracking -0.84px #4d1520
 - body: Tt Commons Pro Variable 18px/23.94px weight 500 #825b63
 - motion: none observed
-- example headline: "Faster payments. Less work. More control."
+- example headline: "Delivering faster paying customers and happier CFOs."
 
 ### `content.padding-section-wrap` (CONTENT)
 
@@ -341,14 +332,14 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 
 ### `proof.section-solutions-preview` (PROOF)
 
-- appears on 5 route(s), 7 instance(s); tag `<section>`, named "section_solutions-preview"
-- height: 1006px @1440 · 959px @1280 · 1242px @390
+- appears on 7 route(s), 13 instance(s); tag `<section>`, named "section_solutions-preview"
+- height: 858px @1440 · 787px @1280 · 939px @390
 - columns: 1 @1440 · 1 @1280 · 1 @390
-- box: padding 0/0px · first child 1440px wide · gap 20px
+- box: padding 0/0px · first child 1440px wide · gap 60px
 - colour: background #ffffff · text #4d1520 · align start
 - headline: Tt Commons Pro Variable 44px/44px weight 500 tracking -0.55px #4d1520
 - body: Tt Commons Pro Variable 18px/23.94px weight 500 #825b63
-- layout: text + visual, 650 / 650px, text on the left
+- layout: text + visual, 630 / 630px, text on the left
 - motion: css-transition
 - example headline: "Supercharge collections at scale."
 
@@ -378,19 +369,31 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 
 ### `content.section-why` (CONTENT)
 
-- appears on 10 route(s), 10 instance(s); tag `<section>`, named "section_why"
-- height: 681px @1440 · 681px @1280 · 926px @390
-- columns: 3 @1440 · 3 @1280 · 2 @390
+- appears on 13 route(s), 18 instance(s); tag `<section>`, named "section_why"
+- height: 793px @1440 · 793px @1280 · 1175px @390
+- columns: 3 @1440 · 3 @1280 · 1 @390
 - box: padding 0/0px · first child 1440px wide · gap 64px
 - colour: background #ffffff · text #4d1520 · align center
 - headline: Tt Commons Pro Variable 56px/64.4px weight 500 tracking -0.84px #4d1520
 - body: Tt Commons Pro Variable 18px/23.94px weight 500 #825b63
 - motion: css-transition
-- example headline: "Built to feel like an extension of your team"
+- example headline: "Accounts receivable just got brighter"
+
+### `cta.section-cta-main` (CTA)
+
+- appears on 1 route(s), 1 instance(s); tag `<section>`, named "section_cta-main"
+- height: 1316px @1440 · 1221px @1280 · 1074px @390
+- columns: 2 @1440 · 2 @1280 · 1 @390
+- box: padding 0/0px · first child 1440px wide · gap 40px
+- colour: background #ffffff · text #4d1520 · align center
+- headline: Tt Commons Pro Variable 76px/76px weight 500 tracking -1.52px #4d1520
+- body: Tt Commons Pro Variable 18px/23.94px weight 500 #825b63
+- motion: css-transition
+- example headline: "Take control of how you get paid"
 
 ### `shell.footer-component` (SHELL)
 
-- appears on 63 route(s), 63 instance(s); tag `<footer>`, named "footer_component"
+- appears on 67 route(s), 67 instance(s); tag `<footer>`, named "footer_component"
 - height: 888px @1440 · 888px @1280 · 1711px @390
 - columns: 2 @1440 · 2 @1280 · 2 @390
 - box: padding 0/0px · first child 1440px wide · gap 20px
@@ -398,7 +401,6 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 - headline: Tt Commons Pro Variable 32px/40px weight 500 tracking -1.28px #4d1520
 - body: Tt Commons Pro Variable 20px/28px weight 500 #825b63
 - motion: css-transition
-- example headline: "Transport your A/R into the AI-era"
 
 ### `features.section-blog-featured` (FEATURES)
 
@@ -455,17 +457,30 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 - motion: none observed
 - example headline: "Courses"
 
-### `hero.page-wrapper` (HERO)
+### `proof.section-testimonials` (PROOF)
 
-- appears on 4 route(s), 4 instance(s); tag `<div>`, named "page-wrapper"
-- height: 8008px @1440 · 7784px @1280 · 10161px @390
-- columns: 6 @1440 · 6 @1280 · 1 @390
-- box: padding 0/0px · first child 1440px wide · gap 8px
-- colour: background ? · text #4d1520 · align start
-- headline: Tt Commons Pro Variable 76px/76px weight 500 tracking -1.52px #4d1520
-- body: Tt Commons Pro Variable 20px/28px weight 500 #825b63
-- layout: text + visual, 650 / 630px, text on the left (layered)
-- motion: css-transition, css-animation, scroll-linked
+- appears on 11 route(s), 11 instance(s); tag `<section>`, named "section_testimonials"
+- height: 981px @1440 · 1001px @1280 · 1063px @390
+- columns: 1 @1440 · 1 @1280 · 1 @390
+- box: padding 0/0px · first child 1440px wide · gap 40px
+- colour: background #fbf9f6 · text #4d1520 · align left
+- headline: Tt Commons Pro Variable 56px/64.4px weight 500 tracking -0.84px #4d1520
+- body: Tt Commons Pro Variable 18px/23.94px weight 500 #825b63
+- layout: text + visual, 427 / 768px, text on the right (layered)
+- motion: css-transition
+- example headline: "What our customers say"
+
+### `proof.section-faqs-preview` (PROOF)
+
+- appears on 2 route(s), 2 instance(s); tag `<section>`, named "section_faqs-preview"
+- height: 1336px @1440 · 1388px @1280 · 1311px @390
+- columns: 3 @1440 · 3 @1280 · 1 @390
+- box: padding 0/0px · first child 1440px wide · gap 64px
+- colour: background #fbf9f6 · text #4d1520 · align start
+- headline: Tt Commons Pro Variable 56px/64.4px weight 500 tracking -0.84px #4d1520
+- layout: text + visual, 768 / 427px, text on the left (layered)
+- motion: css-transition
+- example headline: "You’ve got questions, we’ve got answers"
 
 ### `hero.cs-hero` (HERO)
 
@@ -509,19 +524,6 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 - box: padding 0/0px · first child 458px wide · gap 32px
 - colour: background ? · text #4d1520 · align start
 - motion: css-transition
-
-### `proof.section-testimonials` (PROOF)
-
-- appears on 9 route(s), 9 instance(s); tag `<section>`, named "section_testimonials"
-- height: 981px @1440 · 1001px @1280 · 1063px @390
-- columns: 1 @1440 · 1 @1280 · 1 @390
-- box: padding 0/0px · first child 1440px wide · gap 40px
-- colour: background #fbf9f6 · text #4d1520 · align left
-- headline: Tt Commons Pro Variable 56px/64.4px weight 500 tracking -0.84px #4d1520
-- body: Tt Commons Pro Variable 18px/23.94px weight 500 #825b63
-- layout: text + visual, 427 / 768px, text on the right (layered)
-- motion: css-transition
-- example headline: "What our customers say"
 
 ### `content.cs-feat` (CONTENT)
 
@@ -571,6 +573,56 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 - motion: css-transition
 - example headline: "Designers, engineers, and ex-operators"
 
+### `shell.section-testi-header` (SHELL)
+
+- appears on 1 route(s), 1 instance(s); tag `<header>`, named "section_testi-header"
+- height: 854px @1440 · 783px @1280 · 896px @390
+- columns: 1 @1440 · 1 @1280 · 1 @390
+- box: padding 0/0px · first child 1440px wide · gap 20px
+- colour: background ? · text #4d1520 · align start
+- headline: Tt Commons Pro Variable 76px/76px weight 500 tracking -1.52px #4d1520
+- body: Tt Commons Pro Variable 18px/23.94px weight 600 #825b63
+- layout: two text columns, 650 / 650px, text on the left
+- motion: css-transition
+- example headline: "What Daylit's customers say"
+
+### `proof.section-testi-wall` (PROOF)
+
+- appears on 1 route(s), 1 instance(s); tag `<section>`, named "section_testi-wall"
+- height: 1657px @1440 · 1737px @1280 · 2799px @390
+- columns: 2 @1440 · 2 @1280 · 1 @390
+- box: padding 0/0px · first child 1440px wide · gap 20px
+- colour: background ? · text #4d1520 · align start
+- headline: Tt Commons Pro Variable 56px/64.4px weight 500 tracking -0.84px #4d1520
+- body: Tt Commons Pro Variable 20px/28px weight 500 #825b63
+- layout: two text columns, 650 / 650px, text on the left
+- motion: css-transition
+- example headline: "What our customers say"
+
+### `proof.section-blog-preview` (PROOF)
+
+- appears on 5 route(s), 5 instance(s); tag `<section>`, named "section_blog-preview"
+- height: 1780px @1440 · 1666px @1280 · 2443px @390
+- columns: 1 @1440 · 1 @1280 · 1 @390
+- box: padding 0/0px · first child 1440px wide · gap 40px
+- colour: background ? · text #4d1520 · align start
+- headline: Tt Commons Pro Variable 56px/64.4px weight 500 tracking -0.84px #4d1520
+- body: Tt Commons Pro Variable 18px/23.94px weight 500 #825b63
+- motion: none observed
+- example headline: "Latest insights about accounts receivable"
+
+### `content.u-texture` (CONTENT)
+
+- appears on 11 route(s), 11 instance(s); tag `<div>`, named "u-texture"
+- height: 1056px @1440 · 985px @1280 · 920px @390
+- columns: 2 @1440 · 2 @1280 · 1 @390
+- box: padding 0/0px · first child 1440px wide · gap 40px
+- colour: background #ffffff · text #4d1520 · align center
+- headline: Tt Commons Pro Variable 76px/76px weight 500 tracking -1.52px #4d1520
+- body: Tt Commons Pro Variable 18px/23.94px weight 500 #825b63
+- motion: css-transition
+- example headline: "Accounts receivable just got a little brighter"
+
 ### `support.faq-filter-form` (SUPPORT)
 
 - appears on 1 route(s), 1 instance(s); tag `<form>`, named "FAQ Filter Form"
@@ -607,9 +659,9 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 - motion: css-transition, scroll-linked
 - example headline: "TABLE OF CONTENTS"
 
-### `content.section-gradient-light` (CONTENT)
+### `content.block` (CONTENT)
 
-- appears on 35 route(s), 35 instance(s); tag `<div>`, named "section-gradient-light"
+- appears on 35 route(s), 35 instance(s); tag `<div>`, named "Block"
 - height: 972px @1440 · 934px @1280 · 1784px @390
 - columns: 3 @1440 · 3 @1280 · 1 @390
 - box: padding 0/0px · first child 1440px wide · gap 40px
@@ -628,17 +680,16 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 - colour: background ? · text #4d1520 · align start
 - motion: canvas-animation
 
-### `proof.section-blog-preview` (PROOF)
+### `content.section-color-wrap` (CONTENT)
 
-- appears on 4 route(s), 4 instance(s); tag `<section>`, named "section_blog-preview"
-- height: 1780px @1440 · 1666px @1280 · 2443px @390
+- appears on 8 route(s), 15 instance(s); tag `<div>`, named "section-color-wrap"
+- height: 224px @1440 · 208px @1280 · 151px @390
 - columns: 1 @1440 · 1 @1280 · 1 @390
 - box: padding 0/0px · first child 1440px wide · gap 40px
-- colour: background ? · text #4d1520 · align start
+- colour: background #ffffff · text #4d1520 · align start
 - headline: Tt Commons Pro Variable 56px/64.4px weight 500 tracking -0.84px #4d1520
 - body: Tt Commons Pro Variable 18px/23.94px weight 500 #825b63
-- motion: none observed
-- example headline: "Latest insights about accounts receivable"
+- motion: css-transition
 
 ### `proof.section-products-preview` (PROOF)
 
@@ -652,18 +703,38 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 - motion: css-transition
 - example headline: "Say goodbye to working capital fire drills."
 
-### `hero.section-demo` (HERO)
+### `cta.section-demo-left` (CTA)
 
-- appears on 1 route(s), 1 instance(s); tag `<section>`, named "section_demo"
-- height: 900px @1440 · 800px @1280 · 1600px @390
+- appears on 1 route(s), 1 instance(s); tag `<div>`, named "section_demo-left"
+- height: 884px @1440 · 784px @1280 · 641px @390
 - columns: 50 @1440 · 50 @1280 · 50 @390
-- box: padding 8/8px · first child 1424px wide · gap 16px
-- colour: background ? · text #4d1520 · align start
-- headline: Tt Commons Pro Variable 32px/41.6px weight 600 tracking -0.32px #fbf9f6
+- box: padding 48/40px · first child 12344px wide · gap 16px
+- colour: background #f2ede8 · text #4d1520 · align start
 - body: Tt Commons Pro Variable 16px/23.94px weight 500 #825b63
-- layout: text + visual, 755 / 669px, text on the right
+- motion: none observed
+
+### `support.section-demo-right` (SUPPORT)
+
+- appears on 1 route(s), 1 instance(s); tag `<div>`, named "section_demo-right"
+- height: 884px @1440 · 784px @1280 · 943px @390
+- columns: 9 @1440 · 9 @1280 · 1 @390
+- box: padding 96/32px · first child 669px wide · gap 8px
+- colour: background #4d1520 · text #4d1520 · align start
+- headline: Tt Commons Pro Variable 32px/41.6px weight 600 tracking -0.32px #fbf9f6
 - motion: css-transition
 - example headline: "Unlock massive savings in your finance department with Daylit"
+
+### `hero.section-legal-article` (HERO)
+
+- appears on 5 route(s), 5 instance(s); tag `<article>`, named "section_legal-article"
+- height: 4118px @1440 · 4245px @1280 · 6832px @390
+- columns: 1 @1440 · 1 @1280 · 1 @390
+- box: padding 0/0px · first child 1440px wide · gap 32px
+- colour: background ? · text #4d1520 · align start
+- headline: Tt Commons Pro Variable 32px/40px weight 500 tracking -1.28px #4d1520
+- body: Tt Commons Pro Variable 18px/23.94px weight 500 #825b63
+- motion: none observed
+- example headline: "COOKIE POLICY"
 
 ### `hero.csr-hero` (HERO)
 
@@ -709,18 +780,6 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 - motion: none observed
 - example headline: "See how finance teams stay close to cash flow."
 
-### `hero.main-wrapper` (HERO)
-
-- appears on 5 route(s), 5 instance(s); tag `<main>`, named "main-wrapper"
-- height: 4118px @1440 · 4245px @1280 · 6832px @390
-- columns: 1 @1440 · 1 @1280 · 1 @390
-- box: padding 0/0px · first child 1440px wide · gap 32px
-- colour: background ? · text #4d1520 · align start
-- headline: Tt Commons Pro Variable 32px/40px weight 500 tracking -1.28px #4d1520
-- body: Tt Commons Pro Variable 18px/23.94px weight 500 #825b63
-- motion: none observed
-- example headline: "COOKIE POLICY"
-
 ### `hero.ast-detail` (HERO)
 
 - appears on 5 route(s), 5 instance(s); tag `<section>`, named "ast-detail"
@@ -732,6 +791,18 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 - body: Tt Commons Pro Variable 18px/25.2px weight 400 #825b63
 - motion: css-transition
 - example headline: "AI Survival Guide Trailer"
+
+### `hero.section-tools-header` (HERO)
+
+- appears on 1 route(s), 1 instance(s); tag `<section>`, named "section_tools-header"
+- height: 2461px @1440 · 2323px @1280 · 1056px @390
+- columns: 1 @1440 · 1 @1280 · 1 @390
+- box: padding 0/0px · first child 1440px wide · gap 24px
+- colour: background ? · text #4d1520 · align start
+- headline: Tt Commons Pro Variable 76px/76px weight 500 tracking -1.52px #4d1520
+- body: Tt Commons Pro Variable 20px/28px weight 500 #825b63
+- motion: none observed
+- example headline: "Pay your suppliers early, get the discounts"
 
 ### `cta.post-solution-cta` (CTA)
 
@@ -748,72 +819,72 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 
 | Route | Template | Sections in order |
 |---|---|---|
-| `/` | `template.home` | `shell.navbar-sticky` → `hero.section-home-hero` → `content.section-home-enterprise` → `proof.section-home-product` → `content.section-home-why` → `support.section-home-faq` → `content.section-home-insights` → `content.section-home-dashboard` → `hero.section-cta-banner` → `shell.footer-wrap` → `content.chat-widget` |
-| `/intelligence` | `template.intelligence` | `shell.navbar-sticky` → `shell.form` → `proof.section-logo` → `content.section-shine` → `content.section-impact` → `content.padding-section-wrap` → `content.big-section` → `proof.section-solutions-preview` → `proof.section-solutions-preview` → `proof.section-solutions-preview` → `content.section-different` → `cta.section-cta-dashboard` → `content.section-why` → `content.section-shine` → `shell.footer-component` → `content.chat-widget` |
-| `/blog` | `template.blog` | `shell.navbar-sticky` → `shell.form` → `features.section-blog-featured` → `content.section-blog-feed` → `shell.footer-component` → `content.chat-widget` |
-| `/ai-skills` | `template.ai-skills` | `shell.navbar-sticky` → `hero.ast-hero` → `support.ast-feature-section` → `content.ast-grid-section` → `shell.footer-component` → `content.chat-widget` |
-| `/ai-collections-strategy` | `template.group` | `hero.page-wrapper` → `content.chat-widget` |
-| `/case-studies` | `template.case-studies` | `shell.navbar-sticky` → `hero.cs-hero` → `content.section-shine` → `content.cs-stats` → `proof.case-studies` → `content.cs-cases-grid` → `proof.section-testimonials` → `content.cs-feat` → `shell.footer-component` → `content.chat-widget` |
-| `/our-team-story` | `template.our-team-story` | `shell.navbar-sticky` → `shell.form` → `proof.section-logo` → `content.section-shine` → `content.section-why` → `proof.section-story-cards` → `content.section-timeline` → `content.section-team-feed` → `shell.footer-component` → `content.chat-widget` |
-| `/testimonial` | `template.group` | `hero.page-wrapper` → `content.chat-widget` |
-| `/referral` | `template.referral` | `shell.navbar-sticky` → `shell.form` → `proof.section-logo` → `content.section-shine` → `content.section-different` → `shell.footer-component` → `content.chat-widget` |
-| `/faq` | `template.faq` | `shell.navbar-sticky` → `shell.form` → `proof.section-logo` → `content.section-shine` → `support.faq-filter-form` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/product/fundnow` | `template.product` | `shell.navbar-sticky` → `shell.form` → `showcase.section-product-spread` → `proof.section-logo` → `content.section-shine` → `content.section-why` → `hero.section-cta-banner` → `proof.section-solutions-preview` → `proof.section-testimonials` → `content.big-section` → `hero.section-cta-banner` → `proof.section-blog-preview` → `shell.footer-component` → `content.chat-widget` |
-| `/product/offerterms` | `template.product` | `shell.navbar-sticky` → `shell.form` → `showcase.section-product-spread` → `proof.section-logo` → `content.section-shine` → `content.section-why` → `hero.section-cta-banner` → `proof.section-solutions-preview` → `proof.section-testimonials` → `content.big-section` → `hero.section-cta-banner` → `proof.section-blog-preview` → `shell.footer-component` → `content.chat-widget` |
-| `/product/paylater` | `template.product` | `shell.navbar-sticky` → `shell.form` → `showcase.section-product-spread` → `proof.section-logo` → `content.section-shine` → `content.section-why` → `hero.section-cta-banner` → `proof.section-solutions-preview` → `proof.section-testimonials` → `content.big-section` → `hero.section-cta-banner` → `proof.section-blog-preview` → `shell.footer-component` → `content.chat-widget` |
-| `/product/drawdown` | `template.product` | `shell.navbar-sticky` → `shell.form` → `showcase.section-product-spread` → `proof.section-logo` → `content.section-shine` → `content.section-why` → `hero.section-cta-banner` → `proof.section-solutions-preview` → `proof.section-testimonials` → `content.big-section` → `hero.section-cta-banner` → `proof.section-blog-preview` → `shell.footer-component` → `content.chat-widget` |
-| `/solution/legal` | `template.legal` | `shell.navbar-sticky` → `shell.form` → `proof.section-logo` → `content.section-shine` → `content.section-why` → `hero.section-cta-banner` → `proof.section-testimonials` → `content.big-section` → `hero.section-cta-banner` → `shell.footer-component` → `content.chat-widget` |
-| `/solution/manufacturing` | `template.solution` | `shell.navbar-sticky` → `shell.form` → `proof.section-logo` → `content.section-shine` → `content.section-why` → `hero.section-cta-banner` → `proof.section-products-preview` → `proof.section-testimonials` → `content.big-section` → `hero.section-cta-banner` → `shell.footer-component` → `content.chat-widget` |
-| `/solution/staffing` | `template.solution` | `shell.navbar-sticky` → `shell.form` → `proof.section-logo` → `content.section-shine` → `content.section-why` → `hero.section-cta-banner` → `proof.section-products-preview` → `proof.section-testimonials` → `content.big-section` → `hero.section-cta-banner` → `shell.footer-component` → `content.chat-widget` |
-| `/solution/services` | `template.solution` | `shell.navbar-sticky` → `shell.form` → `proof.section-logo` → `content.section-shine` → `content.section-why` → `hero.section-cta-banner` → `proof.section-products-preview` → `proof.section-testimonials` → `content.big-section` → `hero.section-cta-banner` → `shell.footer-component` → `content.chat-widget` |
-| `/learn-more/demo` | `template.demo` | `hero.section-demo` → `content.chat-widget` |
-| `/become-a-partner` | `template.group` | `hero.page-wrapper` → `content.chat-widget` |
-| `/case-study/uptime-health-services` | `template.case-study` | `shell.navbar-sticky` → `hero.csr-hero` → `content.csr-band` → `content.csr-body` → `cta.csr-cta` → `shell.footer-component` → `content.chat-widget` |
-| `/case-study/maintera` | `template.case-study` | `shell.navbar-sticky` → `hero.csr-hero` → `content.csr-band` → `content.csr-body` → `cta.csr-cta` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/your-ar-inbox-isnt-slow-its-a-trust-problem` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/daylit-vs-monk` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/daylit-vs-stuut` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/legal/dpa-customer` | `template.legal-2` | `shell.navbar-sticky` → `hero.main-wrapper` → `shell.footer-component` → `content.chat-widget` |
-| `/legal/sla-customer` | `template.legal-2` | `shell.navbar-sticky` → `hero.main-wrapper` → `shell.footer-component` → `content.chat-widget` |
-| `/legal/cookie-consent` | `template.legal-2` | `shell.navbar-sticky` → `hero.main-wrapper` → `shell.footer-component` → `content.chat-widget` |
-| `/legal/privacy-policy` | `template.legal-2` | `shell.navbar-sticky` → `hero.main-wrapper` → `shell.footer-component` → `content.chat-widget` |
-| `/legal/terms-conditions` | `template.legal-2` | `shell.navbar-sticky` → `hero.main-wrapper` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/the-hidden-truth-behind-12-5b-late-payments-and-how-ai-can-solve-it` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/daylit-vs-oddr` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/daylit-vs-tesorio` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/why-the-most-effective-collections-channel-gets-skipped-first` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/daylit-vs-billtrust` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/your-dispute-categories-arent-broken-theyre-not-yours` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/daylit-vs-highradius` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/ai-skills-training/getting-started-ai-agents-ar` | `template.ai-skills-training` | `shell.navbar-sticky` → `hero.ast-detail` → `shell.footer-component` → `content.chat-widget` |
-| `/ai-skills-training/welcome-to-the-ai-survival-guide` | `template.ai-skills-training` | `shell.navbar-sticky` → `hero.ast-detail` → `shell.footer-component` → `content.chat-widget` |
-| `/ai-skills-training/how-to-match-bank-records-to-open-invoices` | `template.ai-skills-training` | `shell.navbar-sticky` → `hero.ast-detail` → `shell.footer-component` → `content.chat-widget` |
-| `/ai-skills-training/how-to-validate-invoices-before-they-go-out` | `template.ai-skills-training` | `shell.navbar-sticky` → `hero.ast-detail` → `shell.footer-component` → `content.chat-widget` |
-| `/ai-skills-training/how-to-route-dunning-emails-to-right-person` | `template.ai-skills-training` | `shell.navbar-sticky` → `hero.ast-detail` → `shell.footer-component` → `content.chat-widget` |
-| `/case-study/clipboard-health` | `template.case-study` | `shell.navbar-sticky` → `hero.csr-hero` → `content.csr-band` → `content.csr-body` → `cta.csr-cta` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/early-pay-discounts-101-a-simple-playbook` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/early-pay-savings-calculator-daylit-working-capital` | `template.group` | `hero.page-wrapper` → `content.chat-widget` |
-| `/blog/how-chemical-companies-use-daylit-to-unlock-working-capital` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/cicis-pizza-customer-story` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/ar-automation-practices-distributors` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/ar-automation-software-for-wholesale-distribution-companies-in-2026` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/chemical-distributor-working-capital` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/ai-powered-collections-automation-for-manufacturers` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/best-ai-tools-manufacturing-accounts-receivable` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/best-ai-tools-staffing-agency-accounts-receivable-2026` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/best-ai-tools-service-company-accounts-receivable-2026` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/ai-powered-collections-automation-for-field-services-firms` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/ai-automate-invoice-follow-ups-service-companies` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/slowest-part-of-a-dispute-manual-work` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/glossary-defining-commonly-used-financial-terms` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/new-surge-in-accounts-receivable-key-drivers-for-chemical-distributors` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/mj-highway-customer-story` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/how-this-cicis-franchise-owner-plans-his-pizza-empire-with-lendica-and-plumpos` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/working-capital-spotlight-chemicals` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/ai-use-cases-accounts-receivable-automation-2026` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/why-we-built-receivables-intelligence` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/how-to-reduce-dso` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/q2-24-working-capital-spotlight-chemicals` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/how-this-cicis-franchise-owner-plans-his-pizza-empire-with-daylit` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
-| `/blog/the-roi-of-ai-powered-accounts-receivable-automation` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.section-gradient-light` → `shell.footer-component` → `content.chat-widget` |
+| `/` | `template.home` | `shell.navbar-sticky` → `hero.section-home-hero` → `content.section-home-enterprise` → `proof.section-home-product` → `content.section-home-why` → `support.section-home-faq` → `content.section-home-insights` → `content.section-home-dashboard` → `hero.section-cta-banner` → `shell.footer-wrap` |
+| `/intelligence` | `template.intelligence` | `shell.navbar-sticky` → `shell.form` → `proof.section-logo` → `content.section-shine` → `content.section-impact` → `content.padding-section-wrap` → `content.big-section` → `proof.section-solutions-preview` → `proof.section-solutions-preview` → `proof.section-solutions-preview` → `content.section-different` → `cta.section-cta-dashboard` → `content.section-why` → `content.section-shine` → `cta.section-cta-main` → `shell.footer-component` |
+| `/blog` | `template.blog` | `shell.navbar-sticky` → `shell.form` → `features.section-blog-featured` → `content.section-blog-feed` → `shell.footer-component` |
+| `/ai-skills` | `template.ai-skills` | `shell.navbar-sticky` → `hero.ast-hero` → `support.ast-feature-section` → `content.ast-grid-section` → `shell.footer-component` |
+| `/ai-collections-strategy` | `template.ai-collections-strategy` | `shell.navbar-sticky` → `shell.form` → `proof.section-logo` → `content.section-shine` → `content.section-impact` → `proof.section-solutions-preview` → `proof.section-solutions-preview` → `proof.section-solutions-preview` → `content.section-why` → `proof.section-testimonials` → `proof.section-faqs-preview` → `shell.footer-component` |
+| `/case-studies` | `template.case-studies` | `shell.navbar-sticky` → `hero.cs-hero` → `content.section-shine` → `content.cs-stats` → `proof.case-studies` → `content.cs-cases-grid` → `proof.section-testimonials` → `content.cs-feat` → `shell.footer-component` |
+| `/our-team-story` | `template.our-team-story` | `shell.navbar-sticky` → `shell.form` → `proof.section-logo` → `content.section-shine` → `content.section-why` → `proof.section-story-cards` → `content.section-timeline` → `content.section-team-feed` → `content.section-why` → `shell.footer-component` |
+| `/testimonial` | `template.testimonial` | `shell.navbar-sticky` → `shell.section-testi-header` → `content.section-shine` → `proof.section-testi-wall` → `content.section-why` → `proof.section-blog-preview` → `content.section-shine` → `content.u-texture` → `shell.footer-component` |
+| `/referral` | `template.referral` | `shell.navbar-sticky` → `shell.form` → `proof.section-logo` → `content.section-shine` → `content.section-different` → `content.section-why` → `content.section-shine` → `content.u-texture` → `shell.footer-component` |
+| `/faq` | `template.faq` | `shell.navbar-sticky` → `shell.form` → `proof.section-logo` → `content.section-shine` → `support.faq-filter-form` → `content.section-shine` → `content.u-texture` → `shell.footer-component` |
+| `/become-a-partner` | `template.become-a-partner` | `shell.navbar-sticky` → `shell.form` → `proof.section-logo` → `content.section-shine` → `content.section-impact` → `proof.section-solutions-preview` → `proof.section-solutions-preview` → `proof.section-solutions-preview` → `proof.section-testimonials` → `proof.section-faqs-preview` → `shell.footer-component` |
+| `/blog/this-ai-startup-is-giving-away-the-playbook-to-kill-its-own-category` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |
+| `/product/fundnow` | `template.product` | `shell.navbar-sticky` → `shell.form` → `showcase.section-product-spread` → `proof.section-logo` → `content.section-shine` → `content.section-why` → `hero.section-cta-banner` → `content.section-color-wrap` → `proof.section-solutions-preview` → `content.section-why` → `proof.section-testimonials` → `content.big-section` → `hero.section-cta-banner` → `proof.section-blog-preview` → `content.section-shine` → `content.u-texture` → `shell.footer-component` |
+| `/product/offerterms` | `template.product` | `shell.navbar-sticky` → `shell.form` → `showcase.section-product-spread` → `proof.section-logo` → `content.section-shine` → `content.section-why` → `hero.section-cta-banner` → `content.section-color-wrap` → `proof.section-solutions-preview` → `content.section-why` → `proof.section-testimonials` → `content.big-section` → `hero.section-cta-banner` → `proof.section-blog-preview` → `content.section-shine` → `content.u-texture` → `shell.footer-component` |
+| `/product/paylater` | `template.product` | `shell.navbar-sticky` → `shell.form` → `showcase.section-product-spread` → `proof.section-logo` → `content.section-shine` → `content.section-why` → `hero.section-cta-banner` → `content.section-color-wrap` → `proof.section-solutions-preview` → `content.section-why` → `proof.section-testimonials` → `content.big-section` → `hero.section-cta-banner` → `proof.section-blog-preview` → `content.section-shine` → `content.u-texture` → `shell.footer-component` |
+| `/product/drawdown` | `template.product` | `shell.navbar-sticky` → `shell.form` → `showcase.section-product-spread` → `proof.section-logo` → `content.section-shine` → `content.section-why` → `hero.section-cta-banner` → `content.section-color-wrap` → `proof.section-solutions-preview` → `content.section-why` → `proof.section-testimonials` → `content.big-section` → `hero.section-cta-banner` → `proof.section-blog-preview` → `content.section-shine` → `content.u-texture` → `shell.footer-component` |
+| `/solution/legal` | `template.legal` | `shell.navbar-sticky` → `shell.form` → `proof.section-logo` → `content.section-shine` → `content.section-why` → `hero.section-cta-banner` → `content.section-color-wrap` → `proof.section-testimonials` → `content.big-section` → `hero.section-cta-banner` → `content.section-color-wrap` → `content.section-shine` → `content.u-texture` → `shell.footer-component` |
+| `/solution/manufacturing` | `template.solution` | `shell.navbar-sticky` → `shell.form` → `proof.section-logo` → `content.section-shine` → `content.section-why` → `hero.section-cta-banner` → `proof.section-products-preview` → `content.section-color-wrap` → `content.section-color-wrap` → `proof.section-testimonials` → `content.big-section` → `hero.section-cta-banner` → `content.section-color-wrap` → `content.section-shine` → `content.u-texture` → `shell.footer-component` |
+| `/solution/staffing` | `template.solution` | `shell.navbar-sticky` → `shell.form` → `proof.section-logo` → `content.section-shine` → `content.section-why` → `hero.section-cta-banner` → `proof.section-products-preview` → `content.section-color-wrap` → `content.section-color-wrap` → `proof.section-testimonials` → `content.big-section` → `hero.section-cta-banner` → `content.section-color-wrap` → `content.section-shine` → `content.u-texture` → `shell.footer-component` |
+| `/solution/services` | `template.solution` | `shell.navbar-sticky` → `shell.form` → `proof.section-logo` → `content.section-shine` → `content.section-why` → `hero.section-cta-banner` → `proof.section-products-preview` → `content.section-color-wrap` → `content.section-color-wrap` → `proof.section-testimonials` → `content.big-section` → `hero.section-cta-banner` → `content.section-color-wrap` → `content.section-shine` → `content.u-texture` → `shell.footer-component` |
+| `/learn-more/demo` | `template.demo` | `cta.section-demo-left` → `support.section-demo-right` |
+| `/blog/your-ar-inbox-isnt-slow-its-a-trust-problem` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |
+| `/blog/daylit-vs-monk` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |
+| `/legal/dpa-customer` | `template.legal-2` | `shell.navbar-sticky` → `hero.section-legal-article` → `shell.footer-component` |
+| `/legal/sla-customer` | `template.legal-2` | `shell.navbar-sticky` → `hero.section-legal-article` → `shell.footer-component` |
+| `/legal/cookie-consent` | `template.legal-2` | `shell.navbar-sticky` → `hero.section-legal-article` → `shell.footer-component` |
+| `/legal/privacy-policy` | `template.legal-2` | `shell.navbar-sticky` → `hero.section-legal-article` → `shell.footer-component` |
+| `/legal/terms-conditions` | `template.legal-2` | `shell.navbar-sticky` → `hero.section-legal-article` → `shell.footer-component` |
+| `/blog/daylit-vs-oddr` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |
+| `/case-study/uptime-health-services` | `template.case-study` | `shell.navbar-sticky` → `hero.csr-hero` → `content.csr-band` → `content.csr-body` → `cta.csr-cta` → `shell.footer-component` |
+| `/case-study/maintera` | `template.case-study` | `shell.navbar-sticky` → `hero.csr-hero` → `content.csr-band` → `content.csr-body` → `cta.csr-cta` → `shell.footer-component` |
+| `/blog/daylit-vs-stuut` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |
+| `/blog/the-hidden-truth-behind-12-5b-late-payments-and-how-ai-can-solve-it` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |
+| `/blog/daylit-vs-tesorio` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |
+| `/blog/why-the-most-effective-collections-channel-gets-skipped-first` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |
+| `/blog/daylit-vs-billtrust` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |
+| `/blog/your-dispute-categories-arent-broken-theyre-not-yours` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |
+| `/ai-skills-training/getting-started-ai-agents-ar` | `template.ai-skills-training` | `shell.navbar-sticky` → `hero.ast-detail` → `shell.footer-component` |
+| `/ai-skills-training/welcome-to-the-ai-survival-guide` | `template.ai-skills-training` | `shell.navbar-sticky` → `hero.ast-detail` → `shell.footer-component` |
+| `/ai-skills-training/how-to-match-bank-records-to-open-invoices` | `template.ai-skills-training` | `shell.navbar-sticky` → `hero.ast-detail` → `shell.footer-component` |
+| `/ai-skills-training/how-to-validate-invoices-before-they-go-out` | `template.ai-skills-training` | `shell.navbar-sticky` → `hero.ast-detail` → `shell.footer-component` |
+| `/case-study/clipboard-health` | `template.case-study` | `shell.navbar-sticky` → `hero.csr-hero` → `content.csr-band` → `content.csr-body` → `cta.csr-cta` → `shell.footer-component` |
+| `/blog/early-pay-discounts-101-a-simple-playbook` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |
+| `/early-pay-savings-calculator-daylit-working-capital` | `template.early-pay-savings-calculator-daylit-work` | `shell.navbar-sticky` → `hero.section-tools-header` → `shell.footer-component` |
+| `/blog/how-chemical-companies-use-daylit-to-unlock-working-capital` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.block` → `shell.footer-component` |
+| `/blog/cicis-pizza-customer-story` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.block` → `shell.footer-component` |
+| `/blog/ar-automation-practices-distributors` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.block` → `shell.footer-component` |
+| `/blog/chemical-distributor-working-capital` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.block` → `shell.footer-component` |
+| `/blog/ai-powered-collections-automation-for-manufacturers` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.block` → `shell.footer-component` |
+| `/blog/best-ai-tools-staffing-agency-accounts-receivable-2026` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.block` → `shell.footer-component` |
+| `/blog/best-ai-tools-service-company-accounts-receivable-2026` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.block` → `shell.footer-component` |
+| `/blog/ai-automate-invoice-follow-ups-service-companies` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.block` → `shell.footer-component` |
+| `/blog/slowest-part-of-a-dispute-manual-work` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |
+| `/blog/glossary-defining-commonly-used-financial-terms` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |
+| `/blog/new-surge-in-accounts-receivable-key-drivers-for-chemical-distributors` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |
+| `/blog/mj-highway-customer-story` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.block` → `shell.footer-component` |
+| `/blog/how-this-cicis-franchise-owner-plans-his-pizza-empire-with-lendica-and-plumpos` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |
+| `/blog/working-capital-spotlight-chemicals` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |
+| `/blog/ai-use-cases-accounts-receivable-automation-2026` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |
+| `/blog/why-we-built-receivables-intelligence` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |
+| `/blog/how-to-reduce-dso` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |
+| `/blog/q2-24-working-capital-spotlight-chemicals` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |
+| `/blog/how-this-cicis-franchise-owner-plans-his-pizza-empire-with-daylit` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |
+| `/blog/daylit-vs-highradius` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |
+| `/ai-skills-training/how-to-route-dunning-emails-to-right-person` | `template.ai-skills-training` | `shell.navbar-sticky` → `hero.ast-detail` → `shell.footer-component` |
+| `/blog/ar-automation-software-for-wholesale-distribution-companies-in-2026` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.block` → `shell.footer-component` |
+| `/blog/best-ai-tools-manufacturing-accounts-receivable` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.block` → `shell.footer-component` |
+| `/blog/ai-powered-collections-automation-for-field-services-firms` | `template.blog-3` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `cta.post-solution-cta` → `content.block` → `shell.footer-component` |
+| `/blog/the-roi-of-ai-powered-accounts-receivable-automation` | `template.blog-2` | `shell.navbar-sticky` → `shell.section-blog-header` → `support.section-article-blog` → `content.block` → `shell.footer-component` |

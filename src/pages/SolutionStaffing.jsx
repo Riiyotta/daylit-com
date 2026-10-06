@@ -1,15 +1,15 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavbarSticky18 from "../sections/NavbarSticky18.jsx";
-import Form13 from "../sections/Form13.jsx";
+import NavbarSticky19 from "../sections/NavbarSticky19.jsx";
+import Form14 from "../sections/Form14.jsx";
 import Section2 from "../sections/Section2.jsx";
 import WLayoutVflex from "../sections/WLayoutVflex.jsx";
-import BgSurface19 from "../sections/BgSurface19.jsx";
+import BgSurface21 from "../sections/BgSurface21.jsx";
 import WantToLearnMore from "../sections/WantToLearnMore.jsx";
 import SayGoodbyeToWorking from "../sections/SayGoodbyeToWorking.jsx";
 import WantToLearnMore2 from "../sections/WantToLearnMore2.jsx";
 import WVariant0a13d40172e0 from "../sections/WVariant0a13d40172e0.jsx";
-import BgSurface20 from "../sections/BgSurface20.jsx";
+import BgSurface22 from "../sections/BgSurface22.jsx";
 import BigSection3 from "../sections/BigSection3.jsx";
 import StillHaveQuestions from "../sections/StillHaveQuestions.jsx";
 import LatestInsightsAboutAccounts4 from "../sections/LatestInsightsAboutAccounts4.jsx";
@@ -44,7 +44,7 @@ import css25 from "../styles/inline-27.css?inline"; // only this page loads it
 
 // Route /solution/staffing — 16 section(s), in page order.
 export default function SolutionStaffing() {
-  usePageChrome({ title: "AI Agents for Staffing A/R", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "68c424a763b2ae72d7b1b5e9", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "class": "w-mod-js w-mod-ix wf-opensans-n3-active wf-opensans-n6-active wf-opensans-n7-active wf-opensans-n4-active wf-opensans-n8-active wf-opensans-i8-active wf-opensans-i4-active wf-opensans-i6-active wf-opensans-i3-active wf-opensans-i7-active wf-active" }, body: {  } });
+  usePageChrome({ title: "AI Agents for Staffing A/R", html: { "data-wf-domain": "www.daylit.com", "data-wf-page": "68c424a763b2ae72d7b1b5e9", "data-wf-site": "68abd7e02c174baf0a9c5df1", "lang": "en", "class": "w-mod-js w-mod-ix wf-opensans-n4-active wf-opensans-n7-active wf-opensans-n6-active wf-opensans-n8-active wf-opensans-n3-active wf-opensans-i8-active wf-opensans-i6-active wf-opensans-i7-active wf-opensans-i3-active wf-opensans-i4-active wf-active" }, body: {  } });
   return (
     <>
       <style>{css0}</style>
@@ -83,12 +83,12 @@ export default function SolutionStaffing() {
         <div className="w-embed"></div>
         <div className="w-embed"></div>
       </div>
-      <NavbarSticky18 />
+      <NavbarSticky19 />
       <main className="main-wrapper">
-        <Form13 />
+        <Form14 />
         <Section2 />
         <WLayoutVflex />
-        <BgSurface19 />
+        <BgSurface21 />
         <WantToLearnMore />
         <div data-wf--utility-section-background-color--general-color="gray-1" className="u-display-contents u-pos-relative">
           <div className="section-color-wrap w-variant-99de4a6c-e8e2-9a13-d49f-2726e4b8df58">
@@ -102,7 +102,7 @@ export default function SolutionStaffing() {
         <div data-wf--utility-section-background-color--general-color="white-to-gray" className="u-display-contents u-pos-relative">
           <WVariant0a13d40172e0 />
         </div>
-        <BgSurface20 />
+        <BgSurface22 />
         <section data-texture-section="true" className="section_faqs-preview">
           <div className="w-embed"></div>
           <div data-wf--utility-spacer-section--padding="large" className="padding-section-wrap">

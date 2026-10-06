@@ -11,7 +11,7 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
-      "src/index.html:3437-4067"
+      "src/index.html:3437-4081"
     ]
   },
   "content": {
@@ -37,7 +37,8 @@
     }
   },
   "constraints": {
-    "onePerPage": true
+    "onePerPage": true,
+    "mustBeLast": true
   },
   "motion": {
     "allowedPatterns": [
@@ -66,5 +67,8 @@
     ]
   },
   "assetRoles": [],
-  "implementedBy": "src/sections/FooterWrap.jsx"
+  "implementedBy": "src/sections/FooterWrap.jsx",
+  "implementedByAll": [
+    "src/sections/FooterWrap.jsx"
+  ]
 }

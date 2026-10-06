@@ -1,3 +1,4 @@
+// IA section(s): cta.post-solution-cta (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // post-solution-cta — the section's real markup, read from the rendered page (route /blog/cicis-pizza-customer-story, section 3; shared by 5 routes).

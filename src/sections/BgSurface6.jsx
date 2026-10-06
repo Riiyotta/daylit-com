@@ -1,3 +1,4 @@
+// IA section(s): content.section-why (ia/ia.json, design-repo/sections/)
 // bg-surface — the section's real markup, read from the rendered page (route /our-team-story, section 8; shared by 7 routes).
 export default function BgSurface6() {
   return (

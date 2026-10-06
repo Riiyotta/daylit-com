@@ -1,3 +1,4 @@
+// IA section(s): content.section-color-wrap (ia/ia.json, design-repo/sections/)
 // w-variant-0a13d401-72e0-71dd-bf23 — the section's real markup, read from the rendered page (route /product/fundnow, section 7; shared by 8 routes).
 export default function WVariant0a13d40172e0() {
   return (

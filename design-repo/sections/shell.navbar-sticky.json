@@ -8,14 +8,14 @@
   "nameSource": "class",
   "evidence": {
     "level": "measured",
-    "instances": 64,
-    "routes": 64,
+    "instances": 68,
+    "routes": 68,
     "measuredFrom": [
       "src/index.html:1177-1919",
+      "src/ai-collections-strategy/index.html:586-1329",
       "src/ai-skills/index.html:585-1327",
       "src/ai-skills-training/getting-started-ai-agents-ar/index.html:584-1326",
-      "src/ai-skills-training/how-to-match-bank-records-to-open-invoices/index.html:584-1326",
-      "src/ai-skills-training/how-to-route-dunning-emails-to-right-person/index.html:584-1326"
+      "src/ai-skills-training/how-to-match-bank-records-to-open-invoices/index.html:584-1326"
     ]
   },
   "content": {
@@ -77,5 +77,27 @@
   "assetRoles": [
     "icon"
   ],
-  "implementedBy": "src/sections/NavbarSticky.jsx"
+  "implementedBy": "src/sections/NavbarSticky11.jsx",
+  "implementedByAll": [
+    "src/sections/NavbarSticky11.jsx",
+    "src/sections/NavbarSticky.jsx",
+    "src/sections/NavbarSticky10.jsx",
+    "src/sections/NavbarSticky12.jsx",
+    "src/sections/NavbarSticky13.jsx",
+    "src/sections/NavbarSticky14.jsx",
+    "src/sections/NavbarSticky15.jsx",
+    "src/sections/NavbarSticky16.jsx",
+    "src/sections/NavbarSticky17.jsx",
+    "src/sections/NavbarSticky18.jsx",
+    "src/sections/NavbarSticky19.jsx",
+    "src/sections/NavbarSticky2.jsx",
+    "src/sections/NavbarSticky20.jsx",
+    "src/sections/NavbarSticky3.jsx",
+    "src/sections/NavbarSticky4.jsx",
+    "src/sections/NavbarSticky5.jsx",
+    "src/sections/NavbarSticky6.jsx",
+    "src/sections/NavbarSticky7.jsx",
+    "src/sections/NavbarSticky8.jsx",
+    "src/sections/NavbarSticky9.jsx"
+  ]
 }

@@ -70,5 +70,8 @@
   "assetRoles": [
     "content-image"
   ],
-  "implementedBy": "src/sections/Section.jsx"
+  "implementedBy": "src/sections/AstGridSection.jsx",
+  "implementedByAll": [
+    "src/sections/AstGridSection.jsx"
+  ]
 }

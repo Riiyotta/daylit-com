@@ -69,5 +69,10 @@
   "assetRoles": [
     "illustration"
   ],
-  "implementedBy": "src/sections/CsrHero.jsx"
+  "implementedBy": "src/sections/CsrHero.jsx",
+  "implementedByAll": [
+    "src/sections/CsrHero.jsx",
+    "src/sections/CsrHero2.jsx",
+    "src/sections/CsrHero3.jsx"
+  ]
 }

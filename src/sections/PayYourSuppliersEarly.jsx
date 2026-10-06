@@ -1,3 +1,4 @@
+// IA section(s): hero.section-tools-header (ia/ia.json, design-repo/sections/)
 // Pay your suppliers early, get  — the section's real markup, read from the rendered page (route /early-pay-savings-calculator-daylit-working-capital, section 1).
 export default function PayYourSuppliersEarly() {
   return (
